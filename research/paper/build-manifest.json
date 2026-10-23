@@ -1,0 +1,10 @@
+{
+  "manuscript_sha256": "1eaf5cea0baf603179e715a34ad994114d6012dce18baaa57e0ddfe22112e162",
+  "pdf_sha256": "e29f5d2b79b87159ba4b3f1e4195aa2ea2f317eb9e9cc8670209d42d4c811b37",
+  "equations": 14,
+  "figures": 3,
+  "tables": 6,
+  "inline_font_coverage": "passed for regular and bold fonts after semantic sub/superscript conversion",
+  "output": "output/pdf/blackhole-population-robustness-v0.2.pdf",
+  "note": "CJK fonts embedded as subsets from the build host; no font file redistributed. Visual verification recorded separately."
+}

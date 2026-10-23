@@ -1,0 +1,15 @@
+{
+  "schema": "population-publication-file-audit/1",
+  "date": "2026-10-24",
+  "scope": "tracked working-tree files plus currently nonignored untracked files; no Git history scan",
+  "files_considered": 241,
+  "text_files_scanned": 241,
+  "nontext_files": [],
+  "files_above_5_MB": [],
+  "findings": [],
+  "credential_values_printed": false,
+  "limitations": "Heuristic scan, not a proof of absence. The final staged tree must be checked again by the release coordinator.",
+  "population_required_dependencies": "research/population-requirements.txt",
+  "population_reproduction_guide": "research/REPRODUCING_POPULATION.md",
+  "scientific_numbers_modified": false
+}

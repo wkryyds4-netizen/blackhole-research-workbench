@@ -1,0 +1,5 @@
+# Original population analysis dependencies; tested versions, not a full lockfile.
+-r ../requirements.txt
+# Scientific figures and the independently downloaded injection HDF reader.
+matplotlib==3.11.0
+h5py==3.16.0

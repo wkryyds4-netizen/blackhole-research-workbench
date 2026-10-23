@@ -1,0 +1,285 @@
+{
+  "schema": "recovered-mixture-weight-control/1",
+  "date": "2026-10-24",
+  "points": 4001,
+  "scenarios": {
+    "0-0-0-1": {
+      "selection_relative_changes": [
+        -7.839879874182998e-07,
+        -7.512243477281189e-07
+      ],
+      "native_r": {
+        "before_quantiles": [
+          0.22155582452173994,
+          0.33458523894914094,
+          0.4354506184226368
+        ],
+        "after_quantiles": [
+          0.22155580301308922,
+          0.3345852186229019,
+          0.43545060281791664
+        ],
+        "quantile_changes": [
+          -2.1508650721591138e-08,
+          -2.0326239025258985e-08,
+          -1.5604720182693654e-08
+        ],
+        "total_variation": 1.2211434421517846e-07,
+        "log_likelihood_correction_range": 2.26069295194975e-06
+      },
+      "common_r": {
+        "before_quantiles": [
+          0.34554302721079794,
+          0.3825535001990744,
+          0.45393079971952605
+        ],
+        "after_quantiles": [
+          0.3455430263865791,
+          0.38255349399573524,
+          0.4539307914011699
+        ],
+        "quantile_changes": [
+          -8.242188598295286e-10,
+          -6.203339175669953e-09,
+          -8.31835617054466e-09
+        ],
+        "total_variation": 6.700757192334054e-08,
+        "log_likelihood_correction_range": 7.73652857333218e-07
+      }
+    },
+    "1-0-0-1": {
+      "selection_relative_changes": [
+        -7.884527648549522e-07,
+        -7.512243477281189e-07
+      ],
+      "native_r": {
+        "before_quantiles": [
+          0.1479549652710178,
+          0.26671596630256844,
+          0.3929873608543908
+        ],
+        "after_quantiles": [
+          0.14795493946100777,
+          0.2667159297811829,
+          0.392987325718063
+        ],
+        "quantile_changes": [
+          -2.5810010045868026e-08,
+          -3.6521385526899763e-08,
+          -3.513632779172937e-08
+        ],
+        "total_variation": 1.8804248163908925e-07,
+        "log_likelihood_correction_range": 2.5687628522064188e-06
+      },
+      "common_r": {
+        "before_quantiles": [
+          0.34434904321088444,
+          0.37341376547497135,
+          0.44540080756053335
+        ],
+        "after_quantiles": [
+          0.3443490425520664,
+          0.3734137588247391,
+          0.44540079457405835
+        ],
+        "quantile_changes": [
+          -6.588180556654777e-10,
+          -6.6502322537687064e-09,
+          -1.298647500647121e-08
+        ],
+        "total_variation": 8.36892039497346e-08,
+        "log_likelihood_correction_range": 1.0463929243087478e-06
+      }
+    },
+    "2-0-0-1": {
+      "selection_relative_changes": [
+        -7.661990616414371e-07,
+        -7.512243477281189e-07
+      ],
+      "native_r": {
+        "before_quantiles": [
+          0.34412936626278723,
+          0.3714045812165395,
+          0.4434623968069198
+        ],
+        "after_quantiles": [
+          0.344129365689324,
+          0.37140457508158053,
+          0.44346238341236516
+        ],
+        "quantile_changes": [
+          -5.73463221353876e-10,
+          -6.134958985271055e-09,
+          -1.3394554632117917e-08
+        ],
+        "total_variation": 8.091965452030317e-08,
+        "log_likelihood_correction_range": 1.0332560691495019e-06
+      },
+      "common_r": {
+        "before_quantiles": [
+          0.34412936626278723,
+          0.3714045812165394,
+          0.4434623968069193
+        ],
+        "after_quantiles": [
+          0.344129365689324,
+          0.37140457508158053,
+          0.4434623834123647
+        ],
+        "quantile_changes": [
+          -5.73463221353876e-10,
+          -6.134958874248753e-09,
+          -1.3394554576606765e-08
+        ],
+        "total_variation": 8.091965466338456e-08,
+        "log_likelihood_correction_range": 1.0332560691495019e-06
+      }
+    },
+    "0-1-0-1": {
+      "selection_relative_changes": [
+        -7.590795083611823e-07,
+        -7.543668490983535e-07
+      ],
+      "native_r": {
+        "before_quantiles": [
+          0.3834404626393919,
+          0.45617303121132,
+          0.4950698572229172
+        ],
+        "after_quantiles": [
+          0.3834404610112106,
+          0.4561730302300421,
+          0.49506985704414425
+        ],
+        "quantile_changes": [
+          -1.6281813119967126e-09,
+          -9.812779477869071e-10,
+          -1.7877294089529983e-10
+        ],
+        "total_variation": 1.0904637495620993e-08,
+        "log_likelihood_correction_range": 3.25173687087954e-07
+      },
+      "common_r": {
+        "before_quantiles": [
+          0.38666813428417685,
+          0.4565072956317388,
+          0.49510481357443603
+        ],
+        "after_quantiles": [
+          0.386668132963149,
+          0.4565072946863179,
+          0.4951048134000663
+        ],
+        "quantile_changes": [
+          -1.3210278426711852e-09,
+          -9.454209082271348e-10,
+          -1.7436974086848522e-10
+        ],
+        "total_variation": 1.0599656096549383e-08,
+        "log_likelihood_correction_range": 1.2034939800287248e-07
+      }
+    },
+    "1-1-0-1": {
+      "selection_relative_changes": [
+        -7.558088701564714e-07,
+        -7.543668490983535e-07
+      ],
+      "native_r": {
+        "before_quantiles": [
+          0.30083376854109944,
+          0.4075459487970759,
+          0.48469446524714205
+        ],
+        "after_quantiles": [
+          0.30083376746138524,
+          0.40754594789668347,
+          0.4846944649285255
+        ],
+        "quantile_changes": [
+          -1.0797142069307597e-09,
+          -9.003924272832364e-10,
+          -3.186165220547821e-10
+        ],
+        "total_variation": 6.0087229288959975e-09,
+        "log_likelihood_correction_range": 9.949945933840354e-08
+      },
+      "common_r": {
+        "before_quantiles": [
+          0.3527804938491755,
+          0.4187290781091329,
+          0.48671015309672033
+        ],
+        "after_quantiles": [
+          0.35278049365770886,
+          0.4187290775232002,
+          0.4867101528619429
+        ],
+        "quantile_changes": [
+          -1.9146662033620032e-10,
+          -5.859326912549534e-10,
+          -2.3477741972754984e-10
+        ],
+        "total_variation": 4.657529356561142e-09,
+        "log_likelihood_correction_range": 4.2437193314981414e-08
+      }
+    },
+    "2-1-0-1": {
+      "selection_relative_changes": [
+        -7.559118931910191e-07,
+        -7.543668490983535e-07
+      ],
+      "native_r": {
+        "before_quantiles": [
+          0.34618721628580684,
+          0.3891692089400826,
+          0.46908336748068985
+        ],
+        "after_quantiles": [
+          0.3461872161342649,
+          0.3891692078127074,
+          0.46908336626227376
+        ],
+        "quantile_changes": [
+          -1.515419456588063e-10,
+          -1.127375193199498e-09,
+          -1.2184160902428687e-09
+        ],
+        "total_variation": 1.0497801872579618e-08,
+        "log_likelihood_correction_range": 1.0660812677087961e-07
+      },
+      "common_r": {
+        "before_quantiles": [
+          0.34618721628580684,
+          0.3891692089400826,
+          0.4690833674806896
+        ],
+        "after_quantiles": [
+          0.3461872161342649,
+          0.3891692078127075,
+          0.46908336626227387
+        ],
+        "quantile_changes": [
+          -1.515419456588063e-10,
+          -1.1273751376883467e-09,
+          -1.21841570166481e-09
+        ],
+        "total_variation": 1.0497801857194525e-08,
+        "log_likelihood_correction_range": 1.0660812677087961e-07
+      }
+    }
+  },
+  "correction": "multiply source mixture_weight into injection importance weights; original inputs unchanged",
+  "max_raw_moment_relative_error": 0.0,
+  "max_common_r_median_abs_change": 6.6502322537687064e-09,
+  "max_native_r_median_abs_change": 3.6521385526899763e-08,
+  "max_4001_8001_correction_difference": 1.8751389330162738e-11,
+  "log_likelihood_correction_range_bound": 0.000517834611630186,
+  "noninteger_normalization_total_variation": 1.5215189568755752e-14,
+  "input_sha256": {
+    "results/model.json": "6dcf3c9f4fd51b2007977d131c61f69c7d861afb986551ea82b70a7667a51083",
+    "research/population-stage2/provenance-injection-match.json": "05391aa2868330de39b2a414379774cacb3b06e1d46ca20fc7c108b99fd53df9",
+    "research/population-stage2/provenance-injection-row-map.npz": "4f3421ea7ea5209b6b48a95e012fd6e86f8902475d13d1bfb12f36ca7f488879"
+  },
+  "script_sha256": "c6ddc6aaf87d475cb4422e3ed6d4cf2ab6bb3337cda789be7a92ac63537abe04",
+  "limitation": "This isolates recovered near-unity mixture weights, not all selection error or true injection sampling covariance."
+}

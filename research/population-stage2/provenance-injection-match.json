@@ -1,0 +1,187 @@
+{
+  "schema": "blackhole-population-injection-match/1",
+  "date": "2026-10-24",
+  "candidate_source_file": "source-data\\o1+o2+o3_bbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5",
+  "source_sha256": "81883c571a9fe0b30747c7bc9daca6d358fcd68ef375c7ace0b93aa9ea2e74fe",
+  "local_npz_sha256": "00ce46283aaf5c1e3df1a8b479a2f3c5bf904e4aef6aa0cf641f93df54bf7a13",
+  "official_md5": "c21337a25b7318fdfd471cce549a547e",
+  "raw_hdf_attributes": {
+    "analysis_time_s": 63129577.0,
+    "n_accepted": 289620.0,
+    "total_generated": 73280198.73534885
+  },
+  "metadata_comparison": {
+    "local_total_generated": 73280198,
+    "raw_total_generated": 73280198.73534885,
+    "int_truncation_exact_match": true,
+    "relative_truncation": 1.0034755134117092e-08,
+    "local_analysis_time_years": 2.000455579638502,
+    "converted_analysis_time_years": 2.000455579638502,
+    "time_exact_match": true,
+    "warning": "The original total_generated is fractional. It is effective release metadata, not proof of a literal IID trial count."
+  },
+  "row_match": {
+    "method": "Exact primary-mass/redshift pair join, all candidate pairs unique, followed by seven physical-coordinate checks",
+    "source_primary_mass_unique_count": 289372,
+    "source_primary_mass_redshift_pair_unique_count": 289620,
+    "n_exact_primary_mass_matches": 41972,
+    "n_unique_original_rows": 41972,
+    "original_order_preserved": true,
+    "physical_columns": {
+      "mass_1": {
+        "exact_equal": true,
+        "max_abs": 0.0,
+        "max_relative": 0.0,
+        "allclose_rtol_1e_13_atol_1e_15": true
+      },
+      "mass_ratio": {
+        "exact_equal": true,
+        "max_abs": 0.0,
+        "max_relative": 0.0,
+        "allclose_rtol_1e_13_atol_1e_15": true
+      },
+      "redshift": {
+        "exact_equal": true,
+        "max_abs": 0.0,
+        "max_relative": 0.0,
+        "allclose_rtol_1e_13_atol_1e_15": true
+      },
+      "a_1": {
+        "exact_equal": true,
+        "max_abs": 0.0,
+        "max_relative": 0.0,
+        "allclose_rtol_1e_13_atol_1e_15": true
+      },
+      "cos_tilt_1": {
+        "exact_equal": true,
+        "max_abs": 0.0,
+        "max_relative": 0.0,
+        "allclose_rtol_1e_13_atol_1e_15": true
+      },
+      "a_2": {
+        "exact_equal": true,
+        "max_abs": 0.0,
+        "max_relative": 0.0,
+        "allclose_rtol_1e_13_atol_1e_15": true
+      },
+      "cos_tilt_2": {
+        "exact_equal": true,
+        "max_abs": 0.0,
+        "max_relative": 0.0,
+        "allclose_rtol_1e_13_atol_1e_15": true
+      }
+    }
+  },
+  "selection_match": {
+    "explicit_rule": "any of five IFAR fields > 1 yr OR (run in O1/O2 AND optimal_snr_net > 10)",
+    "ifar_keys": [
+      "ifar_cwb",
+      "ifar_gstlal",
+      "ifar_mbta",
+      "ifar_pycbc_bbh",
+      "ifar_pycbc_hyperbank"
+    ],
+    "far_keys": [
+      "far_cwb",
+      "far_gstlal",
+      "far_mbta",
+      "far_pycbc_bbh",
+      "far_pycbc_hyperbank"
+    ],
+    "local_retained_count": 41972,
+    "rule_retained_count": 41972,
+    "rule_selects_exact_same_rows": true,
+    "rule_row_symmetric_difference": 0,
+    "far_less_than_one_rule_same_rows": true,
+    "qualification": "An exact empirical reconstruction on this finite HDF; historical preprocessing command, package version and uniqueness of threshold remain unproven."
+  },
+  "prior_match": {
+    "jacobian_only": {
+      "exact_equal": true,
+      "max_abs": 0.0,
+      "max_relative": 0.0,
+      "allclose_rtol_1e_13_atol_1e_15": true
+    },
+    "jacobian_divided_by_mixture_weight": {
+      "exact_equal": false,
+      "max_abs": 8.579858368218396e-07,
+      "max_relative": 5.724100597010169e-06,
+      "allclose_rtol_1e_13_atol_1e_15": false
+    }
+  },
+  "prior_formula": "sampling_pdf * mass1_source * (2*pi*a1**2) * (2*pi*a2**2)",
+  "conditional_likelihood_bound": {
+    "n_events": 69,
+    "mixture_weight_min": 0.9999982192691211,
+    "mixture_weight_max": 1.0000057241333624,
+    "max_log_likelihood_shape_change": 0.000517834611630186,
+    "derivation": "For nonnegative importance weights, xi_weighted/xi_unweighted lies between min(w) and max(w). Thus the range of the conditional log-likelihood correction is at most N*log(max(w)/min(w)).",
+    "total_generated_truncation_effect": "A parameter-independent multiplicative selection normalization; cancels exactly in the normalized conditional-on-N posterior. Not necessarily irrelevant to rate inference.",
+    "limitation": "Bounds only the recovered mixture-weight omission, not event prior errors, selection-policy differences or Monte Carlo sampling uncertainty."
+  },
+  "run_summary": {
+    "o1": {
+      "n_accepted": 51194,
+      "n_retained": 1623,
+      "mixture_weight_all": {
+        "min": 1.0000057241333624,
+        "median": 1.0000057241333624,
+        "max": 1.0000057241333624
+      },
+      "mixture_weight_retained": {
+        "min": 1.0000057241333624,
+        "median": 1.0000057241333624,
+        "max": 1.0000057241333624
+      },
+      "n_distinct_mixture_weights": 1,
+      "snr_retained": {
+        "min": 10.001198273086748,
+        "median": 12.055609371771308,
+        "max": 2548650.379450863
+      }
+    },
+    "o2": {
+      "n_accepted": 109972,
+      "n_retained": 3881,
+      "mixture_weight_all": {
+        "min": 0.9999982192691211,
+        "median": 0.9999982192691211,
+        "max": 0.9999982192691211
+      },
+      "mixture_weight_retained": {
+        "min": 0.9999982192691211,
+        "median": 0.9999982192691211,
+        "max": 0.9999982192691211
+      },
+      "n_distinct_mixture_weights": 1,
+      "snr_retained": {
+        "min": 10.002077493299627,
+        "median": 12.09649543784632,
+        "max": 595845.6857690783
+      }
+    },
+    "o3": {
+      "n_accepted": 128454,
+      "n_retained": 36468,
+      "mixture_weight_all": {
+        "min": 0.9999992049793384,
+        "median": 0.9999992049793384,
+        "max": 0.9999992049793384
+      },
+      "mixture_weight_retained": {
+        "min": 0.9999992049793384,
+        "median": 0.9999992049793384,
+        "max": 0.9999992049793384
+      },
+      "n_distinct_mixture_weights": 1,
+      "snr_retained": {
+        "min": 6.000521183013916,
+        "median": 11.278468132019043,
+        "max": 370.85369873046875
+      }
+    }
+  },
+  "iid_status": "Not established: source combines disjoint runs with run-dependent mixture weights; original run design counts/configuration absent from root attributes.",
+  "output_row_map": "provenance-injection-row-map.npz",
+  "changes_to_original_inputs": "none"
+}

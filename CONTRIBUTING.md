@@ -18,3 +18,22 @@ may additionally refer to privately held research snapshots.
 
 Numerical changes need tests against independent calculations or known
 synthetic cases. A lower mismatch alone does not establish improved physics.
+
+For the population studies, follow `research/REPRODUCING_POPULATION.md` and install
+`research/population-requirements.txt` in an isolated environment. Stage-one
+functional checks and the synthetic Monte Carlo checks use tracked inputs;
+real-data stage-two runs need separately retrieved, checksum-verified tutorial
+arrays. Do not silently overwrite the frozen `results/model.json` or replace a
+recorded input checksum when reproducing a paper result.
+
+Preserve the distinction between an empirical resampling diagnostic and actual
+astrophysical uncertainty. Report shared-sample covariance, input versions,
+selection rules and prior support when comparing population models. Additional
+bootstrap repetitions do not add independent observations or recover unseen
+posterior tails. Run short checks into a separate output directory; use the
+published seeds and repetition counts when comparing with the full results.
+
+Documentary snapshots should be fetched from their public source, not copied
+wholesale into a contribution. If an upstream excerpt is necessary, retain its
+license and attribution in `NOTICE.md`. Keep original HDF/pickle files and direct
+array conversions out of Git, even when they are publicly downloadable.

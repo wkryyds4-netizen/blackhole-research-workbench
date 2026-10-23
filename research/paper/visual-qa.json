@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-24",
+  "pdf_sha256": "e29f5d2b79b87159ba4b3f1e4195aa2ea2f317eb9e9cc8670209d42d4c811b37",
+  "pages": 13,
+  "text_checks": {
+    "-0.293": true,
+    "6.734": true,
+    "5.557": true,
+    "7.600": true,
+    "未同行评审": true
+  },
+  "fonts_embedded": {
+    "/Helvetica": false,
+    "/AAAAAA+SimHei": true,
+    "/AAAAAB+SimHei": true,
+    "/AAAAAA+SimSun-0": true,
+    "/AAAAAB+SimSun-0": true,
+    "/AAAAAC+SimSun-0": true
+  },
+  "inline_coverage": "Both CJK regular and bold faces checked by builder; Unicode subscripts/superscripts mapped to explicit baseline shifts; minus signs preserved.",
+  "visual_review": "All 13 rendered pages reviewed in contact sheets; pages 4, 9 and 10 additionally inspected at full rendered size for subscripts, negative ranges and exponents. No clipped tables, missing symbols, or overlaps observed.",
+  "renderer": "Poppler pdftoppm, PNG scale-to 1300",
+  "renderer_notes": "Renderer warned about unused system fallback names Symbol and ArialUnicode; all non-base PDF fonts embedded and inspected output rendered correctly.",
+  "scope": "Layout and glyph checks only; internal scientific review is recorded separately in review.md.",
+  "final_rebuild_check": "After LF normalization of manuscript, all 13 newly rendered pages are pixel-identical to the visually inspected pages."
+}

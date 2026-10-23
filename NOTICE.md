@@ -54,3 +54,50 @@ files and direct NPZ conversions are not redistributed. The tutorial software
 license is not asserted to license those sample files. Public summary outputs
 are exploratory calculations, not an official LVK result or formation-channel
 measurement. No endorsement by the cited authors or collaborations is implied.
+
+### Scientific population release and documentary excerpts
+
+The stage-one and stage-two reports, scientific SVG figures, diagnostic JSON,
+and standalone numerical scripts are this project's analyses. Their source
+observations and underlying methods retain the attribution above. Reproduction
+instructions and the boundary between public code and separately retrieved data
+are in `research/REPRODUCING_POPULATION.md`.
+
+The official BBH injection file used for the stage-two row match is
+`o1+o2+o3_bbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5`, published in
+https://doi.org/10.5281/zenodo.5636816 and
+https://doi.org/10.5281/zenodo.7890398 with the same MD5. It and the direct row-map
+NPZ are not redistributed. Download/checksum scripts and aggregate audit results
+are supplied. The weighting prescription is credited to Reed Essick (2021),
+https://doi.org/10.3847/2515-5172/ac2ba7 .
+
+`research/population-stage2/provenance-history.json` contains short documentary
+source-cell excerpts from Colm Talbot's `GWPopulation` tutorial. These excerpts
+retain the upstream MIT license below. They are not original project prose, and
+the upstream software license does not grant rights to the separately hosted
+tutorial samples or LVK data. The checked historical license is:
+https://github.com/ColmTalbot/gwpopulation/blob/2daa71e8c56362f2f64e2166a0055478557f239a/LICENSE.md
+
+```text
+MIT License
+
+Copyright (c) 2019 Colm Talbot
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```

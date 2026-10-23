@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-24",
+  "scope": "Entire Git index, including existing public files and new scientific release; excludes this subsequently generated audit report. No ignored files or historical commits scanned.",
+  "files_considered": 253,
+  "text_files_scanned": 249,
+  "binary_files": [
+    {
+      "path": "output/pdf/blackhole-population-robustness-v0.2.pdf",
+      "bytes": 789030
+    },
+    {
+      "path": "research/paper/figures/common-prior-groups.png",
+      "bytes": 87714
+    },
+    {
+      "path": "research/paper/figures/paired-bootstrap.png",
+      "bytes": 100191
+    },
+    {
+      "path": "research/paper/figures/prior-support.png",
+      "bytes": 130098
+    }
+  ],
+  "files_above_5_MB": [],
+  "forbidden_raw_or_private_paths": [],
+  "findings": [],
+  "hash_checks": "Staged manuscript and PDF match build manifest; frozen model hash verified.",
+  "limitations": "Heuristic pattern scan is not a proof of absence; binary contents receive visual/metadata review rather than text-pattern scans.",
+  "index_content_sha256": "30c070c890a564b345c96c5c739180a929ba8f77c3fe8ae58095dd7b401b8f94"
+}

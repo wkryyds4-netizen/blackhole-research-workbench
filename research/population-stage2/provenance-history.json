@@ -1,0 +1,85 @@
+{
+  "schema": "blackhole-population-provenance-history/1",
+  "date": "2026-10-24",
+  "notebook_path_history": [
+    {
+      "sha": "4da203490b7500551b858e16edd61cd9497562d4",
+      "date": "2026-10-23T15:40:41Z",
+      "message": "FEAT: evaluate mass models, the likelihood and the VT in log space (#144)"
+    },
+    {
+      "sha": "0071621071dedff6861df44b3b2a7c3698a51696",
+      "date": "2025-11-06T14:10:46Z",
+      "message": "MAINT: Remove deprecated things and require parameters as state (#131)"
+    },
+    {
+      "sha": "2daa71e8c56362f2f64e2166a0055478557f239a",
+      "date": "2024-06-15T05:28:15Z",
+      "message": "DOC: start overhaul of documentation (#94)"
+    }
+  ],
+  "original_pinned_url": "https://github.com/ColmTalbot/gwpopulation/blob/2daa71e8c56362f2f64e2166a0055478557f239a/examples/GWTC3.ipynb",
+  "notebook_checks": {
+    "notebook-original.ipynb": {
+      "sha256": "ff06f3e5de2e6c3ebde555a3c3c734af3d46130dd7817c7160824baa3396ba97",
+      "source_cells_with_download_or_preprocess": [
+        {
+          "cell_index": 3,
+          "text": "## Download data\n\nWe need to download the data for the events and simmulated \"injections\" used to characterize the detection sensitivity.\n\n### Event posteriors\n\nWe're using the posteriors from the GWTC-3 data release in a pre-processed format.\n\nThe file was produced by [gwpopulation-pipe](https://docs.ligo.org/ratesAndPopulations/gwpopulation_pipe) to reduce the many GB of posterior sample files to a single ~30Mb file.\n\nThe choice of events in this file was not very careful and should only be considered qualitatively correct.\n\nThe data file can be found [here](https://drive.google.com/drive/folders/1wyfR6sYvYVdBefF9_vrVTp0Btu03OlzL?usp=drive_link).\nThe original data can be found at [zenodo:5546663](https://zenodo.org/records/5546663) and [zenodo:6513631](https://zenodo.org/records/6513631) along with citation information.\n\n### Sensitivity injections\n\nAgain I have pre-processed the full injection set using `gwpopulation-pipe` to reduce the filesize.\nThe original data is available at [zenodo:7890398](https://zenodo.org/records/7890398) along with citation information."
+        },
+        {
+          "cell_index": 4,
+          "text": "!gdown https://drive.google.com/uc?id=16gStLIjt65gWBkw-gNOVUqNbZ89q8CLF\n!gdown https://drive.google.com/uc?id=10pevUCM3V2-D-bROFEMAcTJsX_9RzeM6"
+        }
+      ],
+      "includes_local_google_drive_ids": true,
+      "has_original_hdf_filename": false,
+      "has_threshold_arguments": false
+    },
+    "notebook-current.ipynb": {
+      "sha256": "e923e3708db7e1b34eaeb76551e0f07caddfe7c2b70cf2ffff0449f6fbabd243",
+      "source_cells_with_download_or_preprocess": [
+        {
+          "cell_index": 3,
+          "text": "## Download data\n\nWe need to download the data for the events and simmulated \"injections\" used to characterize the detection sensitivity.\n\n### Event posteriors\n\nWe're using the posteriors from the GWTC-3 data release in a pre-processed format.\n\nThe file was produced by [gwpopulation-pipe](https://docs.ligo.org/ratesAndPopulations/gwpopulation_pipe) to reduce the many GB of posterior sample files to a single ~30Mb file.\n\nThe choice of events in this file was not very careful and should only be considered qualitatively correct.\n\nThe data file can be found [here](https://drive.google.com/drive/folders/1wyfR6sYvYVdBefF9_vrVTp0Btu03OlzL?usp=drive_link).\nThe original data can be found at [zenodo:5546663](https://zenodo.org/records/5546663) and [zenodo:6513631](https://zenodo.org/records/6513631) along with citation information.\n\n### Sensitivity injections\n\nAgain I have pre-processed the full injection set using `gwpopulation-pipe` to reduce the filesize.\nThe original data is available at [zenodo:7890398](https://zenodo.org/records/7890398) along with citation information."
+        },
+        {
+          "cell_index": 4,
+          "text": "!gdown https://drive.google.com/uc?id=16gStLIjt65gWBkw-gNOVUqNbZ89q8CLF\n!gdown https://drive.google.com/uc?id=10pevUCM3V2-D-bROFEMAcTJsX_9RzeM6"
+        }
+      ],
+      "includes_local_google_drive_ids": true,
+      "has_original_hdf_filename": false,
+      "has_threshold_arguments": false
+    }
+  },
+  "conclusion": "The earliest commit returned for this path (2024 documentation restructure) and current notebook both point to the same Drive objects; neither contains the original HDF filename or detection-threshold invocation. This is not an exhaustive claim about private or unrelated repositories.",
+  "release_comparison": {
+    "records": [
+      "10.5281/zenodo.5636816",
+      "10.5281/zenodo.7890398"
+    ],
+    "all_hdf_checksums_identical": true,
+    "hdf_checksums": {
+      "o1+o2+o3_imbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5": "md5:c3017cd8cf1afa8bcd34c6447e9fc9da",
+      "o1+o2+o3_mixture_real+semianalytic-LIGO-T2100377-v2.hdf5": "md5:d9c14e817dac05c83c66e83fa8a211a0",
+      "o1+o2+o3_nsbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5": "md5:98c0ed32361a0f02813c92a9dcb90976",
+      "o1+o2+o3_bbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5": "md5:c21337a25b7318fdfd471cce549a547e",
+      "o1+o2+o3_bnspop_real+semianalytic-LIGO-T2100377-v2.hdf5": "md5:e8771ffe77576f5092fb3d35e70c6749"
+    },
+    "source_metadata_files": [
+      "provenance-sources/zenodo-5636816.json",
+      "provenance-sources/zenodo-7890398.json"
+    ]
+  },
+  "snapshot_hashes": {
+    "fetch-manifest.json": "62bd6f3f26dbb23d4c580e71d662cd0c163421219d4eaf1a642f5d3c5b89a25b",
+    "notebook-current.ipynb": "e923e3708db7e1b34eaeb76551e0f07caddfe7c2b70cf2ffff0449f6fbabd243",
+    "notebook-history.json": "02e4bd5bbb101b0145e8b6d4e9f087ca627e33a6bf0d9880ce13d90e43ea9c50",
+    "notebook-original.ipynb": "ff06f3e5de2e6c3ebde555a3c3c734af3d46130dd7817c7160824baa3396ba97",
+    "remote-headers.json": "44fc5a5af752a450f7c6c502c85a228113c3767e87432b05c64e790940bffe8a",
+    "repository-tree-2024.json": "e12cb39ffc7b2c73181cdff1b636d9e0a58c8440870c30c546ede1db87283ce9",
+    "zenodo-5636816.json": "db044e358f4968f309d13525e0ceba8a1d2c317a42e056c3222436266be4c5f1",
+    "zenodo-7890398.json": "d27b71f8daae7e29684e1f44365bebed55c469dbcc558e0f798ee71c413b7a5f"
+  }
+}

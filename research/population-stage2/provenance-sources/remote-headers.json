@@ -1,0 +1,269 @@
+[
+  {
+    "file": "o1+o2+o3_bbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5",
+    "url": "https://zenodo.org/api/records/5636816/files/o1+o2+o3_bbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5/content",
+    "size": 63149928,
+    "official_checksum": "md5:c21337a25b7318fdfd471cce549a547e",
+    "root_attrs": {
+      "analysis_time_s": 63129577.0,
+      "n_accepted": 289620.0,
+      "total_generated": 73280198.73534885
+    },
+    "injection_attrs": {
+      "analysis_time_s": 63129577.0,
+      "n_accepted": 289620.0,
+      "total_generated": 73280198.73534885
+    },
+    "dataset_metadata": {
+      "far_cwb": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "far_gstlal": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "far_mbta": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "far_pycbc_bbh": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "far_pycbc_hyperbank": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "ifar_cwb": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "ifar_gstlal": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "ifar_mbta": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "ifar_pycbc_bbh": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "ifar_pycbc_hyperbank": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "mass1_source": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "mass2_source": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "mixture_weight": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "name": {
+        "shape": [
+          289620
+        ],
+        "dtype": "|S2"
+      },
+      "optimal_snr_net": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "pastro_cwb": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "pastro_gstlal": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "pastro_mbta": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "pastro_pycbc_bbh": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "pastro_pycbc_hyperbank": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "redshift": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "sampling_pdf": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "spin1x": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "spin1y": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "spin1z": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "spin2x": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "spin2y": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      },
+      "spin2z": {
+        "shape": [
+          289620
+        ],
+        "dtype": "float64"
+      }
+    },
+    "ranges": [
+      {
+        "start": 0,
+        "end": 65535,
+        "bytes": 65536,
+        "sha256": "79d309e9236458a8bfad5301ffd78a7ee7bcb2dda2ec31bd30634a5e0fd21164"
+      },
+      {
+        "start": 53870592,
+        "end": 53936127,
+        "bytes": 65536,
+        "sha256": "9b856ce62ea9bca901434858035178b71726dc96921ee021fd004c4d90065acb"
+      },
+      {
+        "start": 63111168,
+        "end": 63149927,
+        "bytes": 38760,
+        "sha256": "43d7f4b23c1a2b1c50d6b44931773ce7afbd4dfb22c8ea40212fe46fd35b8148"
+      },
+      {
+        "start": 2293760,
+        "end": 2359295,
+        "bytes": 65536,
+        "sha256": "14cc1d445c31b7f3dd0711ccfcef8fea462b3f02f9c1f1984b128308b8b03061"
+      },
+      {
+        "start": 27787264,
+        "end": 27852799,
+        "bytes": 65536,
+        "sha256": "2bd8727d81768ec2e1c1ccc3aa7af3de8c7ef96bb34af8b5ba5abd9959d0c6d4"
+      },
+      {
+        "start": 13893632,
+        "end": 13959167,
+        "bytes": 65536,
+        "sha256": "5a21865147764bfff1f45958b4e2fc10e80236eabcc48e1ac37c51255cbd035c"
+      },
+      {
+        "start": 41680896,
+        "end": 41746431,
+        "bytes": 65536,
+        "sha256": "3cdface2823ee936d34b6314228e2867c8dd551ec75b450bda7e94999459e043"
+      }
+    ],
+    "bytes_transferred": 431976
+  },
+  {
+    "file": "o1+o2+o3_mixture_real+semianalytic-LIGO-T2100377-v2.hdf5",
+    "url": "https://zenodo.org/api/records/5636816/files/o1+o2+o3_mixture_real+semianalytic-LIGO-T2100377-v2.hdf5/content",
+    "size": 361745836,
+    "official_checksum": "md5:d9c14e817dac05c83c66e83fa8a211a0",
+    "error": "SSLError: HTTPSConnectionPool(host='zenodo.org', port=443): Max retries exceeded with url: /api/records/5636816/files/o1+o2+o3_mixture_real+semianalytic-LIGO-T2100377-v2.hdf5/content (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+    "ranges": [],
+    "bytes_transferred": 0
+  },
+  {
+    "file": "o1+o2+o3_imbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5",
+    "url": "https://zenodo.org/api/records/5636816/files/o1+o2+o3_imbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5/content",
+    "size": 85009224,
+    "official_checksum": "md5:c3017cd8cf1afa8bcd34c6447e9fc9da",
+    "error": "SSLError: HTTPSConnectionPool(host='zenodo.org', port=443): Max retries exceeded with url: /api/records/5636816/files/o1+o2+o3_imbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5/content (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+    "ranges": [],
+    "bytes_transferred": 0
+  },
+  {
+    "file": "o1+o2+o3_bnspop_real+semianalytic-LIGO-T2100377-v2.hdf5",
+    "url": "https://zenodo.org/api/records/5636816/files/o1+o2+o3_bnspop_real+semianalytic-LIGO-T2100377-v2.hdf5/content",
+    "size": 74492032,
+    "official_checksum": "md5:e8771ffe77576f5092fb3d35e70c6749",
+    "error": "SSLError: HTTPSConnectionPool(host='zenodo.org', port=443): Max retries exceeded with url: /api/records/5636816/files/o1+o2+o3_bnspop_real+semianalytic-LIGO-T2100377-v2.hdf5/content (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+    "ranges": [],
+    "bytes_transferred": 0
+  },
+  {
+    "file": "o1+o2+o3_nsbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5",
+    "url": "https://zenodo.org/api/records/5636816/files/o1+o2+o3_nsbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5/content",
+    "size": 65353690,
+    "official_checksum": "md5:98c0ed32361a0f02813c92a9dcb90976",
+    "error": "SSLError: HTTPSConnectionPool(host='zenodo.org', port=443): Max retries exceeded with url: /api/records/5636816/files/o1+o2+o3_nsbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5/content (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",
+    "ranges": [],
+    "bytes_transferred": 0
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "date": "2026-10-24",
+  "script_sha256": "ddce6afbcb12ebee883e4605c8e25624f551c2d5a3303198168a76b4eb19483e",
+  "implementation_sha256": "eb697b23171e748b2a1ac711376a134bb9dc7945dbd1a9483bf4ef4ab1f08425",
+  "errors": {
+    "scalar_log_curves": 0.0,
+    "exact_mean_covariance": 4.90059381963448e-17,
+    "direct_pair_covariance_shape": 3.599551212651875e-17,
+    "pointwise_variance": 4.163336342344337e-17,
+    "empirical_pair_covariance_shape": 1.2685165418080402e-17,
+    "mode_log_additivity": 8.881784197001252e-16,
+    "shared_proportional_model_cancellation": 3.1086244689504383e-15,
+    "exponential_cdf_quantiles": 2.156466727409878e-09
+  },
+  "checks": [
+    "retained and full counts",
+    "deterministic generation",
+    "exact covariance including zeros",
+    "direct grid-pair shape covariance",
+    "empirical output shape covariance",
+    "shared-model cancellation",
+    "analytic posterior quantiles"
+  ],
+  "scope": "Synthetic API correctness. No verification of physical injection trial interpretation, original sampling design, or missed-tail bias."
+}

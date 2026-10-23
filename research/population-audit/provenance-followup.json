@@ -1,0 +1,466 @@
+{
+  "schema": "blackhole-population-provenance-followup/1",
+  "date": "2026-10-24",
+  "status": "partial provenance repair; original inference unchanged; selection consistency not established",
+  "finding_far_overwrite": {
+    "cause": "model.identify_events dictionary keyed by commonName; sorted catalogs overwrite GWTC-1 entries with GWTC-2.1 entries, including null FAR",
+    "file_order": [
+      "GWTC-1-confident.json",
+      "GWTC-2.1-confident.json",
+      "GWTC-3-confident.json"
+    ],
+    "missing_selected_count": 10,
+    "recovered_catalog_far_count": 10,
+    "selection_count_if_only_far_recovery_applied": 69,
+    "live_GWTC1_byte_identical_to_local": true,
+    "caveat": "GWOSC catalog FAR numeric values are preserved verbatim. Null upper/lower fields do not prove the numbers are exact measured rates rather than reported limits. Catalog FAR provenance is separate from PE release provenance.",
+    "events": [
+      {
+        "index": 0,
+        "name": "GW150914",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 1e-07,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 3,
+          "GPS": 1126259462.4,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 4,
+          "GPS": 1126259462.4,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW150914/v4",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      },
+      {
+        "index": 1,
+        "name": "GW151012",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 0.00792,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 3,
+          "GPS": 1128678900.4,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW151012/v3",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 4,
+          "GPS": 1128678900.4,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW151012/v4",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      },
+      {
+        "index": 2,
+        "name": "GW151226",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 1e-07,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 2,
+          "GPS": 1135136350.6,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW151226/v2",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 3,
+          "GPS": 1135136350.6,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW151226/v3",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      },
+      {
+        "index": 3,
+        "name": "GW170104",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 1e-07,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 2,
+          "GPS": 1167559936.6,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW170104/v2",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 3,
+          "GPS": 1167559936.6,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW170104/v3",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      },
+      {
+        "index": 4,
+        "name": "GW170608",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 1e-07,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 3,
+          "GPS": 1180922494.5,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW170608/v3",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 4,
+          "GPS": 1180922494.5,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW170608/v4",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      },
+      {
+        "index": 5,
+        "name": "GW170729",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 0.02,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 1,
+          "GPS": 1185389807.3,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW170729/v1",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 2,
+          "GPS": 1185389807.3,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW170729/v2",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      },
+      {
+        "index": 6,
+        "name": "GW170809",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 1e-07,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 1,
+          "GPS": 1186302519.8,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW170809/v1",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 2,
+          "GPS": 1186302519.8,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW170809/v2",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      },
+      {
+        "index": 7,
+        "name": "GW170814",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 1e-07,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 3,
+          "GPS": 1186741861.5,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW170814/v3",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 4,
+          "GPS": 1186741861.5,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW170814/v4",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      },
+      {
+        "index": 8,
+        "name": "GW170818",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 4.2000000000000004e-05,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 1,
+          "GPS": 1187058327.1,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW170818/v1",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 2,
+          "GPS": 1187058327.1,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW170818/v2",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      },
+      {
+        "index": 9,
+        "name": "GW170823",
+        "posterior_identity_status": "summary-matched; not original ID recovered",
+        "original_audit_far": null,
+        "recovered_far": {
+          "far": 1e-07,
+          "far_lower": null,
+          "far_upper": null,
+          "far_unit": "yr^-1",
+          "version": 1,
+          "GPS": 1187529256.5,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW170823/v1",
+          "catalog.shortName": "GWTC-1-confident"
+        },
+        "overwritten_record": {
+          "far": null,
+          "far_unit": null,
+          "version": 2,
+          "GPS": 1187529256.5,
+          "jsonurl": "https://gwosc.org/eventapi/json/GWTC-2.1-confident/GW170823/v2",
+          "catalog.shortName": "GWTC-2.1-confident"
+        },
+        "cross_version": true,
+        "satisfies_far_less_than_1_per_year": true
+      }
+    ]
+  },
+  "tutorial_comparison": {
+    "source": "https://colmtalbot.github.io/gwpopulation/examples/GWTC3.html",
+    "input_count": 73,
+    "sequential_deletions": [
+      15,
+      38
+    ],
+    "original_deleted_indices": [
+      15,
+      39
+    ],
+    "inferred_deleted_names": [
+      "GW190425",
+      "GW190814"
+    ],
+    "tutorial_remaining_count": 71,
+    "current_count": 69,
+    "additional_current_exclusions": [
+      {
+        "index": 53,
+        "name": "GW191204_110529",
+        "far": 3.3,
+        "far_unit": "1/yr",
+        "source_url": "https://gwosc.org/eventapi/json/GWTC-3-confident/GW191204_110529/v1",
+        "reason": "catalog FAR >= 1/year",
+        "identity_status": "summary-matched"
+      },
+      {
+        "index": 64,
+        "name": "GW200208_222617",
+        "far": 4.8,
+        "far_unit": "1/yr",
+        "source_url": "https://gwosc.org/eventapi/json/GWTC-3-confident/GW200208_222617/v1",
+        "reason": "catalog FAR >= 1/year",
+        "identity_status": "summary-matched"
+      }
+    ],
+    "caveat": "Names remain conditional on local summary matching. The tutorial itself warns its event list is only qualitatively chosen."
+  },
+  "injection_provenance": {
+    "tutorial_points_to_release": "https://zenodo.org/records/7890398",
+    "fields": [
+      "mass_1",
+      "mass_ratio",
+      "a_1",
+      "a_2",
+      "cos_tilt_1",
+      "cos_tilt_2",
+      "redshift",
+      "prior",
+      "total_generated",
+      "analysis_time"
+    ],
+    "n_retained": 41972,
+    "total_generated": 73280198,
+    "analysis_time": 2.000455579638502,
+    "analysis_time_unit": "years according to current pipeline convention; original preprocessing invocation absent",
+    "original_file_variant": null,
+    "original_pipeline_commit": null,
+    "original_ifar_threshold": null,
+    "original_snr_threshold": null,
+    "per_run_labels": null,
+    "retained_search_statistics": false,
+    "retained_original_row_ids": false,
+    "current_pipeline_reference": "https://ratesandpopulations.docs.ligo.org/gwpopulation_pipe/_modules/gwpopulation_pipe/vt_helper.html",
+    "current_pipeline_defaults_only": {
+      "ifar_threshold_years": 1,
+      "snr_threshold": 10,
+      "selection": "OR of IFAR above threshold, plus O1/O2 optimal network SNR above threshold",
+      "prior_transformation": "sampling_pdf * mass_1_source * (2*pi*a_1**2) * (2*pi*a_2**2)",
+      "warning": "Current documentation is not the historical tutorial invocation. Defaults do not establish the actual cuts or Jacobian applied to the local file."
+    },
+    "official_release_method": "O1/O2 semi-analytic SNR; O3 real search statistics; thresholds must be specified separately",
+    "unresolved": [
+      "exact source HDF variant and checksum",
+      "original threshold and pipeline set",
+      "per-run detection masks",
+      "original Jacobian and mixture weighting configuration"
+    ]
+  },
+  "pe_provenance": {
+    "tutorial_release_links": [
+      "https://zenodo.org/records/5546663",
+      "https://zenodo.org/records/6513631"
+    ],
+    "release_options": "GWTC-2.1 release provides cosmo and nocosmo; multiple waveform labels and Mixed are available",
+    "local_waveform_labels": null,
+    "local_prior_configs": null,
+    "local_event_identifiers": null,
+    "warning": "Release options and pipeline formulas are reference documentation, not proof which options produced these tutorial arrays."
+  },
+  "pickle_opcode_inspection": {
+    "gwtc-3-samples.pkl": {
+      "method": "pickletools.genops; no deserialization or callable execution",
+      "strings": [
+        "<",
+        "BlockManager",
+        "C",
+        "DataFrame",
+        "Index",
+        "O8",
+        "_flags",
+        "_frombuffer",
+        "_metadata",
+        "_mgr",
+        "_new_Index",
+        "_reconstruct",
+        "_typ",
+        "_unpickle_block",
+        "a_1",
+        "a_2",
+        "allows_duplicate_labels",
+        "attrs",
+        "builtins",
+        "cos_tilt_1",
+        "cos_tilt_2",
+        "data",
+        "dataframe",
+        "dtype",
+        "f8",
+        "i8",
+        "mass_1",
+        "mass_ratio",
+        "name",
+        "ndarray",
+        "numpy",
+        "numpy.core.multiarray",
+        "numpy.core.numeric",
+        "pandas._libs.internals",
+        "pandas.core.frame",
+        "pandas.core.indexes.base",
+        "pandas.core.internals.managers",
+        "prior",
+        "redshift",
+        "slice",
+        "|"
+      ],
+      "explicit_GW_event_strings": []
+    },
+    "gwtc-3-injections.pkl": {
+      "method": "pickletools.genops; no deserialization or callable execution",
+      "strings": [
+        "<",
+        "_create_array",
+        "_reconstruct",
+        "a_1",
+        "a_2",
+        "analysis_time",
+        "cos_tilt_1",
+        "cos_tilt_2",
+        "dill._dill",
+        "dtype",
+        "f8",
+        "mass_1",
+        "mass_ratio",
+        "ndarray",
+        "numpy",
+        "numpy.core.multiarray",
+        "prior",
+        "redshift",
+        "scalar",
+        "total_generated"
+      ],
+      "explicit_GW_event_strings": []
+    }
+  },
+  "unresolved": [
+    "Original per-event IDs and PE waveform/prior metadata",
+    "Complete event-selection policy including mass classification",
+    "Matched injection selection and measures"
+  ],
+  "input_hashes": {
+    "model.py": "179fb07ff98560b7926f29a213333c3fe9f3339734a3f8cf1d7aa9ddb8d3b468",
+    "prepare_data.py": "167ad9ca5143ee116ad97fccf37c27b104513f84161f20e2443e774d0dbd72ad",
+    "data/sample_audit.json": "8ae2925bc3682501051701ab37f025aa12886128e227febda982dafb40ae6f5a",
+    "data/manifest.json": "ad32d61cdf7f66ea8b1be57510e6e5c15dd50a7810bcdb1571fa6dcd712a1c7a",
+    "data/posteriors.npz": "3aec709780ac373e485682323c20cbe6ed0c14028c66b030bb73d848739489c4",
+    "data/injections.npz": "00ce46283aaf5c1e3df1a8b479a2f3c5bf904e4aef6aa0cf641f93df54bf7a13",
+    "data/gwtc-3-samples.pkl": "f0e2554a595630a4bea9c7db58dc9f83bef036ae800d4bc318cdd676655ba2dd",
+    "data/gwtc-3-injections.pkl": "99b1ba450fd554f2d4b992c9eb45d389f460d224f5684691b114c59ed8d26acc",
+    "data/GWTC-1-confident.json": "23492954554aac562906cd0d84356be599760e400ac65f50d3d814ec7a856a3d",
+    "data/GWTC-2.1-confident.json": "93f8e0fd6aba115f81dc953d30adc66d048aba23682271ed9218283233d5f659",
+    "data/GWTC-3-confident.json": "e892790dd548e4b41248c771bbe658f9edc8b41cedbfbe0c0ebea7a55f3ccdb7"
+  },
+  "source_snapshot_manifest": "provenance-sources/manifest.json",
+  "changes_to_analysis": "none"
+}

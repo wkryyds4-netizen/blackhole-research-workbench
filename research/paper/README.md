@@ -1,0 +1,40 @@
+# 公开双黑洞群体推断的条件稳健性
+
+**研究技术稿 v0.2，2026-10-24，未同行评审。**
+
+[阅读 PDF（13页）](../../output/pdf/blackhole-population-robustness-v0.2.pdf) ·
+[中文全文与英文摘要](manuscript.zh.md) · [内部科学审阅](review.md)
+
+本文将两个科学阶段整理为详细论文：69个教程来源事件、81个固定假设设置、共同支持先验控制、41972条注入的逐行来源恢复，以及2048次共享样本的经验重采样。正文包含14个公式、6张表和3幅图，讨论与已有研究的联系、复现方法和未解决的问题。
+
+核心结果是有限模型族中的条件稳健性诊断。基准自旋幅度假设下，两个倾角宽度的共同先验后验中位数相差6.734个百分点；相应经验数值扰动范围为5.557–7.600个百分点。低自旋压力案例的差为1.115个百分点，经验范围为−0.293–3.601个百分点。这些经验范围不是天体物理可信区间，现象学分量也不是形成渠道标签。事件原始PE配置和事件—注入选择一致性仍待核实。
+
+## 从冻结结果构建论文
+
+在仓库根目录运行；构图和排版不需要下载原始数据，也不会重新运行群体推断：
+
+```sh
+python -m pip install -r research/paper/requirements.txt
+python -X utf8 research/paper/build_figures.py
+python -X utf8 research/paper/build_pdf.py
+```
+
+本次构建使用Python 3.14。默认字体为Windows的SimSun/SimHei；其他平台需指定可合法使用、含所需中文字形且有TrueType轮廓的字体，例如：
+
+```sh
+python -X utf8 research/paper/build_pdf.py --font /path/to/cjk-regular.ttf --bold-font /path/to/cjk-bold.ttf
+```
+
+不随仓库分发字体文件。PDF嵌入所用字体子集；构建器检查正文及粗体字形覆盖，将Unicode上下标转换为显式上下标排版，保留负号含义；显示公式由matplotlib渲染。输出位于`output/pdf/`，临时公式和页面预览位于忽略目录`research/paper/tmp/`。字体或依赖变化会改变版式和PDF哈希，应重新逐页检查。
+
+[build-manifest.json](build-manifest.json)记录稿件与PDF哈希、公式/图表数量；[visual-qa.json](visual-qa.json)记录本次页面检查。PDF的构建时间和字体子集可能使文件字节变化，不承诺跨平台字节相同。
+
+## 科学计算复现与材料
+
+- [完整复现指南](../REPRODUCING_POPULATION.md)：离线检查、输入下载与哈希、阶段二重算命令。
+- [阶段一](../population-stage1/README.md)：物理积分量、信息不变性和共同支持。
+- [阶段二](../population-stage2/README.md)：成对经验重采样、协方差、来源恢复及权重控制。
+- [文献重合分析](../population-audit/literature-overlap.md)：既有研究与本次实现贡献的边界。
+- [许可与来源](../../NOTICE.md)：原创实现和第三方数据分别管理；原始大文件单独下载。
+
+文稿署名为项目研究稿，未代填个人作者、机构或基金。内部AI辅助审阅不等于外部同行评审，也不构成新颖性或发表资格认证。正式投稿前应补齐作者责任确认、事件侧来源和选择一致性核验，以及与拟投稿范围相称的模型检验。

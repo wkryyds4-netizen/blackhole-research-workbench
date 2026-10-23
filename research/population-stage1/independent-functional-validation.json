@@ -1,0 +1,1082 @@
+{
+  "status": "pass",
+  "date": "2026-10-24",
+  "input_sha256": "6dcf3c9f4fd51b2007977d131c61f69c7d861afb986551ea82b70a7667a51083",
+  "implementation_sha256": "fceaf365d6481ce126a41180d8709d61eae713ffe219c4b7eac6cb1cc8dfc375",
+  "validation_script_sha256": "597417667b71b4ae61abe9c56f734df030fecb2efe9b334c86edc22730331dfa",
+  "scenarios": 81,
+  "groups": 27,
+  "max_errors": {
+    "quantiles_4001_8001": 3.399797199321597e-07,
+    "retained_mass_4001_8001": 1.3643975704802358e-07,
+    "mc_passing_mass_4001_8001": 0.0002529471203773781,
+    "tv_4001_8001": 1.4991455660195996e-07,
+    "common_vs_conditioned_native_quad_quantiles": 5.301359407017259e-09,
+    "native_vs_quad_quantiles": 1.1059587485401368e-07,
+    "retained_mass_vs_quad": 5.513763012832129e-08,
+    "old501_cdf_convention_vs_continuous": 0.0010028705286812128,
+    "old501_density_vs_independent": 2.450817326860033e-14,
+    "constant_likelihood_uniform_quantile_error": 2.2148949341271873e-14
+  },
+  "notes": [
+    "Legacy 501 midpoint CDF is not identical to continuous endpoint/trapezoid CDF; likelihood agrees.",
+    "MC pass-mass has a step-function boundary; its grid convergence is slower than smooth posterior quantiles.",
+    "Common-r prior equals conditioning native uniform-f prior on its corresponding f interval; it changes the scientific prior.",
+    "These are mathematical and quadrature tests, not event-selection or Monte Carlo bias validation."
+  ],
+  "per_scenario": {
+    "0-0-0-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.1185544157576999e-09,
+      "native_continuous_quantiles": [
+        0.14981102572094557,
+        0.3578930730905555,
+        0.5844925956497977
+      ],
+      "legacy_quantiles": [
+        0.14881358864997996,
+        0.3568951357900113,
+        0.5834959179859149
+      ]
+    },
+    "0-0-0-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.9965221698114988e-09,
+      "native_continuous_quantiles": [
+        0.12932085044022282,
+        0.3313982733556607,
+        0.5578456005889901
+      ],
+      "legacy_quantiles": [
+        0.12832033566598472,
+        0.3304001622615357,
+        0.5568514571830543
+      ]
+    },
+    "0-0-0-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 9.091770114544317e-10,
+      "native_continuous_quantiles": [
+        0.09927614279921178,
+        0.2900761948323897,
+        0.5138559530780903
+      ],
+      "legacy_quantiles": [
+        0.09827452059455882,
+        0.28907828553996745,
+        0.5128617445674746
+      ]
+    },
+    "0-0-1-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.585809761284196e-09,
+      "native_continuous_quantiles": [
+        0.11265788148567595,
+        0.30676467243431005,
+        0.5266554737950587
+      ],
+      "legacy_quantiles": [
+        0.11165501095699473,
+        0.30576673101030677,
+        0.5256584277323507
+      ]
+    },
+    "0-0-1-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.460075116366255e-09,
+      "native_continuous_quantiles": [
+        0.08540370630692475,
+        0.26786840245913474,
+        0.48458065353109603
+      ],
+      "legacy_quantiles": [
+        0.08440256028484174,
+        0.2668703843467287,
+        0.4835847969964503
+      ]
+    },
+    "0-0-1-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 6.097453653097773e-10,
+      "native_continuous_quantiles": [
+        0.05441968331023942,
+        0.2166853717789358,
+        0.4253189020196622
+      ],
+      "legacy_quantiles": [
+        0.05341721018892747,
+        0.21568745721881138,
+        0.42432061036187896
+      ]
+    },
+    "0-0-2-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.346738803282733e-09,
+      "native_continuous_quantiles": [
+        0.17066793428165453,
+        0.38689954807783283,
+        0.6157181316911898
+      ],
+      "legacy_quantiles": [
+        0.16966566256041216,
+        0.3859015406986921,
+        0.6147239793075002
+      ]
+    },
+    "0-0-2-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.6561363391787154e-09,
+      "native_continuous_quantiles": [
+        0.1651338098766655,
+        0.37931640257445076,
+        0.608764684474458
+      ],
+      "legacy_quantiles": [
+        0.16413281805445576,
+        0.37831834694486655,
+        0.6077649663883403
+      ]
+    },
+    "0-0-2-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.6382303291706535e-09,
+      "native_continuous_quantiles": [
+        0.1428466019817738,
+        0.35085244737857985,
+        0.5804281995297667
+      ],
+      "legacy_quantiles": [
+        0.14184418048415015,
+        0.3498544727347676,
+        0.5794320199020266
+      ]
+    },
+    "0-1-0-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.3889921707542783e-09,
+      "native_continuous_quantiles": [
+        0.011752398102033827,
+        0.09837145074440447,
+        0.25176551199496816
+      ],
+      "legacy_quantiles": [
+        0.010752691401287958,
+        0.09737371977606564,
+        0.25076825152444926
+      ]
+    },
+    "0-1-0-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.6625761878330536e-09,
+      "native_continuous_quantiles": [
+        0.009877284959284457,
+        0.08780456251927551,
+        0.23351970972494318
+      ],
+      "legacy_quantiles": [
+        0.00887845865342634,
+        0.08680524397383572,
+        0.23251874897027766
+      ]
+    },
+    "0-1-0-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.9903254872287732e-09,
+      "native_continuous_quantiles": [
+        0.007526829792795056,
+        0.07314698699669302,
+        0.2069618268105601
+      ],
+      "legacy_quantiles": [
+        0.006527095791381822,
+        0.07215023365151536,
+        0.20596844282422086
+      ]
+    },
+    "0-1-1-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.2557064832385834e-09,
+      "native_continuous_quantiles": [
+        0.010751967774595353,
+        0.09242985381236539,
+        0.24042398618800934
+      ],
+      "legacy_quantiles": [
+        0.009750307267913509,
+        0.09143228953741472,
+        0.2394312795916268
+      ]
+    },
+    "0-1-1-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.777325813774212e-09,
+      "native_continuous_quantiles": [
+        0.00858701534974224,
+        0.07974423428104446,
+        0.21821309605063238
+      ],
+      "legacy_quantiles": [
+        0.007586468254401352,
+        0.07874523022999529,
+        0.21721971104573304
+      ]
+    },
+    "0-1-1-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.4056637792924107e-09,
+      "native_continuous_quantiles": [
+        0.006235529171464901,
+        0.06391435080308118,
+        0.1883876097518529
+      ],
+      "legacy_quantiles": [
+        0.0052368538295664655,
+        0.06291504867361634,
+        0.18739550114995396
+      ]
+    },
+    "0-1-2-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.1639923186711485e-09,
+      "native_continuous_quantiles": [
+        0.01343188935894617,
+        0.1069833951618437,
+        0.2661548989568794
+      ],
+      "legacy_quantiles": [
+        0.012430367646657187,
+        0.10598577427460995,
+        0.2651611360684306
+      ]
+    },
+    "0-1-2-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 9.67231017501291e-10,
+      "native_continuous_quantiles": [
+        0.011534540464704368,
+        0.09690592490208395,
+        0.2490927331466897
+      ],
+      "legacy_quantiles": [
+        0.01053366716804247,
+        0.0959085412684804,
+        0.24809703802783173
+      ]
+    },
+    "0-1-2-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.706055102219551e-09,
+      "native_continuous_quantiles": [
+        0.00893468169069015,
+        0.08200520935691448,
+        0.22309826336475352
+      ],
+      "legacy_quantiles": [
+        0.007933510162143666,
+        0.08100652986343927,
+        0.22210322855849562
+      ]
+    },
+    "0-2-0-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 4.083894056261528e-09,
+      "native_continuous_quantiles": [
+        0.00174550381069569,
+        0.022818052448802705,
+        0.09019157549321145
+      ],
+      "legacy_quantiles": [
+        0.000998003992015968,
+        0.02183332052432382,
+        0.08920176292994009
+      ]
+    },
+    "0-2-0-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 4.445256163165823e-09,
+      "native_continuous_quantiles": [
+        0.0014217740293414342,
+        0.01877068475808144,
+        0.07600261136221957
+      ],
+      "legacy_quantiles": [
+        0.000998003992015968,
+        0.017789065047655418,
+        0.07500830414038012
+      ]
+    },
+    "0-2-0-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 4.731546487946048e-09,
+      "native_continuous_quantiles": [
+        0.0010895674632348598,
+        0.01452419644189438,
+        0.060320108389927705
+      ],
+      "legacy_quantiles": [
+        0.000998003992015968,
+        0.013544387061275176,
+        0.0593378997055426
+      ]
+    },
+    "0-2-1-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.5629483535460906e-09,
+      "native_continuous_quantiles": [
+        0.0018044952877058107,
+        0.023490789356684947,
+        0.09203015907857906
+      ],
+      "legacy_quantiles": [
+        0.000998003992015968,
+        0.022501708116708197,
+        0.09103618902643673
+      ]
+    },
+    "0-2-1-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 3.3148614964062517e-09,
+      "native_continuous_quantiles": [
+        0.0014340175933847316,
+        0.018896455911561753,
+        0.07618234688531311
+      ],
+      "legacy_quantiles": [
+        0.000998003992015968,
+        0.017915162757936372,
+        0.07519349005728584
+      ]
+    },
+    "0-2-1-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.658276987421715e-09,
+      "native_continuous_quantiles": [
+        0.0010733230174605536,
+        0.014301291563173283,
+        0.059333308397847534
+      ],
+      "legacy_quantiles": [
+        0.000998003992015968,
+        0.013315870778732438,
+        0.058353857814289346
+      ]
+    },
+    "0-2-2-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 3.4256169012536475e-09,
+      "native_continuous_quantiles": [
+        0.0017460397270488814,
+        0.022871325354061115,
+        0.09075112893323403
+      ],
+      "legacy_quantiles": [
+        0.000998003992015968,
+        0.021886810559058906,
+        0.08976801188242733
+      ]
+    },
+    "0-2-2-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 3.3490580308992435e-09,
+      "native_continuous_quantiles": [
+        0.0014450159067430645,
+        0.019089214663474963,
+        0.07736686037816427
+      ],
+      "legacy_quantiles": [
+        0.000998003992015968,
+        0.018107642866313924,
+        0.07638126817266089
+      ]
+    },
+    "0-2-2-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 5.301359407017259e-09,
+      "native_continuous_quantiles": [
+        0.0011195219297094057,
+        0.014921628210585292,
+        0.06193056423233026
+      ],
+      "legacy_quantiles": [
+        0.000998003992015968,
+        0.01394566134979409,
+        0.06093347952254293
+      ]
+    },
+    "1-0-0-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.1326304893977124e-09,
+      "native_continuous_quantiles": [
+        0.26498434548139493,
+        0.5754568848026659,
+        0.8662735069139962
+      ],
+      "legacy_quantiles": [
+        0.2639845720827372,
+        0.574458920024771,
+        0.8652746540942823
+      ]
+    },
+    "1-0-0-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 8.791131711483047e-10,
+      "native_continuous_quantiles": [
+        0.26410099266075493,
+        0.5757312483181762,
+        0.8688263134700094
+      ],
+      "legacy_quantiles": [
+        0.26310069024128185,
+        0.5747332802215643,
+        0.8678308179950405
+      ]
+    },
+    "1-0-0-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.6318419393535066e-09,
+      "native_continuous_quantiles": [
+        0.25249450461245443,
+        0.5647344422933719,
+        0.8633469072693946
+      ],
+      "legacy_quantiles": [
+        0.2514936011934016,
+        0.5637365096659841,
+        0.8623520961836252
+      ]
+    },
+    "1-0-1-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.9687941832380318e-09,
+      "native_continuous_quantiles": [
+        0.22047554670420708,
+        0.5214158092361799,
+        0.8178775148126324
+      ],
+      "legacy_quantiles": [
+        0.21947451514245778,
+        0.5204178227145376,
+        0.8168815302597865
+      ]
+    },
+    "1-0-1-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 9.66318636219654e-10,
+      "native_continuous_quantiles": [
+        0.2172599439803707,
+        0.5189313098461547,
+        0.8183875162570395
+      ],
+      "legacy_quantiles": [
+        0.216260984039808,
+        0.5179333247123388,
+        0.8173885542385265
+      ]
+    },
+    "1-0-1-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.1145223632880175e-09,
+      "native_continuous_quantiles": [
+        0.20929910602502716,
+        0.5110351271916055,
+        0.814371676748687
+      ],
+      "legacy_quantiles": [
+        0.2083002696230083,
+        0.5100371337648745,
+        0.8133725338693195
+      ]
+    },
+    "1-0-2-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.1785828979427038e-09,
+      "native_continuous_quantiles": [
+        0.2950465183281479,
+        0.6090119693377591,
+        0.8899857229302738
+      ],
+      "legacy_quantiles": [
+        0.2940474036446567,
+        0.6080140736259768,
+        0.8889887159146305
+      ]
+    },
+    "1-0-2-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.310926061621643e-09,
+      "native_continuous_quantiles": [
+        0.2933027219151592,
+        0.6078592689701439,
+        0.8909872447713051
+      ],
+      "legacy_quantiles": [
+        0.29230523471142844,
+        0.6068612968510616,
+        0.8899924321535982
+      ]
+    },
+    "1-0-2-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.253267461505004e-09,
+      "native_continuous_quantiles": [
+        0.27515908991961785,
+        0.5902726391799858,
+        0.8813947206693108
+      ],
+      "legacy_quantiles": [
+        0.2741603634309322,
+        0.5892746896344766,
+        0.8803999204261944
+      ]
+    },
+    "1-1-0-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 5.006829950637837e-10,
+      "native_continuous_quantiles": [
+        0.042515087178998455,
+        0.2413083941038921,
+        0.5059316400951894
+      ],
+      "legacy_quantiles": [
+        0.041514012999242816,
+        0.24031009679580154,
+        0.5049367895762491
+      ]
+    },
+    "1-1-0-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 7.008006397413169e-10,
+      "native_continuous_quantiles": [
+        0.03777318158682594,
+        0.22817112594141675,
+        0.4915304301895045
+      ],
+      "legacy_quantiles": [
+        0.036774261788592104,
+        0.22717306695194214,
+        0.4905344127705906
+      ]
+    },
+    "1-1-0-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 6.934455232254777e-10,
+      "native_continuous_quantiles": [
+        0.029967575111404923,
+        0.2037040139067531,
+        0.4622539064504201
+      ],
+      "legacy_quantiles": [
+        0.02896943270381548,
+        0.20270555449516436,
+        0.46125891405895864
+      ]
+    },
+    "1-1-1-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 9.953198820689124e-10,
+      "native_continuous_quantiles": [
+        0.04036768943871891,
+        0.23351579184464077,
+        0.4933886470548543
+      ],
+      "legacy_quantiles": [
+        0.03936715374310993,
+        0.23251732624689164,
+        0.4923918977718048
+      ]
+    },
+    "1-1-1-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 7.734631268796477e-10,
+      "native_continuous_quantiles": [
+        0.03546552336316892,
+        0.21949130595672087,
+        0.4777129597005862
+      ],
+      "legacy_quantiles": [
+        0.03446497060819585,
+        0.21849284124978674,
+        0.4767176146850883
+      ]
+    },
+    "1-1-1-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 9.493649755221156e-10,
+      "native_continuous_quantiles": [
+        0.02832785581872835,
+        0.19631409247525836,
+        0.4496112252271242
+      ],
+      "legacy_quantiles": [
+        0.027327822236526095,
+        0.1953161311516815,
+        0.4486152280674013
+      ]
+    },
+    "1-1-2-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.1176791714362366e-09,
+      "native_continuous_quantiles": [
+        0.045201639934540204,
+        0.24908848279206097,
+        0.515571060118799
+      ],
+      "legacy_quantiles": [
+        0.04420024902450041,
+        0.2480903109036143,
+        0.514575438356305
+      ]
+    },
+    "1-1-2-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 6.897286630724864e-10,
+      "native_continuous_quantiles": [
+        0.03949144355929724,
+        0.2336670791693403,
+        0.49839906714140914
+      ],
+      "legacy_quantiles": [
+        0.03849103843579421,
+        0.2326687138817465,
+        0.49740343914425245
+      ]
+    },
+    "1-1-2-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 5.937203506611866e-10,
+      "native_continuous_quantiles": [
+        0.030367232271993574,
+        0.20550381094787315,
+        0.46461651855566566
+      ],
+      "legacy_quantiles": [
+        0.029367033783507142,
+        0.2045053231018954,
+        0.4636201936703879
+      ]
+    },
+    "1-2-0-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.089280415340511e-09,
+      "native_continuous_quantiles": [
+        0.004591305436750637,
+        0.0575357881599592,
+        0.2081785134978857
+      ],
+      "legacy_quantiles": [
+        0.0035967128126398883,
+        0.05654019234261674,
+        0.20718533166621195
+      ]
+    },
+    "1-2-0-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.3503260176683796e-09,
+      "native_continuous_quantiles": [
+        0.003724959668775794,
+        0.047726626523647536,
+        0.1803224640197245
+      ],
+      "legacy_quantiles": [
+        0.002729507997181631,
+        0.04673021037268994,
+        0.17933081392611852
+      ]
+    },
+    "1-2-0-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 3.2299474761465774e-09,
+      "native_continuous_quantiles": [
+        0.0027969646075299247,
+        0.036638662617614615,
+        0.1453966855160496
+      ],
+      "legacy_quantiles": [
+        0.001806823150087833,
+        0.03564841079252394,
+        0.14440293754363526
+      ]
+    },
+    "1-2-1-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.6527989804847607e-09,
+      "native_continuous_quantiles": [
+        0.004914441197611882,
+        0.06086099893820501,
+        0.2159119771427687
+      ],
+      "legacy_quantiles": [
+        0.003919962157869944,
+        0.059867204163475234,
+        0.2149164909980353
+      ]
+    },
+    "1-2-1-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.344425986677834e-09,
+      "native_continuous_quantiles": [
+        0.003938675968862801,
+        0.05006963859756386,
+        0.18637433935824854
+      ],
+      "legacy_quantiles": [
+        0.0029411530557955064,
+        0.04907297818479219,
+        0.18538271925840538
+      ]
+    },
+    "1-2-1-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 3.2616868650414688e-09,
+      "native_continuous_quantiles": [
+        0.002907967799029481,
+        0.03793578447680214,
+        0.14916747074593406
+      ],
+      "legacy_quantiles": [
+        0.0019176396405767978,
+        0.03693751005597224,
+        0.14817619426898893
+      ]
+    },
+    "1-2-2-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.617362577199799e-09,
+      "native_continuous_quantiles": [
+        0.004390449813955649,
+        0.0554241428449933,
+        0.20302031828246683
+      ],
+      "legacy_quantiles": [
+        0.0033952597321106597,
+        0.05442948798030276,
+        0.20202715784395575
+      ]
+    },
+    "1-2-2-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.929073650292935e-09,
+      "native_continuous_quantiles": [
+        0.003591955860471561,
+        0.04623575825932672,
+        0.17621556615923992
+      ],
+      "legacy_quantiles": [
+        0.002597714639928446,
+        0.045241007600772404,
+        0.17522333863509343
+      ]
+    },
+    "1-2-2-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 3.2748316836084257e-09,
+      "native_continuous_quantiles": [
+        0.002722041608501626,
+        0.03574015098152147,
+        0.1425480694737405
+      ],
+      "legacy_quantiles": [
+        0.001731896090999186,
+        0.03474485737194634,
+        0.14155933888048236
+      ]
+    },
+    "2-0-0-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.9836112752358304e-09,
+      "native_continuous_quantiles": [
+        0.34691750315569736,
+        0.8077736112707581,
+        0.984446451533879
+      ],
+      "legacy_quantiles": [
+        0.3459184436498482,
+        0.8067745159884114,
+        0.9834477083790307
+      ]
+    },
+    "2-0-0-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.1707423919204984e-09,
+      "native_continuous_quantiles": [
+        0.3572445981045087,
+        0.812556863871485,
+        0.9849009661153935
+      ],
+      "legacy_quantiles": [
+        0.35624689261716996,
+        0.8115585242665015,
+        0.9839017871452954
+      ]
+    },
+    "2-0-0-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.0909501635403274e-09,
+      "native_continuous_quantiles": [
+        0.3584927175245242,
+        0.8130815830521124,
+        0.9849536465402936
+      ],
+      "legacy_quantiles": [
+        0.3574928091736848,
+        0.8120823343414881,
+        0.9839544451154826
+      ]
+    },
+    "2-0-1-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.90319870974065e-09,
+      "native_continuous_quantiles": [
+        0.3229146997927633,
+        0.7939921895204455,
+        0.9830353595048168
+      ],
+      "legacy_quantiles": [
+        0.3219155409398473,
+        0.7929934818800844,
+        0.9820364218449497
+      ]
+    },
+    "2-0-1-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.1015591772078892e-09,
+      "native_continuous_quantiles": [
+        0.34062973989638856,
+        0.8029278110457966,
+        0.983916267071348
+      ],
+      "legacy_quantiles": [
+        0.3396300159324737,
+        0.8019288732983033,
+        0.9829180481099817
+      ]
+    },
+    "2-0-1-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.8851161742716727e-09,
+      "native_continuous_quantiles": [
+        0.3569089310986156,
+        0.8106820385677161,
+        0.9846629103622359
+      ],
+      "legacy_quantiles": [
+        0.3559098998321542,
+        0.8096834399691376,
+        0.9836639236152481
+      ]
+    },
+    "2-0-2-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.0535053940330386e-09,
+      "native_continuous_quantiles": [
+        0.35525768511117745,
+        0.8127101235339852,
+        0.9849421791192019
+      ],
+      "legacy_quantiles": [
+        0.3542600106648639,
+        0.8117114244961283,
+        0.9839429744777118
+      ]
+    },
+    "2-0-2-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 2.0728517236001665e-09,
+      "native_continuous_quantiles": [
+        0.35707662380791066,
+        0.8133985419021199,
+        0.9850062761204961
+      ],
+      "legacy_quantiles": [
+        0.3560781708113356,
+        0.8123991489115082,
+        0.9840070530869434
+      ]
+    },
+    "2-0-2-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 9.699728797940566e-10,
+      "native_continuous_quantiles": [
+        0.3447582695249204,
+        0.8075327316253307,
+        0.9844576565961591
+      ],
+      "legacy_quantiles": [
+        0.3437587839189122,
+        0.8065334358140287,
+        0.9834588886666288
+      ]
+    },
+    "2-1-0-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.2864956877578493e-09,
+      "native_continuous_quantiles": [
+        0.20115219559537859,
+        0.7050136961883814,
+        0.9724469027696976
+      ],
+      "legacy_quantiles": [
+        0.2001531357083539,
+        0.7040154101928311,
+        0.9714488754171781
+      ]
+    },
+    "2-1-0-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.1249053910589168e-09,
+      "native_continuous_quantiles": [
+        0.19535319953412839,
+        0.7003073678078293,
+        0.9718979963892463
+      ],
+      "legacy_quantiles": [
+        0.1943546340700511,
+        0.6993092058633995,
+        0.9708999951485985
+      ]
+    },
+    "2-1-0-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.3667854625865061e-09,
+      "native_continuous_quantiles": [
+        0.17558597738056367,
+        0.6814703118225497,
+        0.9693821899174858
+      ],
+      "legacy_quantiles": [
+        0.17458802387786368,
+        0.6804718924486325,
+        0.9683842506186118
+      ]
+    },
+    "2-1-1-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 9.40267308457976e-10,
+      "native_continuous_quantiles": [
+        0.20211131866888105,
+        0.7038519345934288,
+        0.9721415100848494
+      ],
+      "legacy_quantiles": [
+        0.201112107177976,
+        0.7028534736829382,
+        0.9711435202088163
+      ]
+    },
+    "2-1-1-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.6251121559562876e-09,
+      "native_continuous_quantiles": [
+        0.19957717630076996,
+        0.7022383226151063,
+        0.9720165836846246
+      ],
+      "legacy_quantiles": [
+        0.19857942712981752,
+        0.7012401027827184,
+        0.9710185951826228
+      ]
+    },
+    "2-1-1-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 6.160394971921335e-10,
+      "native_continuous_quantiles": [
+        0.18612377998571364,
+        0.6901816245608469,
+        0.9704580873866957
+      ],
+      "legacy_quantiles": [
+        0.18512461983629702,
+        0.6891833639470453,
+        0.969460115676478
+      ]
+    },
+    "2-1-2-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.146374384308757e-09,
+      "native_continuous_quantiles": [
+        0.19752236067270956,
+        0.7025636522146844,
+        0.9721671873923879
+      ],
+      "legacy_quantiles": [
+        0.19652437608055104,
+        0.701565795873044,
+        0.9711691899694807
+      ]
+    },
+    "2-1-2-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.5640930217664106e-09,
+      "native_continuous_quantiles": [
+        0.18680227846508665,
+        0.6928219879727379,
+        0.9709117693402904
+      ],
+      "legacy_quantiles": [
+        0.18580268975949754,
+        0.6918239216977274,
+        0.969913776693178
+      ]
+    },
+    "2-1-2-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.2424951068013002e-09,
+      "native_continuous_quantiles": [
+        0.16058851082014847,
+        0.6654407240968792,
+        0.9670556005991653
+      ],
+      "legacy_quantiles": [
+        0.15958893798068777,
+        0.6644423716885741,
+        0.9660577608820919
+      ]
+    },
+    "2-2-0-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 3.3703234647575187e-10,
+      "native_continuous_quantiles": [
+        0.04032718758001216,
+        0.38127726062178396,
+        0.8825046186882698
+      ],
+      "legacy_quantiles": [
+        0.03932890484347279,
+        0.3802791497673762,
+        0.8815071453064782
+      ]
+    },
+    "2-2-0-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.1951961642608921e-09,
+      "native_continuous_quantiles": [
+        0.030624787741767655,
+        0.3216878348819693,
+        0.8415447943805525
+      ],
+      "legacy_quantiles": [
+        0.02962673119721707,
+        0.3206900027370658,
+        0.8405481377636755
+      ]
+    },
+    "2-2-0-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.0853523080278649e-09,
+      "native_continuous_quantiles": [
+        0.020225151131507673,
+        0.23856320811991477,
+        0.7478938358761406
+      ],
+      "legacy_quantiles": [
+        0.019227419476278,
+        0.23756611886987625,
+        0.7468972019172608
+      ]
+    },
+    "2-2-1-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 9.594353644892806e-10,
+      "native_continuous_quantiles": [
+        0.04529432370596051,
+        0.4049605154299767,
+        0.893804681449029
+      ],
+      "legacy_quantiles": [
+        0.04429581939934093,
+        0.4039625169559313,
+        0.8928074457505378
+      ]
+    },
+    "2-2-1-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 7.900990972586897e-10,
+      "native_continuous_quantiles": [
+        0.0346569401666688,
+        0.3467388770649988,
+        0.8591471298198078
+      ],
+      "legacy_quantiles": [
+        0.0336587038590122,
+        0.34574112894847153,
+        0.8581504865124479
+      ]
+    },
+    "2-2-1-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 7.806070789762032e-10,
+      "native_continuous_quantiles": [
+        0.02277552982842401,
+        0.26024887104682076,
+        0.775489463915962
+      ],
+      "legacy_quantiles": [
+        0.02177789719551712,
+        0.25925157128839604,
+        0.7744930727367346
+      ]
+    },
+    "2-2-2-0": {
+      "conditioned_native_vs_common_r_quantile_max_error": 5.54120083151588e-10,
+      "native_continuous_quantiles": [
+        0.03678169270987692,
+        0.3618235430744592,
+        0.8711108215484558
+      ],
+      "legacy_quantiles": [
+        0.03578339971171093,
+        0.3608257596842779,
+        0.8701141159566583
+      ]
+    },
+    "2-2-2-1": {
+      "conditioned_native_vs_common_r_quantile_max_error": 8.818698549184489e-10,
+      "native_continuous_quantiles": [
+        0.027674890124340865,
+        0.3007873446547148,
+        0.8230202662007139
+      ],
+      "legacy_quantiles": [
+        0.026676921816053436,
+        0.29978977828299874,
+        0.8220235587517404
+      ]
+    },
+    "2-2-2-2": {
+      "conditioned_native_vs_common_r_quantile_max_error": 1.803812044176567e-09,
+      "native_continuous_quantiles": [
+        0.018290636496168054,
+        0.22043380575100394,
+        0.7190610104102686
+      ],
+      "legacy_quantiles": [
+        0.017293066081151054,
+        0.21943684771218191,
+        0.7180642277852258
+      ]
+    }
+  }
+}

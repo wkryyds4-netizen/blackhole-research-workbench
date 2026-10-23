@@ -41,4 +41,16 @@ research/adapter-results/scene-roundtrip.json
 research/stage2-results/*session.json
 research/stage3-results/*session.json
 research/release-results/
+# Local upstream documentation snapshots; keep provenance links and hashes.
+research/population-audit/provenance-sources/*
+!research/population-audit/provenance-sources/manifest.json
+# Upstream tutorial notebooks are local provenance snapshots, not original code.
+research/population-stage2/provenance-sources/*.ipynb
+.population-venv/
+research/local-population-smoke/
+research/population-stage2/provenance-sources/*
+!research/population-stage2/provenance-sources/fetch-manifest.json
+!research/population-stage2/provenance-sources/remote-headers.json
+research/paper/tmp/
+!research/paper/figures/*.png
 results/black-hole-robustness.html

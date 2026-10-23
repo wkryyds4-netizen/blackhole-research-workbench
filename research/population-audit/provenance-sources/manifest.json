@@ -1,0 +1,40 @@
+[
+  {
+    "file": "GWTC3-tutorial.html",
+    "url": "https://colmtalbot.github.io/gwpopulation/examples/GWTC3.html",
+    "final_url": "https://colmtalbot.github.io/gwpopulation/examples/GWTC3.html",
+    "bytes": 84286,
+    "sha256": "fa7b093bbf3f7e5660cade93cc391fdd80329f78b85c6cf8350e1eaf667c5c2f",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "file": "injection-release.md",
+    "url": "https://zenodo.org/records/7890398/files/o1%2Bo2%2Bo3-sensitivity-estimates.md?download=1",
+    "error": "SSLError",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "file": "vt_helper.html",
+    "url": "https://ratesandpopulations.docs.ligo.org/gwpopulation_pipe/_modules/gwpopulation_pipe/vt_helper.html",
+    "final_url": "https://ratesandpopulations.docs.ligo.org/gwpopulation_pipe/_modules/gwpopulation_pipe/vt_helper.html",
+    "bytes": 106073,
+    "sha256": "2bd3791cceabeaa4a57f69a082a97a7950b41548c828421f2130c94de4b8b90a",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "file": "data_collection.html",
+    "url": "https://ratesandpopulations.docs.ligo.org/gwpopulation_pipe/_modules/gwpopulation_pipe/data_collection.html",
+    "final_url": "https://ratesandpopulations.docs.ligo.org/gwpopulation_pipe/_modules/gwpopulation_pipe/data_collection.html",
+    "bytes": 127303,
+    "sha256": "5cede2d0d6db023a4e3249723ceab69f48b6af0a9b0eff451c76605b1d239867",
+    "retrieved": "2026-10-24"
+  },
+  {
+    "file": "GWTC-1-live.json",
+    "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/",
+    "final_url": "https://gwosc.org/eventapi/json/GWTC-1-confident/",
+    "bytes": 20950,
+    "sha256": "23492954554aac562906cd0d84356be599760e400ac65f50d3d814ec7a856a3d",
+    "retrieved": "2026-10-24"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "file": "notebook-history.json",
+    "url": "https://api.github.com/repos/ColmTalbot/gwpopulation/commits?path=examples/GWTC3.ipynb&per_page=100",
+    "final_url": "https://api.github.com/repos/ColmTalbot/gwpopulation/commits?path=examples/GWTC3.ipynb&per_page=100",
+    "bytes": 29488,
+    "sha256": "02e4bd5bbb101b0145e8b6d4e9f087ca627e33a6bf0d9880ce13d90e43ea9c50"
+  },
+  {
+    "file": "notebook-current.ipynb",
+    "url": "https://raw.githubusercontent.com/ColmTalbot/gwpopulation/main/examples/GWTC3.ipynb",
+    "error": "SSLError"
+  },
+  {
+    "file": "zenodo-7890398.json",
+    "url": "https://zenodo.org/api/records/7890398",
+    "final_url": "https://zenodo.org/api/records/7890398",
+    "bytes": 10487,
+    "sha256": "d27b71f8daae7e29684e1f44365bebed55c469dbcc558e0f798ee71c413b7a5f"
+  },
+  {
+    "file": "zenodo-5636816.json",
+    "url": "https://zenodo.org/api/records/5636816",
+    "error": "SSLError"
+  },
+  {
+    "file": "notebook-original.ipynb",
+    "url": "https://raw.githubusercontent.com/ColmTalbot/gwpopulation/2daa71e8c56362f2f64e2166a0055478557f239a/examples/GWTC3.ipynb",
+    "final_url": "https://raw.githubusercontent.com/ColmTalbot/gwpopulation/2daa71e8c56362f2f64e2166a0055478557f239a/examples/GWTC3.ipynb",
+    "bytes": 384815,
+    "sha256": "ff06f3e5de2e6c3ebde555a3c3c734af3d46130dd7817c7160824baa3396ba97"
+  },
+  {
+    "file": "repository-tree-2024.json",
+    "url": "https://api.github.com/repos/ColmTalbot/gwpopulation/git/trees/2daa71e8c56362f2f64e2166a0055478557f239a?recursive=1",
+    "final_url": "https://api.github.com/repos/ColmTalbot/gwpopulation/git/trees/2daa71e8c56362f2f64e2166a0055478557f239a?recursive=1",
+    "bytes": 19348,
+    "sha256": "e12cb39ffc7b2c73181cdff1b636d9e0a58c8440870c30c546ede1db87283ce9"
+  }
+]
