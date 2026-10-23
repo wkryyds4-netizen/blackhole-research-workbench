@@ -1,0 +1,296 @@
+{
+  "date": "2026-10-23",
+  "status": "evaluated-integrated-verified",
+  "checks": {
+    "synthetic_metrics": 15,
+    "reference_parameters_and_rotation": 8,
+    "independent_real_nr_checks": 8,
+    "new_frontend_contracts": 12,
+    "new_browser_checks": 17,
+    "existing_frontend_contracts": 15,
+    "existing_research_browser_checks": 22,
+    "source_reader": "0389 all3x77 modes exactly equal HDF5;2327 two levels rotation power invariant <=3.58e-15"
+  },
+  "limits": [
+    "External archive comparison; training membership unverified",
+    "Complex h22 finite-record comparison, not detector-network or formation inference",
+    "2327 decoded only; memory, normalization and radiation frame calibration pending"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 203,
+      "sha256": "261a53e5dc6af262810464be2b21e4cb9fbfd343d8dac7c7193f79d0776ddd0b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11986,
+      "sha256": "293035bbc297cde6ef91a2e7d72ddfc12ea58695faede9e7a81eff4b6adbffea"
+    },
+    {
+      "path": "research/compare_nr_surrogate.py",
+      "bytes": 8157,
+      "sha256": "e4c2184d5bbd6a3bd900244e0447ef4f032cd30fe94ac4c82a40ac6ceff2ba26"
+    },
+    {
+      "path": "research/download_nr_waveform.py",
+      "bytes": 2801,
+      "sha256": "6e05b6acc916185ea98d79d6e41de91d053321c192d27c599843449491ac62ff"
+    },
+    {
+      "path": "research/load_nr_waveform.py",
+      "bytes": 4834,
+      "sha256": "87ced87db143374fbb42159cc94c63ee13c7f5ef8d6b20d49511d3b6f9ad0ef8"
+    },
+    {
+      "path": "research/save_stage3_checkpoint.py",
+      "bytes": 2362,
+      "sha256": "2a1765a78945aa278d5b741d5258488504850750cf76df332248236a181901ed"
+    },
+    {
+      "path": "research/stage3-plan.json",
+      "bytes": 1189,
+      "sha256": "0f9a149f13028ad9e64cafba9453e8f48accd6bfc36ced02057d98cd844a19c4"
+    },
+    {
+      "path": "research/stage3-results/browser-validation.json",
+      "bytes": 676,
+      "sha256": "205e68261c5409f9ce83e8733aac215a7b0857cb30f7d7567be30c34c57e26bf"
+    },
+    {
+      "path": "research/stage3-results/independent-nr-checks.json",
+      "bytes": 75,
+      "sha256": "0a854924121529afaf3f2f490c5afed29cee4c58f8bab33abe45aa9835964b5f"
+    },
+    {
+      "path": "research/stage3-results/matched-surrogate.npz",
+      "bytes": 2844676,
+      "sha256": "a3f32bbff8259aa299973c115b9cf405c01db3eb6cc0a3954054ffea46c14228"
+    },
+    {
+      "path": "research/stage3-results/metrics-full.json",
+      "bytes": 248171,
+      "sha256": "34ad210663e8204f53e4f0f7af14d9e390025983f68e07dcc09e4acbae0066fe"
+    },
+    {
+      "path": "research/stage3-results/README.md",
+      "bytes": 6088,
+      "sha256": "170679040fb913e40720d34f3dbfb73b927ede151ee28715f4a336c5cc7cd09b"
+    },
+    {
+      "path": "research/stage3-results/waveform-comparison.json",
+      "bytes": 190170,
+      "sha256": "6bb64dadb0952864b762b2d3444a72742df346bf22308d05432425a682f0d3bd"
+    },
+    {
+      "path": "research/stage3-results/waveform-desktop.png",
+      "bytes": 166333,
+      "sha256": "20cc50894ce3e5f7c53eb2090ce5a208e3f3e66dccaa894d6fcb8af4d129c46c"
+    },
+    {
+      "path": "research/stage3-results/waveform-mobile.png",
+      "bytes": 118439,
+      "sha256": "fa94ccff815267253c554cb55fe29629795e783515bae12eca3cb812f791e85d"
+    },
+    {
+      "path": "research/stage3-results/waveform-session.json",
+      "bytes": 195441,
+      "sha256": "a689bd48a6dc4a9326621878d41d5f38f427cc9f1c68c5fd2ea95e1533283f8f"
+    },
+    {
+      "path": "research/test_nr_comparison.py",
+      "bytes": 7083,
+      "sha256": "ab8749055d2102af3a703d00ae03c4b8299e1547ecc8a4c8ed537b884317b341"
+    },
+    {
+      "path": "research/test_waveform_metrics.py",
+      "bytes": 5961,
+      "sha256": "4acfe7611582e3b109f040d50015191f96b86a5d705d2fb122c05629e258dde7"
+    },
+    {
+      "path": "research/test_waveform_reference.py",
+      "bytes": 3248,
+      "sha256": "0291abea35c814ca1790a992406badbf09016f2a3b620ae9c602583ec900599d"
+    },
+    {
+      "path": "research/validate_nr_waveform.py",
+      "bytes": 2461,
+      "sha256": "7ab04e5efc71bcd02bc85c5e3bd9adb229e66f74449e7eb06b4512f2318af4cf"
+    },
+    {
+      "path": "research/wave-source-results/0389-download-manifest.json",
+      "bytes": 439,
+      "sha256": "b75103f663e1b377d80afdfb5e1c2a7cfd38509cde1c352a2587a6e83bb60cc2"
+    },
+    {
+      "path": "research/wave-source-results/0389-history.txt",
+      "bytes": 5830,
+      "sha256": "c47f3d02caf6327b2296ed1f44d8f43f534869e68ca723e6f9d62b5022c90fe8"
+    },
+    {
+      "path": "research/wave-source-results/download-manifest.json",
+      "bytes": 1393,
+      "sha256": "37cde12359931654be80184fbfd4474c911c628eb362960cabaf1e39c6a7352e"
+    },
+    {
+      "path": "research/wave-source-results/GWFrames-Extrapolation.py",
+      "bytes": 38477,
+      "sha256": "1415d62ea5407b75e2277069f218ffc5cf994e2e37e796f77c385a5e338e4495"
+    },
+    {
+      "path": "research/wave-source-results/provenance-audit.json",
+      "bytes": 2249,
+      "sha256": "922f75032bd165e3c35d0aa070ab21259b850315e24abe9c49b0772aa8040707"
+    },
+    {
+      "path": "research/wave-source-results/reader-environment.txt",
+      "bytes": 528,
+      "sha256": "e309b002cca6de621c8960fcf038d306d8b1baa9ef59bbbd486d9baec64e4050"
+    },
+    {
+      "path": "research/wave-source-results/README.md",
+      "bytes": 7095,
+      "sha256": "d47ecba10c796ec253443e2833304be8be7189f04d58007c3e97aea98503dd0f"
+    },
+    {
+      "path": "research/wave-source-results/sxs-0389-lev3-N2.json",
+      "bytes": 7380,
+      "sha256": "abba2d3b13b105c8dc12e9e384c5f3f347c74f3288d8e56a5e10aafc25ee64ab"
+    },
+    {
+      "path": "research/wave-source-results/sxs-0389-lev3-N2.npz",
+      "bytes": 18444688,
+      "sha256": "4255d9768e0aa3f634844eb0cb98d4e1be1432f2df479e07944065099f46b6c9"
+    },
+    {
+      "path": "research/wave-source-results/sxs-0389-lev3-N3.json",
+      "bytes": 7380,
+      "sha256": "5c0785f99466a0612ec997a5c6590b23b6dfd653825c2d05e04b7d53020513da"
+    },
+    {
+      "path": "research/wave-source-results/sxs-0389-lev3-N3.npz",
+      "bytes": 18439467,
+      "sha256": "999f6e9f35fb4d2ed77617a1e2c683a1ab292736c3d5828d9bad4fbb79827f3f"
+    },
+    {
+      "path": "research/wave-source-results/sxs-0389-lev3-N4.json",
+      "bytes": 7380,
+      "sha256": "7c8c7cbf8b326979ef03c6057da51bfd97b95589c05eff48bc85ce43631ff739"
+    },
+    {
+      "path": "research/wave-source-results/sxs-0389-lev3-N4.npz",
+      "bytes": 18474437,
+      "sha256": "fd2da4806e393fdf44aeac1a4bc219d48e4338338c253f7f9b50801849023ecc"
+    },
+    {
+      "path": "research/wave-source-results/sxs-2327-lev2-N2.json",
+      "bytes": 3153,
+      "sha256": "1a7e109a24f373be6ff4869191415a144ab27ae4dd39bf4c0c0898056849478d"
+    },
+    {
+      "path": "research/wave-source-results/sxs-2327-lev2-N2.npz",
+      "bytes": 28628222,
+      "sha256": "84e258275371493f4fab0894501c3a5cbcac44ea31b220b94dbb813266cc1eeb"
+    },
+    {
+      "path": "research/wave-source-results/sxs-2327-lev3-N2.json",
+      "bytes": 3158,
+      "sha256": "cf566a1f48cfdf76c2169021492663372868973d1eeb486849f62224fba9707e"
+    },
+    {
+      "path": "research/wave-source-results/sxs-2327-lev3-N2.npz",
+      "bytes": 28680959,
+      "sha256": "722e1fca65a570309606e8a11b11c9eaa6acaaf5047670f2deadb54b59f24487"
+    },
+    {
+      "path": "research/wave-source-results/validation.json",
+      "bytes": 915,
+      "sha256": "ad67c4589b49ac3f39431513e0f52040f4fe45f777fb9e220bd4b3d61ab8202d"
+    },
+    {
+      "path": "research/waveform-alignment-results/README.md",
+      "bytes": 7071,
+      "sha256": "6bcb9e705a60a8f8730433fe81620de9f5d6a13b5f48996ace356cf3ce666774"
+    },
+    {
+      "path": "research/waveform-alignment-results/reference-audit.json",
+      "bytes": 8468,
+      "sha256": "708bee19b770cd1fe7ed458d03fee78dfd6aca82c689d4e536797d4e80736cc1"
+    },
+    {
+      "path": "research/waveform-alignment-results/tests.json",
+      "bytes": 75,
+      "sha256": "0a854924121529afaf3f2f490c5afed29cee4c58f8bab33abe45aa9835964b5f"
+    },
+    {
+      "path": "research/waveform-metrics-method.md",
+      "bytes": 6956,
+      "sha256": "a2d2101aa48b4b0ff2c357f58701e336c77a4295f2b30531f79149986470ce02"
+    },
+    {
+      "path": "research/waveform-metrics-validation.json",
+      "bytes": 3774,
+      "sha256": "4825c1e80bbce225ba0a10abf99f8b09867374b2c4462aed50b532be05ebee96"
+    },
+    {
+      "path": "research/waveform_metrics.py",
+      "bytes": 9953,
+      "sha256": "2885def0ccb5c37986d303dbf582e284718846c3a8a50632904d622ed780140c"
+    },
+    {
+      "path": "research/waveform_reference.py",
+      "bytes": 6514,
+      "sha256": "29654e133dc2772d4d1e7e7030bc473fcf1b8abea96b943f61b462c07fe4ab2f"
+    },
+    {
+      "path": "simulator/public/datasets/waveform-comparison.json",
+      "bytes": 190170,
+      "sha256": "6bb64dadb0952864b762b2d3444a72742df346bf22308d05432425a682f0d3bd"
+    },
+    {
+      "path": "simulator/public/licenses/SXS-DATA.txt",
+      "bytes": 1929,
+      "sha256": "c18a3cc9b21a61b6055aa58f4dceacf7e555c20a0e67e7a0548e682d0c6e8ab5"
+    },
+    {
+      "path": "simulator/public/projects.json",
+      "bytes": 5150,
+      "sha256": "e7b4c664319acd947e9cb4f8660afd7e678ab49b6de151261cf7a10101a1ca0b"
+    },
+    {
+      "path": "simulator/public/waveform-view.mjs",
+      "bytes": 12495,
+      "sha256": "a24e861e837d177452fe09a2baa4a569e027a093f3286b75ab802e8d936e0172"
+    },
+    {
+      "path": "simulator/public/workbench.css",
+      "bytes": 4286,
+      "sha256": "572ef6d4e9cc59f332b534c4a1aec8042142a8cc9323edb78646010a39d9992c"
+    },
+    {
+      "path": "simulator/public/workbench.html",
+      "bytes": 15240,
+      "sha256": "5a3c4ec4e0dff0c42dcc3f91064064aeaaa354f642b6863d3874f72d8fa357d1"
+    },
+    {
+      "path": "simulator/public/workbench.js",
+      "bytes": 21414,
+      "sha256": "b103b87b81639002a2cd0a0a8082bbaa61a7943933fb512fe5fb1bc79f3ed548"
+    },
+    {
+      "path": "simulator/qa-waveform-stage.cjs",
+      "bytes": 3053,
+      "sha256": "9189d1caa3570653042a972e1f5fed0b8d5333850ab6eb139b5e071d23964d46"
+    },
+    {
+      "path": "simulator/README.md",
+      "bytes": 8470,
+      "sha256": "2cebcdc7cf51cb582f055b37a3e98299dc17a40bfafb15da44f49b80386db41a"
+    },
+    {
+      "path": "simulator/test-waveform-view.mjs",
+      "bytes": 4831,
+      "sha256": "2f789df9580c220fc12869f820c862cfdb291b959c54a17e68eb37a213d06c4d"
+    }
+  ]
+}

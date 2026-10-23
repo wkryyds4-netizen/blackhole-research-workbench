@@ -1,0 +1,13 @@
+{
+  "doi": "10.5281/zenodo.3274661",
+  "license": "CC-BY-4.0",
+  "files": [
+    {
+      "key": "Lev3/rhOverM_Asymptotic_GeometricUnits_CoM.h5",
+      "bytes": 88045582,
+      "md5": "a17ad5300adbb565ac0596b540cdb84a",
+      "sha256": "a7202b88cc628472bcbd475cc1a8ccd52b1fe6d63da971214cab430fe03cfbf9",
+      "url": "https://zenodo.org/api/records/3274661/files/Lev3/rhOverM_Asymptotic_GeometricUnits_CoM.h5/content"
+    }
+  ]
+}

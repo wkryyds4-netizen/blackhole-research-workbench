@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "All seven local SXS datasets registered",
+    "Precessing spin preserved and optical fallback enforced",
+    "Deprecated source visibly marked",
+    "Time changes actual spin vector",
+    "Common horizon is an exact discrete C transition",
+    "Export retains source hashes, license and coordinate convention",
+    "Resolution preset switches dataset",
+    "Native gap reported without inventing merger interpolation",
+    "Gap ends at exact common horizon",
+    "Failed fetch preserves prior valid scene",
+    "Numerical dataset mobile layout 390",
+    "Numerical dataset mobile layout 320",
+    "No page errors"
+  ],
+  "errors": []
+}

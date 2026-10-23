@@ -1,0 +1,56 @@
+{
+  "compiler": "zig 0.14.1 x86_64-windows-gnu",
+  "source_archive_sha256": "316a640576d32aaa45aaf9a6d876b240af356c89131e6af8257039b3818baae8",
+  "formula_edits": false,
+  "portability_edits": [
+    "bfOrders long pointers replaced with npy_int64 for Windows LLP64",
+    "CMPLX macro supplied via compiler builtin complex constructor",
+    "three ctypes spline functions explicitly exported via .def file"
+  ],
+  "build": [
+    {
+      "source": "gwsurrogate/precessing_utils/src/precessing_utils.c",
+      "source_sha256": "932dbd27803afc1940870332f2e1ba309993edb097336cce98b855c59c9c93e8",
+      "binary_sha256": "8e3db56684b03c609469d938569fa70d4e02e41ddae89bb77509469458b49e87",
+      "command": [
+        "${WORKSPACE}\\research\\adapter-build\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "cc",
+        "-target",
+        "x86_64-windows-gnu",
+        "-shared",
+        "-O2",
+        "-I${PYTHON_HOME}\\include",
+        "-I${WORKSPACE}\\simulator\\.adapters-venv\\Lib\\site-packages\\numpy\\_core\\include",
+        "-std=c11",
+        "-DCMPLX(x,y)=__builtin_complex((double)(x),(double)(y))",
+        "-Igwsurrogate/precessing_utils/include",
+        "gwsurrogate/precessing_utils/src/precessing_utils.c",
+        "${PYTHON_HOME}\\libs\\python312.lib",
+        "-o",
+        "gwsurrogate/precessing_utils/_utils.cp312-win_amd64.pyd"
+      ]
+    },
+    {
+      "source": "gwsurrogate/spline_interp_Cwrapper/_spline_interp.cpp",
+      "source_sha256": "f3041349b0f026ba2bd791b04b30f026691c324481d5488ec20969497422c78a",
+      "binary_sha256": "b52f1e979b9b63b891fff8f29fedc8d6ae6551baa0f70cb7c084abf7c4aef0d8",
+      "command": [
+        "${WORKSPACE}\\research\\adapter-build\\zig-x86_64-windows-0.14.1\\zig.exe",
+        "c++",
+        "-target",
+        "x86_64-windows-gnu",
+        "-shared",
+        "-O2",
+        "-I${PYTHON_HOME}\\include",
+        "-I${WORKSPACE}\\simulator\\.adapters-venv\\Lib\\site-packages\\numpy\\_core\\include",
+        "-std=c++14",
+        "-Wl,--export-all-symbols",
+        "gwsurrogate/spline_interp_Cwrapper/_spline_interp.cpp",
+        "spline_exports.def",
+        "${PYTHON_HOME}\\libs\\python312.lib",
+        "-o",
+        "gwsurrogate/spline_interp_Cwrapper/_spline_interp.cp312-win_amd64.pyd"
+      ]
+    }
+  ]
+}

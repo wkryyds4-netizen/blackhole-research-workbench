@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Black Hole Visualizer",
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5070 Laptop GPU (0x00002D58) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "size": [
+      1100,
+      760
+    ],
+    "hud": "165 fps · medium",
+    "buttons": [
+      "\n      \n        \n        \n        \n        \n      \n      \n        \n        \n      \n    ",
+      "Black Hole  ·  H hides this",
+      "0 · Presets",
+      "A star being devoured",
+      "Spaghettification, slowly",
+      "Binary merger with waves",
+      "Curved spacetime",
+      "Quasar with jets",
+      "Spinning hole (Kerr)",
+      "A probe frozen at the horizon",
+      "Wallpaper (hides the UI)",
+      "1 · Drop something in",
+      "Planet",
+      "Star",
+      "Second black hole",
+      "Beacon (freezes at the horizon)",
+      "Remove body",
+      "Remove beacon",
+      "2 · Time",
+      "↺ Reset this section",
+      "Camera",
+      "Fly in (plunge)",
+      "Fly past",
+      "Orbit the hole",
+      "Stop flight (Esc)",
+      "Hide the interface (H)",
+      "Black hole",
+      "↺ Reset this section",
+      "Accretion disc",
+      "↺ Reset this section",
+      "Light curve",
+      "Relativistic jet",
+      "↺ Reset this section",
+      "Infalling beacon",
+      "↺ Reset this section",
+      "Deep sky",
+      "Generate a new sky",
+      "↺ Reset this section",
+      "Spacetime",
+      "Light rays",
+      "Clear rays",
+      "Sound",
+      "Display",
+      "↺ Reset this section",
+      "↺ Reset everything"
+    ],
+    "selects": [
+      {
+        "value": "Cinematic spiral (slow, directable)",
+        "options": [
+          {
+            "value": "Cinematic spiral (slow, directable)",
+            "text": "Cinematic spiral (slow, directable)"
+          },
+          {
+            "value": "Realistic TDE (one violent pass)",
+            "text": "Realistic TDE (one violent pass)"
+          }
+        ]
+      },
+      {
+        "value": "medium",
+        "options": [
+          {
+            "value": "low",
+            "text": "low"
+          },
+          {
+            "value": "medium",
+            "text": "medium"
+          },
+          {
+            "value": "high",
+            "text": "high"
+          }
+        ]
+      }
+    ],
+    "text": "165 fps · medium\nBlack Hole · H hides this\n0 · Presets\nA star being devoured\nSpaghettification, slowly\nBinary merger with waves\nCurved spacetime\nQuasar with jets\nSpinning hole (Kerr)\nA probe frozen at the horizon\nWallpaper (hides the UI)\n1 · Drop something in\nPlanet\nStar\nSecond black hole\nBeacon (freezes at the horizon)\nRemove body\nRemove beacon\nDisruption physics\nCinematic spiral (slow, directable)\nRealistic TDE (one violent pass)\nCinematic spiral (slow, directable)\n2 · Time\nPause\nSpeed\nInspiral speed\nDisruption speed\nBeacon fall speed\n↺ Reset this section\nCamera\nBlack hole\nAccretion disc\nLight curve\nRelativistic jet\nInfalling beacon\nDeep sky\nSpacetime\nLight rays\nSound\nDisplay\n↺ Reset everything"
+  },
+  "messages": [
+    {
+      "type": "warning",
+      "text": "THREE.WebGLProgram: Program Info Log: (431,1): warning X4000: use of potentially uninitialized variable (f_photonDirection)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ]
+}

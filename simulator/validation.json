@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "distance_relative_error": 2.3019236543423614e-08,
+  "inclination_relative_error": 2.3019236543423614e-08,
+  "mass_FD_amplitude_scaling_error": 4.440892098500626e-16,
+  "early_frequency_hz": 24.585083,
+  "late_frequency_hz": 54.913646,
+  "version": {
+    "backend": "rippleGW",
+    "version": "0.2.1",
+    "mass_frame": "detector",
+    "strain_unit": "1e-21",
+    "f_ref_hz": 20,
+    "taper_hz": [
+      20,
+      25,
+      900,
+      1000
+    ],
+    "peak_alignment": "face-on quadrature-envelope maximum",
+    "chirp_mass": 28.095555795460438,
+    "eta": 0.24710059171597634,
+    "q": 0.8055555555555556,
+    "chi_eff": 0.0,
+    "peak_strain": 1.746014617631237e-21,
+    "duration": 1.387939453125
+  },
+  "event_shape_fits": {
+    "H1": {
+      "correlation": 0.8343179745124508,
+      "time_shift_ms": 23.92578125
+    },
+    "L1": {
+      "correlation": 0.7634829512607664,
+      "time_shift_ms": 16.6015625
+    }
+  },
+  "limitations": "No independent LALSuite or NR accuracy comparison in this environment. These are invariants, direction and pipeline checks."
+}

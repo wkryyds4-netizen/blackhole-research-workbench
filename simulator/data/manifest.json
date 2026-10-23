@@ -1,0 +1,20 @@
+[
+  {
+    "detector": "H1",
+    "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/H-H1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "sha256": "fefe8717306109460b6c9cff74da6beb9e80ee624824b4b09bdd2c54ce9b4dfc",
+    "bytes": 1286320,
+    "gps_start": 1126259447,
+    "sample_rate": 4096,
+    "duration": 32
+  },
+  {
+    "detector": "L1",
+    "url": "https://gwosc.org/eventapi/json/GWTC-1-confident/GW150914/v3/L-L1_GWOSC_4KHZ_R1-1126259447-32.txt.gz",
+    "sha256": "43d30a710d6ed4a8f27d13f45182f3825cbe99f87287b518618c8ff0e25e0d7c",
+    "bytes": 1219514,
+    "gps_start": 1126259447,
+    "sample_rate": 4096,
+    "duration": 32
+  }
+]

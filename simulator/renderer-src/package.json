@@ -1,0 +1,9 @@
+{
+  "name": "bbh-lab-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "vite build", "test": "node --test scene-state.test.mjs"},
+  "dependencies": {"three": "0.185.1"},
+  "devDependencies": {"vite": "8.1.5", "vite-plugin-glsl": "1.6.1"}
+}

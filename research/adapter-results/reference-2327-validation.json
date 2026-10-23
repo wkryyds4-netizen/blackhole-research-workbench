@@ -1,0 +1,347 @@
+{
+  "simulation": "SXS:BBH:2327",
+  "doi": "10.26138/SXS:BBH:2327v3.0",
+  "status": "not_marked_deprecated_in_pinned_official_catalog_or_downloaded_metadata",
+  "catalog_source": "https://raw.githubusercontent.com/sxs-collaboration/sxscatalogdata/d844f68850eae4d037a71cbbdeffa00e99faf622/simulations.json",
+  "catalog_source_sha256": "132d38520b3562c8f254b3c9aaf8efd4678428f94dbbabfef4436bc50c1c87c6",
+  "license": "not_declared_in_CaltechDATA_record",
+  "limitations": [
+    "Coordinate horizon diagnostics are gauge dependent.",
+    "Preserve per-level PBJ metadata. Lev1/2 report transition=0 and different base_lev; Lev3 reports base_lev=Lev3, transition=1418.353. Do not assume all available levels share an identical prefix.",
+    "0003 and 2327 have different initial-data constructions and reference times; their difference is not a resolution error."
+  ],
+  "levels": [
+    {
+      "level": "Lev1",
+      "reference_mass_ratio": 1.0000066923167148,
+      "reference_mass_total": 0.9999981064014265,
+      "reference_time": 854.0,
+      "reference_spin_magnitudes": [
+        0.49998811071697036,
+        1.996807859663054e-05
+      ],
+      "reference_transverse_spins": [
+        0.4999880366704671,
+        2.118015376798032e-07
+      ],
+      "reference_chi_eff": 0.00012607282403702378,
+      "reference_eccentricity": 0.0004515,
+      "pbj_info": {
+        "base_lev": "Lev1",
+        "transition_time": 0.0,
+        "base_lev_bitwise_identical": "true"
+      },
+      "horizons": {
+        "A": {
+          "position": {
+            "samples": 23333,
+            "time_min": 0.0,
+            "time_max": 11666.0
+          },
+          "mass": {
+            "samples": 23333,
+            "time_min": 0.0,
+            "time_max": 11666.0
+          },
+          "spin": {
+            "samples": 23333,
+            "time_min": 0.0,
+            "time_max": 11666.0
+          }
+        },
+        "B": {
+          "position": {
+            "samples": 23333,
+            "time_min": 0.0,
+            "time_max": 11666.0
+          },
+          "mass": {
+            "samples": 23333,
+            "time_min": 0.0,
+            "time_max": 11666.0
+          },
+          "spin": {
+            "samples": 23333,
+            "time_min": 0.0,
+            "time_max": 11666.0
+          }
+        },
+        "C": {
+          "position": {
+            "samples": 6186,
+            "time_min": 11664.815397640725,
+            "time_max": 12829.974877911744
+          },
+          "mass": {
+            "samples": 6186,
+            "time_min": 11664.815397640725,
+            "time_max": 12829.974877911744
+          },
+          "spin": {
+            "samples": 6186,
+            "time_min": 11664.815397640725,
+            "time_max": 12829.974877911744
+          }
+        }
+      },
+      "hdf5_sxs_format": "not_set; detected documented SpEC groups",
+      "common_horizon_time": 11664.815397640725,
+      "pre_common_gap_source_units": 0.0,
+      "binary_common_overlap_source_units": 1.1846023592752317
+    },
+    {
+      "level": "Lev2",
+      "reference_mass_ratio": 1.0000076083969076,
+      "reference_mass_total": 0.9999914814810197,
+      "reference_time": 871.5,
+      "reference_spin_magnitudes": [
+        0.4999962163581356,
+        2.1971985693184728e-05
+      ],
+      "reference_transverse_spins": [
+        0.4999961586582106,
+        1.001948578953336e-06
+      ],
+      "reference_chi_eff": 0.00013107856508406254,
+      "reference_eccentricity": 0.0003746,
+      "pbj_info": {
+        "base_lev": "Lev2",
+        "transition_time": 0.0,
+        "base_lev_bitwise_identical": "true"
+      },
+      "horizons": {
+        "A": {
+          "position": {
+            "samples": 23351,
+            "time_min": 0.0,
+            "time_max": 11675.0
+          },
+          "mass": {
+            "samples": 23351,
+            "time_min": 0.0,
+            "time_max": 11675.0
+          },
+          "spin": {
+            "samples": 23351,
+            "time_min": 0.0,
+            "time_max": 11675.0
+          }
+        },
+        "B": {
+          "position": {
+            "samples": 23351,
+            "time_min": 0.0,
+            "time_max": 11675.0
+          },
+          "mass": {
+            "samples": 23351,
+            "time_min": 0.0,
+            "time_max": 11675.0
+          },
+          "spin": {
+            "samples": 23351,
+            "time_min": 0.0,
+            "time_max": 11675.0
+          }
+        },
+        "C": {
+          "position": {
+            "samples": 6180,
+            "time_min": 11674.043195939495,
+            "time_max": 12839.999325175968
+          },
+          "mass": {
+            "samples": 6180,
+            "time_min": 11674.043195939495,
+            "time_max": 12839.999325175968
+          },
+          "spin": {
+            "samples": 6180,
+            "time_min": 11674.043195939495,
+            "time_max": 12839.999325175968
+          }
+        }
+      },
+      "hdf5_sxs_format": "not_set; detected documented SpEC groups",
+      "common_horizon_time": 11674.043195939495,
+      "pre_common_gap_source_units": 0.0,
+      "binary_common_overlap_source_units": 0.9568040605045098
+    },
+    {
+      "level": "Lev3",
+      "reference_mass_ratio": 1.0000094668426966,
+      "reference_mass_total": 1.0000051554084017,
+      "reference_time": 1027.0,
+      "reference_spin_magnitudes": [
+        0.4999778457273919,
+        2.2609149009444557e-05
+      ],
+      "reference_transverse_spins": [
+        0.49997598101747387,
+        1.032918140628584e-06
+      ],
+      "reference_chi_eff": 0.0006940520949674499,
+      "reference_eccentricity": 0.0002729,
+      "pbj_info": {
+        "base_lev": "Lev3",
+        "transition_time": 1418.353,
+        "base_lev_bitwise_identical": "true"
+      },
+      "horizons": {
+        "A": {
+          "position": {
+            "samples": 23377,
+            "time_min": 0.0,
+            "time_max": 11688.0
+          },
+          "mass": {
+            "samples": 23377,
+            "time_min": 0.0,
+            "time_max": 11688.0
+          },
+          "spin": {
+            "samples": 23377,
+            "time_min": 0.0,
+            "time_max": 11688.0
+          }
+        },
+        "B": {
+          "position": {
+            "samples": 23377,
+            "time_min": 0.0,
+            "time_max": 11688.0
+          },
+          "mass": {
+            "samples": 23377,
+            "time_min": 0.0,
+            "time_max": 11688.0
+          },
+          "spin": {
+            "samples": 23377,
+            "time_min": 0.0,
+            "time_max": 11688.0
+          }
+        },
+        "C": {
+          "position": {
+            "samples": 6170,
+            "time_min": 11687.204044469197,
+            "time_max": 12853.020470429652
+          },
+          "mass": {
+            "samples": 6170,
+            "time_min": 11687.204044469197,
+            "time_max": 12853.020470429652
+          },
+          "spin": {
+            "samples": 6170,
+            "time_min": 11687.204044469197,
+            "time_max": 12853.020470429652
+          }
+        }
+      },
+      "hdf5_sxs_format": "not_set; detected documented SpEC groups",
+      "common_horizon_time": 11687.204044469197,
+      "pre_common_gap_source_units": 0.0,
+      "binary_common_overlap_source_units": 0.7959555308025301
+    }
+  ],
+  "prefix_equality_checks": [
+    {
+      "level": "Lev1",
+      "horizon": "A",
+      "field": "position",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev1",
+      "horizon": "A",
+      "field": "mass",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev1",
+      "horizon": "A",
+      "field": "spin",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev1",
+      "horizon": "B",
+      "field": "position",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev1",
+      "horizon": "B",
+      "field": "mass",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev1",
+      "horizon": "B",
+      "field": "spin",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev2",
+      "horizon": "A",
+      "field": "position",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev2",
+      "horizon": "A",
+      "field": "mass",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev2",
+      "horizon": "A",
+      "field": "spin",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev2",
+      "horizon": "B",
+      "field": "position",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev2",
+      "horizon": "B",
+      "field": "mass",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    },
+    {
+      "level": "Lev2",
+      "horizon": "B",
+      "field": "spin",
+      "transition": 1418.353,
+      "samples": 2837,
+      "exactly_equal_to_Lev3": false
+    }
+  ]
+}

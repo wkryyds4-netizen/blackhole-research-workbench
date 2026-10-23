@@ -1,0 +1,35 @@
+{
+  "checks": [
+    "Standalone Kerr renderer is active",
+    "Spin controls optical Kerr metric",
+    "External-style timeline drives two-center scene",
+    "Generic timeline advances",
+    "Unsupported optical spin uses coordinates",
+    "Spin information retained",
+    "Valid scene import preserves title",
+    "Imported labels are plain text",
+    "Invalid import preserves current dataset",
+    "Baseline MC coverage displayed",
+    "Efficiency changes conditional posterior",
+    "Prior control remains responsive",
+    "Research export records data hash and assumptions",
+    "Related projects available",
+    "No overflow scene 1024",
+    "No overflow population 1024",
+    "No overflow projects 1024",
+    "No overflow scene 736",
+    "No overflow population 736",
+    "No overflow projects 736",
+    "No overflow scene 390",
+    "No overflow population 390",
+    "No overflow projects 390",
+    "No overflow scene 320",
+    "No overflow population 320",
+    "No overflow projects 320",
+    "No browser errors"
+  ],
+  "errors": [],
+  "warnings": [
+    "THREE.WebGLProgram: Program Info Log: (431,1): warning X4000: use of potentially uninitialized variable (f_photonDirection)"
+  ]
+}

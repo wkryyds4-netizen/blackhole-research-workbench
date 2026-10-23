@@ -1,0 +1,7 @@
+{
+  "baseline_posterior_mass_passing": 0.866953655329658,
+  "baseline_mean_sensitivity_log_efficiency": -1.420670731586993,
+  "scenarios_passing_at_least_90_percent": 39,
+  "scenarios": 81,
+  "max_derivative_check_error": 2.4112631891171077e-08
+}

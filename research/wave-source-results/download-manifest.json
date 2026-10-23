@@ -1,0 +1,35 @@
+{
+  "doi": "10.26138/SXS:BBH:2327v3.0",
+  "record": "f70bw-gcd50",
+  "license": "Record does not declare license; local research snapshot",
+  "files": [
+    {
+      "key": "Lev2:Strain_N2.h5",
+      "bytes": 4425307,
+      "url": "https://data.caltech.edu/api/records/f70bw-gcd50/files/Lev2:Strain_N2.h5/content",
+      "md5": "4bf8025c994a9dbb47b3bf03df4f0eed",
+      "sha256": "751a0d18b784e5e9cbf2710085b0ee32ab470c243b4bc667810c3fc06ec45059"
+    },
+    {
+      "key": "Lev2:Strain_N2.json",
+      "bytes": 2231,
+      "url": "https://data.caltech.edu/api/records/f70bw-gcd50/files/Lev2:Strain_N2.json/content",
+      "md5": "344f9bb6c96ea156a1d97d1c0e261c5d",
+      "sha256": "05592cebe5f3f6c66bd645769e26cca24eab7da91815dbc0083ad24973d95d34"
+    },
+    {
+      "key": "Lev3:Strain_N2.h5",
+      "bytes": 4253625,
+      "url": "https://data.caltech.edu/api/records/f70bw-gcd50/files/Lev3:Strain_N2.h5/content",
+      "md5": "20628ffa0c74f35a827bd8b37dbd19bc",
+      "sha256": "03805764556e1d6e1902f2f872099e33f4b146107d8b0e824a9b90c7c51a419e"
+    },
+    {
+      "key": "Lev3:Strain_N2.json",
+      "bytes": 2233,
+      "url": "https://data.caltech.edu/api/records/f70bw-gcd50/files/Lev3:Strain_N2.json/content",
+      "md5": "7aef3e9cae994ddfee5763b77993cce1",
+      "sha256": "2fc697aed2de0d5310fb2cee712bb9be2ada9c1378aa83436c09541d22a6615d"
+    }
+  ]
+}

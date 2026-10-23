@@ -1,0 +1,32 @@
+SXS numerical-relativity horizon data
+License for the historical Zenodo datasets 0001, 0003 and 0389 only: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Derived JSON: reference-mass normalization, proper coordinate rotation, time shift and adaptive resampling.
+Original files unchanged. No endorsement implied.
+Stage 3 waveform derivatives for 0389: Extrapolated_N2/N3/N4 CoM-corrected strain modes;
+all ell=2..4 modes rotated into a fixed coordinate orbital reference frame, then h22
+interpolated on a common finite grid, tapered and compared with NRSur7dq4.
+Source waveforms already normalized by ChMass; no additional mass division.
+Detailed transformations and hashes: research/stage3-results and wave-source-results.
+
+Binary black-hole simulation SXS:BBH:0001
+Creators: Lovelace, Geoffrey; Pfeiffer, Harald; Boyle, Mike; Scheel, Mark; Kidder, Larry; Zenginoglu, Anil; Mroue, Abdul; Hemberger, Dan; Szilagyi, Bela; Taylor, Nicholas
+Source: https://doi.org/10.5281/zenodo.2621619
+
+Binary black-hole simulation SXS:BBH:0003
+Creators: Mroue, Abdul; Scheel, Mark; Szilagyi, Bela; Taylor, Nicholas; Boyle, Michael; Zenginoglu, Anil; Lovelace, Geoffrey; Pfeiffer, Harald; Kidder, Larry; Hemberger, Dan
+Source: https://doi.org/10.5281/zenodo.13167015
+
+Binary black-hole simulation SXS:BBH:0389
+Creators: SXS Collaboration
+Source: https://doi.org/10.5281/zenodo.3274661
+
+SXS:BBH:0003 is deprecated and superseded by SXS:BBH:2327; historical interface demonstration only.
+
+SXS:BBH:2327 v3.0 (Lev1/Lev2/Lev3)
+SXS Collaboration
+https://doi.org/10.26138/SXS:BBH:2327v3.0
+https://data.caltech.edu/records/f70bw-gcd50
+License: unspecified in CaltechDATA metadata and DataCite rightsList at retrieval.
+Local research snapshot; do not infer CC-BY-4.0 for this dataset.
+Normalization, time shift, proper rotation and adaptive resampling performed by this project.

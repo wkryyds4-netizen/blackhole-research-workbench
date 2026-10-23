@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "dataset": "0389 Lev3 N2",
+      "exact_source_modes": 77
+    },
+    {
+      "dataset": "0389 Lev3 N3",
+      "exact_source_modes": 77
+    },
+    {
+      "dataset": "0389 Lev3 N4",
+      "exact_source_modes": 77
+    },
+    {
+      "dataset": "2327 Lev2 N2",
+      "time_exact": true,
+      "multiplet_power_rotation_max_relative_error": 3.1424273040519542e-15
+    },
+    {
+      "dataset": "2327 Lev3 N2",
+      "time_exact": true,
+      "multiplet_power_rotation_max_relative_error": 3.573909230730625e-15
+    }
+  ],
+  "julia_imported": false,
+  "environment": {
+    "sxs": "2024.0.25",
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "quaternionic": "1.0.18",
+    "spherical": "1.1.4",
+    "numba": "0.68.0"
+  },
+  "sxs_wheel_sha256": "b10d09745955477dfdb9886d3b4a32253a4e9492eea32f7b51913f795acd8b93"
+}

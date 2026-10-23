@@ -1,0 +1,94 @@
+{
+  "baseline": "22.7%",
+  "changed": "57.5%",
+  "dropped": "19.2%",
+  "priorChanged": "28.4%",
+  "calibrationChanged": "6.2%",
+  "errors": [],
+  "widths": [
+    {
+      "width": 1024,
+      "client": 992,
+      "scroll": 992,
+      "svg": [
+        {
+          "width": 482,
+          "axisTitles": 2
+        },
+        {
+          "width": 482,
+          "axisTitles": 2
+        },
+        {
+          "width": 992,
+          "axisTitles": 2
+        }
+      ],
+      "bodyScroll": 992,
+      "windowWidth": 992
+    },
+    {
+      "width": 736,
+      "client": 704,
+      "scroll": 704,
+      "svg": [
+        {
+          "width": 704,
+          "axisTitles": 2
+        },
+        {
+          "width": 704,
+          "axisTitles": 2
+        },
+        {
+          "width": 704,
+          "axisTitles": 2
+        }
+      ],
+      "bodyScroll": 704,
+      "windowWidth": 704
+    },
+    {
+      "width": 360,
+      "client": 328,
+      "scroll": 328,
+      "svg": [
+        {
+          "width": 328,
+          "axisTitles": 2
+        },
+        {
+          "width": 328,
+          "axisTitles": 2
+        },
+        {
+          "width": 328,
+          "axisTitles": 2
+        }
+      ],
+      "bodyScroll": 328,
+      "windowWidth": 328
+    },
+    {
+      "width": 320,
+      "client": 288,
+      "scroll": 288,
+      "svg": [
+        {
+          "width": 288,
+          "axisTitles": 2
+        },
+        {
+          "width": 288,
+          "axisTitles": 2
+        },
+        {
+          "width": 288,
+          "axisTitles": 2
+        }
+      ],
+      "bodyScroll": 288,
+      "windowWidth": 288
+    }
+  ]
+}

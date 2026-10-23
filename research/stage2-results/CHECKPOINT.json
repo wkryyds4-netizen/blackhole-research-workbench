@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-23",
+  "status": "planned-executed-integrated-verified",
+  "checks": {
+    "upstream_gwsurrogate": 79,
+    "new_frontend_numeric_contracts": 6,
+    "existing_contract_population": 9,
+    "new_browser": 22,
+    "existing_workbench_browser": 27,
+    "dataset_browser": 13,
+    "source_roundtrip": "all seven scenes against native horizon data"
+  },
+  "known_limits": [
+    "Coordinate alignment is not waveform mismatch",
+    "NRSur7dq4 validated at one demonstration input and upstream regressions; independent NR accuracy still pending",
+    "2327 license unspecified in official record",
+    "Inherited nonfatal renderer shader warning remains"
+  ],
+  "files": [
+    {
+      "path": "research/next-stage-plan.json",
+      "sha256": "f16c3521219490e0429d6fac0159f2effc7e26b95e266508b342dcc89150896d"
+    },
+    {
+      "path": "research/sxs_adapter.py",
+      "sha256": "6a8a36bf8580663c7b126434d6de5a1e359dab732a9d6c08e481d73057c7ce5a"
+    },
+    {
+      "path": "research/alignment_study.py",
+      "sha256": "cdba2601885abd74fde9dda0ea232612aa0b127d31b09152c2cd00778dcabb75"
+    },
+    {
+      "path": "research/run_surrogate.py",
+      "sha256": "96c3a743d933b09318037db8b80cf9ab341f06032af53da1ffcda0e0d9c37aa1"
+    },
+    {
+      "path": "research/build_surrogate_runtime.py",
+      "sha256": "2451f632966fbe753fda9c7c32451e6624e1855650dbc5efab339fd51a5a235e"
+    },
+    {
+      "path": "research/fetch_reference.py",
+      "sha256": "0f416f155561a2ff59f1d8d8e06a5b6250e16ac2f7ef7b0e1b99608a2daaf5f4"
+    },
+    {
+      "path": "research/fetch_surrogate_compiler.py",
+      "sha256": "e7fb86f5c2aca77490c7b0c8c210a3e9debe18a5967cb71fe01ed81290e9447e"
+    },
+    {
+      "path": "research/adapter-results/reference-2327-validation.json",
+      "sha256": "dc3dccdc8b741e963ea7b4e312cd785af0c4323a20d9e51445da1f7c02e0a447"
+    },
+    {
+      "path": "research/adapter-results/sxs-validation.json",
+      "sha256": "2271acc93d324e4e50e782fb7169d5a17316bcd956d216386d81134ea7829080"
+    },
+    {
+      "path": "research/surrogate-results/validation.json",
+      "sha256": "9bc9ddd617d7435f19a7173e00471d717dc80f405f05947ca230d44b1f1ef591"
+    },
+    {
+      "path": "research/surrogate-results/upstream-tests.json",
+      "sha256": "dccfddc81d94216b9262ed853129586b36f7371b484bb4390b0098663b400d27"
+    },
+    {
+      "path": "research/surrogate-results/runtime-build.json",
+      "sha256": "c81e8324fb7f958e4203abfd891b466aeff1af6068566733ad0745e2d7f76347"
+    },
+    {
+      "path": "research/alignment-results/summary.json",
+      "sha256": "dafbdae98be9636c62113745e7f59583813cbe7f328ff753bfb7a624b50a09c2"
+    },
+    {
+      "path": "simulator/SCENE_CONTRACT.md",
+      "sha256": "8151d1ceb3f915059fd96415d89a96d7ed75b51473b3e85aa9bb350c11cbf683"
+    },
+    {
+      "path": "simulator/public/workbench.html",
+      "sha256": "f4e232ab885f717a9b558f1c066e28864ceeb2f2bea5894ca5d853773ac3cde6"
+    },
+    {
+      "path": "simulator/public/workbench.js",
+      "sha256": "3746b620053c7ccffda4a51de0570a1d152a128b92d313a34ce236815e0df098"
+    },
+    {
+      "path": "simulator/public/workbench.css",
+      "sha256": "a49beaa682e6a7a03ac0b8520b9342967b8c0c0569940c46f03731f3d0710ce4"
+    },
+    {
+      "path": "simulator/public/scene-contract.mjs",
+      "sha256": "fe5696b4b22b28035d93720e305bc4a6c2acfc13d58705b32cdadff7e8a22ae0"
+    },
+    {
+      "path": "simulator/public/alignment-view.mjs",
+      "sha256": "64b03c526ba13b1a356f7f3a2eb1eb68592fa9ef13b5026101f93c57fc384990"
+    },
+    {
+      "path": "simulator/public/dynamics-view.mjs",
+      "sha256": "23614ed030f56e518367e1034a1bebb5971b446f768632aeb05b5a255ffb44fb"
+    },
+    {
+      "path": "simulator/public/projects.json",
+      "sha256": "afef2c8acf273d03cb7030db0f065d6e4d53247170f9eabdd87a562f6952d582"
+    },
+    {
+      "path": "research/stage2-results/README.md",
+      "sha256": "115a46ac1bcf113859e74f5278fdbc3770a6ef0454e5877632943ed8af5d7f1c"
+    },
+    {
+      "path": "research/stage2-results/browser-validation.json",
+      "sha256": "7e44365c2292e830c1f8bb5c39a40fd20f87cc4ac76ac5681f4b5dcdca85f0cd"
+    },
+    {
+      "path": "research/stage2-results/workbench-validation.json",
+      "sha256": "b3deba7b9a0865118e49c278dc3773768e2f23640d06b40a93ca22197109d6e1"
+    },
+    {
+      "path": "research/stage2-results/datasets-validation.json",
+      "sha256": "f6ffe7bfeb0edc9a879f47fae09262da2a00d069283179dbb2782dfd1dad11ec"
+    },
+    {
+      "path": "simulator/public/datasets/alignment.json",
+      "sha256": "f5096d10edaf8ae0255856f142b80b69c9cc9c646fd51317162314815282933e"
+    },
+    {
+      "path": "simulator/public/datasets/catalog.json",
+      "sha256": "4d096f4c1c7b1ac5900035db31f24b4f5080688bab5e548212b18f573fea6e7c"
+    },
+    {
+      "path": "simulator/public/datasets/dynamics.json",
+      "sha256": "3119351e68e3210039a374145f4f321b789609f3647d598a0cfbd5ae8072beb1"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-0001-lev5.json",
+      "sha256": "21705e4a33f9b3505c1b59d6b7cdcf2dabf9d52f9516856c115885c549548298"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-0003-lev5.json",
+      "sha256": "4f063f8de7054df948cafe2c0b9a143db1a1dadfad8720bbc351c349e964419e"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-0389-lev2.json",
+      "sha256": "3c88356c637b4c1c6ae0121576195a5d465cc14062df6322aae066c33dd89019"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-0389-lev3.json",
+      "sha256": "4d6873db9e92bbd90d8f697b930c1634e54a4fc9ec6b8c485994ae93be1f0a3e"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-2327-lev1.json",
+      "sha256": "515b7e4ee806dbd9ff3b5e9cc962b9fb4620172d3037863d9dd547fc501ce612"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-2327-lev2.json",
+      "sha256": "868fb0c28f7aecb25c7bdd1d05f941c6431661b3685394fed72ff92701541999"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-2327-lev3.json",
+      "sha256": "911c3ea0021313cc228df11d9316994b872f2821f22f3d8baaed301288280499"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "saved_date": "2026-10-23",
+  "status": "generic-workbench-and-research-diagnostics-verified",
+  "files": [
+    {
+      "path": "research/generalization-review.md",
+      "sha256": "437DFF2CC369C8D0B90136C4FB7DF73355683CA908BB55647F60B7DC53F2FFA1"
+    },
+    {
+      "path": "research/generalization_study.py",
+      "sha256": "515961FAD4CAC8A65A4B2FE6431817D5AFA731BEA0F4DE9E72202F3E6D410E31"
+    },
+    {
+      "path": "results/generalization-summary.json",
+      "sha256": "DAFD97AADCFE62C38CEAF9D2539645DD3BC93B9B2F144576FD01E483308D179E"
+    },
+    {
+      "path": "results/model.json",
+      "sha256": "6DCF3C9F4FD51B2007977D131C61F69C7D861AFB986551EA82B70A7667A51083"
+    },
+    {
+      "path": "simulator/public/workbench.html",
+      "sha256": "4BD2D4064D660DF48E504BC561F4FBE3CAE78FED51FCC4E771EA7A8F513826A7"
+    },
+    {
+      "path": "simulator/public/workbench.js",
+      "sha256": "2F6168EA154D5F5A694707A8CBC826AF86F2D4B1802BBAA8C0EDBED4864D3FA6"
+    },
+    {
+      "path": "simulator/public/workbench.css",
+      "sha256": "1A45ECF4D2339A94CB656993946D12E584C6E80CF5D2B804ED35FCBF679A84C7"
+    },
+    {
+      "path": "simulator/public/scene-contract.mjs",
+      "sha256": "C3E77FC332D93F0E7320B65DD73A5CB13E1C11C9A15B945A45BD4CB3B481EC30"
+    },
+    {
+      "path": "simulator/public/population-contract.mjs",
+      "sha256": "476EFA6BB97FA4324C0E40470A938BCE6CFEEEC38EB6DEC0F4E1A93ACC436798"
+    },
+    {
+      "path": "simulator/public/projects.json",
+      "sha256": "B0711C019B233E667E84B515C2963F058F7F4FDF8F0E45B9F0A68C3E4297A8D2"
+    },
+    {
+      "path": "simulator/public/research-data.json",
+      "sha256": "0D9CAD8E2B7DC8D429D08F89BB007DF2A0154B8A846D3BCF9E8E7FA807F9343E"
+    },
+    {
+      "path": "simulator/public/lensing/renderer.js",
+      "sha256": "62691EF1E4792FCE7C42EC7866EE12C041F4FB13B82681A96E3147C16AD26A93"
+    },
+    {
+      "path": "simulator/renderer-src/adapter.js",
+      "sha256": "D9756809C0B340C7917F351B51233ABEBC131D860AB00A9C73099B861D7CC54B"
+    },
+    {
+      "path": "simulator/SCENE_CONTRACT.md",
+      "sha256": "BAFAEA8BEE027DA3C57E7A3EB4CA2CA949820814C6DDE3895D9C45A3E199512F"
+    }
+  ],
+  "checks": {
+    "workbench_browser": 27,
+    "legacy_waveform": 23,
+    "legacy_lensing": 18,
+    "legacy_coordinates": 3,
+    "contract_statistics": 8
+  }
+}

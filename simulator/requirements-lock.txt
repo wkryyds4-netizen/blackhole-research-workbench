@@ -1,0 +1,14 @@
+certifi==2026.10.19
+charset-normalizer==3.5.2
+idna==3.20
+jax==0.12.0.1
+jaxlib==0.12.0.1
+jaxtyping==0.3.11
+ml_dtypes==0.6.0
+numpy==2.5.4
+opt_einsum==3.4.0
+requests==2.34.2
+rippleGW==0.2.1
+scipy==1.18.1
+urllib3==2.8.0
+wadler_lindig==0.1.7

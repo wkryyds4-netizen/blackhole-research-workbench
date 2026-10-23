@@ -1,0 +1,46 @@
+{
+  "reader": "direct documented NRAR columns [t,real,imag]",
+  "format": "NRAR",
+  "group": "Extrapolated_N2.dir",
+  "frame": "inertial",
+  "hdf5_attributes": {
+    "DataType": 1,
+    "FrameType": 1,
+    "MIsScaledOut": 1,
+    "OutputFormatVersion": "scri.SpEC",
+    "RIsScaledOut": 1,
+    "boost_velocity": [
+      1.61350735e-07,
+      9.2463782e-08,
+      2.18221275e-09
+    ],
+    "space_translation": [
+      -2.12387684e-05,
+      -1.38374957e-05,
+      -2.45055831e-06
+    ]
+  },
+  "normalization_ChMass_code_units": 0.999988106301,
+  "history": "WaveformModes_2728 = scri.SpEC.read_from_h5(\"4d2sB/0068/Lev3/rhOverM_Asymptotic_GeometricUnits.h5/Extrapolated_N2.dir\", **{})\n# # WaveformBase.ensure_validity(WaveformModes_2728, alter=True, assertions=True)\n# WaveformModes.ensure_validity(WaveformModes_2728, alter=True, assertions=True)\n# hostname = homard\n# cwd = /mnt/raid-project/nr/woodford/SimulationAnnex/Incoming\n# datetime = 2017-01-19T18:09:56.001527\n# scri.__version__ = 2016.10.10.devc5096f2\n# spherical_functions.__version__ = 2016.08.30.dev77191149\n# quaternion.__version__ = 2016.08.30.dev166148028\n# scipy.__version__ = 0.17.1\n# numba.__version__ = 0.26.0\n# numpy.__version__ = 1.11.0\n\n# # <previous_history>\n# ### Code revision (`git rev-parse HEAD` or arXiv version) = 188298fa0caf9a889a533cacfbe29cd52b026cac\n# ### pwd = /nfs/as11/sxs/danh/SimulationAnnex/Support/Extrapolation\n# ### hostname = zwicky\n# ### date = Thu Dec  3 18:09:59 2015\n# ### Waveform(); // empty constructor\n# ### Extrapolating with N=2\n# ######## Begin old history ########\n# ### Code revision (`git rev-parse HEAD` or arXiv version) = 188298fa0caf9a889a533cacfbe29cd52b026cac\n# ### pwd = /nfs/as11/sxs/danh/SimulationAnnex/Support/Extrapolation\n# ### hostname = zwicky\n# ### date = Thu Dec  3 18:09:07 2015\n# ### Waveform(); // empty constructor\n# ### Code revision (`git rev-parse HEAD` or arXiv version) = 188298fa0caf9a889a533cacfbe29cd52b026cac\n# ### pwd = /nfs/as11/sxs/danh/SimulationAnnex/Support/Extrapolation\n# ### hostname = zwicky\n# ### date = Thu Dec  3 18:08:33 2015\n# ### Waveform(); // empty constructor\n# ### # Python read from '/nfs/as11/sxs/danh/SimulationAnnex/Incoming/4d2sB/0068/Lev3/rh_FiniteRadii_CodeUnits.h5/R0695.dir'.\n# ### *this = this->Interpolate(NewTime,0);\n# ### this->TransformToCorotatingFrame([])\n# #### this->RotateDecompositionBasis(R_frame); // R_frame=[[1, 0, 0, 0], [0.9999999883350754, 2.075289147563372e-09, 9.201087811344728e-10, 0.0001527411175210315], ...]\n# ### this->AlignDecompositionFrameToModes(2557.311301349528, ...);\n# #### this->RotateDecompositionBasis([0.9376817408592537, 6.123713118703767e-05, 5.231097700606656e-05, -0.3474952465469633]);\n# ######## End old history ########\n# ### this->TransformToInertialFrame();\n# #### this->RotateDecompositionBasis(R_frame); // R_frame=[[0.9376817408592537, -6.123713118703767e-05, -5.231097700606656e-05, 0.3474952465469633], [0.9377348067333825, -6.123076666293756e-05, -5.232191374603192e-05, 0.3473520199364273], ...]\n# # Extrapolation input arguments:\n# D = {}\n# D['InputDirectory'] = /nfs/as11/sxs/danh/SimulationAnnex/Incoming/4d2sB/0068/Lev3/\n# D['OutputDirectory'] = /nfs/as11/sxs/danh/SimulationAnnex/Incoming/4d2sB/0068/Lev3/\n# D['DataFile'] = /nfs/as11/sxs/danh/SimulationAnnex/Incoming/4d2sB/0068/Lev3/rh_FiniteRadii_CodeUnits.h5\n# D['ChMass'] = 0.999988106301\n# D['HorizonsFile'] = /nfs/as11/sxs/danh/SimulationAnnex/Incoming/4d2sB/0068/Lev3/Horizons.h5\n# D['CoordRadii'] = [u'0100', u'0103', u'0108', u'0112', u'0117', u'0122', u'0128', u'0135', u'0142', u'0150', u'0159', u'0169', u'0180', u'0193', u'0208', u'0226', u'0247', u'0272', u'0303', u'0341', u'0391', u'0458', u'0552', u'0695']\n# D['LModes'] = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]\n# D['ExtrapolationOrders'] = [-1, 2, 3, 4]\n# D['UseOmega'] = False\n# D['OutputFrame'] = 1\n# D['ExtrapolatedFiles'] = rhOverM_Asymptotic_GeometricUnits.h5/Extrapolated_N{N}.dir\n# D['ExtrapolationUncertaintyFiles'] = \n# D['DifferenceFiles'] = \n# D['UseStupidNRARFormat'] = True\n# D['PlotFormat'] = \n# D['MinTimeStep'] = 0.005\n# D['EarliestTime'] = -3e+300\n# D['LatestTime'] = 3e+300\n# D['AlignmentTime'] = 2557.31130135\n# # End Extrapolation input arguments\n# ### OutputToNRAR(W, /nfs/as11/sxs/danh/SimulationAnnex/Incoming/4d2sB/0068/Lev3/rhOverM_Asymptotic_GeometricUnits.h5)\n# \n# # </previous_history>\n\n# WaveformBase.ensure_validity(WaveformModes_2728, alter=True, assertions=False)\nWaveformModes.ensure_validity(WaveformModes_2728, alter=True, assertions=False)\nWaveformGrid_1364 = WaveformGrid.from_modes(WaveformModes_2728, **{'boost_velocity': array([  1.61350735e-07,   9.24637820e-08,   2.18221275e-09]), 'space_translation': array([ -2.12387684e-05,  -1.38374957e-05,  -2.45055831e-06])})\n# # WaveformBase.ensure_validity(WaveformGrid_1364, alter=True, assertions=True)\n# WaveformModes.ensure_validity(WaveformGrid_1364, alter=True, assertions=True)\n# hostname = homard\n# cwd = /mnt/raid-project/nr/woodford/SimulationAnnex/Incoming\n# datetime = 2017-01-19T18:10:04.609914\n# scri.__version__ = 2016.10.10.devc5096f2\n# spherical_functions.__version__ = 2016.08.30.dev77191149\n# quaternion.__version__ = 2016.08.30.dev166148028\n# scipy.__version__ = 0.17.1\n# numba.__version__ = 0.26.0\n# numpy.__version__ = 1.11.0\nWaveformModes_2729 = WaveformGrid_1364.to_modes(8)\n# # WaveformBase.ensure_validity(WaveformModes_2729, alter=True, assertions=True)\n# WaveformModes.ensure_validity(WaveformModes_2729, alter=True, assertions=True)\n# hostname = homard\n# cwd = /mnt/raid-project/nr/woodford/SimulationAnnex/Incoming\n# datetime = 2017-01-19T18:10:05.954010\n# scri.__version__ = 2016.10.10.devc5096f2\n# spherical_functions.__version__ = 2016.08.30.dev77191149\n# quaternion.__version__ = 2016.08.30.dev166148028\n# scipy.__version__ = 0.17.1\n# numba.__version__ = 0.26.0\n# numpy.__version__ = 1.11.0\n\nwrite_to_h5(WaveformModes_2729, 4d2sB/0068/Lev3/rhOverM_Asymptotic_GeometricUnits_CoM.h5)\n",
+  "schema": "blackhole-nr-waveform/1",
+  "source_file": "waveform-data\\0389\\Lev3\\rhOverM_Asymptotic_GeometricUnits_CoM.h5",
+  "source_sha256": "a7202b88cc628472bcbd475cc1a8ccd52b1fe6d63da971214cab430fe03cfbf9",
+  "time_unit": "GM/c^3",
+  "mode_unit": "r*h/M",
+  "spin_weight": -2,
+  "complex_convention": "h_plus - i h_cross",
+  "time_shift_applied": 0,
+  "extra_spatial_rotation_applied": false,
+  "samples": 15996,
+  "mode_count": 77,
+  "time_range_M": [
+    -107.76155555281474,
+    5223.281358314723
+  ],
+  "peak_all_modes_time_M": 5065.402632488271,
+  "peak_lte4_time_M": 5065.402632488271,
+  "peak_h22_time_M": 5065.402632488271,
+  "clock_warning": "Radiation retarded-time coordinate; no exact mapping to horizon coordinate time is asserted.",
+  "training_membership": "Not established; external archive comparison, not a held-out validation claim.",
+  "npz_sha256": "4255d9768e0aa3f634844eb0cb98d4e1be1432f2df479e07944065099f46b6c9"
+}

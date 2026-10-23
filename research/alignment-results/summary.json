@@ -1,0 +1,256 @@
+{
+  "schema": "blackhole-alignment-study/1",
+  "simulation": "SXS:BBH:0389",
+  "reference_level": "Lev3",
+  "comparison_level": "Lev2",
+  "reference_total_mass_source_units": 0.999988106301,
+  "time_units": "source coordinate time / Lev3 reference total mass (GM/c^3)",
+  "length_units": "GM/c^2 with the same Lev3 reference mass",
+  "convention": "r = center(A) - center(B); compare Rz(phi) r_Lev2(t + delta_t) with r_Lev3(t)",
+  "rotation_axis": "original inertial +z; maps to workbench -y under Rx(+pi/2)",
+  "fit_objective": "mean squared 3D relative-position residual on early window; constant proper rotation and constant time shift only",
+  "common_horizon_alignment_note": "uses a late-time landmark and is a retrospective comparison, not an early-only predictive fit",
+  "interpolation": "linear on each horizon original native grid, no display compression and no extrapolation",
+  "training_window_M": [
+    670.0076120578956,
+    1745.7895395562036
+  ],
+  "validation_window_M": [
+    3467.0406235534965,
+    4973.135322051128
+  ],
+  "validation_samples": 2001,
+  "source_common_horizon_difference_high_minus_low": 4.625415068986513,
+  "training_window_sensitivity": [
+    {
+      "training_fraction": 0.15,
+      "training_window_M": [
+        670.0076120578956,
+        1315.4767685568804
+      ],
+      "delta_t_M": -2.962400434378965,
+      "phase_rotation_rad": 0.04567143937788359,
+      "training_rms_relative_position_M": 0.0018295371087069321,
+      "search_bound_M": 30.0,
+      "search_boundary_hit": false,
+      "fit_samples": 1001,
+      "validation": {
+        "rms_relative_position_M": 0.23674560776181086,
+        "max_relative_position_M": 0.456358894645309,
+        "rms_separation_difference_M": 0.007431192798931594,
+        "max_separation_difference_M": 0.027394928250456196,
+        "rms_planar_phase_residual_rad": 0.02647670364105122,
+        "max_abs_planar_phase_residual_rad": 0.07045859713332442
+      }
+    },
+    {
+      "training_fraction": 0.25,
+      "training_window_M": [
+        670.0076120578956,
+        1745.7895395562036
+      ],
+      "delta_t_M": -3.287400870632458,
+      "phase_rotation_rad": 0.050988697337909075,
+      "training_rms_relative_position_M": 0.002089443556101794,
+      "search_bound_M": 30.0,
+      "search_boundary_hit": false,
+      "fit_samples": 1001,
+      "validation": {
+        "rms_relative_position_M": 0.18720057189735687,
+        "max_relative_position_M": 0.35832694317569114,
+        "rms_separation_difference_M": 0.005831579764978966,
+        "max_separation_difference_M": 0.021590934771813508,
+        "rms_planar_phase_residual_rad": 0.02091535659952008,
+        "max_abs_planar_phase_residual_rad": 0.055293144952628784
+      }
+    },
+    {
+      "training_fraction": 0.35,
+      "training_window_M": [
+        670.0076120578956,
+        2176.102310555527
+      ],
+      "delta_t_M": -3.5812077119306807,
+      "phase_rotation_rad": 0.05586723849881467,
+      "training_rms_relative_position_M": 0.0029073870228063254,
+      "search_bound_M": 30.0,
+      "search_boundary_hit": false,
+      "fit_samples": 1001,
+      "validation": {
+        "rms_relative_position_M": 0.14309887663608056,
+        "max_relative_position_M": 0.2702161624802712,
+        "rms_separation_difference_M": 0.004388251872926729,
+        "max_separation_difference_M": 0.01573634702677129,
+        "rms_planar_phase_residual_rad": 0.015954903351093386,
+        "max_abs_planar_phase_residual_rad": 0.041682529858868715
+      }
+    }
+  ],
+  "checks": {
+    "synthetic_known_delta_t_M": 3.25,
+    "synthetic_recovered_delta_t_M": 3.2500000065298953,
+    "synthetic_known_phi_rad": -0.43,
+    "synthetic_recovered_phi_rad": -0.4300000009693069,
+    "synthetic_held_out_max_error_M": 6.0844672100556196e-09,
+    "positive_rotation_and_norm_preservation": true,
+    "fit_query_audit": {
+      "reference_range": [
+        20.0,
+        80.0
+      ],
+      "candidate_range": [
+        10.0,
+        90.0
+      ],
+      "no_validation_values_requested": true
+    },
+    "fit_sample_count_sensitivity": {
+      "coarse_samples": 1001,
+      "dense_samples": 2001,
+      "delta_t_change_M": 0.00021982976906986806,
+      "phase_change_rad": -3.6139589226699687e-06,
+      "held_out_rms_change_M": 3.3342812513353914e-05
+    },
+    "extrapolation_rejected": true,
+    "no_training_validation_overlap_even_with_shift_bound": true,
+    "all_fitted_searches_interior": true
+  },
+  "limitations": [
+    "Coordinate/gauge dependent; coordinate separation is not proper distance.",
+    "Two resolutions do not establish convergence order or a continuum error.",
+    "No waveform, detector weighting, noise-weighted mismatch, or formation-channel evidence is evaluated.",
+    "Only a near-nonspinning system is studied; constant z rotation is not a general precession alignment.",
+    "Linear native-grid interpolation remains in the diagnostic; differences include sampling effects.",
+    "Early-window choices and shift bound are protocol choices, not probabilistic uncertainty intervals."
+  ],
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/0810.1767",
+      "role": "Published waveform comparison demonstrates alignment changes quoted numerical differences; not validation of this coordinate metric."
+    },
+    {
+      "url": "https://sxs.readthedocs.io/en/main/tutorials/03-Horizons/",
+      "role": "Official horizon quantities and coordinate trajectories."
+    }
+  ],
+  "sources": [
+    {
+      "level": "Lev2",
+      "doi": "10.5281/zenodo.3274661",
+      "files": [
+        {
+          "file": "Horizons.h5",
+          "url": "https://zenodo.org/api/records/3274661/files/Lev2/Horizons.h5/content",
+          "bytes": 1949448,
+          "md5": "md5:3ad2b2d1e5f0a0b247b229384c876d56",
+          "sha256": "aeeea17afb83f811e3ace8c2728388aaa8f98c29257798c74a5103d25d26592e"
+        },
+        {
+          "file": "metadata.json",
+          "url": "https://zenodo.org/api/records/3274661/files/Lev2/metadata.json/content",
+          "bytes": 3634,
+          "md5": "md5:02b2cabace6395d87d4e772805b8846d",
+          "sha256": "c2e6d662c71bcd3b564cbcd1edb5ca9fd299355ca7e1a1e759b1b56b750ab228"
+        }
+      ]
+    },
+    {
+      "level": "Lev3",
+      "doi": "10.5281/zenodo.3274661",
+      "files": [
+        {
+          "file": "metadata.json",
+          "url": "https://zenodo.org/api/records/3274661/files/Lev3/metadata.json/content",
+          "bytes": 3630,
+          "md5": "md5:3a22e4bddf490d8b235686cf1f82424e",
+          "sha256": "40e4e7e9d8a818d66ee33ece7b3571fb04cfb9f00cafd9e8e03e5d9de18277e8"
+        },
+        {
+          "file": "Horizons.h5",
+          "url": "https://zenodo.org/api/records/3274661/files/Lev3/Horizons.h5/content",
+          "bytes": 1900733,
+          "md5": "md5:b7605e38ccc07e7b09b7e641036c2b70",
+          "sha256": "5442343201c65e0cf5ad7a8e958d8d5ff4d2b64cca485bbcd878f33d6fbd5bf2"
+        }
+      ]
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "script_sha256": "cdba2601885abd74fde9dda0ea232612aa0b127d31b09152c2cd00778dcabb75",
+  "methods": [
+    {
+      "id": "raw",
+      "label": "共同原始坐标时间",
+      "delta_t_M": 0.0,
+      "phase_rotation_rad": 0.0,
+      "training": {
+        "rms_relative_position_M": 0.0669609134704555,
+        "max_relative_position_M": 0.10821813385406215,
+        "rms_separation_difference_M": 0.003065341244099625,
+        "max_separation_difference_M": 0.004634339080885397,
+        "rms_planar_phase_residual_rad": 0.004483454171328348,
+        "max_abs_planar_phase_residual_rad": 0.00740169667949636
+      },
+      "validation": {
+        "rms_relative_position_M": 0.7151626945167081,
+        "max_relative_position_M": 1.3705922198598894,
+        "rms_separation_difference_M": 0.022165203281288706,
+        "max_separation_difference_M": 0.08313797917045118,
+        "rms_planar_phase_residual_rad": 0.07982530305485212,
+        "max_abs_planar_phase_residual_rad": 0.21287941050547082
+      }
+    },
+    {
+      "id": "common-horizon",
+      "label": "共同视界时间平移",
+      "delta_t_M": -4.625470082935413,
+      "phase_rotation_rad": 0.0,
+      "training": {
+        "rms_relative_position_M": 1.1093355083930263,
+        "max_relative_position_M": 1.1272413179098124,
+        "rms_separation_difference_M": 0.0014194189069244038,
+        "max_separation_difference_M": 0.00262589307929062,
+        "rms_planar_phase_residual_rad": 0.0734480689597184,
+        "max_abs_planar_phase_residual_rad": 0.07439166939891331
+      },
+      "validation": {
+        "rms_relative_position_M": 0.7839505174004994,
+        "max_relative_position_M": 0.9209397400231715,
+        "rms_separation_difference_M": 0.0009179036993697058,
+        "max_separation_difference_M": 0.003489906081434846,
+        "rms_planar_phase_residual_rad": 0.074531924969666,
+        "max_abs_planar_phase_residual_rad": 0.07971463631421889
+      }
+    },
+    {
+      "id": "early-fit",
+      "label": "早期窗口固定时间＋相位拟合",
+      "delta_t_M": -3.287400870632458,
+      "phase_rotation_rad": 0.050988697337909075,
+      "training_rms_relative_position_M": 0.002089443556101794,
+      "search_bound_M": 30.0,
+      "search_boundary_hit": false,
+      "fit_samples": 1001,
+      "training": {
+        "rms_relative_position_M": 0.002089443556101794,
+        "max_relative_position_M": 0.004502826213027409,
+        "rms_separation_difference_M": 0.0007736503666651688,
+        "max_separation_difference_M": 0.0015314949383693488,
+        "rms_planar_phase_residual_rad": 0.00012840460769523638,
+        "max_abs_planar_phase_residual_rad": 0.0002963852332342891
+      },
+      "validation": {
+        "rms_relative_position_M": 0.18720057189735687,
+        "max_relative_position_M": 0.35832694317569114,
+        "rms_separation_difference_M": 0.005831579764978966,
+        "max_separation_difference_M": 0.021590934771813508,
+        "rms_planar_phase_residual_rad": 0.02091535659952008,
+        "max_abs_planar_phase_residual_rad": 0.055293144952628784
+      }
+    }
+  ]
+}

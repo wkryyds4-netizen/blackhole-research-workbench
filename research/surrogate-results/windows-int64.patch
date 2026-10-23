@@ -1,0 +1,45 @@
+--- a/precessing_utils.c
++++ b/precessing_utils.c
+@@ -184,13 +184,13 @@
+  * Evaluate a single parametric fit given a precomputed x_powers table.
+  * Sums coef[i] times the product of 7 basis functions (one power per parameter).
+  */
+-static double eval_one_fit(const long *bf_order_data, const double *coef_data, int n,
++static double eval_one_fit(const npy_int64 *bf_order_data, const double *coef_data, int n,
+                            const double *x_powers,
+                            int q_max_bfOrder, int chi_max_bfOrder) {
+     int i, j;
+     double res = 0.0;
+     for (i=0; i<n; i++) {
+-        const long *orders = bf_order_data + i*7;
++        const npy_int64 *orders = bf_order_data + i*7;
+         double prod = x_powers[orders[0]];
+         for (j=1; j<7; j++) {
+             int base_idx = q_max_bfOrder+1 + (chi_max_bfOrder+1)*(j-1);
+@@ -213,7 +213,7 @@
+         PyArrayObject *bf_orders = (PyArrayObject *) PyTuple_GET_ITEM(fit_tuple, 0);
+         PyArrayObject *coefs_arr = (PyArrayObject *) PyTuple_GET_ITEM(fit_tuple, 1);
+ 
+-        long   *bf_order_data = (long *)   PyArray_DATA(bf_orders);
++        npy_int64 *bf_order_data = (npy_int64 *) PyArray_DATA(bf_orders);
+         double *coef_data     = (double *) PyArray_DATA(coefs_arr);
+         int n = (int) PyArray_DIMS(coefs_arr)[0];
+ 
+@@ -247,7 +247,7 @@
+ 
+     PyArrayObject *bf_orders, *coefs, *x;
+     int n;
+-    long *bf_order_data;
++    npy_int64 *bf_order_data;
+     double res, *coef_data, *x_data, q_fit_offset, q_fit_slope;
+     int q_max_bfOrder, chi_max_bfOrder;
+ 
+@@ -266,7 +266,7 @@
+     double x_powers[q_max_bfOrder+1 + 6*(chi_max_bfOrder+1)];
+ 
+     // Point to numpy array data
+-    bf_order_data = (long *) PyArray_DATA(bf_orders);
++    bf_order_data = (npy_int64 *) PyArray_DATA(bf_orders);
+     coef_data = (double *) PyArray_DATA(coefs);
+     x_data = (double *) PyArray_DATA(x);
+     n = PyArray_DIMS(coefs)[0];

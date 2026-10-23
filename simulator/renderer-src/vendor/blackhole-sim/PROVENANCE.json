@@ -1,0 +1,107 @@
+{
+  "repository": "https://github.com/algometrix/blackhole-sim",
+  "commit": "0ee5541ec4ffcd9ca708f37c080bf00b7f3ef6d1",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "src/render/blackHolePass.ts",
+      "sha256": "e3fafffbb86dfeb3f9b3d80ed92f3807d4d8f8bc223c67e55f50a7593fe32958"
+    },
+    {
+      "path": "src/physics/constants.ts",
+      "sha256": "fe30390a9ae6addb7b9fbd177619b4e631dbbd0cd7b87a20b5a7422a140633ba"
+    },
+    {
+      "path": "src/physics/kerr.ts",
+      "sha256": "04735202534779e0dcabd1e466a9491a627953fc2bcfe6ce36a6110f2fc3d5c4"
+    },
+    {
+      "path": "src/physics/geodesic.ts",
+      "sha256": "554293d74391f1b273e9deb5131b3bdfb32f284c0f1c7a11a47308d3b85a3375"
+    },
+    {
+      "path": "src/physics/imageOrder.ts",
+      "sha256": "8f1a9198bfb5646717305bbec9e27cbfade7fe7ccd347362efc1d8115d0071a9"
+    },
+    {
+      "path": "src/settings.ts",
+      "sha256": "f810763c92201cd32cc9dbec603d6cab07537a6c708c79d2a7730bdd7c252ab7"
+    },
+    {
+      "path": "src/config.ts",
+      "sha256": "116d7b89877751bb2ad428d1e54d985d19a2944768d35297935439dd2df66f18"
+    },
+    {
+      "path": "src/render/fullscreenPass.ts",
+      "sha256": "95254d939ed18a686b734bb1cfc9790854c9fabbf61f22eab9f5d75ee7591600"
+    },
+    {
+      "path": "src/render/shaders/fullscreen.vert",
+      "sha256": "8dacd0e92c8748773ec6c8b11dc618cdd93da658c2a8d2818f53b85eb3aa4dfc"
+    },
+    {
+      "path": "src/render/shaders/geodesic.frag",
+      "sha256": "10819bc81df0775ec7ec79908858c956055457a1e185c1e33469d561b930c67b"
+    },
+    {
+      "path": "src/render/shaders/noise.glsl",
+      "sha256": "dc873cafc18682485d2b92825cf41037aca2757767609a93efa73b0185fb6eb8"
+    },
+    {
+      "path": "src/render/shaders/kerr.glsl",
+      "sha256": "22fa6910654a417eea918a344e31e6c07b25ed9dcfd04abaeee41b3555258990"
+    },
+    {
+      "path": "src/render/pipeline.ts",
+      "sha256": "852e69bc43e27fb44fb8cc4a236d9013665c2936c46c9750fa5217411f05985c"
+    },
+    {
+      "path": "src/render/bloom.ts",
+      "sha256": "4b0cb2b0ce1250ad0ee4663ab9350c48ba664e3364b417220f291fbe67d424ed"
+    },
+    {
+      "path": "src/render/shaders/prefilter.frag",
+      "sha256": "17fe3c90a19d7d1b0a2ceaaf6bd73c969c5b6498b82e87099db3224da09dd950"
+    },
+    {
+      "path": "src/render/shaders/bloomDown.frag",
+      "sha256": "73c297c7dfb57c41f4fdfacf6331982220dd7ca8360eee286806689fafe7e0d6"
+    },
+    {
+      "path": "src/render/shaders/bloomUp.frag",
+      "sha256": "d0f2d8befdd1b5a2a1334e2d3a6d69e06dbeb1d18f0ae26b95797777da69af5d"
+    },
+    {
+      "path": "src/render/horizonMask.ts",
+      "sha256": "95ea81e4695dd598ae6cc8845131372cd4c79700423cc8fa268167a49f9ea39b"
+    },
+    {
+      "path": "src/render/shaders/accum.frag",
+      "sha256": "d19cae4568819e2fa385813a41bc6a72cc3b41779fd163ea07557b249b60f47c"
+    },
+    {
+      "path": "src/render/shaders/combine.frag",
+      "sha256": "abcb230ba9eec3540ea360609a8c9a0793311dbd1357084df0c21b626b5ee49a"
+    },
+    {
+      "path": "src/render/shaders/composite.frag",
+      "sha256": "187dd953b1e65b679fb9ef5848c2d13757d5837340b6f41be829444c9d8bf51c"
+    },
+    {
+      "path": "src/render/starfield.ts",
+      "sha256": "ef8d7c4f9f7239667ad0167ccf5ee0876465aba5dda544df1100fb92c7d4a64b"
+    },
+    {
+      "path": "src/render/shaders/sky.vert",
+      "sha256": "694914c8d40fb26ca88ce3f6b465f8cd97b99ffd1f08026095fc4c20bcad59ee"
+    },
+    {
+      "path": "src/render/shaders/sky.frag",
+      "sha256": "6abec916a64f7834b59290ee7b5ab426728b371d0e94799b9d5a8f19a7888cc4"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "27b1277160d6e3b049eaba1b2111e28f061256fd231265b169778f7c0773c759"
+    }
+  ]
+}

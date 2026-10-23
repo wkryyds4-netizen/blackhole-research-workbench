@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-23",
+  "status": "source_provenance_consistent",
+  "files": {
+    "research/load_nr_waveform.py": "87ced87db143374fbb42159cc94c63ee13c7f5ef8d6b20d49511d3b6f9ad0ef8",
+    "research/download_nr_waveform.py": "6e05b6acc916185ea98d79d6e41de91d053321c192d27c599843449491ac62ff",
+    "research/validate_nr_waveform.py": "7ab04e5efc71bcd02bc85c5e3bd9adb229e66f74449e7eb06b4512f2318af4cf",
+    "research/wave-source-results/GWFrames-Extrapolation.py": "1415d62ea5407b75e2277069f218ffc5cf994e2e37e796f77c385a5e338e4495"
+  },
+  "source_code_url": "https://raw.githubusercontent.com/moble/GWFrames/188298fa0caf9a889a533cacfbe29cd52b026cac/Code/GWFrames/Extrapolation.py",
+  "datasets": [
+    {
+      "dataset": "sxs-0389-lev3-N2",
+      "manifest_npz_hash_verified": true,
+      "source_hash_verified": true,
+      "license": "CC-BY-4.0",
+      "comparison_readiness": "Main external-source comparison",
+      "held_out_training_status": "unknown"
+    },
+    {
+      "dataset": "sxs-0389-lev3-N3",
+      "manifest_npz_hash_verified": true,
+      "source_hash_verified": true,
+      "license": "CC-BY-4.0",
+      "comparison_readiness": "Main external-source comparison",
+      "held_out_training_status": "unknown"
+    },
+    {
+      "dataset": "sxs-0389-lev3-N4",
+      "manifest_npz_hash_verified": true,
+      "source_hash_verified": true,
+      "license": "CC-BY-4.0",
+      "comparison_readiness": "Main external-source comparison",
+      "held_out_training_status": "unknown"
+    },
+    {
+      "dataset": "sxs-2327-lev2-N2",
+      "manifest_npz_hash_verified": true,
+      "source_hash_verified": true,
+      "license": "Not declared in CaltechDATA record; local research snapshot",
+      "comparison_readiness": "Decoded only; memory/frame/mass normalization review required",
+      "held_out_training_status": "unknown"
+    },
+    {
+      "dataset": "sxs-2327-lev3-N2",
+      "manifest_npz_hash_verified": true,
+      "source_hash_verified": true,
+      "license": "Not declared in CaltechDATA record; local research snapshot",
+      "comparison_readiness": "Decoded only; memory/frame/mass normalization review required",
+      "held_out_training_status": "unknown"
+    }
+  ]
+}

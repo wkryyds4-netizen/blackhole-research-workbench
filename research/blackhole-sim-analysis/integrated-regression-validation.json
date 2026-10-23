@@ -1,0 +1,135 @@
+{
+  "checks": [
+    "Reference saved",
+    "Distance changes physical amplitude",
+    "Scrub updates physical clock",
+    "Playback advances time",
+    "Second model computes",
+    "Equal-mass boundary is finite",
+    "Stale responses cannot overwrite new slider input",
+    "Audio playback starts from user action",
+    "Export contains waveform and provenance",
+    "H1 fit computes",
+    "L1 fit computes",
+    "Methods visible",
+    "No horizontal overflow at 1440",
+    "Polarization remains available at 1440",
+    "No horizontal overflow at 1024",
+    "Polarization remains available at 1024",
+    "No horizontal overflow at 736",
+    "Polarization remains available at 736",
+    "No horizontal overflow at 390",
+    "Polarization remains available at 390",
+    "No horizontal overflow at 320",
+    "Polarization remains available at 320",
+    "No browser script errors"
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "scroll": 1440,
+      "width": 1440,
+      "canvases": [
+        {
+          "id": "lensing",
+          "width": 1054,
+          "height": 413
+        },
+        {
+          "id": "wave",
+          "width": 844,
+          "height": 225
+        },
+        {
+          "id": "polar",
+          "width": 190,
+          "height": 210
+        }
+      ]
+    },
+    {
+      "scroll": 1024,
+      "width": 1024,
+      "canvases": [
+        {
+          "id": "lensing",
+          "width": 638,
+          "height": 353
+        },
+        {
+          "id": "wave",
+          "width": 428,
+          "height": 200
+        },
+        {
+          "id": "polar",
+          "width": 190,
+          "height": 185
+        }
+      ]
+    },
+    {
+      "scroll": 736,
+      "width": 736,
+      "canvases": [
+        {
+          "id": "lensing",
+          "width": 424,
+          "height": 328
+        },
+        {
+          "id": "wave",
+          "width": 426,
+          "height": 200
+        },
+        {
+          "id": "polar",
+          "width": 426,
+          "height": 160
+        }
+      ]
+    },
+    {
+      "scroll": 390,
+      "width": 390,
+      "canvases": [
+        {
+          "id": "lensing",
+          "width": 360,
+          "height": 298
+        },
+        {
+          "id": "wave",
+          "width": 362,
+          "height": 200
+        },
+        {
+          "id": "polar",
+          "width": 362,
+          "height": 170
+        }
+      ]
+    },
+    {
+      "scroll": 320,
+      "width": 320,
+      "canvases": [
+        {
+          "id": "lensing",
+          "width": 290,
+          "height": 298
+        },
+        {
+          "id": "wave",
+          "width": 292,
+          "height": 200
+        },
+        {
+          "id": "polar",
+          "width": 292,
+          "height": 170
+        }
+      ]
+    }
+  ]
+}

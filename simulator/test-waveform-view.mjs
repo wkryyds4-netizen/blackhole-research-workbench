@@ -1,0 +1,24 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {validateWaveformStudy,selectWaveformRows,groupWaveformRows} from './public/waveform-view.mjs';
+
+const sample=()=>({schema:'blackhole-waveform-study/1',baseline_id:'baseline',rows:[
+ {id:'baseline',label:'NRSur 对 NR',comparison:'surrogate',mass_msun:65,psd:'aligo_historical',fmin_hz:20,fmax_hz:512,taper_fraction:.02,dt_M:1,mismatch:.012,match:.988,time_shift_M:2.2,phase_shift_rad:.3,at_time_boundary:false,start_frequency_hz:31,start_band_supported:false},
+ {id:'grid',label:'更细网格',comparison:'surrogate',mass_msun:65,psd:'aligo_historical',fmin_hz:20,fmax_hz:512,taper_fraction:.02,dt_M:.5,mismatch:.011,match:.989,time_shift_M:2.1,phase_shift_rad:.3,at_time_boundary:false,start_frequency_hz:31,start_band_supported:false},
+ {id:'white',label:'NRSur 白噪声',comparison:'surrogate',mass_msun:65,psd:'white',fmin_hz:20,fmax_hz:512,taper_fraction:.02,dt_M:1,mismatch:.01,match:.99,time_shift_M:2,phase_shift_rad:.2,at_time_boundary:false,start_frequency_hz:31,start_band_supported:false},
+ {id:'extrap',label:'外推阶比较',comparison:'extrapolation',mass_msun:65,psd:'aligo_historical',fmin_hz:20,fmax_hz:512,taper_fraction:.02,dt_M:1,mismatch:0,match:1,time_shift_M:0,phase_shift_rad:0,at_time_boundary:false,start_frequency_hz:31,start_band_supported:false}],
+ waveform:{time_M:[-2,-1,0,1],nr_re:[0,.1,.2,0],surrogate_re:[0,.09,.2,0],residual_abs:[0,.01,0,0]},provenance:{source:'fixture'},protocol:{time:'common'},limits:['not detector strain']});
+
+test('accepts valid numerical study without mutation',()=>{const d=sample(),copy=structuredClone(d);assert.equal(validateWaveformStudy(d),d);assert.deepEqual(d,copy)});
+test('filters PSD, fmin and taper and excludes fine-grid diagnostics',()=>{const d=sample();assert.deepEqual(selectWaveformRows(d,{psd:'aligo_historical',fmin:'20',taper:'.02'}).map(r=>r.id),['baseline','extrap']);assert.equal(selectWaveformRows(d,{psd:'white',fmin:20,taper:.02}).length,1);assert.equal(selectWaveformRows(d,{psd:'white',fmin:30,taper:.02}).length,0)});
+test('requires schema and valid baseline',()=>{for(const update of [d=>d.schema='invalid',d=>d.baseline_id='absent']){const d=sample();update(d);assert.throws(()=>validateWaveformStudy(d))}});
+test('rejects duplicate row ids and invalid comparison kind',()=>{for(const update of [d=>d.rows[1].id='baseline',d=>d.rows[0].comparison='network']){const d=sample();update(d);assert.throws(()=>validateWaveformStudy(d))}});
+test('rejects nonfinite, inconsistent or out-of-range metrics',()=>{for(const [field,value] of [['mismatch',NaN],['match',.7],['mass_msun',0],['dt_M',0],['taper_fraction',1.1],['fmax_hz',10],['start_frequency_hz',-1]]){const d=sample();d.rows[0][field]=value;assert.throws(()=>validateWaveformStudy(d),field)}});
+test('requires explicit finite-record coverage and time-boundary flags',()=>{for(const field of ['start_band_supported','at_time_boundary']){const d=sample();delete d.rows[0][field];assert.throws(()=>validateWaveformStudy(d))}});
+test('requires monotonic time and matching finite waveform arrays',()=>{for(const update of [d=>d.waveform.time_M[2]=-1,d=>d.waveform.nr_re.pop(),d=>d.waveform.surrogate_re[0]=Infinity,d=>d.waveform.residual_abs[0]=-.1]){const d=sample();update(d);assert.throws(()=>validateWaveformStudy(d))}});
+test('requires provenance, protocol and limitation records',()=>{for(const field of ['provenance','protocol','limits']){const d=sample();delete d[field];assert.throws(()=>validateWaveformStudy(d))}});
+test('does not silently treat a fine-grid-only scan as the main scan',()=>{const d=sample();d.rows.forEach(r=>r.dt_M=.5);assert.throws(()=>validateWaveformStudy(d))});
+test('sampling diagnostics remain exportable but never enter main curve',()=>{const d=sample();d.rows[1].comparison='sampling';d.rows[1].dt_M=1;validateWaveformStudy(d);assert.equal(selectWaveformRows(d,{psd:'aligo_historical',fmin:20,taper:.02}).length,2)});
+test('rejects invalid peak suppression weight',()=>{const d=sample();d.rows[0].peak_window_weight=1.1;assert.throws(()=>validateWaveformStudy(d));d.rows[0].peak_window_weight=.36;validateWaveformStudy(d)});
+test('actual study validates and keeps N3 and N4 in separate mass curves',()=>{const d=validateWaveformStudy(JSON.parse(readFileSync(new URL('./public/datasets/waveform-comparison.json',import.meta.url),'utf8')));const selected=selectWaveformRows(d,{psd:'aligo_historical',fmin:20,taper:.02}),groups=groupWaveformRows(selected);assert.equal(groups.length,3);for(const group of groups){assert.equal(new Set(group.map(r=>r.label)).size,1);assert.equal(new Set(group.map(r=>r.mass_msun)).size,group.length)}assert.ok(d.rows.some(r=>r.comparison==='sampling'));assert.ok(d.rows.some(r=>r.peak_window_weight<.4))});

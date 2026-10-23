@@ -1,0 +1,26 @@
+{
+  "spin_norm_max_error": 2.220446049250313e-16,
+  "magnitude_norm_max_error": 5.329070518200751e-15,
+  "synthetic_truth": 0.3,
+  "synthetic_corrected_map": 0.3000999500249875,
+  "synthetic_uncorrected_map": 0.6169415292353823,
+  "identical_components_flat": true,
+  "grid_501_vs_2001_max_quantile_difference": 0.0007488254567152783,
+  "all_81_scenarios_finite_and_normalized": true,
+  "mc_bootstrap_replicates": 40,
+  "mc_bootstrap_median_sd": 0.02540974352479569,
+  "mc_bootstrap_median_range": [
+    0.17738916049939008,
+    0.25475374599807477
+  ],
+  "baseline_conditional_interval": [
+    0.036774261788593075,
+    0.22717306695194028,
+    0.49053441277059084
+  ],
+  "baseline_mc_diagnostics": {
+    "min_event_ess": 149.50743970513355,
+    "injection_ess": 6435.416441592481,
+    "log_likelihood_mc_sd": 0.8928484413609368
+  }
+}

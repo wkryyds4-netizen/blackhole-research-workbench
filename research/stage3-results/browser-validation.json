@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "Waveform deep link opens correct view",
+    "All145 configurations loaded",
+    "Scientific boundaries visible",
+    "Filters update plotted curves",
+    "Waveform display remains fixed reference",
+    "Export includes hash, filters, provenance and all records",
+    "No overflow at width 1024",
+    "No overflow at width 736",
+    "No overflow at width 390",
+    "No overflow at width 320",
+    "Tab dynamics remains usable",
+    "Tab alignment remains usable",
+    "Tab population remains usable",
+    "Tab scene remains usable",
+    "Tab projects remains usable",
+    "Tab waveform remains usable",
+    "No browser runtime errors"
+  ],
+  "errors": []
+}

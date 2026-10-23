@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "Alignment deep link opens actual held-out curves",
+    "Three methods loaded",
+    "Metric changes table and curve labels",
+    "Absolute separation is identified",
+    "Export includes content hash and full protocol",
+    "New precession reference is numerical and not deprecated",
+    "Unknown license is not relabeled CC BY",
+    "Actual proxy samples and waveform loaded",
+    "In-range physical spin data displayed",
+    "Cutoff handles source floating-point clock",
+    "Unphysical post-cutoff spins are hidden",
+    "Model timeline advances",
+    "Changing tabs stops surrogate animation",
+    "No new-view overflow alignment 1024",
+    "No new-view overflow dynamics 1024",
+    "No new-view overflow alignment 736",
+    "No new-view overflow dynamics 736",
+    "No new-view overflow alignment 390",
+    "No new-view overflow dynamics 390",
+    "No new-view overflow alignment 320",
+    "No new-view overflow dynamics 320",
+    "No browser page errors"
+  ],
+  "errors": []
+}

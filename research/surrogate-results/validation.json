@@ -1,0 +1,77 @@
+{
+  "status": "evaluated",
+  "samples": 2201,
+  "time_range_M": [
+    -4299.999999996804,
+    100.00000000319596
+  ],
+  "mode_count": 21,
+  "seconds": 0.021569600008660927,
+  "fit_polynomials_checked": 2345,
+  "max_fit_abs_error": 2.7755575615628914e-16,
+  "max_quaternion_norm_error": 3.3306690738754696e-16,
+  "max_spin_norm_error": 2.220446049250313e-16,
+  "max_rotation_vs_scipy_error": 2.7755575615628914e-16,
+  "initial_spin_error": 0.0,
+  "repeat_grid_max_mode_error": 0.0,
+  "output_sha256": "3119351e68e3210039a374145f4f321b789609f3647d598a0cfbd5ae8072beb1",
+  "npz_sha256": "21def56ad5d2cc4fb0d756a457144576378725afab9186435eafc22d076d4144",
+  "metadata": {
+    "params": {
+      "q": 2.0,
+      "chiA0": [
+        0.4,
+        0.1,
+        0.2
+      ],
+      "chiB0": [
+        -0.1,
+        0.2,
+        -0.1
+      ],
+      "f_low": 0.0,
+      "f_ref": 0.0,
+      "dt": 2.0,
+      "units": "dimensionless",
+      "ellMax": 4
+    },
+    "model": "NRSur7dq4",
+    "version": "1.2.0",
+    "model_sha256": "3fc2f58f6ed7a4fff58856b6c01a7dc9155954d2b9fa5d58126a7807826d45d5",
+    "source_archive_sha256": "316a640576d32aaa45aaf9a6d876b240af356c89131e6af8257039b3818baae8",
+    "source": "https://doi.org/10.5281/zenodo.3348115",
+    "model_license": "CC-BY-4.0",
+    "code_license": "MIT",
+    "training_domain": {
+      "q": [
+        1,
+        4
+      ],
+      "spin_magnitude_max": 0.8
+    },
+    "time_unit": "GM/c^3",
+    "waveform_unit": "r*h/M",
+    "waveform_kind": "inertial-frame spherical harmonic mode h_22, not detector strain",
+    "reference_frequency": {
+      "value": 0,
+      "unit": "cycles/M",
+      "meaning": "special value: initial model epoch; not a physical zero-frequency orbit"
+    },
+    "reference_time_M": -4299.999999996804,
+    "time_convention": "model geometric time; t=0 at model total multimode waveform amplitude peak; not necessarily the h22 peak and not horizon common-formation time",
+    "frame": "inertial: z along L and x from lighter to heavier BH at reference epoch; y completes right-handed triad",
+    "quaternion": "[w,x,y,z]; active coprecessing-to-inertial rotation v_I = q v_C q^-1",
+    "spin_unit": "dimensionless chi = S/m_i^2",
+    "dynamics_valid_until_M": -100,
+    "dynamics_cutoff_reason": "At t/M=-100 the NR training spins are extended by PN equations; later spins are unphysical fit parameters (Varma et al. 2019, Sec. III C). Direction display is conservatively cut at this boundary too.",
+    "dynamics_cutoff_source": "https://arxiv.org/abs/1905.09300",
+    "position_available": false,
+    "separation_available": false,
+    "physical_mass_msun": null,
+    "distance_mpc": null,
+    "notes": [
+      "No mapping to SXS coordinate clocks is assumed.",
+      "This demonstration is inside the training domain, not an accuracy assessment against independent NR waveforms."
+    ]
+  }
+}

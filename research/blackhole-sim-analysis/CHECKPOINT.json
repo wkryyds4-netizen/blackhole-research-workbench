@@ -1,0 +1,51 @@
+{
+  "saved_at": "2026-10-23T11:25:13.6904541+08:00",
+  "upstream_commit": "0ee5541ec4ffcd9ca708f37c080bf00b7f3ef6d1",
+  "status": "first-lensing-integration-verified",
+  "files": [
+    {
+      "path": "simulator/physics.py",
+      "sha256": "3F422F5C6FC60993DCF032735F8E812DF36B46D158E74D1B04A0B17004AE2951"
+    },
+    {
+      "path": "simulator/server.py",
+      "sha256": "42160EEEA1246D7838E1230CD8C046392FC6CC5E354276344BDD144CF507166B"
+    },
+    {
+      "path": "simulator/public/app.js",
+      "sha256": "3F09403649F63D9C7A9269A9528335D2B0B45B3DDB73A600488795968059E052"
+    },
+    {
+      "path": "simulator/public/index.html",
+      "sha256": "E64EB385601E724C55ADE75D5594D8A5B6126A082D5B7977BE74D782BC05CEF5"
+    },
+    {
+      "path": "simulator/public/style.css",
+      "sha256": "4166634B7F1C2B730CBA3BAEA5A6C2F9998D9EC52D66229530ACAAD9771D2018"
+    },
+    {
+      "path": "simulator/public/lensing/renderer.js",
+      "sha256": "7EBDC9FDCAA070489B4795E5F1481E5D23DE6927D68749D7B9D0AE6BF251F471"
+    },
+    {
+      "path": "simulator/renderer-src/adapter.js",
+      "sha256": "238857ACB427836996158941DEB7FEDE7E9AA0B6DFCF3DF6F19C651530387EE8"
+    },
+    {
+      "path": "simulator/renderer-src/scene-state.mjs",
+      "sha256": "AC518EF396B4051361E6D3F8318E0D03952D148ABE1B885B3C19069E62443291"
+    },
+    {
+      "path": "simulator/renderer-src/package-lock.json",
+      "sha256": "021060D607D62A8DAC5D253812D4B4E6D8A440987E41A63388DDBDFCD8FE1769"
+    },
+    {
+      "path": "research/blackhole-sim-analysis/upstream-0ee5541.zip",
+      "sha256": "974C068C36D75F016EB59788DFA973910739A0800B43C19E857E43C48B5E0EF3"
+    },
+    {
+      "path": "research/blackhole-sim-analysis/README.md",
+      "sha256": "A89DDCE4A78CDFEB8C92379DA8D47FB6B7211816DB9C420FA6C8784502697BD8"
+    }
+  ]
+}

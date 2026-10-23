@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "Quality low",
+    "Quality high",
+    "Quality medium",
+    "Optical controls preserve physical arrays",
+    "Camera leaves physical inclination intact",
+    "Single clock drives optics",
+    "Merger produces one remnant",
+    "Backward seek is deterministic",
+    "Inactive renderer stops",
+    "Canvas fallback visible",
+    "Paused accumulation converges and stops",
+    "Playback remains synchronized",
+    "Layout 1024",
+    "Layout 736",
+    "Layout 390",
+    "Layout 320",
+    "Context loss recovers to schematic",
+    "No script, HTTP or WebGL errors"
+  ],
+  "errors": [],
+  "warnings": [
+    "THREE.WebGLProgram: Program Info Log: (431,1): warning X4000: use of potentially uninitialized variable (f_photonDirection)",
+    "THREE.WebGLProgram: Program Info Log: (431,1): warning X4000: use of potentially uninitialized variable (f_photonDirection)",
+    "THREE.WebGLProgram: Program Info Log: (431,1): warning X4000: use of potentially uninitialized variable (f_photonDirection)"
+  ],
+  "httpFailures": []
+}

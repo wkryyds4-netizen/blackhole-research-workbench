@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-23",
+  "tests_run": 15,
+  "failures": [],
+  "errors": [],
+  "success": true,
+  "known_injection": {
+    "delay_s": 0.01337,
+    "phase_rad": 0.73,
+    "scale": 2.7
+  },
+  "recoveries": {
+    "white": {
+      "schema": "blackhole-waveform-metric/1",
+      "signal_kind": "complex_mode",
+      "match": 1.0,
+      "mismatch": 0.0,
+      "time_shift_s": -0.01337000019225145,
+      "phase_shift_rad": -0.7299998671253498,
+      "amplitude_scale_b_to_a": 0.37037037037037024,
+      "fixed_time_phase_match": -0.8361993408885976,
+      "phase_only_match": 0.9784011620445008,
+      "at_time_boundary": false,
+      "config": {
+        "dt_s": 0.00048828125,
+        "samples": 4096,
+        "record_duration_s": 1.99951171875,
+        "fmin_hz": 20.0,
+        "fmax_hz": 800.0,
+        "actual_abs_frequency_range_hz": [
+          20.0,
+          800.0
+        ],
+        "selected_frequency_bins": 12482,
+        "nyquist_hz": 1024.0,
+        "psd": "white-unit-PSD",
+        "psd_source": null,
+        "taper": "symmetric Tukey",
+        "taper_fraction": 0.1,
+        "unweighted_power_removed_by_taper": {
+          "a": 0.0,
+          "b": 0.0
+        },
+        "detrend": "none",
+        "nfft": 16384,
+        "padding_factor": 4.0,
+        "frequency_step_hz": 0.125,
+        "lag_grid_step_s": 0.0001220703125,
+        "max_time_shift_s": 0.05,
+        "refine_best_grid_peak": true,
+        "finite_support": "Same finite record; taper then zero-pad; fixed full-record norms for all lags",
+        "phase_semantics": "global complex mode phase",
+        "interpretation": "conditional finite-record shape comparison; not detector-network or population inference"
+      }
+    },
+    "aligo_historical": {
+      "schema": "blackhole-waveform-metric/1",
+      "signal_kind": "complex_mode",
+      "match": 0.9999999999999998,
+      "mismatch": 2.220446049250313e-16,
+      "time_shift_s": -0.013370000669588655,
+      "phase_shift_rad": -0.7299995369408737,
+      "amplitude_scale_b_to_a": 0.3703703703703703,
+      "fixed_time_phase_match": -0.833437654999403,
+      "phase_only_match": 0.9784204407988893,
+      "at_time_boundary": false,
+      "config": {
+        "dt_s": 0.00048828125,
+        "samples": 4096,
+        "record_duration_s": 1.99951171875,
+        "fmin_hz": 20.0,
+        "fmax_hz": 800.0,
+        "actual_abs_frequency_range_hz": [
+          20.0,
+          800.0
+        ],
+        "selected_frequency_bins": 12482,
+        "nyquist_hz": 1024.0,
+        "psd": "LALAdvLIGOPsd-historical-analytic",
+        "psd_source": "https://lscsoft.docs.ligo.org/lalsuite/lal/_l_a_l_adv_l_i_g_o_psd_8c_source.html",
+        "taper": "symmetric Tukey",
+        "taper_fraction": 0.1,
+        "unweighted_power_removed_by_taper": {
+          "a": 0.0,
+          "b": 0.0
+        },
+        "detrend": "none",
+        "nfft": 16384,
+        "padding_factor": 4.0,
+        "frequency_step_hz": 0.125,
+        "lag_grid_step_s": 0.0001220703125,
+        "max_time_shift_s": 0.05,
+        "refine_best_grid_peak": true,
+        "finite_support": "Same finite record; taper then zero-pad; fixed full-record norms for all lags",
+        "phase_semantics": "global complex mode phase",
+        "interpretation": "conditional finite-record shape comparison; not detector-network or population inference"
+      }
+    }
+  },
+  "source_sha256": {
+    "waveform_metrics.py": "2885def0ccb5c37986d303dbf582e284718846c3a8a50632904d622ed780140c",
+    "test_waveform_metrics.py": "4acfe7611582e3b109f040d50015191f96b86a5d705d2fb122c05629e258dde7",
+    "waveform-metrics-method.md": "a2d2101aa48b4b0ff2c357f58701e336c77a4295f2b30531f79149986470ce02"
+  }
+}

@@ -1,0 +1,8 @@
+NRSur7dq4 derived waveform and dynamics output
+Source: https://doi.org/10.5281/zenodo.3348115
+Creators: Scott E. Field; Chad R. Galley; Jan S. Hesthaven; Jason Kaye; Manuel Tiglio; Jonathan Blackman; Béla Szilágyi; Mark A. Scheel; Daniel A. Hemberger; Patricia Schmidt; Rory Smith; Christian D. Ott; Michael Boyle; Lawrence E. Kidder; Harald P. Pfeiffer; Vijay Varma
+Model data: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Model evaluated at specified q/spin inputs and resampled for display. No endorsement implied.
+Reference: https://arxiv.org/abs/1905.09300
+GWSurrogate code MIT/X Consortium; original notice retained in research/surrogate-results/GWSURROGATE-LICENSE.txt.

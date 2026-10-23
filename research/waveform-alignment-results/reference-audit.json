@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-23",
+  "records": [
+    {
+      "simulation": "SXS:BBH:0389",
+      "level": "Lev3",
+      "purpose": "coordinate reference audit, not surrogate evaluation parameters",
+      "metadata_sha256": "40e4e7e9d8a818d66ee33ece7b3571fb04cfb9f00cafd9e8e03e5d9de18277e8",
+      "horizons_sha256": "5442343201c65e0cf5ad7a8e958d8d5ff4d2b64cca485bbcd878f33d6fbd5bf2",
+      "parameters": {
+        "q": 1.000000131859577,
+        "chiA0": [
+          -4.201238184450777e-08,
+          1.9694134867876116e-09,
+          -5.287858157828842e-05
+        ],
+        "chiB0": [
+          4.0298701411451776e-08,
+          -9.213449722634399e-10,
+          -5.3227259529175464e-05
+        ],
+        "heavy_source_body": 2,
+        "light_source_body": 1,
+        "reference_total_mass_source_units": 0.999988106301,
+        "coorbital_to_source_matrix": [
+          [
+            0.8470892590065349,
+            -0.5314506442518999,
+            -1.7772162985175135e-09
+          ],
+          [
+            0.5314506442518999,
+            0.8470892590065349,
+            2.791736993356348e-09
+          ],
+          [
+            2.1790413704444144e-11,
+            -3.30935316786547e-09,
+            1.0
+          ]
+        ],
+        "coorbital_to_source_quaternion_wxyz": [
+          0.961012294147826,
+          -1.5871519538238418e-09,
+          -4.679978401881998e-10,
+          0.2765056427936553
+        ],
+        "reference_frame_kind": "coordinate orbital triad; not radiation-defined coorbital frame",
+        "source_coordinate_time": 640.0,
+        "coordinate_orbital_angular_frequency_source_units": [
+          -2.837834288230514e-11,
+          4.4578068353732996e-11,
+          0.01596786103412245
+        ],
+        "coordinate_proxy_f22_cycles_per_M": 0.005082667575932835,
+        "interpolation": "cubic spline on each native horizon time grid; no extrapolation"
+      },
+      "training_membership": "unverified",
+      "radiation_frame_alignment": "not performed",
+      "independent_validation": false
+    },
+    {
+      "simulation": "SXS:BBH:0389",
+      "level": "Lev2",
+      "purpose": "coordinate reference audit, not surrogate evaluation parameters",
+      "metadata_sha256": "c2e6d662c71bcd3b564cbcd1edb5ca9fd299355ca7e1a1e759b1b56b750ab228",
+      "horizons_sha256": "aeeea17afb83f811e3ace8c2728388aaa8f98c29257798c74a5103d25d26592e",
+      "parameters": {
+        "q": 1.0000000162859477,
+        "chiA0": [
+          -2.5299069111277657e-09,
+          -1.554872200241252e-08,
+          -7.05031429939246e-05
+        ],
+        "chiB0": [
+          9.033956239888179e-09,
+          9.250023141105193e-09,
+          -7.03507584958333e-05
+        ],
+        "heavy_source_body": 2,
+        "light_source_body": 1,
+        "reference_total_mass_source_units": 1.000003225505,
+        "coorbital_to_source_matrix": [
+          [
+            0.8462695905096791,
+            -0.5327548969071803,
+            1.765106123268178e-09
+          ],
+          [
+            0.5327548969071803,
+            0.8462695905096791,
+            -4.915046686869069e-09
+          ],
+          [
+            1.1247595548126206e-09,
+            5.099823477764613e-09,
+            1.0
+          ]
+        ],
+        "coorbital_to_source_quaternion_wxyz": [
+          0.9607990399947532,
+          2.605870152797085e-09,
+          1.6661823695698482e-10,
+          0.2772457479298114
+        ],
+        "reference_frame_kind": "coordinate orbital triad; not radiation-defined coorbital frame",
+        "source_coordinate_time": 640.0,
+        "coordinate_orbital_angular_frequency_source_units": [
+          2.8190558274811673e-11,
+          -7.84983453533411e-11,
+          0.01597102740917102
+        ],
+        "coordinate_proxy_f22_cycles_per_M": 0.005083752314467047,
+        "interpolation": "cubic spline on each native horizon time grid; no extrapolation"
+      },
+      "training_membership": "unverified",
+      "radiation_frame_alignment": "not performed",
+      "independent_validation": false
+    },
+    {
+      "simulation": "SXS:BBH:0001",
+      "level": "Lev5",
+      "purpose": "coordinate reference audit, not surrogate evaluation parameters",
+      "metadata_sha256": "669d1867a0ac803abe1643a8d28443201d19561f788ba97477a7613292eab44c",
+      "horizons_sha256": "cf97de4a60a4cd5c6a56f219ea9fa81f1849647f134250e95ae79e40be4dd957",
+      "parameters": {
+        "q": 1.0000000100559967,
+        "chiA0": [
+          1.3259111476520495e-09,
+          5.347198067663127e-10,
+          1.218969999999257e-07
+        ],
+        "chiB0": [
+          4.936741746874182e-11,
+          -9.719428714311296e-10,
+          1.2072200000006119e-07
+        ],
+        "heavy_source_body": 2,
+        "light_source_body": 1,
+        "reference_total_mass_source_units": 1.000000327684,
+        "coorbital_to_source_matrix": [
+          [
+            0.7204112929767568,
+            -0.69354709209365,
+            2.3096108492025942e-11
+          ],
+          [
+            0.69354709209365,
+            0.7204112929767568,
+            -6.72816688521736e-11
+          ],
+          [
+            3.002430840216104e-11,
+            6.448871293475241e-11,
+            1.0
+          ]
+        ],
+        "coorbital_to_source_quaternion_wxyz": [
+          0.9274727200777273,
+          3.551866780941086e-11,
+          -1.86749425620693e-12,
+          0.3738908310076909
+        ],
+        "reference_frame_kind": "coordinate orbital triad; not radiation-defined coorbital frame",
+        "source_coordinate_time": 320.0,
+        "coordinate_orbital_angular_frequency_source_units": [
+          2.8393513933033413e-13,
+          -8.27136312877771e-13,
+          0.01229363550263735
+        ],
+        "coordinate_proxy_f22_cycles_per_M": 0.003913186999917852,
+        "interpolation": "cubic spline on each native horizon time grid; no extrapolation"
+      },
+      "training_membership": "unverified",
+      "radiation_frame_alignment": "not performed",
+      "independent_validation": false
+    },
+    {
+      "simulation": "SXS:BBH:2327",
+      "level": "Lev3",
+      "purpose": "coordinate reference audit, not surrogate evaluation parameters",
+      "metadata_sha256": "62becb6c1a362d119f306cdba7636dfa474c18977317b5852ffca3f733fcec9a",
+      "horizons_sha256": "c6a930dbbd909150066eeb52811450779d882351566fa92de0bf96ecd71241b3",
+      "parameters": {
+        "q": 1.0000094668426966,
+        "chiA0": [
+          0.11333447230023558,
+          0.48696125960777725,
+          0.0013669798947448819
+        ],
+        "chiB0": [
+          -1.0279085717807988e-06,
+          -1.1123641488538387e-07,
+          2.26037988361645e-05
+        ],
+        "heavy_source_body": 1,
+        "light_source_body": 2,
+        "reference_total_mass_source_units": 1.0000051554084017,
+        "coorbital_to_source_matrix": [
+          [
+            0.714046843889149,
+            0.6998421098798943,
+            0.018924216517552557
+          ],
+          [
+            -0.6981673265155638,
+            0.7138236339325105,
+            -0.054938181854656674
+          ],
+          [
+            -0.051956606106013256,
+            0.02601616570986437,
+            0.9983104077408497
+          ]
+        ],
+        "coorbital_to_source_quaternion_wxyz": [
+          0.92549728329727,
+          0.0218677971900968,
+          0.01914668576093456,
+          -0.37763736901927164
+        ],
+        "reference_frame_kind": "coordinate orbital triad; not radiation-defined coorbital frame",
+        "source_coordinate_time": 1027.0,
+        "coordinate_orbital_angular_frequency_source_units": [
+          0.00022094941589426316,
+          -0.0006414299466411444,
+          0.011655758708262298
+        ],
+        "coordinate_proxy_f22_cycles_per_M": 0.003716441626119343,
+        "interpolation": "cubic spline on each native horizon time grid; no extrapolation"
+      },
+      "training_membership": "unverified",
+      "radiation_frame_alignment": "not performed",
+      "independent_validation": false
+    }
+  ],
+  "implementation": {
+    "waveform_reference.py": "29654e133dc2772d4d1e7e7030bc473fcf1b8abea96b943f61b462c07fe4ab2f",
+    "test_waveform_reference.py": "0291abea35c814ca1790a992406badbf09016f2a3b620ae9c602583ec900599d"
+  }
+}

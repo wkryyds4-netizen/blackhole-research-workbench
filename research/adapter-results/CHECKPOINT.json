@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-23",
+  "status": "sxs-integrated-and-verified",
+  "gwsurrogate_status": "official model downloaded and checksum verified; native Windows build failed at C99 VLA and complex support; no generated dynamics",
+  "checks": {
+    "source_roundtrip": "all retained frames and all covered native knots, four datasets",
+    "scene_statistics_contract": 9,
+    "datasets_browser": 13,
+    "workbench_browser": 27
+  },
+  "files": [
+    {
+      "path": "research/sxs_adapter.py",
+      "sha256": "b88edab14b135253901997a04e4fd17e5445433eaea6d1963f361dd849d51df3"
+    },
+    {
+      "path": "research/fetch_sxs.py",
+      "sha256": "e49af6d3d7a28bc9532cb1134a6715cace2865ee6f70486363df183ec4b8536d"
+    },
+    {
+      "path": "research/test_sxs_adapter.py",
+      "sha256": "d350c57a719399da836b9f6b0610e79c30e830c281eba1585f736304aab574f9"
+    },
+    {
+      "path": "simulator/public/workbench.js",
+      "sha256": "7a1aa509338edf261f475e8354818ca51d55442a673a7b181d2f7fa6efc6c310"
+    },
+    {
+      "path": "simulator/public/workbench.html",
+      "sha256": "96b0aa188db1f066cb588864acfd651d32fa1185d4362403920c2d22f165a026"
+    },
+    {
+      "path": "simulator/public/workbench.css",
+      "sha256": "a3b15672c3d83f21a1cce8a394d9130e316e6a247cad03cac4f35bc27a7c6120"
+    },
+    {
+      "path": "simulator/public/scene-contract.mjs",
+      "sha256": "fe5696b4b22b28035d93720e305bc4a6c2acfc13d58705b32cdadff7e8a22ae0"
+    },
+    {
+      "path": "simulator/public/projects.json",
+      "sha256": "8c8e98fff3658372b8de061976ce14bdf3d689666012214757b6fadd4cd147b4"
+    },
+    {
+      "path": "simulator/SCENE_CONTRACT.md",
+      "sha256": "7e9ced4bb9183d557084f829bcde73d6c7b1643f2b16eda10731ac9264779f81"
+    },
+    {
+      "path": "research/adapter-results/README.md",
+      "sha256": "db476363be5fe87af0ff59f45eb757cfd6f4fa795c975b1a49d9fe600c751a7a"
+    },
+    {
+      "path": "research/adapter-results/sxs-validation.json",
+      "sha256": "2a4fb36ce2017971a6a2e6d44f1cecf17593db6904ab4d05de89d58f39199d1e"
+    },
+    {
+      "path": "research/adapter-results/browser-validation.json",
+      "sha256": "7f758510dc3bf5d95eea2c6b8b646d405c4bc2b036a92cc2532c38cae1ec57e1"
+    },
+    {
+      "path": "research/adapter-results/workbench-validation.json",
+      "sha256": "b3deba7b9a0865118e49c278dc3773768e2f23640d06b40a93ca22197109d6e1"
+    },
+    {
+      "path": "research/surrogate-data/manifest.json",
+      "sha256": "fbb998eadd312b918108ac6185ec2f2441e8d0ffde56d6b93545b41de1d29997"
+    },
+    {
+      "path": "simulator/public/datasets/catalog.json",
+      "sha256": "1f21b47f18e5f524319795f14420f33dbee4c43e4e5b03cb0df32f4d1e5d0688"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-0001-lev5.json",
+      "sha256": "875bd594cbacfce6287b8420c4a46b82e42117a6d649f17181b5ecac24634f9a"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-0003-lev5.json",
+      "sha256": "42fd6aec495f4236b22e4164f54e8781576930b59fdcd24517e76ed60cc3485f"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-0389-lev2.json",
+      "sha256": "5b4776c9d1a2c084e56b62e5a52b14e4b8b87c581e7c1f3065dfd3ff957bf386"
+    },
+    {
+      "path": "simulator/public/datasets/sxs-0389-lev3.json",
+      "sha256": "da8245c1c9301a6be92e2078401f3ec353f8c824542b61604229dd3310bf3894"
+    }
+  ]
+}

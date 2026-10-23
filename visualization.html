@@ -1,0 +1,266 @@
+<div id="bbh-lab">
+  <style>
+    #bbh-lab { color:var(--foreground); position:relative; }
+    #bbh-lab .lab-header { padding-right:96px; margin-bottom:16px; }
+    #bbh-lab .lab-status { margin:8px 0 18px; }
+    #bbh-lab .lab-pair { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:28px; }
+    #bbh-lab .lab-plot { min-width:0; position:relative; }
+    #bbh-lab .lab-plot svg { display:block; width:100%; overflow:visible; }
+    #bbh-lab .lab-plot svg text { fill:var(--foreground); font-size:12px; font-weight:400; }
+    #bbh-lab .lab-plot svg .domain, #bbh-lab .lab-plot svg .tick line { stroke:var(--border); }
+    #bbh-lab .lab-legend { display:flex; flex-wrap:wrap; gap:16px; margin:8px 0; }
+    #bbh-lab .lab-legend button { background:transparent; border:0; padding:4px 0; color:var(--foreground); font:inherit; display:flex; align-items:center; gap:6px; }
+    #bbh-lab .lab-legend button[aria-pressed="false"] { opacity:.45; }
+    #bbh-lab .lab-swatch { width:20px; height:2px; display:inline-block; }
+    #bbh-lab .lab-note { min-height:24px; margin:8px 0; }
+    #bbh-lab .lab-diagnostics { margin:10px 0 20px; }
+    #bbh-lab .lab-tooltip { display:none; position:absolute; pointer-events:none; padding:10px; background:var(--popover); color:var(--popover-foreground); border:1px solid var(--border); max-width:280px; z-index:5; }
+    #bbh-lab .lab-tooltip span { color:var(--popover-foreground); }
+    #bbh-lab .lab-control-group { margin-bottom:16px; }
+    #bbh-lab .lab-legend em { width:20px; border-top:2px dashed var(--viz-series-2); }
+    #bbh-lab .lab-count { margin:4px 0 12px; }
+    #bbh-lab .lab-bottom { margin-top:26px; }
+    @media(max-width:820px) { #bbh-lab .lab-pair { grid-template-columns:minmax(0,1fr); gap:18px; } }
+  </style>
+  <div class="lab-header">
+    <h2>双黑洞群体 · 稳健性实验</h2>
+    <div class="text-small">GWTC-3 · 69个事件 · 真实后验与注入重加权 · 条件模型</div>
+  </div>
+  <div class="viz-controls lab-control-group">
+    <label class="form-label">对齐分量的倾角宽度 σₜ
+      <select class="form-select" id="bbh-tilt"><option value="0">0.3 · 较强对齐</option><option value="1" selected>0.6 · 中等对齐</option><option value="2">1.2 · 较宽倾角</option></select>
+    </label>
+    <label class="form-label">两分量共有的自旋幅度
+      <select class="form-select" id="bbh-spin"><option value="0">低幅度 · Beta(1.5, 8.5)</option><option value="1" selected>中幅度 · Beta(2, 5)</option><option value="2">均匀幅度 · Beta(1, 1)</option></select>
+    </label>
+    <label class="form-label">两分量共有的质量分布
+      <select class="form-select" id="bbh-mass"><option value="0" selected>幂律 α=2 + 10%峰</option><option value="1">幂律 α=3 + 10%峰</option><option value="2">纯幂律 α=2</option></select>
+    </label>
+    <label class="form-label">两分量共有的并合率红移指数 λ
+      <select class="form-select" id="bbh-redshift"><option value="0">0 · 无共动率演化</option><option value="1" selected>2 · 中等演化</option><option value="2">4 · 较强演化</option></select>
+    </label>
+    <label class="form-label">混合比例 f 的先验
+      <select class="form-select" id="bbh-prior"><option value="uniform">均匀 · Beta(1, 1)</option><option value="central">偏中部 · Beta(2, 2)</option><option value="edge">偏两端 · Beta(½, ½)</option></select>
+    </label>
+    <label class="form-label">选择效率比的压力测试 × <span id="bbh-cal-value" class="tabular-nums">1.00</span>
+      <input class="form-range" id="bbh-cal" type="range" min="0.8" max="1.2" step="0.02" value="1" aria-label="相对选择效率乘数">
+    </label>
+  </div>
+  <div class="viz-grid" aria-live="polite">
+    <div class="card viz-stat"><div>对齐分量 f · 中位数</div><div class="viz-stat-value tabular-nums" id="bbh-median">—</div><div class="text-small" id="bbh-interval">90%条件可信区间</div></div>
+    <div class="card viz-stat"><div>忽略选择效应 · 中位数</div><div class="viz-stat-value tabular-nums" id="bbh-naive">—</div><div class="text-small" id="bbh-delta">—</div></div>
+    <div class="card viz-stat"><div>对齐 / 各向同性 · 探测效率比</div><div class="viz-stat-value tabular-nums" id="bbh-ratio">—</div><div class="text-small">注入估计 × 压力测试乘数</div></div>
+  </div>
+  <div id="bbh-quality" class="text-small lab-diagnostics" aria-live="polite"></div>
+  <div class="lab-pair">
+    <section class="lab-plot">
+      <h3>混合比例的条件后验</h3>
+      <div class="lab-legend" aria-label="后验曲线">
+        <button type="button" id="bbh-show-corrected" class="cursor-interaction" aria-pressed="true"><span class="lab-swatch" style="background:var(--viz-series-1)"></span>选择校正</button>
+        <button type="button" id="bbh-show-naive" class="cursor-interaction" aria-pressed="true"><em></em>忽略选择</button>
+      </div>
+      <div id="bbh-posterior"></div>
+      <div class="text-small lab-note">阴影：90%条件可信区间</div>
+    </section>
+    <section class="lab-plot">
+      <h3>逐项改变假设</h3>
+      <div class="text-small lab-count">点：中位数 · 线：90%区间 · 空心：精度不足</div>
+      <div id="bbh-forest"></div>
+      <div class="text-small lab-note">点击一行切换假设；其余设置保持当前值</div>
+    </section>
+  </div>
+  <section class="lab-plot lab-bottom">
+    <h3>事件质量与有效自旋</h3>
+    <div class="viz-controls">
+      <label class="form-label">事件 · 单事件影响检验
+        <select class="form-select" id="bbh-event"><option value="">选择一个事件</option></select>
+      </label>
+      <label class="form-check"><input class="form-check-input" id="bbh-drop" type="checkbox" disabled><span class="form-check-label">临时剔除此事件</span></label>
+    </div>
+    <div id="bbh-scatter"></div>
+    <div class="text-small lab-note" id="bbh-event-detail" aria-live="polite">误差线：后验5%—95%分位数；点：中位数</div>
+  </section>
+  <div class="text-small lab-status">两分量：偏对齐倾角 / 各向同性倾角；f 不等同于实际形成渠道比例。</div>
+  <div class="lab-tooltip tooltip" id="bbh-tooltip" role="tooltip"></div>
+  <div id="bbh-error" role="alert" hidden></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script type="application/json" id="bbh-data">__MODEL_DATA__</script>
+<script>
+(() => {
+  'use strict';
+  const root=document.getElementById('bbh-lab');
+  const error=root.querySelector('#bbh-error');
+  if(typeof d3==='undefined'){error.hidden=false;error.textContent='图表资源未加载，请重新打开。';return;}
+  const DATA=JSON.parse(document.getElementById('bbh-data').textContent);
+  const F=DATA.f_grid, N=F.length;
+  const defaults={tilt:1,spin:1,mass:0,redshift:1,prior:'uniform',cal:1,event:'',drop:false,corrected:true,naive:true};
+  let state={...defaults}, pinned=false, previousPaths=[];
+  const tip=root.querySelector('#bbh-tooltip');
+  const ids={tilt:'bbh-tilt',spin:'bbh-spin',mass:'bbh-mass',redshift:'bbh-redshift',prior:'bbh-prior',cal:'bbh-cal',event:'bbh-event',drop:'bbh-drop'};
+  const fields=['tilt','spin','mass','redshift'];
+  const percent=d3.format('.1%');
+  const colors=['var(--viz-series-1)','var(--viz-series-2)'];
+  const choices=[['倾角 σ=0.3','倾角 σ=0.6','倾角 σ=1.2'],['自旋低幅度','自旋中幅度','自旋均匀'],['质量 α=2+峰','质量 α=3+峰','质量纯幂律'],['红移 λ=0','红移 λ=2','红移 λ=4']];
+  for(const e of DATA.events){const option=document.createElement('option');option.value=e.id;option.textContent=e.name;root.querySelector('#bbh-event').appendChild(option);}
+  function safeState(raw){
+    const s={...defaults,...raw};
+    for(const k of fields)if(![0,1,2].includes(+s[k]))s[k]=defaults[k];else s[k]=+s[k];
+    if(!['uniform','central','edge'].includes(s.prior))s.prior='uniform';
+    s.cal=Number.isFinite(+s.cal)?Math.max(.8,Math.min(1.2,+s.cal)):1;
+    if(!DATA.events.some(e=>e.id===s.event))s.event='';
+    s.drop=Boolean(s.event&&s.drop);return s;
+  }
+  function key(s){return fields.map(k=>s[k]).join('-');}
+  function compute(s,correct=true){
+    const r=DATA.scenarios[key(s)], kept=r.event_moments.map((v,i)=>({v,i})).filter(e=>!(s.drop&&DATA.events[e.i].id===s.event));
+    const logs=F.map(f=>{
+      let v=0;
+      for(const e of kept)v+=Math.log(f*e.v[0]+(1-f)*e.v[1]);
+      if(correct)v-=kept.length*Math.log(f*r.selection[0]*s.cal+(1-f)*r.selection[1]);
+      if(s.prior==='central')v+=Math.log(f*(1-f));
+      if(s.prior==='edge')v-=.5*Math.log(f*(1-f));
+      return v;
+    });
+    const max=Math.max(...logs), weights=logs.map(v=>Math.exp(v-max)),sum=d3.sum(weights),y=weights.map(v=>v*N/sum);
+    let cumulative=0;const cdf=weights.map(v=>cumulative+=v/sum);
+    function q(target){const i=d3.bisectLeft(cdf,target);if(i===0)return F[0];if(i>=N)return F[N-1];return F[i-1]+(F[i]-F[i-1])*(target-cdf[i-1])/(cdf[i]-cdf[i-1]);}
+    const ci=[q(.05),q(.5),q(.95)], f=ci[1];
+    let eventVar=0,minEss=Infinity;
+    for(const {v,i} of kept){const mu=f*v[0]+(1-f)*v[1],sec=f*f*v[2]+(1-f)**2*v[3]+2*f*(1-f)*v[4],count=r.sample_counts[i];minEss=Math.min(minEss,count*mu*mu/sec);eventVar+=(sec/mu**2-1)/count;}
+    const [a,b,aa,bb,ab]=r.selection,k=s.cal,mu=f*a*k+(1-f)*b,sec=f*f*aa*k*k+(1-f)**2*bb+2*f*(1-f)*ab*k;
+    const injEss=mu*mu/sec,mc=Math.sqrt(eventVar+(correct?kept.length**2*Math.max(0,sec/mu**2-1/r.total_generated):0));
+    return {values:F.map((x,i)=>({x,y:y[i]})),ci,minEss,injEss,mc,n:kept.length,ok:minEss>=50&&injEss>=4*kept.length&&mc<=1};
+  }
+  function showTip(event,lines){
+    const box=root.getBoundingClientRect();tip.replaceChildren();
+    for(const line of lines){const div=document.createElement('div');div.textContent=line;tip.appendChild(div);}
+    tip.style.display='block';const tw=tip.offsetWidth,th=tip.offsetHeight;
+    tip.style.left=Math.max(0,Math.min(event.clientX-box.left+12,box.width-tw-4))+'px';
+    tip.style.top=Math.max(0,event.clientY-box.top-th-12)+'px';
+  }
+  function hideTip(){if(!pinned)tip.style.display='none';}
+  function setup(target,height,left=66){
+    const node=root.querySelector(target),w=Math.max(280,node.getBoundingClientRect().width);
+    const margin={l:left,r:18,t:16,b:52},area={x0:left,x1:w-margin.r,y0:margin.t,y1:height-margin.b};
+    const svg=d3.select(node).selectAll('svg').data([null]).join('svg').attr('viewBox',`0 0 ${w} ${height}`).attr('height',height).attr('role','img');
+    svg.selectAll('*').remove();
+    const clipId=target.slice(1)+'-clip';
+    svg.append('defs').append('clipPath').attr('id',clipId).append('rect').attr('x',area.x0).attr('y',area.y0).attr('width',area.x1-area.x0).attr('height',area.y1-area.y0);
+    svg.append('rect').attr('data-chart-frame','').attr('x',area.x0).attr('y',area.y0).attr('width',area.x1-area.x0).attr('height',area.y1-area.y0).attr('fill','none').attr('stroke','var(--border)');
+    return {svg,w,height,area,clipId};
+  }
+  function axes(plot,x,y,xlabel,ylabel,xfmt,yticks=4){
+    const {svg,w,height,area}=plot;
+    const xt=d3.axisBottom(x).ticks(w<400?3:5);if(xfmt)xt.tickFormat(xfmt);
+    svg.append('g').attr('transform',`translate(0,${area.y1})`).call(xt);
+    svg.append('g').attr('transform',`translate(${area.x0},0)`).call(d3.axisLeft(y).ticks(yticks));
+    svg.append('text').attr('class','axis-title').attr('data-axis','x').attr('x',(area.x0+area.x1)/2).attr('y',height-8).attr('text-anchor','middle').text(xlabel);
+    svg.append('text').attr('class','axis-title').attr('data-axis','y').attr('transform',`translate(16,${(area.y0+area.y1)/2}) rotate(-90)`).attr('text-anchor','middle').text(ylabel);
+  }
+  function declutter(svg){
+    const last={};svg.selectAll('.tick text').each(function(){const box=this.getBoundingClientRect();const g=this.parentElement.parentElement;const id=g.getAttribute('transform');if(last[id]&&box.left<last[id].right+4&&Math.abs(box.top-last[id].top)<3){this.style.visibility='hidden';}else last[id]=box;});
+  }
+  function posterior(corrected,naive){
+    const p=setup('#bbh-posterior',330),{svg,area}=p;
+    svg.attr('aria-label','对齐分量混合比例的条件后验：选择校正与忽略选择的对照');
+    const all=corrected.values.concat(naive.values),domain=d3.extent(F),span=domain[1]-domain[0];
+    const x=d3.scaleLinear().domain([domain[0]-.02*span,domain[1]+.02*span]).range([area.x0+4,area.x1-4]);
+    const ymax=d3.max(all,d=>d.y),y=d3.scaleLinear().domain([0,ymax*1.12]).range([area.y1,area.y0+4]);
+    axes(p,x,y,'偏对齐分量比例 f','概率密度',d3.format('.0%'));
+    const g=svg.append('g').attr('clip-path',`url(#${p.clipId})`),line=d3.line().x(d=>x(d.x)).y(d=>y(d.y));
+    const series=[{result:corrected,name:'选择校正',visible:state.corrected,color:colors[0]},{result:naive,name:'忽略选择',visible:state.naive,color:colors[1]}];
+    series.forEach((s,i)=>{if(!s.visible)return;
+      const band=s.result.values.filter(d=>d.x>=s.result.ci[0]&&d.x<=s.result.ci[2]);
+      g.append('path').attr('d',d3.area().x(d=>x(d.x)).y0(y(0)).y1(d=>y(d.y))(band)).attr('fill',s.color).attr('opacity',.11);
+      const nextPath=line(s.result.values),path=g.append('path').attr('fill','none').attr('stroke',s.color).attr('stroke-width',2).attr('stroke-dasharray',i?'6 4':null);
+      if(previousPaths[i]&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches)path.attr('d',previousPaths[i]).transition().duration(180).attr('d',nextPath);else path.attr('d',nextPath);
+      previousPaths[i]=nextPath;
+    });
+    const guide=g.append('line').attr('data-chart-hover-guide','').attr('y1',area.y0).attr('y2',area.y1).attr('stroke','var(--border)').attr('visibility','hidden');
+    const markers=series.map(s=>g.append('circle').attr('data-chart-hover-marker','').attr('r',4).attr('fill',s.color).attr('visibility','hidden'));
+    function hover(event){const [px]=d3.pointer(event,svg.node()),xx=x.invert(Math.max(x(F[0]),Math.min(x(F[N-1]),px)));guide.attr('x1',x(xx)).attr('x2',x(xx)).attr('visibility','visible');const rows=['f = '+percent(xx)];
+      series.forEach((s,i)=>{if(!s.visible)return;const j=Math.max(1,Math.min(N-1,d3.bisectLeft(F,xx))),left=s.result.values[j-1],right=s.result.values[j],yy=left.y+(right.y-left.y)*(xx-left.x)/(right.x-left.x);markers[i].attr('cx',x(xx)).attr('cy',y(yy)).attr('visibility','visible');rows.push(s.name+'：'+yy.toFixed(3));});showTip(event,rows);}
+    svg.append('rect').attr('data-chart-hit','').attr('data-chart-hover-overlay','cross-series').attr('x',area.x0).attr('y',area.y0).attr('width',area.x1-area.x0).attr('height',area.y1-area.y0).attr('fill','transparent')
+      .on('pointermove',e=>{if(!pinned)hover(e);}).on('pointerleave',()=>{hideTip();if(!pinned){guide.attr('visibility','hidden');markers.forEach(m=>m.attr('visibility','hidden'));}}).on('click',e=>{pinned=!pinned;hover(e);});
+    declutter(svg);
+  }
+  function forest(){
+    const rows=[{label:'当前设置',s:{...state},active:true}];
+    fields.forEach((k,di)=>{for(let i=0;i<3;i++)if(state[k]!==i)rows.push({label:choices[di][i],s:{...state,[k]:i},active:false});});
+    rows.forEach(row=>row.r=compute(row.s));
+    const p=setup('#bbh-forest',330,122),{svg,area}=p;
+    svg.attr('aria-label','逐项更换模型假设时混合比例的中位数与百分之九十可信区间');
+    const ex=d3.extent(rows.flatMap(row=>row.r.ci)),span=Math.max(.2,ex[1]-ex[0]);
+    const x=d3.scaleLinear().domain([Math.max(0,ex[0]-.06*span),Math.min(1,ex[1]+.06*span)]).range([area.x0+6,area.x1-6]);
+    const y=d3.scalePoint().domain(rows.map(row=>row.label)).range([area.y0+12,area.y1-12]);
+    svg.append('g').attr('transform',`translate(0,${area.y1})`).call(d3.axisBottom(x).ticks(p.w<400?3:4).tickFormat(d3.format('.0%')));
+    svg.append('g').attr('transform',`translate(${area.x0},0)`).call(d3.axisLeft(y).tickSize(0).tickPadding(9));
+    svg.append('text').attr('class','axis-title').attr('data-axis','x').attr('x',(area.x0+area.x1)/2).attr('y',p.height-8).attr('text-anchor','middle').text('选择校正后的 f');
+    svg.append('text').attr('class','axis-title sr-only').attr('data-axis','y').attr('x',0).attr('y',0).text('固定假设组合');
+    const g=svg.append('g').attr('clip-path',`url(#${p.clipId})`);
+    const base=rows[0].r.ci[1];g.append('line').attr('x1',x(base)).attr('x2',x(base)).attr('y1',area.y0).attr('y2',area.y1).attr('stroke','var(--border)');
+    rows.forEach(row=>{const color=row.active?colors[0]:'var(--foreground)',yy=y(row.label),ci=row.r.ci;
+      g.append('line').attr('x1',x(ci[0])).attr('x2',x(ci[2])).attr('y1',yy).attr('y2',yy).attr('stroke',color).attr('opacity',row.active?1:.55).attr('stroke-width',2).attr('stroke-dasharray',row.r.ok?null:'3 3');
+      g.append('circle').attr('cx',x(ci[1])).attr('cy',yy).attr('r',4).attr('fill',row.r.ok?color:'var(--background)').attr('stroke',row.r.ok?'none':color);
+    });
+    function nearest(event){const [,py]=d3.pointer(event,svg.node());return rows.reduce((a,b)=>Math.abs(y(a.label)-py)<Math.abs(y(b.label)-py)?a:b);}
+    svg.append('rect').attr('data-chart-hit','').attr('x',area.x0).attr('y',area.y0).attr('width',area.x1-area.x0).attr('height',area.y1-area.y0).attr('fill','transparent').attr('class','cursor-interaction')
+      .on('pointermove',event=>{const row=nearest(event);showTip(event,[row.label,percent(row.r.ci[1])+' ['+percent(row.r.ci[0])+', '+percent(row.r.ci[2])+']','最小事件ESS '+row.r.minEss.toFixed(0)+' · MC σ(log L) '+row.r.mc.toFixed(2)]);}).on('pointerleave',hideTip)
+      .on('click',event=>{state=nearest(event).s;pinned=false;tip.style.display='none';sync();render();save();});
+    declutter(svg);
+  }
+  function scatter(){
+    const p=setup('#bbh-scatter',310),{svg,area}=p;
+    svg.attr('aria-label','69个双黑洞事件的主星质量与有效自旋中位数及百分之九十区间');
+    const xm=d3.extent(DATA.events.flatMap(e=>e.mass_1)),ym=d3.extent(DATA.events.flatMap(e=>e.chi_eff)),xp=(xm[1]-xm[0])*.04,yp=(ym[1]-ym[0])*.08;
+    const x=d3.scaleLinear().domain([Math.max(0,xm[0]-xp),xm[1]+xp]).range([area.x0+5,area.x1-5]);
+    const y=d3.scaleLinear().domain([ym[0]-yp,ym[1]+yp]).range([area.y1-5,area.y0+5]);
+    axes(p,x,y,'源参考系主星质量 m₁ / M☉','有效自旋 χ_eff',null,4);
+    const g=svg.append('g').attr('clip-path',`url(#${p.clipId})`);
+    g.append('line').attr('x1',area.x0).attr('x2',area.x1).attr('y1',y(0)).attr('y2',y(0)).attr('stroke','var(--border)');
+    DATA.events.forEach(e=>{const selected=e.id===state.event,removed=selected&&state.drop,color=selected?colors[0]:'var(--foreground)',opacity=removed?.15:selected?1:.23;
+      g.append('line').attr('x1',x(e.mass_1[0])).attr('x2',x(e.mass_1[2])).attr('y1',y(e.chi_eff[1])).attr('y2',y(e.chi_eff[1])).attr('stroke',color).attr('opacity',opacity);
+      g.append('line').attr('x1',x(e.mass_1[1])).attr('x2',x(e.mass_1[1])).attr('y1',y(e.chi_eff[0])).attr('y2',y(e.chi_eff[2])).attr('stroke',color).attr('opacity',opacity);
+      g.append('circle').attr('cx',x(e.mass_1[1])).attr('cy',y(e.chi_eff[1])).attr('r',selected?5:3).attr('fill',color).attr('opacity',removed?.2:selected?1:.65);
+    });
+    function nearest(event){const [px,py]=d3.pointer(event,svg.node());return DATA.events.reduce((a,b)=>(x(a.mass_1[1])-px)**2+(y(a.chi_eff[1])-py)**2<(x(b.mass_1[1])-px)**2+(y(b.chi_eff[1])-py)**2?a:b);}
+    svg.append('rect').attr('data-chart-hit','').attr('x',area.x0).attr('y',area.y0).attr('width',area.x1-area.x0).attr('height',area.y1-area.y0).attr('fill','transparent').attr('class','cursor-interaction')
+      .on('pointermove',event=>{const e=nearest(event);showTip(event,[e.name,'m₁ '+e.mass_1[1].toFixed(1)+' ['+e.mass_1[0].toFixed(1)+', '+e.mass_1[2].toFixed(1)+'] M☉','χ_eff '+e.chi_eff[1].toFixed(2)+' ['+e.chi_eff[0].toFixed(2)+', '+e.chi_eff[2].toFixed(2)+']']);}).on('pointerleave',hideTip)
+      .on('click',event=>{state.event=nearest(event).id;state.drop=false;sync();render();save();});
+    declutter(svg);
+  }
+  function sync(){
+    for(const [k,id] of Object.entries(ids)){const el=root.querySelector('#'+id);if(k==='drop'){el.checked=state.drop;el.disabled=!state.event;}else el.value=state[k];}
+    root.querySelector('#bbh-cal-value').textContent=state.cal.toFixed(2);
+    root.querySelector('#bbh-show-corrected').setAttribute('aria-pressed',String(state.corrected));root.querySelector('#bbh-show-naive').setAttribute('aria-pressed',String(state.naive));
+  }
+  function render(){
+    const c=compute(state),n=compute(state,false),r=DATA.scenarios[key(state)];
+    root.querySelector('#bbh-median').textContent=percent(c.ci[1]);
+    root.querySelector('#bbh-interval').textContent='90%区间 '+percent(c.ci[0])+'—'+percent(c.ci[2]);
+    root.querySelector('#bbh-naive').textContent=percent(n.ci[1]);
+    root.querySelector('#bbh-delta').textContent='校正后变化 '+((c.ci[1]-n.ci[1])*100).toFixed(1)+' 个百分点';
+    root.querySelector('#bbh-ratio').textContent=(r.selection[0]*state.cal/r.selection[1]).toFixed(2)+'×';
+    root.querySelector('#bbh-quality').textContent=c.n+'个事件 · 最小事件ESS '+c.minEss.toFixed(0)+' · 注入ESS '+c.injEss.toFixed(0)+' · MC σ(log L) '+c.mc.toFixed(2)+'（中位数处）'+(c.ok?'':' · 数值精度不足，区间仅作探索');
+    root.querySelector('#bbh-quality').classList.toggle('text-destructive',!c.ok);
+    const e=DATA.events.find(e=>e.id===state.event);
+    if(e){const full=compute({...state,drop:false}),without=compute({...state,drop:true});root.querySelector('#bbh-event-detail').textContent=e.name+' · χ_eff='+e.chi_eff[1].toFixed(2)+' · 剔除后 f 中位数变化 '+((without.ci[1]-full.ci[1])*100).toFixed(1)+' 个百分点';}
+    else root.querySelector('#bbh-event-detail').textContent='误差线：后验5%—95%分位数；点：中位数';
+    posterior(c,n);forest();scatter();
+    root.dataset.ready='true';
+  }
+  function save(){
+    const c=compute(state);if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{model:'GWTC-3 conditional tilt-mixture',settings:state,median:c.ci[1],interval90:c.ci,n:c.n,minEventESS:c.minEss,injectionESS:c.injEss,mcLogLikelihoodSD:c.mc},privateContent:{bbhState:state}}).catch(()=>{});
+  }
+  for(const [k,id] of Object.entries(ids))root.querySelector('#'+id).addEventListener(k==='cal'?'input':'change',event=>{
+    state[k]=k==='drop'?event.target.checked:fields.includes(k)||k==='cal'?+event.target.value:event.target.value;
+    if(k==='event')state.drop=false;pinned=false;tip.style.display='none';sync();render();save();
+  });
+  ['corrected','naive'].forEach(k=>root.querySelector('#bbh-show-'+k).addEventListener('click',()=>{state[k]=!state[k];sync();render();save();}));
+  function restore(ws){const saved=ws?.privateContent?.bbhState||ws?.modelContent?.settings;if(saved){state=safeState(saved);sync();render();}}
+  restore(window.openai?.widgetState);sync();render();
+  window.addEventListener('openai:set_globals',event=>{if(event.detail?.globals?.widgetState)restore(event.detail.globals.widgetState);});
+  let timer;new ResizeObserver(()=>{clearTimeout(timer);timer=setTimeout(render,80);}).observe(root);
+})();
+</script>

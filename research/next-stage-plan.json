@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-23",
+  "objective": "验证进动数据与模型的通用接入，量化坐标比较对对齐假设的敏感性",
+  "coordination": "主 agent 统一接口、科学解释、集成、测试和保存；三名子 agent 分别负责独立数据与研究模块",
+  "tasks": [
+    {
+      "id": "precession-reference",
+      "owner": "precession_reference",
+      "acceptance": [
+        "固定未弃用的官方版本",
+        "保留许可与校验信息",
+        "验证元数据和视界格式",
+        "适配并保留原始坐标、自旋和时钟"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "alignment-study",
+      "owner": "alignment_study",
+      "acceptance": [
+        "至少三种明确对齐规则",
+        "早期拟合与晚期验证窗口分离",
+        "合成已知偏移测试",
+        "原始数据直接计算，不从压缩动画估计误差"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "surrogate-runtime",
+      "owner": "surrogate_runtime",
+      "acceptance": [
+        "隔离工具链，不改原波形环境",
+        "真实模型输出或可复现阻塞证据",
+        "若运行成功检查样条、四元数、自旋与波形",
+        "不从轨道相位伪造数值相对论分离度"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "integration",
+      "owner": "root",
+      "acceptance": [
+        "独立对齐比较面板",
+        "来源及参数完整导出",
+        "桌面和窄屏测试",
+        "保存结果、代码哈希和剩余问题"
+      ],
+      "status": "completed"
+    }
+  ],
+  "scientific_limits": [
+    "坐标比较不是波形失配或探测误差",
+    "两分辨率比较不提供收敛阶",
+    "可视化与形成渠道层次推断保持各自的数据来源",
+    "未经验证的模型输出不作为物理结论"
+  ],
+  "status": "completed",
+  "result": "research/stage2-results/README.md",
+  "next_research": "Independent NR waveform comparison with explicit frame, reference-frequency and retarded-time conventions"
+}

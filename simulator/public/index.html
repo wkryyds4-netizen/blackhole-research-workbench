@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>双黑洞引力波实验室</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='11' fill='%23080f18' stroke='%2362d9db' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><div class="brand"><span class="brand-mark" aria-hidden="true">◎</span><div><strong>双黑洞引力波实验室</strong><small>BINARY BLACK HOLE LAB · 研究原型 01</small></div></div><div class="header-actions"><span class="status" id="status" role="status">正在连接计算引擎</span><button id="export">导出本次计算 ↓</button></div></header>
+<nav class="tabs" aria-label="实验视图"><button class="active" data-tab="simulation" aria-pressed="true">波形实验</button><button data-tab="observation" aria-pressed="false">GW150914 真实信号</button><button data-tab="methods" aria-pressed="false">模型与来源</button><a href="workbench.html">通用研究工作台 ↗</a></nav>
+<main>
+<div class="workspace" id="workspace">
+<div class="visuals">
+<section id="simulation" class="view">
+<div class="scene-heading"><div><span class="eyebrow">SOURCE DYNAMICS</span><h1>从轨道运动，看见时空的节奏</h1></div><span class="tag" id="stage">旋近</span></div>
+<div class="optical-toolbar"><label>场景<select id="scene-mode" aria-label="场景渲染方式"><option value="lensing">引力透镜 · blackhole-sim</option><option value="schematic">轨道示意 · 对照</option></select></label><label>画质<select id="optical-quality" aria-label="透镜画质"><option value="low">流畅</option><option value="medium" selected>均衡</option><option value="high">精细</option></select></label><label><input id="optical-disk" type="checkbox" checked>吸积盘 · 环境示意</label></div>
+<div class="scene-wrap"><canvas id="orbit" aria-label="由波形相位驱动的双黑洞轨道示意，拖动改变视角"></canvas><canvas id="lensing" hidden aria-label="blackhole-sim 两中心引力透镜近似，拖动旋转、滚轮缩放，吸积盘为环境示意"></canvas><div class="scene-meta"><span id="scene-time">t = — s</span><span id="scene-frequency">f = — Hz</span></div><div class="camera-buttons"><button id="camera-oblique">斜视</button><button id="camera-top">俯视</button></div><span class="scene-caption" id="scene-caption">拖动旋转视角 · 轨道为示意，非数值相对论轨迹</span></div>
+<div class="optical-note"><span id="optical-status" role="status">正在加载透镜渲染</span><span>双黑洞光学不含自旋；自旋仍影响下方波形。吸积盘不代表 GW150914 的观测证据。</span></div>
+<div class="transport"><button class="primary" id="play" disabled>▶ 播放</button><button id="restart" aria-label="回到起点">↤</button><input id="scrub" aria-label="物理时间游标" type="range" min="0" max="1000" value="0"><label class="speed-label">播放速度<select id="speed"><option value=".02">0.02×</option><option value=".05">0.05×</option><option value=".1" selected>0.1×</option><option value=".25">0.25×</option><option value="1">1×</option></select></label></div>
+<div class="lower-grid"><section class="wave-section"><div class="section-line"><h2>引力波应变</h2><select id="window" aria-label="波形显示窗口"><option value="full">完整波形</option><option value="1">并合前后 1 秒</option><option value=".25">并合前后 0.25 秒</option></select></div><div class="legend"><label><input id="show-plus" type="checkbox" checked><i class="swatch cyan"></i>h+</label><label><input id="show-cross" type="checkbox" checked><i class="swatch gold"></i>h×</label><span id="ref-legend" hidden><i class="swatch ref"></i>已保存 h+</span></div><canvas id="wave" aria-label="两种引力波极化应变随物理时间变化，可点击移动游标"></canvas></section><section class="polar-section"><div class="section-line"><h2>极化形变</h2><select id="polar-mode" aria-label="极化形变模式"><option value="both">叠加</option><option value="plus">h+</option><option value="cross">h×</option></select></div><canvas id="polar" aria-label="横向测试粒子环的极化形变"></canvas><p class="muted tiny">形变按当前波形峰值归一化放大</p></section></div>
+<div class="readouts"><div><span>啁啾质量</span><strong id="chirp">—</strong></div><div><span>有效自旋 χeff</span><strong id="chieff">—</strong></div><div><span>峰值合成应变</span><strong id="peak">—</strong></div><div><span>质量比 m₂/m₁</span><strong id="q">—</strong></div></div>
+</section>
+<section id="observation" class="view" hidden>
+<div class="scene-heading"><div><span class="eyebrow">OPEN OBSERVATION</span><h1>把模型放回真实信号中</h1></div><select id="detector" aria-label="探测器"><option value="H1">Hanford · H1</option><option value="L1">Livingston · L1</option></select></div>
+<p class="intro">GW150914 · GWOSC 第3版 · 4096 Hz。数据与模板经过相同的白化和 35–350 Hz 带通处理。</p>
+<div class="section-line"><h2>观测与模板</h2><button class="primary" id="fit">对齐当前模板</button></div><div class="legend"><span><i class="swatch gray"></i>观测数据</span><span><i class="swatch cyan"></i>当前模板</span></div><canvas id="event-wave" class="event-chart" aria-label="GW150914真实数据与当前模板对照"></canvas>
+<div class="fit-summary" id="fit-summary" role="status">点击对齐当前模板，比较所选参数。</div>
+<div class="section-line"><h2>残差</h2><span class="muted tiny">观测 − 模板</span></div><canvas id="residual" class="residual-chart" aria-label="观测减去对齐模板后的残差"></canvas>
+<div class="section-line"><h2>信号的时频结构</h2><span class="muted tiny">短时傅里叶功率 · 相对色标</span></div><canvas id="spectrogram" class="spectrogram" aria-label="GW150914白化信号的时频功率图"></canvas>
+<p class="notice">每台探测器独立调整时间、相位和振幅，仅作形状对照；距离和倾角的振幅差异会被拟合吸收。窗口相关系数不是发现显著性，也不能据此确定形成渠道。</p>
+</section>
+</div>
+<aside class="controls" aria-label="物理参数">
+<div class="section-line"><h2>实验参数</h2><span class="tag subtle">探测器参考系</span></div>
+<label class="field">起始配置<select id="preset"><option value="default">GW150914 类参数 · 演示</option><option value="equal">等质量 · 无自旋</option><option value="aligned">同向自旋 · 延长旋近</option><option value="unequal">不等质量 · 3 : 1</option></select></label>
+<label class="field">波形模型<select id="model"><option value="IMRPhenomD">IMRPhenomD</option><option value="IMRPhenomXAS">IMRPhenomXAS</option></select></label>
+<div id="parameter-fields"></div>
+<div id="error" role="alert" hidden></div>
+<div class="control-actions"><button id="save-reference">保存为对照</button><button id="clear-reference" disabled>清除对照</button><button id="audio">♫ 听波形 · 原速</button></div>
+<p class="notice" id="reference-note">质量改变时间尺度，自旋改变相位演化；距离和倾角影响观测振幅。</p>
+<p class="tiny muted">准圆轨道 · 沿轨道角动量方向的自旋 · 主导四极模。m₁ ≥ m₂，质量比不超过 4。参数变化后自动重新计算。</p>
+</aside>
+</div>
+<section id="methods" class="view methods" hidden>
+<span class="eyebrow">METHODS & PROVENANCE</span><h1>每一条曲线，都有可追溯的来源</h1>
+<div class="method-grid"><article><h2>波形怎样生成</h2><p>使用 Ripple 的 IMRPhenomD / IMRPhenomXAS 频域实现，双精度计算后逆傅里叶变换。20–25 Hz 与 900–1000 Hz 平滑收边，4096 Hz 固定采样。t = 0 对齐到正面观测的双极化包络峰值。</p><p>质量单位 M☉，距离单位 Mpc，应变无量纲。输入质量是探测器参考系质量，源参考系质量须乘以 (1 + z)。</p><p id="engine-version">计算版本加载中</p></article><article><h2>哪些画面是示意</h2><p>旋近轨道的相位取自波形，间距由主导模频率作 Kepler 近似。并合附近采用视觉过渡；遗迹图形不表示实际视界或其准正常模。</p><p>粒子环按当前峰值放大，拖动相机仅改变视角。动画倍速不改变数据或频率读数。声音按波形归一化，以原物理采样率播放。</p></article><article><h2>真实信号怎样处理</h2><p>GWOSC GW150914 v3，H1/L1 各32秒。首尾各10秒估计 Welch 噪声谱，整段白化后进行零相位35–350 Hz带通。模板经过同样处理。</p><p>对照在 −0.20 至 +0.08 秒窗口内拟合两个正交分量，并搜索 ±40 ms 平移。这是教学形状拟合，未联合天空位置、探测器响应或完整后验。</p></article><article><h2>与形成渠道研究的关系</h2><p>本工具展示“参数如何改变信号”。当前工作区的群体模型研究“参数总体及其探测偏好”。单次并合动画不能反推出唯一形成渠道。</p><p>后续接入联合后验和搜索注入时，需要补全自旋角、参考频率、天空位置等字段；偏对齐与各向同性仍保留为代理分量标签。</p></article></div>
+<h2>借鉴与改造</h2><div class="source-list"><a href="https://vijayvarma392.github.io/binaryBHexp/" target="_blank" rel="noopener">binaryBHexp <span>轨道、自旋、波形同步 → 统一物理时间轴</span></a><a href="https://data.cardiffgravity.org/waveform-fitter/" target="_blank" rel="noopener">Cardiff Waveform Fitter <span>真实信号叠加 → 双探测器、残差和时频图</span></a><a href="https://github.com/GW-JAX-Team/ripple" target="_blank" rel="noopener">Ripple · MIT <span>波形计算 → 双模型切换、缓存和导出</span></a><a href="https://github.com/algometrix/blackhole-sim/tree/0ee5541ec4ffcd9ca708f37c080bf00b7f3ef6d1" target="_blank" rel="noopener">blackhole-sim · MIT <span>复用光线积分、HDR 星空与渲染管线 → 质心运动与波形时间同步</span></a><a href="https://gwosc.org/eventapi/html/GWTC-1-confident/GW150914/v3/" target="_blank" rel="noopener">GWOSC <span>公开应变 → 本地缓存、SHA-256与处理记录</span></a></div><p class="notice">透镜模块基于 algometrix/blackhole-sim（2026，MIT）；本地保留<a href="licenses/THIRD-PARTY.txt" target="_blank">完整许可证</a>。双黑洞光线采用两 Schwarzschild 中心叠加近似，未求解时变双黑洞度规；单 Kerr 功能未用于双黑洞。吸积盘是主黑洞周围的环境示意，非流体模拟。并合后的半径过渡不代表实际遗迹质量、自旋或准正常模。本版本不含偏心或进动，也未复现官方事件参数估计。</p>
+</section>
+</main><footer><span>可复现的计算 · 可探索的物理</span><span id="footer-model">正在初始化</span></footer>
+<script src="app.js"></script></body></html>

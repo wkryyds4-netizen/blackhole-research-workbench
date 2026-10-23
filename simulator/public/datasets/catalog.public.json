@@ -1,0 +1,22 @@
+[
+  {
+    "id": "sxs-0001-lev5",
+    "title": "SXS:BBH:0001 · Lev5 · 近无自旋双黑洞",
+    "url": "datasets/sxs-0001-lev5.json"
+  },
+  {
+    "id": "sxs-0003-lev5",
+    "title": "SXS:BBH:0003 · Lev5 · 进动双黑洞（旧版）",
+    "url": "datasets/sxs-0003-lev5.json"
+  },
+  {
+    "id": "sxs-0389-lev3",
+    "title": "SXS:BBH:0389 · Lev3 · 近无自旋双黑洞",
+    "url": "datasets/sxs-0389-lev3.json"
+  },
+  {
+    "id": "sxs-0389-lev2",
+    "title": "SXS:BBH:0389 · Lev2 · 近无自旋双黑洞",
+    "url": "datasets/sxs-0389-lev2.json"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-23",
+  "working_directory": "research/adapter-build/zig-runtime/gwsurrogate-1.2.0",
+  "command": "python -X utf8 -m pytest test/test_spline_interp.py test/test_precessing_utils.py test/test_wigner_d.py test/test_rotate_waveform.py test/test_normalize_spin.py test/test_spins_and_waveform.py -q",
+  "result": "79 passed in 6.37s",
+  "status": "passed",
+  "reference_type": "Upstream unit and hard-coded waveform regression tests; not an independent NR mismatch study",
+  "model_sha256": "3fc2f58f6ed7a4fff58856b6c01a7dc9155954d2b9fa5d58126a7807826d45d5"
+}

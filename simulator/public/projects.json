@@ -1,0 +1,101 @@
+[
+  {
+    "name": "blackhole-sim · algometrix",
+    "url": "https://github.com/algometrix/blackhole-sim",
+    "role": "现有实时透镜、程序化星空与 HDR 管线。",
+    "action": "已接入：单 Schwarzschild / Kerr、无自旋双中心近似。",
+    "limits": "单 Kerr 与双中心分开；双黑洞不是完整数值时空。",
+    "license": "MIT",
+    "status": "本地运行及适配检查通过"
+  },
+  {
+    "name": "GYOTO",
+    "url": "https://gyoto.obspm.fr/",
+    "role": "解析/数值度规、发光物体、相机和光谱分层；可作为离线光学参考。",
+    "action": "优先借鉴接口；下一阶段建立暗影与偏折基准。",
+    "limits": "主要面向 Linux/macOS 与 C++/Python；当前 Windows 环境未运行。",
+    "license": "GPL-3.0-or-later",
+    "status": "官方文档与许可证已核查"
+  },
+  {
+    "name": "SXS",
+    "url": "https://github.com/sxs-collaboration/sxs",
+    "role": "访问数值相对论波形、视界位置、质量与自旋时序。",
+    "action": "7 份视界快照；0389 N2/N3/N4 波形已用于对照；2327 Lev2/3 记忆修正波形已解码为77个惯性模式。",
+    "limits": "0003 作为历史演示保留。2327 各分辨率参考时刻不同；坐标差不等于波形失配。",
+    "license": "旧 Zenodo 快照 CC-BY-4.0；2327 CaltechDATA 记录未声明许可",
+    "status": "原始数据核对、非弃用状态与来源约定已检查"
+  },
+  {
+    "name": "GWSurrogate",
+    "url": "https://github.com/sxs-collaboration/gwsurrogate",
+    "role": "进动/高阶模代理波形；部分模型可返回动力学。",
+    "action": "NRSur7dq4 进动演示及0389复h22对照已运行；145个窗、PSD、质量/频段和采样比较配置已接入。",
+    "limits": "0389训练成员未核实，不能称训练集外验证；复模式失配不是探测器失配。动力学没有真实位置；−100M后自旋是非物理延伸。",
+    "license": "MIT/X Consortium 文本",
+    "status": "隔离 Zig 运行路径，79 项上游测试及独立数值检查通过"
+  },
+  {
+    "name": "PESummary",
+    "url": "https://github.com/pesummary/pesummary",
+    "role": "多分析后验读取、参数转换、corner/violin/spin 图与结果比较。",
+    "action": "借鉴多个事件和波形分析的统一后验容器。",
+    "limits": "不是参数估计引擎；需要原始联合后验及完整约定。",
+    "license": "MIT（已阅读 LICENSE.md）",
+    "status": "文档与源码元数据已核查"
+  },
+  {
+    "name": "GWPopulation",
+    "url": "https://colmtalbot.github.io/gwpopulation/",
+    "role": "群体模型、层次似然、选择效应与硬件后端。",
+    "action": "研究层优先迁移接口，并独立核对现有权重公式。",
+    "limits": "库不能补回教程文件缺失的注入阈值和观测运行信息。",
+    "license": "MIT",
+    "status": "官方资料已核查；当前研究仍用已有实现"
+  },
+  {
+    "name": "Bilby",
+    "url": "https://github.com/bilby-dev/bilby",
+    "role": "先验、似然、采样器、单事件与超参数推断接口。",
+    "action": "后续对完整超参数做联合边缘化并保留采样诊断。",
+    "limits": "计算成本依赖模型与采样器；当前没有启动新的采样。",
+    "license": "MIT",
+    "status": "文档与许可证已核查"
+  },
+  {
+    "name": "qnm",
+    "url": "https://github.com/duetosymmetry/qnm",
+    "role": "Kerr 准正常模的复频率及球/扁球谐混合。",
+    "action": "用于后续遗迹振铃模块，替代任意振荡频率。",
+    "limits": "只给本征模并不决定激发振幅，也不提供并合轨迹。",
+    "license": "MIT",
+    "status": "官方接口与许可证已核查；未运行"
+  },
+  {
+    "name": "EinsteinPy",
+    "url": "https://github.com/einsteinpy/einsteinpy",
+    "role": "度规、测地线与相对论教学计算。",
+    "action": "作为可独立运行的低维轨迹交叉检查候选。",
+    "limits": "不是现成的双黑洞合并解或高性能渲染替代品。",
+    "license": "MIT",
+    "status": "仓库及依赖说明已核查；未运行"
+  },
+  {
+    "name": "kyleyhw / black_hole",
+    "url": "https://github.com/kyleyhw/black_hole",
+    "role": "浏览器 Kerr、相机标架、CPU 验证与 GPU 对照设计。",
+    "action": "研究验证组织与相机表达，不复制源码。",
+    "limits": "未找到明确许可证；README 的精度宣称未独立验证。",
+    "license": "未发现明确许可",
+    "status": "源码目录与说明已检查；未执行测试"
+  },
+  {
+    "name": "samrht / blackhole-sim",
+    "url": "https://github.com/samrht/blackhole-sim",
+    "role": "WebGPU Kerr 渲染、CPU/shader 一致性与步数误差讨论。",
+    "action": "借鉴误差预算与画质诊断思路，不替换当前 WebGL2 主路径。",
+    "limits": "未找到明确许可证；WebGPU 可用性和跨 GPU 精度需实测。",
+    "license": "未发现明确许可",
+    "status": "源码目录与说明已检查；未执行测试"
+  }
+]
