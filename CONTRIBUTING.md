@@ -37,7 +37,8 @@ Documentary snapshots should be fetched from their public source, not copied
 wholesale into a contribution. If an upstream excerpt is necessary, retain its
 license and attribution in `NOTICE.md`. Keep original HDF/pickle files and direct
 array conversions out of Git, even when they are publicly downloadable.
-# Browser release checks on hosted runners
+
+## Browser release checks on hosted runners
 
 The GitHub job sets `WORKBENCH_DISABLE_WEBGL=1` to test the supported coordinate
 fallback on machines without a hardware GPU. The test asserts that optics are
@@ -46,4 +47,3 @@ views still work. This does not validate optical image fidelity. Omit that
 environment variable for the default graphics path; both paths were checked
 locally for the population-paper release. The default graphics path timed out
 during scene selection on the hosted Linux runner; the local default path passed.
-
