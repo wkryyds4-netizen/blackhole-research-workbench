@@ -18,6 +18,7 @@ def save(fig, stem):
     fig.tight_layout()
     fig.savefig(HERE/'figures'/f'{stem}.png', dpi=240)
     fig.savefig(HERE/'figures'/f'{stem}.svg', metadata={'Date': None})
+    fig.savefig(HERE/'figures'/f'{stem}.pdf', metadata={'CreationDate': None, 'ModDate': None})
     plt.close(fig)
 
 

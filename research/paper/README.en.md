@@ -6,14 +6,35 @@
 
 | Edition | PDF | Editable manuscript |
 |---|---|---|
-| English | [16-page paper](../../output/pdf/blackhole-population-robustness-en-v0.2.pdf) | [Full English text](manuscript.en.md) |
-| Chinese | [13-page paper](../../output/pdf/blackhole-population-robustness-v0.2.pdf) | [Chinese text](manuscript.zh.md) |
+| English | [14-page LaTeX paper](../../output/pdf/blackhole-population-robustness-latex-en-v0.2.pdf) | [Full English text](manuscript.en.md) |
+| Chinese | [14-page LaTeX paper](../../output/pdf/blackhole-population-robustness-latex-zh-v0.2.pdf) | [Chinese text](manuscript.zh.md) |
 
-Both editions report the same research: 69 tutorial-derived events, 81 fixed population settings, a shared-support prior control, row-level provenance recovery for 41,972 injections, and 2,048 paired empirical resamples. Each contains 14 displayed equations, six tables, three figures, and nine references. The English edition is a full translation; page counts differ because of language and layout.
+Both editions report the same research: 69 tutorial-derived events, 81 fixed population settings, a shared-support prior control, row-level provenance recovery for 41,972 injections, and 2,048 paired empirical resamples. Each contains 14 displayed equations, six tables, three figures, and nine references. The English edition is a full translation; both LaTeX editions now contain 14 pages.
 
 The baseline spin-amplitude assumption gives a common-prior posterior-median difference of 6.734 percentage points between two tilt-width settings, with a 5th–95th percentile empirical perturbation range of 5.557–7.600 points. The corresponding low-spin stress case gives 1.115 points, with range −0.293–3.601 points. These ranges describe numerical sensitivity, not astrophysical credible intervals. The phenomenological mixture components are not formation-channel labels. Event-level original PE settings and event–injection selection consistency remain unresolved.
 
-## Build from frozen results
+## LaTeX projects and compilation
+
+Editable projects: [English pdfLaTeX](latex-en/main.tex) and [Chinese XeLaTeX](latex-zh/main.tex). Each directory is self-contained, with `main.tex` and three vector PDF figures. The preprint uses A4, 11pt type, 25mm margins, native equations, booktabs tables, numbered captions, and linked references. English uses article/Latin Modern; Chinese uses ctexart/Fandol.
+
+The packaging follows the [official arXiv TeX source guidance](https://info.arxiv.org/help/submit_tex.html). This is not a journal-specific template or an arXiv submission. References are embedded in `thebibliography`, so BibTeX is unnecessary. The date is fixed.
+
+Install TeX Live or MiKTeX with ctex/Fandol, natbib, microtype, placeins, and the standard packages; put `xelatex` and `pdflatex` on PATH. From the repository root:
+
+```sh
+python -X utf8 research/paper/compile_latex.py
+python -X utf8 research/paper/validate_latex.py
+```
+
+The script runs each engine twice and exports to `output/pdf/`. After changing the Markdown manuscripts, regenerate sources with `python -X utf8 research/paper/build_latex.py`; after changing figure generation, run `build_figures.py` first. For direct TeX editing, do not rerun the generator because it overwrites `main.tex`; run `pdflatex main.tex` or `xelatex main.tex` twice inside the corresponding project instead.
+
+The [source manifest](latex-source-manifest.json), [build manifest](latex-build-manifest.json), and [visual QA](latex-visual-qa.json) record sources, engines, page counts, and hashes. CI verifies released source/figure/PDF integrity, rather than recompiling TeX. Rebuilds can change PDF bytes and require renewed layout review and QA records.
+
+## Earlier ReportLab exports
+
+The earlier [Chinese 13-page](../../output/pdf/blackhole-population-robustness-v0.2.pdf) and [English 16-page](../../output/pdf/blackhole-population-robustness-en-v0.2.pdf) exports remain available as historical versions. They were not compiled with LaTeX. The following commands reproduce those earlier exports.
+
+### Build earlier exports from frozen results
 
 From the repository root:
 

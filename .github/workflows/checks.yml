@@ -16,6 +16,8 @@ jobs:
           python-version: '3.12'
       - name: Check bilingual research manuscripts and PDF hashes
         run: python -X utf8 research/paper/validate_bilingual.py
+      - name: Check LaTeX release sources and compiled PDF hashes
+        run: python -X utf8 research/paper/validate_latex.py
       - run: npm ci
       - run: npm test
       - run: npx playwright install --with-deps chromium

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-24",
+  "status": "compiled",
+  "editions": [
+    {
+      "language": "zh",
+      "manuscript_sha256": "1eaf5cea0baf603179e715a34ad994114d6012dce18baaa57e0ddfe22112e162",
+      "main_tex_sha256": "908f24bfa5bcf1ea2c943f6943b9f6b196b5278a374cfb6054421744d152e950",
+      "equations": 14,
+      "figures": 3,
+      "tables": 6,
+      "references": 9,
+      "engine": "xelatex",
+      "engine_version": "MiKTeX-XeTeX 4.18 (MiKTeX 26.5 Portable)",
+      "pages": 14,
+      "output": "output/pdf/blackhole-population-robustness-latex-zh-v0.2.pdf",
+      "pdf_sha256": "2b8f6207e49eeb9ac5894b338845f7a36aa5f39883cd706af49a940faf895a60",
+      "log_sha256": "c1ab389f694e0e4e642e0ffcca30bb6a6bb5417f7826eef8153a41c881e78ef1",
+      "figures_sha256": {
+        "common-prior-groups.pdf": "310a4616f0aac0f81d969f754fbde919ac20075ed97ab735c1a0610c3238f755",
+        "paired-bootstrap.pdf": "66fc3bdbdbd6952fd729b5440800982b206310a1b0a784a3864056df732a085d",
+        "prior-support.pdf": "b1585c932c779dc830c8a235c35b8a80b71a01be103f8dbee765c920f06db655"
+      },
+      "passes": 2,
+      "references_resolved": true,
+      "missing_glyph_reports": 0,
+      "overfull_boxes": 0
+    },
+    {
+      "language": "en",
+      "manuscript_sha256": "d91a97c353ccadc8b021a4ffb5630660729080c0666d48365b62e9cb89ced928",
+      "main_tex_sha256": "46f8404913282d2cfba5dfa8b5d8360802ec89f9bc8c74ae76938dcd005c84fd",
+      "equations": 14,
+      "figures": 3,
+      "tables": 6,
+      "references": 9,
+      "engine": "pdflatex",
+      "engine_version": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5 Portable)",
+      "pages": 14,
+      "output": "output/pdf/blackhole-population-robustness-latex-en-v0.2.pdf",
+      "pdf_sha256": "2582a9d23991e89dddabc290ecdda522556808827cada2d42f1d2a95b1bb4740",
+      "log_sha256": "a97099dd65aec771f2e5f467c7afa1be38f494b3f236797ed11f8e33d65b3fdb",
+      "figures_sha256": {
+        "common-prior-groups.pdf": "310a4616f0aac0f81d969f754fbde919ac20075ed97ab735c1a0610c3238f755",
+        "paired-bootstrap.pdf": "66fc3bdbdbd6952fd729b5440800982b206310a1b0a784a3864056df732a085d",
+        "prior-support.pdf": "b1585c932c779dc830c8a235c35b8a80b71a01be103f8dbee765c920f06db655"
+      },
+      "passes": 2,
+      "references_resolved": true,
+      "missing_glyph_reports": 0,
+      "overfull_boxes": 0
+    }
+  ],
+  "note": "Actual TeX engine outputs. Byte identity across rebuilds is not promised. Reinspect rebuilt PDFs."
+}

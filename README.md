@@ -4,7 +4,7 @@
 
 ## 研究论文与复现材料
 
-**[中文论文 PDF（13页）](output/pdf/blackhole-population-robustness-v0.2.pdf)** · **[English paper PDF (16 pages)](output/pdf/blackhole-population-robustness-en-v0.2.pdf)**
+**[中文 LaTeX 论文 PDF（14页）](output/pdf/blackhole-population-robustness-latex-zh-v0.2.pdf)** · **[English LaTeX PDF (14 pages)](output/pdf/blackhole-population-robustness-latex-en-v0.2.pdf)**
 
 [中文全文](research/paper/manuscript.zh.md) · [Full English text](research/paper/manuscript.en.md) · [双语构建与审阅](research/paper/README.md) · [English guide](research/paper/README.en.md) · [科学计算复现](research/REPRODUCING_POPULATION.md)
 

@@ -54,3 +54,11 @@ research/population-stage2/provenance-sources/*
 research/paper/tmp/
 !research/paper/figures/*.png
 results/black-hole-robustness.html
+# Local TeX compilation products; distributable PDFs live in output/pdf/.
+research/paper/latex-*/main.pdf
+research/paper/latex-*/*.aux
+research/paper/latex-*/*.out
+research/paper/latex-*/*.fls
+research/paper/latex-*/*.fdb_latexmk
+research/paper/latex-*/*.synctex.gz
+research/paper/latex-*/compile-console.txt
