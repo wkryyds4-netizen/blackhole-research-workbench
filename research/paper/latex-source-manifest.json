@@ -4,7 +4,7 @@
     {
       "language": "zh",
       "manuscript_sha256": "1eaf5cea0baf603179e715a34ad994114d6012dce18baaa57e0ddfe22112e162",
-      "main_tex_sha256": "908f24bfa5bcf1ea2c943f6943b9f6b196b5278a374cfb6054421744d152e950",
+      "main_tex_sha256": "8edf688957203e7a4f31067637a219e82003bdfe00341f82ae07ea8782326be3",
       "equations": 14,
       "figures": 3,
       "tables": 6,
@@ -14,7 +14,7 @@
     {
       "language": "en",
       "manuscript_sha256": "d91a97c353ccadc8b021a4ffb5630660729080c0666d48365b62e9cb89ced928",
-      "main_tex_sha256": "46f8404913282d2cfba5dfa8b5d8360802ec89f9bc8c74ae76938dcd005c84fd",
+      "main_tex_sha256": "2d022376ad8219c5067fd99826fe9f1bd2423c80ccfbc45b035e990c3dd34e1f",
       "equations": 14,
       "figures": 3,
       "tables": 6,

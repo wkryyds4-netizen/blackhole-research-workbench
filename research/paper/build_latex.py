@@ -100,15 +100,16 @@ def generate(lang):
 \renewcommand{\arraystretch}{1.18}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \graphicspath{{figures/}}
-\hypersetup{pdfauthor={Blackhole Research Workbench project research draft}}
+\hypersetup{pdfauthor={ChatGPT (OpenAI; AI assistant)}}
 '''
     title = lines[0].removeprefix('# ')
     subtitle = next(l.removeprefix('## ') for l in lines if l.startswith('## '))
     parts = [preamble, r'\title{'+inline(title)+r'\\[0.4em]\large '+inline(subtitle)+'}',
-             r'\author{Blackhole Research Workbench\\\small '+('项目研究稿' if chinese else 'Project research draft')+'}',
+             r'\author{ChatGPT (OpenAI)\\\small '+('AI 助手' if chinese else 'AI assistant')+'}',
              r'\date{'+('2026年10月24日' if chinese else '24 October 2026')+r'\\\small v0.2 --- '+('未同行评审' if chinese else 'Not peer reviewed')+'}',
              r'\begin{document}', r'\maketitle']
-    status = next(l for l in lines if l.startswith(('稿件状态：','Manuscript status:')))
+    status = ('稿件状态：公开技术研究稿，未同行评审。按项目发起者要求署名 ChatGPT（OpenAI，AI 助手）；人类责任作者尚未指定。此署名不代表 OpenAI 的机构背书。代码与计算结果见 [项目仓库](https://github.com/wkryyds4-netizen/blackhole-research-workbench)。' if chinese else
+              'Manuscript status: public technical research draft, not peer reviewed. At the project initiator\'s request, this draft is attributed to ChatGPT (OpenAI, AI assistant). No human accountable author has been designated. This attribution does not imply institutional endorsement by OpenAI. Code and calculated results: [project repository](https://github.com/wkryyds4-netizen/blackhole-research-workbench).')
     parts.append(r'{\small '+inline(status)+r'\par}')
     abstract_header = '### 摘要' if chinese else '### Abstract'
     ai = lines.index(abstract_header)

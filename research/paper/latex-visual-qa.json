@@ -5,23 +5,25 @@
   "editions": [
     {
       "language": "zh",
-      "pdf_sha256": "2b8f6207e49eeb9ac5894b338845f7a36aa5f39883cd706af49a940faf895a60",
+      "pdf_sha256": "ee8db366e6dd661e71373b6d3652a30723e398ec7047badf62938fa84a0a05b9",
       "pages": 14,
       "rendered_pages": 14,
       "all_fonts_embedded": true,
       "font_resource_count": 26,
       "critical_numeric_tokens_present": true,
-      "visual_review": "All pages reviewed in contact sheets; final changed pages inspected at 1300 px. Earlier unchanged pages matched pixel hashes. Figure/table/negative-range page inspected full size. No clipping, overlap or missing glyphs observed."
+      "visual_review": "All pages reviewed in contact sheets; final changed pages inspected at 1300 px. Earlier unchanged pages matched pixel hashes. Figure/table/negative-range page inspected full size. No clipping, overlap or missing glyphs observed. After attribution update, page 1 was reinspected at full resolution; all remaining rendered pages were pixel-identical to the reviewed edition.",
+      "attribution": "ChatGPT (OpenAI; AI assistant); no human accountable author designated"
     },
     {
       "language": "en",
-      "pdf_sha256": "2582a9d23991e89dddabc290ecdda522556808827cada2d42f1d2a95b1bb4740",
+      "pdf_sha256": "2c883e8d3801b28bd265b3a9d9c5b62280a71f25b297e1661898f1967b83e3da",
       "pages": 14,
       "rendered_pages": 14,
       "all_fonts_embedded": true,
       "font_resource_count": 22,
       "critical_numeric_tokens_present": true,
-      "visual_review": "All pages reviewed in contact sheets; final changed pages inspected at 1300 px. Earlier unchanged pages matched pixel hashes. Figure/table/negative-range page inspected full size. No clipping, overlap or missing glyphs observed."
+      "visual_review": "All pages reviewed in contact sheets; final changed pages inspected at 1300 px. Earlier unchanged pages matched pixel hashes. Figure/table/negative-range page inspected full size. No clipping, overlap or missing glyphs observed. After attribution update, page 1 was reinspected at full resolution; all remaining rendered pages were pixel-identical to the reviewed edition.",
+      "attribution": "ChatGPT (OpenAI; AI assistant); no human accountable author designated"
     }
   ]
 }
