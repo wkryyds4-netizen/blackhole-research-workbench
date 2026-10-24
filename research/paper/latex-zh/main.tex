@@ -15,14 +15,14 @@
 \renewcommand{\arraystretch}{1.18}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \graphicspath{{figures/}}
-\hypersetup{pdfauthor={ChatGPT (OpenAI; AI assistant)}}
+\hypersetup{pdfauthor={Chengheng}}
 
 \title{公开双黑洞群体推断的条件稳健性\\[0.4em]\large 先验支持、注入来源与共享样本蒙特卡洛误差的可复现诊断}
-\author{ChatGPT (OpenAI)\\\small AI 助手}
+\author{澄衡（Chengheng）\\\small Blackhole Research Workbench}
 \date{2026年10月24日\\\small v0.2 --- 未同行评审}
 \begin{document}
 \maketitle
-{\small 稿件状态：公开技术研究稿，未同行评审。按项目发起者要求署名 ChatGPT（OpenAI，AI 助手）；人类责任作者尚未指定。此署名不代表 OpenAI 的机构背书。代码与计算结果见 \href{https://github.com/wkryyds4-netizen/blackhole-research-workbench}{项目仓库}。\par}
+{\small 稿件状态：公开技术研究稿，未同行评审。澄衡（Chengheng）是本项目协作 AI 助手（ChatGPT，OpenAI）使用的笔名；人类责任作者尚未指定。此署名不代表 OpenAI 的机构背书。代码与计算结果见 \href{https://github.com/wkryyds4-netizen/blackhole-research-workbench}{项目仓库}。\par}
 \begin{abstract}
 双黑洞自旋倾角群体分布能够约束形成情景，但从有限引力波样本到形成渠道占比的解释依赖总体模型、观测选择及数值积分。本文使用公开GWPopulation教程的69事件条件基线，研究三个可分离的问题：混合参数与统一物理积分量的差异、注入数据的来源与测度一致性，以及跨模型复用样本所产生的相关蒙特卡洛误差。我们在81个固定超参数设置中计算主黑洞负倾角余弦比例，并在27组三宽度模型中统一该比例的先验支持。只有9组的中位数差异明显缩小，且均与点态数值筛查失败重合。进一步恢复全部41972条注入与官方原始HDF的逐行对应、运行标签、保留掩码及密度转换，在六个代表设置中，补回近单位运行混合权重后计算到的共同先验中位数最大变化约为6.65\(\times\)10\textsuperscript{-9}。针对这六个设置进行2048次共享计数的经验重采样，基线自旋幅度模型的\(\sigma\)=0.3与1.2结果相差6.734个百分点，差值的5\%–95\%重采样范围为5.557–7.600个百分点；低自旋压力设置的对应差值为1.115个百分点，范围为\(-\)0.293–3.601个百分点。结果表明，共同先验不能自动消除模型依赖，点态似然方差也不能替代后验形状误差诊断。本文提供可复算的条件稳健性实验与来源审计，不宣称模型无关的倾角测量或形成渠道占比。
 \end{abstract}

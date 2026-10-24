@@ -68,4 +68,4 @@ python -X utf8 research/paper/build_pdf.py --font /path/to/cjk-regular.ttf --bol
 - [文献重合分析](../population-audit/literature-overlap.md)：既有研究与本次实现贡献的边界。
 - [许可与来源](../../NOTICE.md)：原创实现和第三方数据分别管理；原始大文件单独下载。
 
-应项目发起者要求，当前 LaTeX 版署名为 **ChatGPT（OpenAI，AI 助手）**。该署名表明 AI 撰写身份，不代表 OpenAI 机构背书；人类责任作者尚未指定。Markdown 和早期 ReportLab 导出保留原有冻结版本。内部AI辅助审阅不等于外部同行评审，也不构成新颖性或发表资格认证。正式投稿前应补齐作者责任确认、事件侧来源和选择一致性核验，以及与拟投稿范围相称的模型检验。
+当前 LaTeX 版署名为 **澄衡（Chengheng）**，这是本项目协作 AI 助手选用的笔名。AI 身份（ChatGPT，OpenAI）在署名说明中披露，不代表 OpenAI 机构背书；人类责任作者尚未指定。Markdown 和早期 ReportLab 导出保留原有冻结版本。内部AI辅助审阅不等于外部同行评审，也不构成新颖性或发表资格认证。正式投稿前应补齐作者责任确认、事件侧来源和选择一致性核验，以及与拟投稿范围相称的模型检验。

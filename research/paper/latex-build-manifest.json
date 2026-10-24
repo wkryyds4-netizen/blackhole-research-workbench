@@ -5,7 +5,7 @@
     {
       "language": "zh",
       "manuscript_sha256": "1eaf5cea0baf603179e715a34ad994114d6012dce18baaa57e0ddfe22112e162",
-      "main_tex_sha256": "8edf688957203e7a4f31067637a219e82003bdfe00341f82ae07ea8782326be3",
+      "main_tex_sha256": "d0ea9bb233bae93f1b6562c10c8e3ad8132b1965695c7a6cf867e5ccb935d606",
       "equations": 14,
       "figures": 3,
       "tables": 6,
@@ -14,8 +14,8 @@
       "engine_version": "MiKTeX-XeTeX 4.18 (MiKTeX 26.5 Portable)",
       "pages": 14,
       "output": "output/pdf/blackhole-population-robustness-latex-zh-v0.2.pdf",
-      "pdf_sha256": "ee8db366e6dd661e71373b6d3652a30723e398ec7047badf62938fa84a0a05b9",
-      "log_sha256": "ef27ad4a38b7b946944b820574e0c177769ab61465d2450caa98e0cc9d998071",
+      "pdf_sha256": "9ae5f3bbfe77c8e63e6b4a36d1c10e8b9356c8a4ce94be824e3275ffb884102f",
+      "log_sha256": "8794027cc094a5e0d5d3d6571eedb2e41a6b1f8e3c012b03598b4261c9475cd2",
       "figures_sha256": {
         "common-prior-groups.pdf": "310a4616f0aac0f81d969f754fbde919ac20075ed97ab735c1a0610c3238f755",
         "paired-bootstrap.pdf": "66fc3bdbdbd6952fd729b5440800982b206310a1b0a784a3864056df732a085d",
@@ -29,7 +29,7 @@
     {
       "language": "en",
       "manuscript_sha256": "d91a97c353ccadc8b021a4ffb5630660729080c0666d48365b62e9cb89ced928",
-      "main_tex_sha256": "2d022376ad8219c5067fd99826fe9f1bd2423c80ccfbc45b035e990c3dd34e1f",
+      "main_tex_sha256": "0f5814ea46cde85cecea1768bebe61bef6aee57ad363561577d82e6c0b94f32f",
       "equations": 14,
       "figures": 3,
       "tables": 6,
@@ -38,8 +38,8 @@
       "engine_version": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5 Portable)",
       "pages": 14,
       "output": "output/pdf/blackhole-population-robustness-latex-en-v0.2.pdf",
-      "pdf_sha256": "2c883e8d3801b28bd265b3a9d9c5b62280a71f25b297e1661898f1967b83e3da",
-      "log_sha256": "b7826446e4835bec2451611e37b890dd2368b89261e56e29fec719562886c762",
+      "pdf_sha256": "82563e43889cc39deade3a9c81a53685d39a890a7228ee977ec6e5207800cb9d",
+      "log_sha256": "5dc9c5ec3734eef5117fc75fe7f11737aecc078dd670757e8f05ebc74586bfb5",
       "figures_sha256": {
         "common-prior-groups.pdf": "310a4616f0aac0f81d969f754fbde919ac20075ed97ab735c1a0610c3238f755",
         "paired-bootstrap.pdf": "66fc3bdbdbd6952fd729b5440800982b206310a1b0a784a3864056df732a085d",
