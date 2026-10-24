@@ -1,4 +1,4 @@
-"""Render the checked Markdown paper with embedded Chinese text and equations.
+"""Render either language edition with embedded text and equations.
 
 Requires reportlab, matplotlib and Pillow. Supply a licensed CJK TrueType font
 with --font/--bold-font on other machines; no font files are redistributed.
@@ -13,7 +13,7 @@ import re
 import matplotlib
 matplotlib.use('Agg')
 from matplotlib.mathtext import math_to_image
-from matplotlib.font_manager import FontProperties
+from matplotlib.font_manager import FontProperties, findfont
 from PIL import Image as PILImage
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
@@ -57,20 +57,25 @@ def verify_font_coverage(source):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--font', type=Path, default=Path('C:/Windows/Fonts/simsun.ttc'))
-    parser.add_argument('--bold-font', type=Path, default=Path('C:/Windows/Fonts/simhei.ttf'))
-    parser.add_argument('--output', type=Path, default=ROOT/'output/pdf/blackhole-population-robustness-v0.2.pdf')
+    parser.add_argument('--language', choices=('zh', 'en'), default='zh')
+    parser.add_argument('--font', type=Path)
+    parser.add_argument('--bold-font', type=Path)
+    parser.add_argument('--output', type=Path)
     args = parser.parse_args()
+    english = args.language == 'en'
+    args.font = args.font or (Path(findfont(FontProperties(family='DejaVu Serif'))) if english else Path('C:/Windows/Fonts/simsun.ttc'))
+    args.bold_font = args.bold_font or (Path(findfont(FontProperties(family='DejaVu Serif', weight='bold'))) if english else Path('C:/Windows/Fonts/simhei.ttf'))
+    args.output = args.output or ROOT/('output/pdf/blackhole-population-robustness-en-v0.2.pdf' if english else 'output/pdf/blackhole-population-robustness-v0.2.pdf')
     if not args.font.is_file():
         parser.error('Supply --font pointing to a licensed CJK font with TrueType outlines.')
     pdfmetrics.registerFont(TTFont('PaperCJK', str(args.font), subfontIndex=0))
     bold = args.bold_font if args.bold_font.is_file() else args.font
     pdfmetrics.registerFont(TTFont('PaperBold', str(bold), subfontIndex=0))
     pdfmetrics.registerFontFamily('PaperCJK', normal='PaperCJK', bold='PaperBold', italic='PaperCJK', boldItalic='PaperBold')
-    base = dict(fontName='PaperCJK', fontSize=10.2, leading=17, wordWrap='CJK', textColor=colors.HexColor('#17232c'),
+    base = dict(fontName='PaperCJK', fontSize=10.2, leading=14 if english else 17, wordWrap=None if english else 'CJK', textColor=colors.HexColor('#17232c'),
                 spaceAfter=7, allowWidows=0, allowOrphans=0)
     styles = {'body': ParagraphStyle('Body', **base),
-              'small': ParagraphStyle('Small', **{**base, 'fontSize': 8.4, 'leading': 12.4, 'spaceAfter': 5}),
+              'small': ParagraphStyle('Small', **{**base, 'fontSize': 8.4, 'leading': 11.8 if english else 12.4, 'spaceAfter': 5}),
               'caption': ParagraphStyle('Caption', **{**base, 'fontSize': 8.8, 'leading': 13.3, 'textColor': colors.HexColor('#394e5a')}),
               'title': ParagraphStyle('Title', **{**base, 'fontName': 'PaperBold', 'fontSize': 19, 'leading': 27,
                                                  'alignment': TA_CENTER, 'spaceAfter': 12, 'keepWithNext': True}),
@@ -78,11 +83,11 @@ def main():
                                            'spaceBefore': 12, 'spaceAfter': 7, 'keepWithNext': True}),
               'h3': ParagraphStyle('H3', **{**base, 'fontName': 'PaperBold', 'fontSize': 11, 'leading': 18,
                                            'spaceBefore': 8, 'spaceAfter': 5, 'keepWithNext': True})}
-    src = HERE/'manuscript.zh.md'
+    src = HERE/f'manuscript.{args.language}.md'
     text = src.read_text(encoding='utf-8')
     verify_font_coverage(text)
     lines = text.splitlines()
-    tmp = HERE/'tmp'; tmp.mkdir(exist_ok=True)
+    tmp = HERE/'tmp'/args.language; tmp.mkdir(parents=True, exist_ok=True)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     width = A4[0]-108
     story = []
@@ -114,7 +119,7 @@ def main():
             figure_count += 1
             while i < len(lines) and not lines[i].strip(): i += 1
             caption = []
-            if i < len(lines) and re.match(r'图\d', lines[i]):
+            if i < len(lines) and re.match(r'(图\d|Figure \d)', lines[i]):
                 caption = [Spacer(1, 5), Paragraph(inline(lines[i]), styles['caption'])]
                 i += 1
             story.append(KeepTogether([Spacer(1, 6), img]+caption+[Spacer(1, 7)]))
@@ -129,7 +134,7 @@ def main():
             elif n == 4: widths = [width*.13, width*.22, width*.22, width*.43]
             else: widths = [width*.27]+[width*.73/(n-1)]*(n-1)
             cells = [[Paragraph(inline(v), styles['small']) for v in row] for row in parsed]
-            table = Table(cells, colWidths=widths, repeatRows=1, hAlign='LEFT')
+            table = Table(cells, colWidths=widths, repeatRows=1, hAlign='LEFT', splitByRow=0 if english else 1)
             table.setStyle(TableStyle([('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#e8eff3')),
                                       ('LINEBELOW', (0, 0), (-1, 0), .6, colors.HexColor('#567080')),
                                       ('LINEBELOW', (0, -1), (-1, -1), .4, colors.HexColor('#8ca0ac')),
@@ -162,16 +167,17 @@ def main():
         canvas.drawRightString(A4[0]-54, 30, str(doc.page))
         canvas.restoreState()
     doc = SimpleDocTemplate(str(args.output), pagesize=A4, leftMargin=54, rightMargin=54, topMargin=54, bottomMargin=49,
-                            title='公开双黑洞群体推断的条件稳健性', author='Blackhole Research Workbench project research draft',
+                            title=lines[0].removeprefix('# '), author='Blackhole Research Workbench project research draft',
                             subject='Conditional population robustness, prior support, injection provenance and paired Monte Carlo diagnostics')
     doc.build(story, onFirstPage=page, onLaterPages=page)
-    metadata = dict(manuscript_sha256=hashlib.sha256(src.read_bytes()).hexdigest(),
+    metadata = dict(language=args.language, manuscript_sha256=hashlib.sha256(src.read_bytes()).hexdigest(),
                     pdf_sha256=hashlib.sha256(args.output.read_bytes()).hexdigest(),
                     equations=equation_count, figures=figure_count, tables=table_count,
                     inline_font_coverage='passed for regular and bold fonts after semantic sub/superscript conversion',
                     output=str(args.output.relative_to(ROOT)).replace('\\', '/'),
-                    note='CJK fonts embedded as subsets from the build host; no font file redistributed. Visual verification recorded separately.')
-    (HERE/'build-manifest.json').write_text(json.dumps(metadata, indent=2, ensure_ascii=False), encoding='utf-8')
+                    note='Text fonts embedded as subsets; no font file redistributed. Visual verification recorded separately.')
+    manifest = HERE/('build-manifest.en.json' if english else 'build-manifest.json')
+    manifest.write_text(json.dumps(metadata, indent=2, ensure_ascii=False)+'\n', encoding='utf-8', newline='\n')
     print(json.dumps(metadata, ensure_ascii=False, indent=2))
 
 

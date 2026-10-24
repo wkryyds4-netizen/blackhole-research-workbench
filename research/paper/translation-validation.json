@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "date": "2026-10-24",
+  "manuscript_sha256": {
+    "zh": "1eaf5cea0baf603179e715a34ad994114d6012dce18baaa57e0ddfe22112e162",
+    "en": "d91a97c353ccadc8b021a4ffb5630660729080c0666d48365b62e9cb89ced928"
+  },
+  "identical_equations": 14,
+  "matched_tables": 6,
+  "compared_body_cells": 116,
+  "identical_figure_paths": 3,
+  "matched_numbered_references": 9,
+  "numbered_sections_match": true,
+  "reference_urls_match": true,
+  "pdf_and_source_hashes_match": true,
+  "scope": "Structural/numeric parity, not prose semantic validation. See translation-review.md for internal translation review."
+}

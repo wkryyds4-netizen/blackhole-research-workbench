@@ -1,0 +1,11 @@
+{
+  "language": "en",
+  "manuscript_sha256": "d91a97c353ccadc8b021a4ffb5630660729080c0666d48365b62e9cb89ced928",
+  "pdf_sha256": "105b3eaaec897b83e9460ff557af1538c9484de57ebb530eb1fb7c944131f3f1",
+  "equations": 14,
+  "figures": 3,
+  "tables": 6,
+  "inline_font_coverage": "passed for regular and bold fonts after semantic sub/superscript conversion",
+  "output": "output/pdf/blackhole-population-robustness-en-v0.2.pdf",
+  "note": "Text fonts embedded as subsets; no font file redistributed. Visual verification recorded separately."
+}

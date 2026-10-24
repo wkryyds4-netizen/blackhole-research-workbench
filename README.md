@@ -4,7 +4,11 @@
 
 ## 研究论文与复现材料
 
-**[阅读13页论文 PDF](output/pdf/blackhole-population-robustness-v0.2.pdf)** · [中文全文与英文摘要](research/paper/manuscript.zh.md) · [构建与内部审阅](research/paper/README.md) · [科学计算复现](research/REPRODUCING_POPULATION.md)
+**[中文论文 PDF（13页）](output/pdf/blackhole-population-robustness-v0.2.pdf)** · **[English paper PDF (16 pages)](output/pdf/blackhole-population-robustness-en-v0.2.pdf)**
+
+[中文全文](research/paper/manuscript.zh.md) · [Full English text](research/paper/manuscript.en.md) · [双语构建与审阅](research/paper/README.md) · [English guide](research/paper/README.en.md) · [科学计算复现](research/REPRODUCING_POPULATION.md)
+
+The full Chinese and English editions report the same conditional population diagnostics. Both include the methods, results, limitations, references, and reproduction appendix; neither is peer reviewed.
 
 研究稿 v0.2《公开双黑洞群体推断的条件稳健性》汇总69事件、81个条件设置、注入来源恢复和2048次成对经验重采样，包含公式、图表、文献对照及限制讨论。**未同行评审；本稿报告条件方法诊断，不声称测得形成渠道比例。** 源码、可分发场景、派生结果与论文共同公开；原始科学数据和大型模型按来源单独下载。
 

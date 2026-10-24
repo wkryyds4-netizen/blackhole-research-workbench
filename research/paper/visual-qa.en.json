@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-24",
+  "language": "en",
+  "pdf_sha256": "105b3eaaec897b83e9460ff557af1538c9484de57ebb530eb1fb7c944131f3f1",
+  "pages": 16,
+  "text_checks": {
+    "-0.293": true,
+    "6.734": true,
+    "5.557": true,
+    "7.600": true,
+    "not peer reviewed": true,
+    "formation-channel fractions": true,
+    "Appendix A": true,
+    "References": true
+  },
+  "fonts_embedded": {
+    "/Helvetica": false,
+    "/AAAAAA+DejaVuSerif-Bold": true,
+    "/AAAAAA+DejaVuSerif": true
+  },
+  "inline_coverage": "Regular and bold glyph coverage checked by builder; explicit sub/superscripts preserve exponents and signs.",
+  "visual_review": "All 16 final pages inspected in contact sheets. Pages 4, 10, 13 and 15 additionally inspected at full rendered size for equations, negative ranges, exponents and appendix paths. No clipping, overlap or missing glyphs observed; tables kept intact.",
+  "renderer": "Poppler pdftoppm; PNG scale-to 1300",
+  "renderer_notes": "Warnings for system fallback names Symbol and ArialUnicode; all non-base text fonts embedded and final images inspected successfully.",
+  "scope": "Layout/glyph verification. Scientific translation review is in translation-review.md; deterministic parity is in translation-validation.json."
+}

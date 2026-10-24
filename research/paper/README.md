@@ -2,8 +2,14 @@
 
 **研究技术稿 v0.2，2026-10-24，未同行评审。**
 
-[阅读 PDF（13页）](../../output/pdf/blackhole-population-robustness-v0.2.pdf) ·
-[中文全文与英文摘要](manuscript.zh.md) · [内部科学审阅](review.md)
+[English guide](README.en.md) · [内部科学审阅](review.md) · [双语审阅](translation-review.md)
+
+| 版本 | 阅读 PDF | 可编辑全文 |
+|---|---|---|
+| 中文版 | [13页 PDF](../../output/pdf/blackhole-population-robustness-v0.2.pdf) | [中文全文](manuscript.zh.md) |
+| English edition | [16-page PDF](../../output/pdf/blackhole-population-robustness-en-v0.2.pdf) | [Full English manuscript](manuscript.en.md) |
+
+英文版为全文对应译本，两版使用相同研究版本及图表；页数差异来自语言和排版。14个显示公式、6表共116个数据单元格、章节编号及9条参考文献的对应关系已核对，见[一致性检查](translation-validation.json)。
 
 本文将两个科学阶段整理为详细论文：69个教程来源事件、81个固定假设设置、共同支持先验控制、41972条注入的逐行来源恢复，以及2048次共享样本的经验重采样。正文包含14个公式、6张表和3幅图，讨论与已有研究的联系、复现方法和未解决的问题。
 
@@ -17,6 +23,8 @@
 python -m pip install -r research/paper/requirements.txt
 python -X utf8 research/paper/build_figures.py
 python -X utf8 research/paper/build_pdf.py
+python -X utf8 research/paper/build_pdf.py --language en
+python -X utf8 research/paper/validate_bilingual.py
 ```
 
 本次构建使用Python 3.14。默认字体为Windows的SimSun/SimHei；其他平台需指定可合法使用、含所需中文字形且有TrueType轮廓的字体，例如：
@@ -25,9 +33,11 @@ python -X utf8 research/paper/build_pdf.py
 python -X utf8 research/paper/build_pdf.py --font /path/to/cjk-regular.ttf --bold-font /path/to/cjk-bold.ttf
 ```
 
-不随仓库分发字体文件。PDF嵌入所用字体子集；构建器检查正文及粗体字形覆盖，将Unicode上下标转换为显式上下标排版，保留负号含义；显示公式由matplotlib渲染。输出位于`output/pdf/`，临时公式和页面预览位于忽略目录`research/paper/tmp/`。字体或依赖变化会改变版式和PDF哈希，应重新逐页检查。
+英文版默认使用matplotlib附带的DejaVu Serif字体，无需Windows中文字体。支持相同的`--font`和`--bold-font`选项。不随仓库分发字体文件。PDF嵌入所用字体子集；构建器检查正文及粗体字形覆盖，将Unicode上下标转换为显式上下标排版，保留负号含义；显示公式由matplotlib渲染。输出位于`output/pdf/`，临时公式和页面预览位于忽略目录`research/paper/tmp/`。字体或依赖变化会改变版式和PDF哈希，应重新逐页检查。
 
 [build-manifest.json](build-manifest.json)记录稿件与PDF哈希、公式/图表数量；[visual-qa.json](visual-qa.json)记录本次页面检查。PDF的构建时间和字体子集可能使文件字节变化，不承诺跨平台字节相同。
+
+英文版对应记录为[build-manifest.en.json](build-manifest.en.json)及[visual-qa.en.json](visual-qa.en.json)。双语检查只依赖Python标准库，并已接入CI；它核查结构、数值和文件哈希，不能替代正文语义审阅。
 
 ## 科学计算复现与材料
 
