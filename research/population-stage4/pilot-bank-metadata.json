@@ -1,0 +1,184 @@
+[
+  {
+    "index": 38,
+    "event": "GW190805_211137",
+    "label": "C01:IMRPhenomXPHM",
+    "short": "phenom",
+    "n": 11786,
+    "f_ref": [
+      10.0
+    ],
+    "cosmology": [
+      "Planck15_lal"
+    ],
+    "engine": {
+      "chirpmass-min": null,
+      "chirpmass-max": null,
+      "q-min": null,
+      "a_spin1-max": null,
+      "a_spin2-max": null,
+      "distance-max": null,
+      "fref": null
+    },
+    "observed_chirp_mass_detector": [
+      30.022839759833982,
+      89.81106229511921
+    ],
+    "source_sha256": "0c1500ff0e9fdbdb50c280578e25c1d02da85e4cbe9bebc25a40a39604362863"
+  },
+  {
+    "index": 38,
+    "event": "GW190805_211137",
+    "label": "C01:Mixed",
+    "short": "mixed",
+    "n": 6196,
+    "f_ref": null,
+    "cosmology": null,
+    "engine": {
+      "chirpmass-min": null,
+      "chirpmass-max": null,
+      "q-min": null,
+      "a_spin1-max": null,
+      "a_spin2-max": null,
+      "distance-max": null,
+      "fref": null
+    },
+    "observed_chirp_mass_detector": [
+      30.11833693254525,
+      82.62050972836225
+    ],
+    "source_sha256": "0c1500ff0e9fdbdb50c280578e25c1d02da85e4cbe9bebc25a40a39604362863"
+  },
+  {
+    "index": 38,
+    "event": "GW190805_211137",
+    "label": "C01:SEOBNRv4PHM",
+    "short": "seob",
+    "n": 3305,
+    "f_ref": [
+      10.0
+    ],
+    "cosmology": [
+      "Planck15_lal"
+    ],
+    "engine": {
+      "chirpmass-min": [
+        "29.89014279422964"
+      ],
+      "chirpmass-max": [
+        "100.04897902203908"
+      ],
+      "q-min": [
+        "0.05"
+      ],
+      "a_spin1-max": [
+        "0.99"
+      ],
+      "a_spin2-max": [
+        "0.99"
+      ],
+      "distance-max": [
+        "20000"
+      ],
+      "fref": [
+        "10"
+      ]
+    },
+    "observed_chirp_mass_detector": [
+      37.19341188589758,
+      81.26562999944014
+    ],
+    "source_sha256": "0c1500ff0e9fdbdb50c280578e25c1d02da85e4cbe9bebc25a40a39604362863"
+  },
+  {
+    "index": 48,
+    "event": "GW191103_012549",
+    "label": "C01:IMRPhenomXPHM",
+    "short": "phenom",
+    "n": 9914,
+    "f_ref": [
+      20.0
+    ],
+    "cosmology": [
+      "Planck15_lal"
+    ],
+    "engine": {
+      "chirpmass-min": null,
+      "chirpmass-max": null,
+      "q-min": null,
+      "a_spin1-max": null,
+      "a_spin2-max": null,
+      "distance-max": null,
+      "fref": null
+    },
+    "observed_chirp_mass_detector": [
+      9.244421360768413,
+      10.824882583612064
+    ],
+    "source_sha256": "15b027b579970634300b21ec59d81cf7bf2bdf7a6b6ebe1b1b2ec2f45c5128a3"
+  },
+  {
+    "index": 48,
+    "event": "GW191103_012549",
+    "label": "C01:Mixed",
+    "short": "mixed",
+    "n": 9859,
+    "f_ref": null,
+    "cosmology": null,
+    "engine": {
+      "chirpmass-min": null,
+      "chirpmass-max": null,
+      "q-min": null,
+      "a_spin1-max": null,
+      "a_spin2-max": null,
+      "distance-max": null,
+      "fref": null
+    },
+    "observed_chirp_mass_detector": [
+      9.266988388522368,
+      10.69178499021676
+    ],
+    "source_sha256": "15b027b579970634300b21ec59d81cf7bf2bdf7a6b6ebe1b1b2ec2f45c5128a3"
+  },
+  {
+    "index": 48,
+    "event": "GW191103_012549",
+    "label": "C01:SEOBNRv4PHM",
+    "short": "seob",
+    "n": 10306,
+    "f_ref": [
+      20.0
+    ],
+    "cosmology": [
+      "Planck15_lal"
+    ],
+    "engine": {
+      "chirpmass-min": [
+        "8.5"
+      ],
+      "chirpmass-max": [
+        "10"
+      ],
+      "q-min": [
+        "0.05"
+      ],
+      "a_spin1-max": [
+        "0.99"
+      ],
+      "a_spin2-max": [
+        "0.99"
+      ],
+      "distance-max": [
+        "10000"
+      ],
+      "fref": [
+        "20"
+      ]
+    },
+    "observed_chirp_mass_detector": [
+      9.266988388522368,
+      10.380515895127928
+    ],
+    "source_sha256": "15b027b579970634300b21ec59d81cf7bf2bdf7a6b6ebe1b1b2ec2f45c5128a3"
+  }
+]

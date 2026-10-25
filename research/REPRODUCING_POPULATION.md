@@ -1,10 +1,28 @@
 # Reproducing the population research
 
-This guide covers the two scientific stages in this release. The result is a
+This guide covers the two scientific stages in paper v0.2 and the separately
+published stage-three through stage-five follow-up studies. The result is a
 conditional, phenomenological spin-tilt analysis of a tutorial dataset, not an
 LVK reproduction or a measurement of astrophysical formation-channel fractions.
 See [stage one](population-stage1/README.md), [stage two](population-stage2/README.md)
 and the [literature comparison](population-audit/literature-overlap.md).
+
+Post-release follow-up: the [stage-three provenance pilot](population-stage3/README.md)
+confirms the proposed 69-event identifier set and exactly matches two events to
+single-waveform IMRPhenomXPHM samples. Their configurations record different
+spin reference frequencies (10 and 20 Hz). This adds an explicit limitation to
+physical interpretation; it does not change the frozen v0.2 numerical products.
+
+The [stage-four follow-up](population-stage4/README.md) reconstructs all 504,649
+stored prior values, runs a two-event conditional PE replacement test, and
+identifies an influential source draw absent from a tutorial subset. Its raw
+pilot files and scripts are separate from the frozen v0.2 reproduction path.
+
+The [stage-five single-event study](population-stage5/README.md) matches the
+cosmologically reweighted release back to 169,040 original-prior draws. It
+checks prior-measure conversion and shows reduced single-draw influence when
+the original draws are retained with their weights. This is a dependent-data
+representation test, not an independent astrophysical observation.
 
 Run commands from the repository root. Use a fresh clone or copy if you want to
 preserve the published outputs: the numerical scripts write their result files
@@ -166,13 +184,43 @@ this release. Those documentary changes are separate from the HDF numerical
 match. See the published [provenance report](population-stage2/provenance-README.md)
 for the exact evidence boundary.
 
+## 5. Follow-up stages three through five (2026-10-25)
+
+These follow-ups do not regenerate the paper or overwrite `results/model.json`.
+Restore the tutorial arrays using section 2, then run each stage's commands in
+the order listed in its README:
+
+1. [Stage three](population-stage3/README.md): fetch documentary sources and two
+   official cosmo HDF files (64,794,885 bytes total), audit event membership,
+   match the two PE labels and source rows, validate, and plot. The row-map NPZ
+   is generated locally and is required by stage four.
+2. [Stage four](population-stage4/README.md): fetch pinned source snapshots,
+   reconstruct the stored prior, extract the pilot bank, run the six-setting
+   sensitivity study, validate, and plot. This produces the local pilot-bank
+   and checkpoint NPZ files needed by the follow-up calculations.
+3. [Stage five](population-stage5/README.md): download the fixed original-prior
+   HDF (335,235,368 bytes) and methods papers, extract/match representations,
+   run the tail study, validate, and plot. Continuous-weight identities and
+   independent full-product checks are included.
+
+Use the requirements above; HDF extraction needs h5py and the prior/tail
+calculations need Astropy. The original runs used separate Python environments
+as recorded in each report. Raw HDFs, NPZ intermediates, PDF/HTML/source snapshots,
+and PNG previews are ignored by Git; scripts, source URLs and hashes, derived
+JSON summaries and scientific SVGs are public. The validators need the restored
+local inputs, not only the tracked JSON summaries. A clean-machine end-to-end
+download and installation has not been certified by this publication.
+
 ## Scope of reproducibility
 
 The calculation, frozen summary input, original scripts, exact input hashes and
 public download routes are supplied. Stage one is reproducible from tracked
 inputs alone; stage two additionally needs the public tutorial arrays. The
 injection-side source rows, finite-file mask and measure conversion have been
-recovered. Per-event original PE analysis labels, waveform choices, prior
-configuration and selection-consistency checks remain unfinished. Neither these
+recovered. The follow-ups exactly identify two single-waveform PE pilot arrays,
+recover the tutorial prior formula on all stored rows, and compare two dependent
+representations of one event using their matching prior densities. The remaining
+event identities, full PE support, RIFT prior provenance, spin-reference
+consistency and selection-consistency checks remain unfinished. Neither these
 instructions nor the paper claim that those remaining scientific uncertainties
 have been resolved.

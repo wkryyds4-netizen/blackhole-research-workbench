@@ -1,0 +1,32 @@
+[
+  {
+    "file": "IGWN-GWTC2p1-v2-GW190805_211137_PEDataRelease_mixed_cosmo.h5",
+    "sha256": "0c1500ff0e9fdbdb50c280578e25c1d02da85e4cbe9bebc25a40a39604362863",
+    "analytic_prior_entries": [],
+    "prior_sample_entries": [],
+    "version": [
+      "No version information found"
+    ],
+    "engine_chirpmass_max": [
+      "100.04897902203908"
+    ],
+    "observed_detector_chirpmass_max": 81.26562999944014,
+    "n_above_configured_max": 0,
+    "conclusion": "Final prior support not established by these metadata; no cut applied."
+  },
+  {
+    "file": "IGWN-GWTC3p0-v1-GW191103_012549_PEDataRelease_mixed_cosmo.h5",
+    "sha256": "15b027b579970634300b21ec59d81cf7bf2bdf7a6b6ebe1b1b2ec2f45c5128a3",
+    "analytic_prior_entries": [],
+    "prior_sample_entries": [],
+    "version": [
+      "No version information found"
+    ],
+    "engine_chirpmass_max": [
+      "10"
+    ],
+    "observed_detector_chirpmass_max": 10.380515895127928,
+    "n_above_configured_max": 3655,
+    "conclusion": "Final prior support not established by these metadata; no cut applied."
+  }
+]

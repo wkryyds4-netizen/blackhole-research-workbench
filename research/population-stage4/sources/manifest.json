@@ -1,0 +1,44 @@
+[
+  {
+    "file": "pipe-history.json",
+    "url": "https://git.ligo.org/api/v4/projects/RatesAndPopulations%2Fgwpopulation_pipe/repository/commits?path=gwpopulation_pipe/data_collection.py&until=2024-06-15T00:00:00Z&per_page=5",
+    "observed_utc": "2026-10-24T16:25:12.905072+00:00",
+    "bytes": 3445,
+    "sha256": "062bb425d17ab5c7c2e5f8f2349c7379c0417b54504ffccccb07893f64d57e3a"
+  },
+  {
+    "file": "pipe-pypi.json",
+    "url": "https://pypi.org/pypi/gwpopulation_pipe/json",
+    "observed_utc": "2026-10-24T16:25:12.905072+00:00",
+    "bytes": 15311,
+    "sha256": "33efba243d7770a604e32d155b750ae04e6313848645faaa3cc3f2f97b044532"
+  },
+  {
+    "file": "bilby-cosmological.py.txt",
+    "url": "https://raw.githubusercontent.com/bilby-dev/bilby/v2.2.1/bilby/gw/prior.py",
+    "observed_utc": "2026-10-24T16:25:12.905072+00:00",
+    "bytes": 62848,
+    "sha256": "544aa057159870240880b83720a1413cfb44a9d3c07f5acab78a81c913e916b8"
+  },
+  {
+    "file": "pipe-april2024.py.txt",
+    "url": "https://git.ligo.org/api/v4/projects/RatesAndPopulations%2Fgwpopulation_pipe/repository/files/gwpopulation_pipe%2Fdata_collection.py/raw?ref=5dbcb49d602393f23d91e4d2b9a4cbae52d843a8",
+    "observed_utc": "2026-10-24T16:25:12.906071+00:00",
+    "bytes": 21275,
+    "sha256": "18a8c6b54c102fd180c07ec5eb3529361a0e069131b8c5b5dc7dfa4a4e33b426"
+  },
+  {
+    "file": "pipe-may2024.py.txt",
+    "url": "https://git.ligo.org/api/v4/projects/RatesAndPopulations%2Fgwpopulation_pipe/repository/files/gwpopulation_pipe%2Fdata_collection.py/raw?ref=20651a892864f8bb7e23adea33a8a7cf379fdde8",
+    "observed_utc": "2026-10-24T16:25:12.906071+00:00",
+    "bytes": 24351,
+    "sha256": "2d3c2502d2692ce9d2addf523348c5e395a4b83700e8ba9f51ebaa6853351473"
+  },
+  {
+    "file": "pesummary-cosmology.py.txt",
+    "url": "https://git.ligo.org/api/v4/projects/lscsoft%2Fpesummary/repository/files/pesummary%2Fgw%2Fcosmology.py/raw?ref=master",
+    "observed_utc": "2026-10-24T16:25:12.906071+00:00",
+    "bytes": 2297,
+    "sha256": "f115e78bd990bbbd17060a31ff0344efedaf052b272145432a95b465be422954"
+  }
+]

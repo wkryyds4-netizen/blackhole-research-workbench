@@ -1,0 +1,307 @@
+{
+  "schema": "blackhole-population-pe-pilot/1",
+  "local_npz_sha256": "3aec709780ac373e485682323c20cbe6ed0c14028c66b030bb73d848739489c4",
+  "events": [
+    {
+      "event": "GW190805_211137",
+      "original_index": 38,
+      "release_record": 6513631,
+      "source_file": "IGWN-GWTC2p1-v2-GW190805_211137_PEDataRelease_mixed_cosmo.h5",
+      "source_sha256": "0c1500ff0e9fdbdb50c280578e25c1d02da85e4cbe9bebc25a40a39604362863",
+      "labels": [
+        {
+          "label": "C01:IMRPhenomXPHM",
+          "source_rows": 11786,
+          "local_rows": 6913,
+          "join_matches": 6913,
+          "ambiguous_join_matches": 0,
+          "exact_seven_coordinate_matches": 6913,
+          "full_match": true,
+          "progressive_equal_counts": {
+            "mass_1": 6913,
+            "mass_ratio": 6913,
+            "redshift": 6913,
+            "a_1": 6913,
+            "a_2": 6913,
+            "cos_tilt_1": 6913,
+            "cos_tilt_2": 6913
+          },
+          "approximant": [
+            "IMRPhenomXPHM"
+          ],
+          "f_ref_hz": [
+            10.0
+          ],
+          "config_reference_frequency": [
+            "10"
+          ],
+          "cosmology": [
+            "Planck15_lal"
+          ],
+          "independent_a1_redshift_join_agrees": true,
+          "analytic_prior_strings": {
+            "chirp_mass": [
+              "UniformInComponentsChirpMass(minimum=29.89014279422964, maximum=100.04897902203908, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_{\\\\odot}$', boundary=None)"
+            ],
+            "mass_ratio": [
+              "UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)"
+            ],
+            "mass_1": [
+              "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+            ],
+            "mass_2": [
+              "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+            ],
+            "luminosity_distance": [
+              "PowerLaw(alpha=2, minimum=100, maximum=20000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+            ],
+            "a_1": [
+              "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+            ],
+            "a_2": [
+              "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+            ],
+            "tilt_1": [
+              "Sine(name='tilt_1', latex_label='$\\\\theta_1$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+            ],
+            "tilt_2": [
+              "Sine(name='tilt_2', latex_label='$\\\\theta_2$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+            ]
+          },
+          "backward_spin_evolution_metadata": [
+            "precession_averaged",
+            "lalsimulation.tilts_at_infinity.hybrid_spin_evolution.calc_tilts_at_infty_hybrid_evolve==v1"
+          ],
+          "stored_infinity_tilt_diagnostic": {
+            "cos_tilt_1": {
+              "n": 6913,
+              "reference_negative_fraction": 0.06364819904527702,
+              "infinity_negative_fraction": 0.059019239114711415,
+              "sign_crossing_count": 158,
+              "sign_crossing_fraction": 0.022855489657167657,
+              "delta_cosine_quantiles": [
+                -0.2515199641649916,
+                0.0008440261880900968,
+                0.3272943128141062
+              ]
+            },
+            "cos_tilt_2": {
+              "n": 6913,
+              "reference_negative_fraction": 0.2816432807753508,
+              "infinity_negative_fraction": 0.2948068855778967,
+              "sign_crossing_count": 909,
+              "sign_crossing_fraction": 0.1314913930276291,
+              "delta_cosine_quantiles": [
+                -0.540489621194195,
+                -0.003336922643839113,
+                0.42825852047220314
+              ]
+            }
+          }
+        },
+        {
+          "label": "C01:Mixed",
+          "source_rows": 6196,
+          "local_rows": 6913,
+          "join_matches": 171,
+          "ambiguous_join_matches": 0,
+          "exact_seven_coordinate_matches": 171,
+          "full_match": false,
+          "progressive_equal_counts": {
+            "mass_1": 171,
+            "mass_ratio": 171,
+            "redshift": 171,
+            "a_1": 171,
+            "a_2": 171,
+            "cos_tilt_1": 171,
+            "cos_tilt_2": 171
+          },
+          "approximant": {},
+          "f_ref_hz": null,
+          "config_reference_frequency": null,
+          "cosmology": null
+        },
+        {
+          "label": "C01:SEOBNRv4PHM",
+          "source_rows": 3305,
+          "local_rows": 6913,
+          "join_matches": 0,
+          "ambiguous_join_matches": 0,
+          "exact_seven_coordinate_matches": 0,
+          "full_match": false,
+          "progressive_equal_counts": {
+            "mass_1": 0,
+            "mass_ratio": 0,
+            "redshift": 0,
+            "a_1": 0,
+            "a_2": 0,
+            "cos_tilt_1": 0,
+            "cos_tilt_2": 0
+          },
+          "approximant": [
+            "SEOBNRv4PHM"
+          ],
+          "f_ref_hz": [
+            10.0
+          ],
+          "config_reference_frequency": null,
+          "cosmology": [
+            "Planck15_lal"
+          ]
+        }
+      ]
+    },
+    {
+      "event": "GW191103_012549",
+      "original_index": 48,
+      "release_record": 5546663,
+      "source_file": "IGWN-GWTC3p0-v1-GW191103_012549_PEDataRelease_mixed_cosmo.h5",
+      "source_sha256": "15b027b579970634300b21ec59d81cf7bf2bdf7a6b6ebe1b1b2ec2f45c5128a3",
+      "labels": [
+        {
+          "label": "C01:IMRPhenomXPHM",
+          "source_rows": 9914,
+          "local_rows": 6913,
+          "join_matches": 6913,
+          "ambiguous_join_matches": 0,
+          "exact_seven_coordinate_matches": 6913,
+          "full_match": true,
+          "progressive_equal_counts": {
+            "mass_1": 6913,
+            "mass_ratio": 6913,
+            "redshift": 6913,
+            "a_1": 6913,
+            "a_2": 6913,
+            "cos_tilt_1": 6913,
+            "cos_tilt_2": 6913
+          },
+          "approximant": [
+            "IMRPhenomXPHM"
+          ],
+          "f_ref_hz": [
+            20.0
+          ],
+          "config_reference_frequency": [
+            "20"
+          ],
+          "cosmology": [
+            "Planck15_lal"
+          ],
+          "independent_a1_redshift_join_agrees": true,
+          "analytic_prior_strings": {
+            "chirp_mass": [
+              "UniformInComponentsChirpMass(minimum=5.628459258092691, maximum=11.422992347700943, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_{\\\\odot}$', boundary=None)"
+            ],
+            "mass_ratio": [
+              "UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)"
+            ],
+            "mass_1": [
+              "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+            ],
+            "mass_2": [
+              "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+            ],
+            "luminosity_distance": [
+              "PowerLaw(alpha=2, minimum=10, maximum=10000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+            ],
+            "a_1": [
+              "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+            ],
+            "a_2": [
+              "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+            ],
+            "tilt_1": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+            ],
+            "tilt_2": [
+              "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+            ]
+          },
+          "backward_spin_evolution_metadata": [
+            "precession_averaged",
+            "lalsimulation.tilts_at_infinity.hybrid_spin_evolution.calc_tilts_at_infty_hybrid_evolve==v1"
+          ],
+          "stored_infinity_tilt_diagnostic": {
+            "cos_tilt_1": {
+              "n": 6913,
+              "reference_negative_fraction": 0.11456675828149862,
+              "infinity_negative_fraction": 0.1187617532185737,
+              "sign_crossing_count": 379,
+              "sign_crossing_fraction": 0.05482424417763634,
+              "delta_cosine_quantiles": [
+                -0.2974325060467413,
+                -0.00027003049669466206,
+                0.26776363105303835
+              ]
+            },
+            "cos_tilt_2": {
+              "n": 6913,
+              "reference_negative_fraction": 0.2573412411398814,
+              "infinity_negative_fraction": 0.2637060610444091,
+              "sign_crossing_count": 722,
+              "sign_crossing_fraction": 0.10444090843338637,
+              "delta_cosine_quantiles": [
+                -0.37194553128605035,
+                0.0005380675183521699,
+                0.36717125064228906
+              ]
+            }
+          }
+        },
+        {
+          "label": "C01:Mixed",
+          "source_rows": 9859,
+          "local_rows": 6913,
+          "join_matches": 1242,
+          "ambiguous_join_matches": 0,
+          "exact_seven_coordinate_matches": 1242,
+          "full_match": false,
+          "progressive_equal_counts": {
+            "mass_1": 1242,
+            "mass_ratio": 1242,
+            "redshift": 1242,
+            "a_1": 1242,
+            "a_2": 1242,
+            "cos_tilt_1": 1242,
+            "cos_tilt_2": 1242
+          },
+          "approximant": {},
+          "f_ref_hz": null,
+          "config_reference_frequency": null,
+          "cosmology": null
+        },
+        {
+          "label": "C01:SEOBNRv4PHM",
+          "source_rows": 10306,
+          "local_rows": 6913,
+          "join_matches": 0,
+          "ambiguous_join_matches": 0,
+          "exact_seven_coordinate_matches": 0,
+          "full_match": false,
+          "progressive_equal_counts": {
+            "mass_1": 0,
+            "mass_ratio": 0,
+            "redshift": 0,
+            "a_1": 0,
+            "a_2": 0,
+            "cos_tilt_1": 0,
+            "cos_tilt_2": 0
+          },
+          "approximant": [
+            "SEOBNRv4PHM"
+          ],
+          "f_ref_hz": [
+            20.0
+          ],
+          "config_reference_frequency": null,
+          "cosmology": [
+            "Planck15_lal"
+          ]
+        }
+      ]
+    }
+  ],
+  "interpretation": "Exact finite-file sample membership, not recovery of historical commands or software version.",
+  "tilt_diagnostic_scope": "Paired event posterior draws only; not population r, not 10-to-20 Hz evolution; no injection transformation applied.",
+  "prior_caution": "Analytic strings can describe original sampling priors; cosmo releases reweight distance. Do not treat strings as final density."
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "record": 6513631,
+    "event": "GW190805_211137",
+    "file": "IGWN-GWTC2p1-v2-GW190805_211137_PEDataRelease_mixed_cosmo.h5",
+    "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190805_211137_PEDataRelease_mixed_cosmo.h5/content",
+    "bytes": 21293805,
+    "checksum": "md5:b4fe79a16a8c7ffd177d1c4ba093fecc",
+    "sha256": "0c1500ff0e9fdbdb50c280578e25c1d02da85e4cbe9bebc25a40a39604362863"
+  },
+  {
+    "record": 5546663,
+    "event": "GW191103_012549",
+    "file": "IGWN-GWTC3p0-v1-GW191103_012549_PEDataRelease_mixed_cosmo.h5",
+    "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191103_012549_PEDataRelease_mixed_cosmo.h5/content",
+    "bytes": 43501080,
+    "checksum": "md5:ba0bc19b10769bbfffba43d5588e4b22",
+    "sha256": "15b027b579970634300b21ec59d81cf7bf2bdf7a6b6ebe1b1b2ec2f45c5128a3"
+  }
+]

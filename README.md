@@ -54,6 +54,23 @@ npm test
 
 ## 群体研究的详细记录
 
+2026-10-25 后续研究公开：
+
+- [阶段三：事件成员与两个PE来源试点](research/population-stage3/README.md)：逐行确认两个事件的IMRPhenomXPHM标签，并发现10/20 Hz的自旋参考频率差异。
+- [阶段四：先验恢复与条件替换](research/population-stage4/README.md)：重建504,649条教学先验数值，量化两个事件的样本替换效应，定位教学子集遗漏的高权重点。
+- [阶段五：原始先验样本与尾部检查](research/population-stage5/README.md)：恢复GW190805的169,040条原始先验样本；在指定低自旋检验点，使用匹配先验后，权重ESS从完整cosmo表示的30.17提高到998.36，最大单行贡献从15.86%降至1.04%。
+
+这些是v0.2之后的条件数值与来源诊断，**尚未并入中英论文/PDF或工作台的冻结结果**。更高ESS不证明PE采样已收敛；RIFT最终先验支持、跨事件自旋参考定义和注入采样设计仍待核验。原始HDF、NPZ及第三方文献快照单独下载，仓库提供脚本、来源校验值、派生摘要和SVG。
+
+**English update (2026-10-25):** Stages three through five add event provenance,
+reconstruction of stored prior densities, and a single-event comparison of
+original-prior and cosmologically reweighted posterior representations. At the
+specified low-spin test point, correctly matched prior division raises the
+importance-weight ESS from 30.17 to 998.36. This is a numerical representation
+diagnostic, not a posterior-convergence proof or a formation-channel measurement.
+The bilingual v0.2 papers and frozen workbench results remain unchanged. See the
+[reproduction guide](research/REPRODUCING_POPULATION.md) for the ordered workflow.
+
 2026-10-24 科学研究阶段更新：[阶段一：共同先验与数值精度](research/population-stage1/README.md)及[阶段二：注入来源恢复与成对MC诊断](research/population-stage2/README.md)。现已逐行恢复41972条官方注入及保留规则，完成2048次共享样本的经验重采样，区分在该扰动下保持的模型差异与不稳定的低自旋压力案例。原始条件推断仍保留；这些诊断尚不构成形成渠道占比测量。
 
 完成日期：2026-10-22。

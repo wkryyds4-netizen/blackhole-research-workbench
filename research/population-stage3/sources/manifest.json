@@ -1,0 +1,23 @@
+[
+  {
+    "file": "population-2111.03634v3.html",
+    "url": "https://arxiv.org/html/2111.03634v3",
+    "bytes": 2320369,
+    "sha256": "fdd380c62383bd4e95471d9c2cc0d59a62cbb81432d1350ba2e16c215a4e113d",
+    "observed_utc": "2026-10-24T15:53:34.856509+00:00"
+  },
+  {
+    "file": "zenodo-6513631.json",
+    "url": "https://zenodo.org/api/records/6513631",
+    "bytes": 62247,
+    "sha256": "78164b4a1e7eb5e2c9d04edeebe03843b5065cdd7da313d1b1174dcbe1de2baf",
+    "observed_utc": "2026-10-24T15:53:33.348047+00:00"
+  },
+  {
+    "file": "zenodo-5546663.json",
+    "url": "https://zenodo.org/api/records/5546663",
+    "bytes": 34472,
+    "sha256": "a93891c2d1aacee531b882f7c399f078ba79e6a48e67aace395e3158ab41f7cb",
+    "observed_utc": "2026-10-24T15:53:33.690877+00:00"
+  }
+]

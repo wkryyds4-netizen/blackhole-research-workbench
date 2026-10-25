@@ -1,0 +1,42 @@
+{
+  "schema": "blackhole-population-prior-representation-match/1",
+  "label": "C01:IMRPhenomXPHM",
+  "nocosmo_n": 169040,
+  "cosmo_n": 11786,
+  "nocosmo_unique_mass_redshift_pairs": 169040,
+  "ambiguous_source_pairs_for_cosmo": 0,
+  "exact_matches": {
+    "mass_1_source": true,
+    "mass_ratio": true,
+    "redshift": true,
+    "a_1": true,
+    "a_2": true,
+    "cos_tilt_1": true,
+    "cos_tilt_2": true,
+    "luminosity_distance": true,
+    "chirp_mass": true,
+    "mass_1": true,
+    "mass_2": true,
+    "log_likelihood": true
+  },
+  "unique_mapped_rows": 11786,
+  "config_equal": true,
+  "analytic_prior_strings_equal": true,
+  "metadata": {
+    "approximant": [
+      "IMRPhenomXPHM"
+    ],
+    "meta_data/meta_data/f_ref": [
+      10.0
+    ],
+    "meta_data/meta_data/cosmology": [
+      "Planck15_lal"
+    ]
+  },
+  "source_hashes": {
+    "cosmo": "0c1500ff0e9fdbdb50c280578e25c1d02da85e4cbe9bebc25a40a39604362863",
+    "nocosmo": "0f6e816977f361bba2122b3a39fbc626b68a66a10ee555f7c4a03cb020f21dad"
+  },
+  "row2691_nocosmo_index": 37941,
+  "scope": "Same released analysis and exact shared samples; files are dependent, not independent observations."
+}

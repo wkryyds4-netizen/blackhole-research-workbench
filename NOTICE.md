@@ -57,11 +57,21 @@ measurement. No endorsement by the cited authors or collaborations is implied.
 
 ### Scientific population release and documentary excerpts
 
-The stage-one and stage-two reports, scientific SVG figures, diagnostic JSON,
+The stage-one through stage-five reports, scientific SVG figures, diagnostic JSON,
 and standalone numerical scripts are this project's analyses. Their source
 observations and underlying methods retain the attribution above. Reproduction
 instructions and the boundary between public code and separately retrieved data
 are in `research/REPRODUCING_POPULATION.md`.
+
+Stages three through five use the official GWTC-2.1 and GWTC-3 PE releases
+linked above. Original HDF files, row-level NPZ extractions, downloaded methods
+papers and upstream source snapshots are not redistributed. Source manifests
+retain public URLs and checksums. Small PE metadata excerpts in the audit JSON
+are attributed to those releases and are not original project content.
+The prior reconstruction is compared against `gwpopulation_pipe` at commit
+`5dbcb49d602393f23d91e4d2b9a4cbae52d843a8`; cosmology definitions are checked
+against PESummary and Astropy, as linked in the stage-four report. These checks
+do not establish the complete historical preprocessing invocation.
 
 The official BBH injection file used for the stage-two row match is
 `o1+o2+o3_bbhpop_real+semianalytic-LIGO-T2100377-v2.hdf5`, published in
