@@ -1,0 +1,80 @@
+{
+  "schema": "blackhole-weighted-event-validation/1",
+  "status": "pass",
+  "synthetic_direct_sum": true,
+  "nonuniform_weights": true,
+  "log_weight_shift_10000": true,
+  "zero_population_density": true,
+  "rejected_invalid_cases": [
+    "zero new prior",
+    "duplicate source rows",
+    "all-zero representation weights",
+    "NaN target",
+    "zero-integral diagnostics",
+    "coordinate mismatch"
+  ],
+  "serialization_roundtrip": true,
+  "gw190805_direct_integral_max_relative_error": 3.019806626980426e-14,
+  "reexpression_log_constant_range": 7.105427357601002e-15,
+  "stage5_max_quantile_error": 2.7755575615628914e-16,
+  "original_representation": {
+    "n_rows": 169040,
+    "contribution_ess": 998.3557267678065,
+    "representation_weight_ess": 169040.00000000006,
+    "max_contribution": 0.01037736999470052,
+    "largest_source_row": 37941,
+    "n_for_half_integral": 465
+  },
+  "reexpressed_representation": {
+    "n_rows": 169040,
+    "contribution_ess": 998.3557267678067,
+    "representation_weight_ess": 112539.48315980958,
+    "max_contribution": 0.01037736999470052,
+    "largest_source_row": 37941,
+    "n_for_half_integral": 465
+  },
+  "event_metadata": {
+    "event": "GW190805_211137",
+    "analysis_label": "C01:IMRPhenomXPHM",
+    "source": {
+      "file": "IGWN-GWTC2p1-v2-GW190805_211137_PEDataRelease_mixed_nocosmo.h5",
+      "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190805_211137_PEDataRelease_mixed_nocosmo.h5/content",
+      "sha256": "0f6e816977f361bba2122b3a39fbc626b68a66a10ee555f7c4a03cb020f21dad"
+    },
+    "row_basis": "zero-based original file row",
+    "measure": {
+      "coordinates": [
+        "mass_1",
+        "mass_ratio",
+        "redshift",
+        "a_1",
+        "a_2",
+        "cos_tilt_1",
+        "cos_tilt_2"
+      ],
+      "units": {
+        "mass_1": "solar_mass",
+        "mass_ratio": "dimensionless",
+        "redshift": "dimensionless",
+        "a_1": "dimensionless",
+        "a_2": "dimensionless",
+        "cos_tilt_1": "dimensionless",
+        "cos_tilt_2": "dimensionless"
+      }
+    },
+    "reference": {
+      "spin_frequency_hz": 10,
+      "frame": "native PE reference; no spin evolution"
+    },
+    "cosmology": "Planck15_lal",
+    "prior": {
+      "formula": "DL^2 dDL/dz * m1_source*(1+z)^2/4",
+      "normalization": "hyperparameter-independent constants omitted"
+    },
+    "support_status": "event-specific global support not fully reconstructed",
+    "identity_status": "exact source rows"
+  },
+  "source_sha256": "0f6e816977f361bba2122b3a39fbc626b68a66a10ee555f7c4a03cb020f21dad",
+  "implementation_sha256": "79311c8fec4341f8a85c468d8545e9a8f717355b3165f97514ddd5e4f0f2dbc8",
+  "limit": "Regression and algebraic checks; no missing-support recovery, new samples or convergence proof."
+}

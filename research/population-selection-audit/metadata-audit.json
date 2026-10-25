@@ -1,0 +1,51 @@
+{
+  "schema": "blackhole-injection-metadata-followup/1",
+  "source_sha256": "81883c571a9fe0b30747c7bc9daca6d358fcd68ef375c7ace0b93aa9ea2e74fe",
+  "official_definition_sha256": "06ef0a97b7028f77f68960b6535fb03a7223ebb69dfc7b4dea087bd9ce268a93",
+  "attributes": {
+    "root": {
+      "analysis_time_s": 63129577.0,
+      "n_accepted": 289620.0,
+      "total_generated": 73280198.73534885
+    },
+    "injections": {
+      "analysis_time_s": 63129577.0,
+      "n_accepted": 289620.0,
+      "total_generated": 73280198.73534885
+    }
+  },
+  "fields": [
+    "far_cwb",
+    "far_gstlal",
+    "far_mbta",
+    "far_pycbc_bbh",
+    "far_pycbc_hyperbank",
+    "ifar_cwb",
+    "ifar_gstlal",
+    "ifar_mbta",
+    "ifar_pycbc_bbh",
+    "ifar_pycbc_hyperbank",
+    "mass1_source",
+    "mass2_source",
+    "mixture_weight",
+    "name",
+    "optimal_snr_net",
+    "pastro_cwb",
+    "pastro_gstlal",
+    "pastro_mbta",
+    "pastro_pycbc_bbh",
+    "pastro_pycbc_hyperbank",
+    "redshift",
+    "sampling_pdf",
+    "spin1x",
+    "spin1y",
+    "spin1z",
+    "spin2x",
+    "spin2y",
+    "spin2z"
+  ],
+  "candidate_reference_or_waveform_fields": [],
+  "hdf_spin_reference_frequency_established": false,
+  "hdf_complete_trial_design_established": false,
+  "interpretation": "The frozen summary HDF has no frequency/waveform/reference fields. The official definition identifies semianalytic O1/O2 and real-search O3, but explicitly omits individual draw-distribution details. This is evidence of limits in these two artifacts, not proof that no other public record exists."
+}

@@ -1,0 +1,3408 @@
+{
+  "schema": "blackhole-spin-reference-study/1",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "precession": "2.1.2"
+  },
+  "spin_bank_sha256": "c6a58cf285e58d05bf549db337e9f993e728c77c80a3bd445d307f7c58c273f9",
+  "events": [
+    {
+      "event": "GW190517_055101",
+      "index": 19,
+      "rows": 161299,
+      "native_reference_hz": 20.0,
+      "spins": [
+        {
+          "spin": 1,
+          "finite_rows": 161299,
+          "native_negative_fraction": 0.005889683135047334,
+          "infinity_negative_fraction": 0.005691293808393109,
+          "sign_change_fraction": 0.0014507219511590277,
+          "absolute_cosine_change_quantiles": [
+            0.057800076688160784,
+            0.2058482146790861,
+            0.3826979219864612,
+            0.8961055973793937
+          ],
+          "empirical_cdf_max_difference": 0.05611318111085617
+        },
+        {
+          "spin": 2,
+          "finite_rows": 161299,
+          "native_negative_fraction": 0.3562328346734946,
+          "infinity_negative_fraction": 0.37393908207738424,
+          "sign_change_fraction": 0.13114774425135928,
+          "absolute_cosine_change_quantiles": [
+            0.1844971841602948,
+            0.41729843430900865,
+            0.7188938620640741,
+            1.8357392405970563
+          ],
+          "empirical_cdf_max_difference": 0.026249387782937283
+        }
+      ]
+    },
+    {
+      "event": "GW190519_153544",
+      "index": 20,
+      "rows": 150207,
+      "native_reference_hz": 10.0,
+      "spins": [
+        {
+          "spin": 1,
+          "finite_rows": 150207,
+          "native_negative_fraction": 0.05077659496561412,
+          "infinity_negative_fraction": 0.05406538976212826,
+          "sign_change_fraction": 0.02186316216953937,
+          "absolute_cosine_change_quantiles": [
+            0.06348048359422442,
+            0.23466994329843227,
+            0.48875447620092344,
+            1.203369444675895
+          ],
+          "empirical_cdf_max_difference": 0.016350769271738397
+        },
+        {
+          "spin": 2,
+          "finite_rows": 150207,
+          "native_negative_fraction": 0.21096886296910264,
+          "infinity_negative_fraction": 0.21102878028320918,
+          "sign_change_fraction": 0.09567463566944284,
+          "absolute_cosine_change_quantiles": [
+            0.11532779605227021,
+            0.3906244748514162,
+            0.8583550489274654,
+            1.9279995965675416
+          ],
+          "empirical_cdf_max_difference": 0.003801420706092261
+        }
+      ]
+    },
+    {
+      "event": "GW190620_030421",
+      "index": 25,
+      "rows": 152410,
+      "native_reference_hz": 10.0,
+      "spins": [
+        {
+          "spin": 1,
+          "finite_rows": 152410,
+          "native_negative_fraction": 0.06265336920149596,
+          "infinity_negative_fraction": 0.06477265271307657,
+          "sign_change_fraction": 0.01743323928876058,
+          "absolute_cosine_change_quantiles": [
+            0.04727718759539773,
+            0.22117604037070437,
+            0.5094653919446389,
+            1.3060375962564712
+          ],
+          "empirical_cdf_max_difference": 0.020366117708811804
+        },
+        {
+          "spin": 2,
+          "finite_rows": 152410,
+          "native_negative_fraction": 0.29869431139688996,
+          "infinity_negative_fraction": 0.28710714520044617,
+          "sign_change_fraction": 0.11553047700282133,
+          "absolute_cosine_change_quantiles": [
+            0.13115717863041731,
+            0.4182478474016602,
+            0.9904447416974174,
+            1.9658962031611078
+          ],
+          "empirical_cdf_max_difference": 0.013404632241978964
+        }
+      ]
+    },
+    {
+      "event": "GW190805_211137",
+      "index": 38,
+      "rows": 169040,
+      "native_reference_hz": 10.0,
+      "spins": [
+        {
+          "spin": 1,
+          "finite_rows": 169040,
+          "native_negative_fraction": 0.047172266919072406,
+          "infinity_negative_fraction": 0.04426762896355892,
+          "sign_change_fraction": 0.0212789872219593,
+          "absolute_cosine_change_quantiles": [
+            0.0684861262408683,
+            0.2839021240650737,
+            0.634641611888383,
+            1.7920140156926392
+          ],
+          "empirical_cdf_max_difference": 0.025632986275437752
+        },
+        {
+          "spin": 2,
+          "finite_rows": 169040,
+          "native_negative_fraction": 0.2620622337908187,
+          "infinity_negative_fraction": 0.27375769048745857,
+          "sign_change_fraction": 0.13141859914813062,
+          "absolute_cosine_change_quantiles": [
+            0.15451582451930282,
+            0.48196700596728403,
+            1.0724156271926235,
+            1.959898342043309
+          ],
+          "empirical_cdf_max_difference": 0.018037150970184546
+        }
+      ]
+    },
+    {
+      "event": "GW191109_010717",
+      "index": 50,
+      "rows": 270070,
+      "native_reference_hz": 20.0,
+      "spins": [
+        {
+          "spin": 1,
+          "finite_rows": 270070,
+          "native_negative_fraction": 0.8928240826452402,
+          "infinity_negative_fraction": 0.8771059354982041,
+          "sign_change_fraction": 0.09383863442811123,
+          "absolute_cosine_change_quantiles": [
+            0.08051678202201135,
+            0.49715020981883656,
+            1.0439669690855906,
+            1.8740837197027416
+          ],
+          "empirical_cdf_max_difference": 0.03055133854185954
+        },
+        {
+          "spin": 2,
+          "finite_rows": 270070,
+          "native_negative_fraction": 0.6128929536786759,
+          "infinity_negative_fraction": 0.6222127596549043,
+          "sign_change_fraction": 0.14484763209538268,
+          "absolute_cosine_change_quantiles": [
+            0.1290700004924823,
+            0.540841619720715,
+            1.0982464730905837,
+            1.7973153741576922
+          ],
+          "empirical_cdf_max_difference": 0.06663087347724661
+        }
+      ]
+    }
+  ],
+  "counterexample_fixed_inputs": {
+    "theta1": 1.1,
+    "theta2": 2.0,
+    "q": 0.65,
+    "a1": 0.7,
+    "a2": 0.6,
+    "total_detector_mass": 80.0,
+    "reference_hz": 20.0
+  },
+  "counterexample": [
+    {
+      "pn_separation": 10.921607359837344,
+      "cos_tilt_1_infinity": 0.7712406300797993,
+      "cos_tilt_2_infinity": -0.9862780059265153,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 6.938893903907228e-17,
+      "kappa_initial": 0.14412681968573654,
+      "kappa_infinity": 0.10646353225105157,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.663421398516277e-10,
+      "phi12": 0.0,
+      "tight_cosine_max_difference": 5.646971779071919e-11,
+      "independent_solver_max_difference": 1.0579719877945593e-08
+    },
+    {
+      "pn_separation": 10.921724963561935,
+      "cos_tilt_1_infinity": 0.7596871585330804,
+      "cos_tilt_2_infinity": -0.9655410057144557,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 4.163336342344337e-17,
+      "kappa_initial": 0.14328862665411235,
+      "kappa_infinity": 0.10542382590433123,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.8232444987684744e-10,
+      "phi12": 0.2617993877991494,
+      "tight_cosine_max_difference": 2.4173525403625717e-09,
+      "independent_solver_max_difference": 9.873896478218569e-09
+    },
+    {
+      "pn_separation": 10.92206976023623,
+      "cos_tilt_1_infinity": 0.7251167627775211,
+      "cos_tilt_2_infinity": -0.9034915774352467,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.14083122106051812,
+      "kappa_infinity": 0.10231280773716428,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.404242165938598e-10,
+      "phi12": 0.5235987755982988,
+      "tight_cosine_max_difference": 2.7348845410557487e-10,
+      "independent_solver_max_difference": 1.3473337889813308e-08
+    },
+    {
+      "pn_separation": 10.922618252536678,
+      "cos_tilt_1_infinity": 0.6680499159445992,
+      "cos_tilt_2_infinity": -0.8010639036325662,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.1369222131763017,
+      "kappa_infinity": 0.09717731555201611,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.121997548318546e-10,
+      "phi12": 0.7853981633974483,
+      "tight_cosine_max_difference": 5.0553821129284415e-09,
+      "independent_solver_max_difference": 6.699647614460957e-09
+    },
+    {
+      "pn_separation": 10.923333061619429,
+      "cos_tilt_1_infinity": 0.5911933928642953,
+      "cos_tilt_2_infinity": -0.6631162981038157,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.1318281895664641,
+      "kappa_infinity": 0.09026093422798509,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.13926567968781e-10,
+      "phi12": 1.0471975511965976,
+      "tight_cosine_max_difference": 1.4173118234594995e-10,
+      "independent_solver_max_difference": 4.81246453798434e-09
+    },
+    {
+      "pn_separation": 10.924165474426772,
+      "cos_tilt_1_infinity": 0.5036183229916232,
+      "cos_tilt_2_infinity": -0.5059302752554299,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 1.3877787807814457e-17,
+      "kappa_initial": 0.12589649361000502,
+      "kappa_infinity": 0.08237998211823132,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.902133781710006e-10,
+      "phi12": 1.308996938995747,
+      "tight_cosine_max_difference": 2.4709145840517976e-10,
+      "independent_solver_max_difference": 3.772628209830486e-09
+    },
+    {
+      "pn_separation": 10.925058763401514,
+      "cos_tilt_1_infinity": 0.4171352755470858,
+      "cos_tilt_2_infinity": -0.3507042926626705,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 1.3877787807814457e-17,
+      "kappa_initial": 0.11953150260578374,
+      "kappa_infinity": 0.0745973019992555,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.359530292845747e-10,
+      "phi12": 1.5707963267948966,
+      "tight_cosine_max_difference": 1.7565520704643234e-09,
+      "independent_solver_max_difference": 9.230070263654966e-09
+    },
+    {
+      "pn_separation": 10.925952052376255,
+      "cos_tilt_1_infinity": 0.3382929036036754,
+      "cos_tilt_2_infinity": -0.20919234302065182,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.11316703208429252,
+      "kappa_infinity": 0.06750221251307165,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.370052292783754e-10,
+      "phi12": 1.832595714594046,
+      "tight_cosine_max_difference": 1.959294393394373e-10,
+      "independent_solver_max_difference": 7.733549439725707e-09
+    },
+    {
+      "pn_separation": 10.9267844651836,
+      "cos_tilt_1_infinity": 0.2702629534968185,
+      "cos_tilt_2_infinity": -0.0870873043673189,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.10723675811311852,
+      "kappa_infinity": 0.06138014170455743,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 8.598107920088083e-10,
+      "phi12": 2.0943951023931953,
+      "tight_cosine_max_difference": 4.588576740793826e-11,
+      "independent_solver_max_difference": 7.21390665259225e-09
+    },
+    {
+      "pn_separation": 10.92749927426635,
+      "cos_tilt_1_infinity": 0.2151692626863324,
+      "cos_tilt_2_infinity": 0.011798807343810006,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.10214467697135664,
+      "kappa_infinity": 0.056422215442456757,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.4517715902525623e-10,
+      "phi12": 2.356194490192345,
+      "tight_cosine_max_difference": 1.0447257642320906e-10,
+      "independent_solver_max_difference": 8.966305307597788e-09
+    },
+    {
+      "pn_separation": 10.928047766566797,
+      "cos_tilt_1_infinity": 0.17463088864158105,
+      "cos_tilt_2_infinity": 0.08455999152669705,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.09823761155527652,
+      "kappa_infinity": 0.05277413403163432,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.466471693025497e-10,
+      "phi12": 2.617993877991494,
+      "tight_cosine_max_difference": 1.8487379682685656e-10,
+      "independent_solver_max_difference": 5.900858204843651e-09
+    },
+    {
+      "pn_separation": 10.928392563241092,
+      "cos_tilt_1_infinity": 0.14982661055102595,
+      "cos_tilt_2_infinity": 0.12908049066359084,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.09578162794708855,
+      "kappa_infinity": 0.050541976774633034,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.964272048990637e-10,
+      "phi12": 2.8797932657906435,
+      "tight_cosine_max_difference": 1.7400594853889118e-10,
+      "independent_solver_max_difference": 1.9099335057948252e-08
+    },
+    {
+      "pn_separation": 10.928510166965685,
+      "cos_tilt_1_infinity": 0.14147754802721718,
+      "cos_tilt_2_infinity": 0.1440659875011963,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.09494395539825498,
+      "kappa_infinity": 0.04979063781473105,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.8876804286360738e-10,
+      "phi12": 3.141592653589793,
+      "tight_cosine_max_difference": 1.646044966996385e-10,
+      "independent_solver_max_difference": 8.567925646740804e-09
+    },
+    {
+      "pn_separation": 10.928392563241092,
+      "cos_tilt_1_infinity": 0.14982661055102595,
+      "cos_tilt_2_infinity": 0.12908049066359084,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.09578162794708855,
+      "kappa_infinity": 0.050541976774633034,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.964272048990637e-10,
+      "phi12": 3.4033920413889422,
+      "tight_cosine_max_difference": 1.7400594853889118e-10,
+      "independent_solver_max_difference": 1.9099335057948252e-08
+    },
+    {
+      "pn_separation": 10.928047766566797,
+      "cos_tilt_1_infinity": 0.17463088864137227,
+      "cos_tilt_2_infinity": 0.08455999152707183,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 1.3877787807814457e-17,
+      "kappa_initial": 0.09823761155527651,
+      "kappa_infinity": 0.05277413403161553,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.0969315039632832e-09,
+      "phi12": 3.665191429188092,
+      "tight_cosine_max_difference": 1.8486133457340514e-10,
+      "independent_solver_max_difference": 5.901212921100019e-09
+    },
+    {
+      "pn_separation": 10.92749927426635,
+      "cos_tilt_1_infinity": 0.21516926269244882,
+      "cos_tilt_2_infinity": 0.011798807332831833,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.10214467697135662,
+      "kappa_infinity": 0.05642221544300718,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.3716408271166074e-10,
+      "phi12": 3.926990816987241,
+      "tight_cosine_max_difference": 1.0446755613346959e-10,
+      "independent_solver_max_difference": 8.955313688524535e-09
+    },
+    {
+      "pn_separation": 10.9267844651836,
+      "cos_tilt_1_infinity": 0.2702629534681763,
+      "cos_tilt_2_infinity": -0.08708730431590982,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.1072367581131185,
+      "kappa_infinity": 0.0613801417019799,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.622141918681933e-10,
+      "phi12": 4.1887902047863905,
+      "tight_cosine_max_difference": 4.586035717846215e-11,
+      "independent_solver_max_difference": 7.265339219131306e-09
+    },
+    {
+      "pn_separation": 10.925952052376255,
+      "cos_tilt_1_infinity": 0.33829290360204495,
+      "cos_tilt_2_infinity": -0.2091923430177253,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.11316703208429249,
+      "kappa_infinity": 0.06750221251292492,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.0534863259525906e-10,
+      "phi12": 4.45058959258554,
+      "tight_cosine_max_difference": 1.9589574407063992e-10,
+      "independent_solver_max_difference": 7.736431162364e-09
+    },
+    {
+      "pn_separation": 10.925058763401514,
+      "cos_tilt_1_infinity": 0.4171352755470858,
+      "cos_tilt_2_infinity": -0.3507042926626705,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 1.3877787807814457e-17,
+      "kappa_initial": 0.11953150260578374,
+      "kappa_infinity": 0.0745973019992555,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.359530292845747e-10,
+      "phi12": 4.71238898038469,
+      "tight_cosine_max_difference": 1.7565520704643234e-09,
+      "independent_solver_max_difference": 9.230070263654966e-09
+    },
+    {
+      "pn_separation": 10.924165474426772,
+      "cos_tilt_1_infinity": 0.503618323188395,
+      "cos_tilt_2_infinity": -0.50593027560861,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 4.163336342344337e-17,
+      "kappa_initial": 0.125896493610005,
+      "kappa_infinity": 0.08237998213593897,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.166229057769641e-10,
+      "phi12": 4.974188368183839,
+      "tight_cosine_max_difference": 2.49032239274527e-10,
+      "independent_solver_max_difference": 4.127774899664871e-09
+    },
+    {
+      "pn_separation": 10.923333061619429,
+      "cos_tilt_1_infinity": 0.5911933928645224,
+      "cos_tilt_2_infinity": -0.6631162981042233,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.13182818956646408,
+      "kappa_infinity": 0.09026093422800553,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.242146161599237e-10,
+      "phi12": 5.235987755982988,
+      "tight_cosine_max_difference": 1.4164980299824492e-10,
+      "independent_solver_max_difference": 4.812963583233909e-09
+    },
+    {
+      "pn_separation": 10.922618252536678,
+      "cos_tilt_1_infinity": 0.6680499159446331,
+      "cos_tilt_2_infinity": -0.8010639036326271,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.13692221317630168,
+      "kappa_infinity": 0.09717731555201917,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 6.31993041233514e-10,
+      "phi12": 5.497787143782138,
+      "tight_cosine_max_difference": 5.058624297227254e-09,
+      "independent_solver_max_difference": 6.6996234115990205e-09
+    },
+    {
+      "pn_separation": 10.92206976023623,
+      "cos_tilt_1_infinity": 0.7251167627465562,
+      "cos_tilt_2_infinity": -0.9034915773796688,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 6.938893903907228e-17,
+      "kappa_initial": 0.1408312210605181,
+      "kappa_infinity": 0.10231280773437773,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.1488263118586417e-09,
+      "phi12": 5.759586531581287,
+      "tight_cosine_max_difference": 2.7343849406946674e-10,
+      "independent_solver_max_difference": 1.3528893227920946e-08
+    },
+    {
+      "pn_separation": 10.921724963561935,
+      "cos_tilt_1_infinity": 0.7596871585330804,
+      "cos_tilt_2_infinity": -0.9655410057144557,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 4.163336342344337e-17,
+      "kappa_initial": 0.14328862665411235,
+      "kappa_infinity": 0.10542382590433123,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.8232444987684744e-10,
+      "phi12": 6.021385919380436,
+      "tight_cosine_max_difference": 2.4173525403625717e-09,
+      "independent_solver_max_difference": 9.873896478218569e-09
+    },
+    {
+      "pn_separation": 10.921607359837344,
+      "cos_tilt_1_infinity": 0.7712406300797993,
+      "cos_tilt_2_infinity": -0.9862780059265153,
+      "chieff": 0.09407273863304157,
+      "chieff_transport_error": 6.938893903907228e-17,
+      "kappa_initial": 0.14412681968573654,
+      "kappa_infinity": 0.10646353225105157,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.663421398516277e-10,
+      "phi12": 6.283185307179586,
+      "tight_cosine_max_difference": 5.646971779071919e-11,
+      "independent_solver_max_difference": 1.0579719877945593e-08
+    }
+  ],
+  "transport_comparison": [
+    {
+      "pn_separation": 9.881633889651411,
+      "cos_tilt_1_infinity": 0.6852842502079433,
+      "cos_tilt_2_infinity": 0.5118532284837386,
+      "chieff": 0.5767855302492153,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.4496494668240748,
+      "kappa_infinity": 0.32169556150810735,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.1346283912416766e-09,
+      "index": 19,
+      "source_row": 0,
+      "inputs": {
+        "theta1": 0.8483246404059794,
+        "theta2": 0.9811477899394263,
+        "phi12": 4.7021999267034555,
+        "q": 0.570552280017007,
+        "a1": 0.9400747143390656,
+        "a2": 0.8959536571311565,
+        "total_detector_mass": 90.58018820294794,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.6765510872257007,
+        0.5279135022807254
+      ],
+      "implementation_difference": [
+        0.008733162982242582,
+        -0.016060273796986824
+      ],
+      "tight_cosine_max_difference": 1.1429550639263653e-09,
+      "independent_solver_max_difference": 7.829658477120915e-09,
+      "independent_roundtrip_kappa_error": 1.6653345369377348e-15
+    },
+    {
+      "pn_separation": 9.740311557004134,
+      "cos_tilt_1_infinity": 0.532946987875106,
+      "cos_tilt_2_infinity": 0.2999346302361074,
+      "chieff": 0.42204319810126717,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.4225044004974895,
+      "kappa_infinity": 0.2617092796300735,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.3692749711857743e-09,
+      "index": 19,
+      "source_row": 10753,
+      "inputs": {
+        "theta1": 1.0197143831544135,
+        "theta2": 1.243155438710369,
+        "phi12": 1.593828464373861,
+        "q": 0.43668293874953473,
+        "a1": 0.9173455830687761,
+        "a2": 0.8966940180837828,
+        "total_detector_mass": 92.606527569386,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.5277910057384974,
+        0.31201371089670465
+      ],
+      "implementation_difference": [
+        0.005155982136608617,
+        -0.012079080660597263
+      ],
+      "tight_cosine_max_difference": 1.0701162178605728e-10,
+      "independent_solver_max_difference": 8.194293854568713e-09,
+      "independent_roundtrip_kappa_error": 6.933342788784103e-14
+    },
+    {
+      "pn_separation": 9.686141112438374,
+      "cos_tilt_1_infinity": 0.9641460711034838,
+      "cos_tilt_2_infinity": 0.9264818318704287,
+      "chieff": 0.7649299673403852,
+      "chieff_transport_error": 1.1102230246251565e-16,
+      "kappa_initial": 0.492199944334704,
+      "kappa_infinity": 0.388983946393816,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.371877527718169e-09,
+      "index": 19,
+      "source_row": 21506,
+      "inputs": {
+        "theta1": 0.19606129460142027,
+        "theta2": 0.4530605705996702,
+        "phi12": 1.45259845519582,
+        "q": 0.8773569679585212,
+        "a1": 0.9390307346196448,
+        "a2": 0.6528638205507273,
+        "total_detector_mass": 92.84807102400976,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.9654005156760599,
+        0.9244253146422617
+      ],
+      "implementation_difference": [
+        -0.0012544445725760633,
+        0.0020565172281669097
+      ],
+      "tight_cosine_max_difference": 5.194245056294733e-08,
+      "independent_solver_max_difference": 7.667739998495904e-09,
+      "independent_roundtrip_kappa_error": 7.100986465502501e-13
+    },
+    {
+      "pn_separation": 10.24284456135928,
+      "cos_tilt_1_infinity": 0.9671893312378612,
+      "cos_tilt_2_infinity": -0.052517663775876966,
+      "chieff": 0.5076720683817464,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.4202897355416728,
+      "kappa_infinity": 0.3063503456783956,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.8518768457885812e-09,
+      "index": 19,
+      "source_row": 32259,
+      "inputs": {
+        "theta1": 0.566863317118342,
+        "theta2": 1.4533997306982844,
+        "phi12": 5.979097287103805,
+        "q": 0.6790685262674736,
+        "a1": 0.9176362749578967,
+        "a2": 0.9845423071093748,
+        "total_detector_mass": 86.42618604976403,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.9799510936881798,
+        -0.07003359553011924
+      ],
+      "implementation_difference": [
+        -0.01276176245031857,
+        0.017515931754242278
+      ],
+      "tight_cosine_max_difference": 4.691031174619553e-10,
+      "independent_solver_max_difference": 1.989634366983406e-09,
+      "independent_roundtrip_kappa_error": 1.396882609583372e-12
+    },
+    {
+      "pn_separation": 10.512130905770542,
+      "cos_tilt_1_infinity": 0.7654915414266529,
+      "cos_tilt_2_infinity": 0.7299631273907641,
+      "chieff": 0.6305222665244508,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.39949071658722707,
+      "kappa_infinity": 0.31571199104379133,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.070252114183546e-08,
+      "index": 19,
+      "source_row": 43012,
+      "inputs": {
+        "theta1": 0.08195031168114558,
+        "theta2": 1.089953962383387,
+        "phi12": 5.240097995189967,
+        "q": 0.970753065920428,
+        "a1": 0.8898515417338774,
+        "a2": 0.7922929916576136,
+        "total_detector_mass": 83.23324623321162,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.768605417544076,
+        0.7263604588879884
+      ],
+      "implementation_difference": [
+        -0.0031138761174230867,
+        0.0036026685027756855
+      ],
+      "tight_cosine_max_difference": 5.565051752753902e-10,
+      "independent_solver_max_difference": 2.2885838846242734e-07,
+      "independent_roundtrip_kappa_error": 1.11655129586552e-11
+    },
+    {
+      "pn_separation": 10.20136645693873,
+      "cos_tilt_1_infinity": 0.6773240638231578,
+      "cos_tilt_2_infinity": 0.04117545763780491,
+      "chieff": 0.4327924528104251,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.3892470996126686,
+      "kappa_infinity": 0.2743623798663243,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.2277893146617203e-09,
+      "index": 19,
+      "source_row": 53766,
+      "inputs": {
+        "theta1": 0.6690567839764084,
+        "theta2": 1.8198512957766122,
+        "phi12": 4.39443600870955,
+        "q": 0.5621646642325585,
+        "a1": 0.9760939324271449,
+        "a2": 0.6463436904147164,
+        "total_detector_mass": 87.12732409031516,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.6971450608137383,
+        -0.012070917952765116
+      ],
+      "implementation_difference": [
+        -0.019820996990580486,
+        0.05324637559057003
+      ],
+      "tight_cosine_max_difference": 3.201221232540519e-11,
+      "independent_solver_max_difference": 2.718094536252602e-08,
+      "independent_roundtrip_kappa_error": 1.5792922525292852e-13
+    },
+    {
+      "pn_separation": 9.549203745506942,
+      "cos_tilt_1_infinity": 0.9674359243704966,
+      "cos_tilt_2_infinity": 0.030662186745606307,
+      "chieff": 0.6312517411895083,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.5577207313507951,
+      "kappa_infinity": 0.4136692822599336,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.8163481829702732e-10,
+      "index": 19,
+      "source_row": 64519,
+      "inputs": {
+        "theta1": 0.49487637213685925,
+        "theta2": 1.2739777799112069,
+        "phi12": 0.6470060291954164,
+        "q": 0.5182849648932482,
+        "a1": 0.9803077582146639,
+        "a2": 0.6314650830874848,
+        "total_detector_mass": 94.7961899808983,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.9563169849268157,
+        0.06396706519820305
+      ],
+      "implementation_difference": [
+        0.01111893944368092,
+        -0.03330487845259675
+      ],
+      "tight_cosine_max_difference": 5.856282767752186e-09,
+      "independent_solver_max_difference": 1.1324992263417322e-09,
+      "independent_roundtrip_kappa_error": 1.3246070906802743e-12
+    },
+    {
+      "pn_separation": 10.026693629092335,
+      "cos_tilt_1_infinity": 0.7659354153194549,
+      "cos_tilt_2_infinity": 0.3657086762844157,
+      "chieff": 0.44582927370990627,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.3700517867779119,
+      "kappa_infinity": 0.278011268132036,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.0385566850956707e-09,
+      "index": 19,
+      "source_row": 75272,
+      "inputs": {
+        "theta1": 0.5959921916669246,
+        "theta2": 1.3620674884923283,
+        "phi12": 4.233939626760525,
+        "q": 0.4706654994603822,
+        "a1": 0.7219372533748288,
+        "a2": 0.5967032809339645,
+        "total_detector_mass": 89.08707887323364,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.7784899567724765,
+        0.33343640608178604
+      ],
+      "implementation_difference": [
+        -0.012554541453021595,
+        0.03227227020262968
+      ],
+      "tight_cosine_max_difference": 4.192202140984591e-13,
+      "independent_solver_max_difference": 5.5490574357719424e-09,
+      "independent_roundtrip_kappa_error": 2.573496971081113e-13
+    },
+    {
+      "pn_separation": 10.13430009915659,
+      "cos_tilt_1_infinity": 0.9567197830294449,
+      "cos_tilt_2_infinity": 0.36344359548059135,
+      "chieff": 0.6300290911495254,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.4511062025152075,
+      "kappa_infinity": 0.34860626891021285,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.4220553340725814e-10,
+      "index": 19,
+      "source_row": 86025,
+      "inputs": {
+        "theta1": 0.28671011577152117,
+        "theta2": 1.2045037347254592,
+        "phi12": 6.088920752927075,
+        "q": 0.7354826134149213,
+        "a1": 0.9712258192123593,
+        "a2": 0.6143270445281295,
+        "total_detector_mass": 87.52044053397303,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.9699011976780474,
+        0.3351094450169129
+      ],
+      "implementation_difference": [
+        -0.013181414648602452,
+        0.02833415046367843
+      ],
+      "tight_cosine_max_difference": 6.793908380320346e-09,
+      "independent_solver_max_difference": 1.9951653273952985e-08,
+      "independent_roundtrip_kappa_error": 4.44150272116417e-12
+    },
+    {
+      "pn_separation": 10.376148808477497,
+      "cos_tilt_1_infinity": 0.7387609955663351,
+      "cos_tilt_2_infinity": 0.871019467128382,
+      "chieff": 0.5967972212075745,
+      "chieff_transport_error": 1.1102230246251565e-16,
+      "kappa_initial": 0.36238214409909847,
+      "kappa_infinity": 0.29839064750554195,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.2716546893276615e-07,
+      "index": 19,
+      "source_row": 96778,
+      "inputs": {
+        "theta1": 0.44809345600738465,
+        "theta2": 0.8150107279607605,
+        "phi12": 2.028622643963877,
+        "q": 0.9968868505986768,
+        "a1": 0.7927713117740324,
+        "a2": 0.6979874679129419,
+        "total_detector_mass": 84.8333216918306,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.7388995337933678,
+        0.8708616245892365
+      ],
+      "implementation_difference": [
+        -0.0001385382270326918,
+        0.00015784253914541413
+      ],
+      "tight_cosine_max_difference": 1.373752919198168e-07,
+      "independent_solver_max_difference": 8.74062785372054e-07,
+      "independent_roundtrip_kappa_error": 2.993143510821028e-10
+    },
+    {
+      "pn_separation": 10.870040108006192,
+      "cos_tilt_1_infinity": 0.7096575213356422,
+      "cos_tilt_2_infinity": 0.03251919191315836,
+      "chieff": 0.4082428243011793,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.322031060793522,
+      "kappa_infinity": 0.24545348179120333,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 8.499935200134701e-10,
+      "index": 19,
+      "source_row": 107532,
+      "inputs": {
+        "theta1": 0.4394301366570467,
+        "theta2": 2.4571343529985077,
+        "phi12": 3.117632932978024,
+        "q": 0.6569619037258532,
+        "a1": 0.9427430739719013,
+        "a2": 0.34722614051077116,
+        "total_detector_mass": 79.92397475097538,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.751240730150873,
+        -0.13933445403717196
+      ],
+      "implementation_difference": [
+        -0.04158320881523081,
+        0.1718536459503303
+      ],
+      "tight_cosine_max_difference": 4.277752270465118e-09,
+      "independent_solver_max_difference": 4.587736350536442e-08,
+      "independent_roundtrip_kappa_error": 2.3925306180672123e-14
+    },
+    {
+      "pn_separation": 10.091156903700961,
+      "cos_tilt_1_infinity": 0.9652067278410263,
+      "cos_tilt_2_infinity": 0.9812284417342397,
+      "chieff": 0.6031840231011038,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.40515795991304393,
+      "kappa_infinity": 0.3312245331318638,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 9.564110614590504e-11,
+      "index": 19,
+      "source_row": 118285,
+      "inputs": {
+        "theta1": 0.17714480656413847,
+        "theta2": 0.4432325724636386,
+        "phi12": 3.6215288367370757,
+        "q": 0.7185910274033147,
+        "a1": 0.859219378095945,
+        "a2": 0.2940033343411107,
+        "total_detector_mass": 88.13004306036731,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.9672305131369858,
+        0.972997785684779
+      ],
+      "implementation_difference": [
+        -0.0020237852959594793,
+        0.008230656049460716
+      ],
+      "tight_cosine_max_difference": 6.409859309997046e-09,
+      "independent_solver_max_difference": 3.799492720446551e-09,
+      "independent_roundtrip_kappa_error": 1.9961809982760315e-13
+    },
+    {
+      "pn_separation": 9.750110796654184,
+      "cos_tilt_1_infinity": 0.9808863991135541,
+      "cos_tilt_2_infinity": 0.31392345097338814,
+      "chieff": 0.6904003486444931,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.523787360913899,
+      "kappa_infinity": 0.38015216971925914,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.9857054606452493e-09,
+      "index": 19,
+      "source_row": 129038,
+      "inputs": {
+        "theta1": 0.6487775081089548,
+        "theta2": 0.9648609886561277,
+        "phi12": 0.42127195430991926,
+        "q": 0.7213230372170597,
+        "a1": 0.9846380730609033,
+        "a2": 0.9829699598005686,
+        "total_detector_mass": 92.02822211776305,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.9778557609753116,
+        0.31813208013861194
+      ],
+      "implementation_difference": [
+        0.0030306381382425585,
+        -0.004208629165223798
+      ],
+      "tight_cosine_max_difference": 2.4901823936218648e-09,
+      "independent_solver_max_difference": 1.3470219217825985e-08,
+      "independent_roundtrip_kappa_error": 2.781108676686017e-12
+    },
+    {
+      "pn_separation": 9.825245109945465,
+      "cos_tilt_1_infinity": 0.920221346140691,
+      "cos_tilt_2_infinity": 0.1290166395504696,
+      "chieff": 0.5048542571131193,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.4111896481931664,
+      "kappa_infinity": 0.31740450510533647,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.393910070175309e-10,
+      "index": 19,
+      "source_row": 139791,
+      "inputs": {
+        "theta1": 0.496629327478216,
+        "theta2": 1.3556062923446146,
+        "phi12": 5.242688244239337,
+        "q": 0.544392146347041,
+        "a1": 0.7932969030782627,
+        "a2": 0.707393026283676,
+        "total_detector_mass": 91.51689834054338,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.9193626975947311,
+        0.13078543891018732
+      ],
+      "implementation_difference": [
+        0.0008586485459598503,
+        -0.0017687993597177154
+      ],
+      "tight_cosine_max_difference": 4.9042298000401274e-11,
+      "independent_solver_max_difference": 2.6536940422872135e-09,
+      "independent_roundtrip_kappa_error": 3.2623903578610225e-13
+    },
+    {
+      "pn_separation": 10.458005684899563,
+      "cos_tilt_1_infinity": 0.8424032990053437,
+      "cos_tilt_2_infinity": 0.11774030082112306,
+      "chieff": 0.5214117625034778,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.4266371726225151,
+      "kappa_infinity": 0.31545802054844285,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.497366450946117e-10,
+      "index": 19,
+      "source_row": 150544,
+      "inputs": {
+        "theta1": 0.8579651636181695,
+        "theta2": 1.1320097409220626,
+        "phi12": 5.370801197026559,
+        "q": 0.6007510044195691,
+        "a1": 0.9125411613583883,
+        "a2": 0.9319990220742146,
+        "total_detector_mass": 83.88675422313074,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.816964947702204,
+        0.15920050737082875
+      ],
+      "implementation_difference": [
+        0.02543835130313976,
+        -0.04146020654970568
+      ],
+      "tight_cosine_max_difference": 3.841643669844075e-11,
+      "independent_solver_max_difference": 6.942147204314075e-09,
+      "independent_roundtrip_kappa_error": 1.3694601008751306e-13
+    },
+    {
+      "pn_separation": 10.567149549929079,
+      "cos_tilt_1_infinity": 0.7912196447611047,
+      "cos_tilt_2_infinity": -0.1497266190938606,
+      "chieff": 0.4208738537091995,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.3238962090332841,
+      "kappa_infinity": 0.25477450317377076,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.1130651400570457e-09,
+      "index": 19,
+      "source_row": 161298,
+      "inputs": {
+        "theta1": 0.4089209225549351,
+        "theta2": 2.588018730077883,
+        "phi12": 2.1657464659520103,
+        "q": 0.671130150668364,
+        "a1": 0.9203139693147403,
+        "a2": 0.24715376608111694,
+        "total_detector_mass": 83.09480250870858,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.8258623811442458,
+        -0.3419358410068763
+      ],
+      "implementation_difference": [
+        -0.03464273638314108,
+        0.1922092219130157
+      ],
+      "tight_cosine_max_difference": 2.3463821718916478e-09,
+      "independent_solver_max_difference": 1.5510931705708941e-09,
+      "independent_roundtrip_kappa_error": 6.508127370352668e-13
+    },
+    {
+      "pn_separation": 11.316896149473488,
+      "cos_tilt_1_infinity": 0.6530662969635678,
+      "cos_tilt_2_infinity": 0.3012436787685876,
+      "chieff": 0.23980911810810648,
+      "chieff_transport_error": 2.7755575615628914e-17,
+      "kappa_initial": 0.1786958537451501,
+      "kappa_infinity": 0.1473685470415674,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.519469326031867e-10,
+      "index": 20,
+      "source_row": 0,
+      "inputs": {
+        "theta1": 0.8544898332963955,
+        "theta2": 1.2774518745135628,
+        "phi12": 4.653257483301998,
+        "q": 0.5378389181059487,
+        "a1": 0.49754718920842483,
+        "a2": 0.2706847233355367,
+        "total_detector_mass": 151.55132376929868,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.6533538595789262,
+        0.30026091139259664
+      ],
+      "implementation_difference": [
+        -0.00028756261535844985,
+        0.000982767375990956
+      ],
+      "tight_cosine_max_difference": 1.9393547878721051e-10,
+      "independent_solver_max_difference": 4.7618505250035525e-09,
+      "independent_roundtrip_kappa_error": 5.10702591327572e-15
+    },
+    {
+      "pn_separation": 10.62087090430471,
+      "cos_tilt_1_infinity": 0.4313515323798051,
+      "cos_tilt_2_infinity": 0.7722829046856856,
+      "chieff": 0.5417435037446956,
+      "chieff_transport_error": 1.1102230246251565e-16,
+      "kappa_initial": 0.3343467223564238,
+      "kappa_infinity": 0.2704895722869847,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.1597603311617206e-08,
+      "index": 20,
+      "source_row": 10013,
+      "inputs": {
+        "theta1": 0.9358318981803465,
+        "theta2": 0.9222085338258168,
+        "phi12": 2.1468078845872816,
+        "q": 0.9894177804551216,
+        "a1": 0.9179073055566548,
+        "a2": 0.8922969803262245,
+        "total_detector_mass": 164.49000189424123,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.4312754813549309,
+        0.7723619752363845
+      ],
+      "implementation_difference": [
+        7.605102487423521e-05,
+        -7.90705506988898e-05
+      ],
+      "tight_cosine_max_difference": 5.291664095796733e-08,
+      "independent_solver_max_difference": 3.159369857952399e-07,
+      "independent_roundtrip_kappa_error": 5.97038529726035e-11
+    },
+    {
+      "pn_separation": 10.470482823399891,
+      "cos_tilt_1_infinity": 0.8619640784475053,
+      "cos_tilt_2_infinity": -0.41008452096031006,
+      "chieff": 0.3640215144123878,
+      "chieff_transport_error": 1.1102230246251565e-16,
+      "kappa_initial": 0.28219390485421914,
+      "kappa_infinity": 0.23209108993627212,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 7.235378962633376e-11,
+      "index": 20,
+      "source_row": 20027,
+      "inputs": {
+        "theta1": 0.6409012680704832,
+        "theta2": 1.6039006589540106,
+        "phi12": 5.441637008555884,
+        "q": 0.6178995710058466,
+        "a1": 0.7396515550460121,
+        "a2": 0.19180953350103044,
+        "total_detector_mass": 168.45452329442102,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.8468709864295542,
+        -0.3158918067092324
+      ],
+      "implementation_difference": [
+        0.01509309201795117,
+        -0.09419271425107767
+      ],
+      "tight_cosine_max_difference": 9.332099537573413e-10,
+      "independent_solver_max_difference": 1.6260370661047574e-08,
+      "independent_roundtrip_kappa_error": 9.275913370743183e-14
+    },
+    {
+      "pn_separation": 11.151663210424553,
+      "cos_tilt_1_infinity": 0.9653130597089731,
+      "cos_tilt_2_infinity": 0.20915747227929882,
+      "chieff": 0.42807992283589985,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.30600214517049923,
+      "kappa_infinity": 0.2524438685921354,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 7.347441544069966e-10,
+      "index": 20,
+      "source_row": 30041,
+      "inputs": {
+        "theta1": 0.14957231719908126,
+        "theta2": 1.3983347314922316,
+        "phi12": 0.23156728438794488,
+        "q": 0.6184123354720543,
+        "a1": 0.631933266170858,
+        "a2": 0.6401177775364806,
+        "total_detector_mass": 154.06374348688414,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9800373948429584,
+        0.1856520055451539
+      ],
+      "implementation_difference": [
+        -0.0147243351339853,
+        0.023505466734144914
+      ],
+      "tight_cosine_max_difference": 1.8483972685778838e-10,
+      "independent_solver_max_difference": 1.0044500453609828e-08,
+      "independent_roundtrip_kappa_error": 5.134781488891349e-14
+    },
+    {
+      "pn_separation": 11.124613385137714,
+      "cos_tilt_1_infinity": 0.5529664695540522,
+      "cos_tilt_2_infinity": 0.6469205926122127,
+      "chieff": 0.4021123405207062,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.27045410765485267,
+      "kappa_infinity": 0.21238667985447532,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.8373003118909992e-10,
+      "index": 20,
+      "source_row": 40054,
+      "inputs": {
+        "theta1": 0.6561666954377819,
+        "theta2": 1.589524053644014,
+        "phi12": 2.5359097316525183,
+        "q": 0.7571463665095047,
+        "a1": 0.8993991828643871,
+        "a2": 0.42716792144712173,
+        "total_detector_mass": 154.81584963201766,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.5760652365709902,
+        0.5826869112503499
+      ],
+      "implementation_difference": [
+        -0.023098767016938027,
+        0.0642336813618628
+      ],
+      "tight_cosine_max_difference": 7.518823341712277e-10,
+      "independent_solver_max_difference": 1.1036741409675699e-08,
+      "independent_roundtrip_kappa_error": 4.6351811278100286e-14
+    },
+    {
+      "pn_separation": 10.463199195146794,
+      "cos_tilt_1_infinity": 0.7084674888236737,
+      "cos_tilt_2_infinity": 0.9090195144097235,
+      "chieff": 0.341894414104886,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.20404347621756724,
+      "kappa_infinity": 0.1761017244843257,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.5970183215615634e-10,
+      "index": 20,
+      "source_row": 50068,
+      "inputs": {
+        "theta1": 0.7292051742084765,
+        "theta2": 0.5675795241015565,
+        "phi12": 2.234427586115632,
+        "q": 0.6808248613049317,
+        "a1": 0.46996852572233294,
+        "a2": 0.3905539121235374,
+        "total_detector_mass": 168.76871016689418,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.7114513569674277,
+        0.9037456130471513
+      ],
+      "implementation_difference": [
+        -0.002983868143753954,
+        0.00527390136257222
+      ],
+      "tight_cosine_max_difference": 5.822887727546799e-10,
+      "independent_solver_max_difference": 3.745667220833582e-09,
+      "independent_roundtrip_kappa_error": 6.9111383282915995e-15
+    },
+    {
+      "pn_separation": 10.510105047286471,
+      "cos_tilt_1_infinity": 0.6249209141767497,
+      "cos_tilt_2_infinity": 0.6012986824691605,
+      "chieff": 0.40983730777373323,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.3244913397925851,
+      "kappa_infinity": 0.2399665728018051,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.1277062617054412e-10,
+      "index": 20,
+      "source_row": 60082,
+      "inputs": {
+        "theta1": 0.7737652576080772,
+        "theta2": 1.6306803032075556,
+        "phi12": 2.6428888482459327,
+        "q": 0.6355495558783618,
+        "a1": 0.9479633375529347,
+        "a2": 0.20386253916922323,
+        "total_detector_mass": 167.38694656703382,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.6387149515130432,
+        0.5003743025571501
+      ],
+      "implementation_difference": [
+        -0.013794037336293585,
+        0.10092437991201042
+      ],
+      "tight_cosine_max_difference": 2.588708802875317e-09,
+      "independent_solver_max_difference": 3.785782565213225e-08,
+      "independent_roundtrip_kappa_error": 1.7508217098338719e-13
+    },
+    {
+      "pn_separation": 11.644875434302069,
+      "cos_tilt_1_infinity": 0.8364779960235115,
+      "cos_tilt_2_infinity": -0.61319259707265,
+      "chieff": 0.13843529931368131,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.12148910690905289,
+      "kappa_infinity": 0.10606717399547058,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.923524171169703e-10,
+      "index": 20,
+      "source_row": 70096,
+      "inputs": {
+        "theta1": 0.5856423244958497,
+        "theta2": 2.2238579928091515,
+        "phi12": 5.016750411245303,
+        "q": 0.6360655445850798,
+        "a1": 0.459390546163759,
+        "a2": 0.40453448122150976,
+        "total_detector_mass": 146.1538551638164,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.841921978723686,
+        -0.622912040000634
+      ],
+      "implementation_difference": [
+        -0.005443982700174543,
+        0.009719442927984101
+      ],
+      "tight_cosine_max_difference": 2.03000949383636e-11,
+      "independent_solver_max_difference": 3.4634523027321507e-09,
+      "independent_roundtrip_kappa_error": 1.329630849866703e-13
+    },
+    {
+      "pn_separation": 11.753763106079917,
+      "cos_tilt_1_infinity": 0.317303493574637,
+      "cos_tilt_2_infinity": 0.630001176060654,
+      "chieff": 0.29543585689785545,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.1695357950661119,
+      "kappa_infinity": 0.14116762675616387,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.99135893780489e-09,
+      "index": 20,
+      "source_row": 80109,
+      "inputs": {
+        "theta1": 1.373991958709372,
+        "theta2": 0.8769438642260713,
+        "phi12": 1.3334122275854383,
+        "q": 0.9084485090441881,
+        "a1": 0.06719952005142754,
+        "a2": 0.9478928539088273,
+        "total_detector_mass": 143.71637714402922,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.313457443921172,
+        0.6303013144118411
+      ],
+      "implementation_difference": [
+        0.0038460496534650224,
+        -0.0003001383511871403
+      ],
+      "tight_cosine_max_difference": 1.5808843123465977e-10,
+      "independent_solver_max_difference": 6.671610419672902e-07,
+      "independent_roundtrip_kappa_error": 1.8207657603852567e-14
+    },
+    {
+      "pn_separation": 11.824879686068842,
+      "cos_tilt_1_infinity": 0.9806117641348704,
+      "cos_tilt_2_infinity": 0.631643163673835,
+      "chieff": 0.26578277438910736,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.15566639775175564,
+      "kappa_infinity": 0.14076190013347714,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.3669524673586295e-10,
+      "index": 20,
+      "source_row": 90123,
+      "inputs": {
+        "theta1": 0.20355705113704747,
+        "theta2": 0.8856271423588037,
+        "phi12": 5.048116690226873,
+        "q": 0.5002825698329499,
+        "a1": 0.23946818543948267,
+        "a2": 0.518746551293038,
+        "total_detector_mass": 142.34479592372867,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9812798790660783,
+        0.6310266703094567
+      ],
+      "implementation_difference": [
+        -0.000668114931207886,
+        0.000616493364378301
+      ],
+      "tight_cosine_max_difference": 3.967381978497997e-12,
+      "independent_solver_max_difference": 4.147881260685438e-09,
+      "independent_roundtrip_kappa_error": 9.96425164601078e-15
+    },
+    {
+      "pn_separation": 11.067534861942628,
+      "cos_tilt_1_infinity": 0.5623638262267234,
+      "cos_tilt_2_infinity": 0.3920962411275491,
+      "chieff": 0.29363976036122313,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.17680461802304498,
+      "kappa_infinity": 0.14844407922352354,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.988828851606783e-09,
+      "index": 20,
+      "source_row": 100137,
+      "inputs": {
+        "theta1": 0.3221734558852384,
+        "theta2": 1.8420786924732404,
+        "phi12": 5.020693038592788,
+        "q": 0.9487356468892647,
+        "a1": 0.7227187181858741,
+        "a2": 0.44569174642937487,
+        "total_detector_mass": 156.39002707478522,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.5764296806795727,
+        0.36805507044004815
+      ],
+      "implementation_difference": [
+        -0.014065854452849247,
+        0.024041170687500946
+      ],
+      "tight_cosine_max_difference": 3.4521754344041256e-09,
+      "independent_solver_max_difference": 5.02377616173888e-08,
+      "independent_roundtrip_kappa_error": 5.159761506945415e-14
+    },
+    {
+      "pn_separation": 11.092576736155161,
+      "cos_tilt_1_infinity": 0.3950413130446825,
+      "cos_tilt_2_infinity": 0.7634901571613316,
+      "chieff": 0.39481856351101485,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.25603160091639965,
+      "kappa_infinity": 0.19179150678773307,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.8762180697962094e-10,
+      "index": 20,
+      "source_row": 110151,
+      "inputs": {
+        "theta1": 1.2719982915119998,
+        "theta2": 0.40307433610115956,
+        "phi12": 5.261654306209738,
+        "q": 0.5854437479850665,
+        "a1": 0.7060485315580612,
+        "a2": 0.7764192257241839,
+        "total_detector_mass": 155.12331044287762,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.3756114467535612,
+        0.7936704127044617
+      ],
+      "implementation_difference": [
+        0.01942986629112131,
+        -0.030180255543130086
+      ],
+      "tight_cosine_max_difference": 1.9628998426668431e-10,
+      "independent_solver_max_difference": 5.3329296534343484e-09,
+      "independent_roundtrip_kappa_error": 1.0091927293842673e-13
+    },
+    {
+      "pn_separation": 11.543053025678425,
+      "cos_tilt_1_infinity": 0.32986838672313423,
+      "cos_tilt_2_infinity": 0.8577738919100907,
+      "chieff": 0.3623802080966562,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.19503254376045578,
+      "kappa_infinity": 0.15923325830641166,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.1050813042423613e-10,
+      "index": 20,
+      "source_row": 120164,
+      "inputs": {
+        "theta1": 1.0813944150233248,
+        "theta2": 0.7651918269500607,
+        "phi12": 2.7587289765702314,
+        "q": 0.5794942694297436,
+        "a1": 0.47267885737426085,
+        "a2": 0.8378124105766254,
+        "total_detector_mass": 146.96798259749693,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.3449337440593301,
+        0.8431066086513392
+      ],
+      "implementation_difference": [
+        -0.01506535733619585,
+        0.01466728325875144
+      ],
+      "tight_cosine_max_difference": 7.890688102918375e-12,
+      "independent_solver_max_difference": 1.1222034967950378e-09,
+      "independent_roundtrip_kappa_error": 1.1046719095020308e-14
+    },
+    {
+      "pn_separation": 12.119384387788706,
+      "cos_tilt_1_infinity": 0.28060881242151403,
+      "cos_tilt_2_infinity": 0.5058492355812702,
+      "chieff": 0.23965906527465317,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.2637414417150012,
+      "kappa_infinity": 0.13540094802312816,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 9.202660855578415e-10,
+      "index": 20,
+      "source_row": 130178,
+      "inputs": {
+        "theta1": 1.2286234740929607,
+        "theta2": 1.2265229330337488,
+        "phi12": 2.2986427624395613,
+        "q": 0.33230672828481894,
+        "a1": 0.7164628967484814,
+        "a2": 0.7034837567490324,
+        "total_detector_mass": 137.2079059431292,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.2878140132617025,
+        0.48376681959267165
+      ],
+      "implementation_difference": [
+        -0.0072052008401884415,
+        0.022082415988598503
+      ],
+      "tight_cosine_max_difference": 9.365508368830433e-12,
+      "independent_solver_max_difference": 7.219086217702397e-09,
+      "independent_roundtrip_kappa_error": 3.552713678800501e-15
+    },
+    {
+      "pn_separation": 11.736159580711774,
+      "cos_tilt_1_infinity": 0.9968205672992164,
+      "cos_tilt_2_infinity": 0.9014891095490706,
+      "chieff": 0.3357975720247855,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.18025796996252602,
+      "kappa_infinity": 0.16305048369602443,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 7.419229119953741e-11,
+      "index": 20,
+      "source_row": 140192,
+      "inputs": {
+        "theta1": 0.19447707435161868,
+        "theta2": 0.4231432301349508,
+        "phi12": 6.033385137317232,
+        "q": 0.6903093509837422,
+        "a1": 0.23983392953650556,
+        "a2": 0.5279238688924219,
+        "total_detector_mass": 143.8186412986957,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9956412518736008,
+        0.9022652236032241
+      ],
+      "implementation_difference": [
+        0.001179315425615668,
+        -0.0007761140541535649
+      ],
+      "tight_cosine_max_difference": 3.3376323926859186e-10,
+      "independent_solver_max_difference": 5.309315542767479e-09,
+      "independent_roundtrip_kappa_error": 1.4155343563970746e-14
+    },
+    {
+      "pn_separation": 12.264668028198354,
+      "cos_tilt_1_infinity": 0.7118768329173013,
+      "cos_tilt_2_infinity": -0.3580300331863603,
+      "chieff": 0.13807037715938156,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.13503954492288597,
+      "kappa_infinity": 0.11394766415910414,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.511003042801832e-10,
+      "index": 20,
+      "source_row": 150206,
+      "inputs": {
+        "theta1": 0.7971149781787543,
+        "theta2": 1.9101498837584387,
+        "phi12": 1.3350223000426165,
+        "q": 0.44881616814038594,
+        "a1": 0.3807667987104727,
+        "a2": 0.4419728352706064,
+        "total_detector_mass": 135.61630859589042,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.7104220062469884,
+        -0.3552374491193445
+      ],
+      "implementation_difference": [
+        0.0014548266703129364,
+        -0.0027925840670157687
+      ],
+      "tight_cosine_max_difference": 6.806966101891021e-11,
+      "independent_solver_max_difference": 5.952079551452272e-09,
+      "independent_roundtrip_kappa_error": 1.0252909632413321e-13
+    },
+    {
+      "pn_separation": 12.875903547625633,
+      "cos_tilt_1_infinity": 0.41094171082657904,
+      "cos_tilt_2_infinity": 0.8690783610266886,
+      "chieff": 0.18630630276526694,
+      "chieff_transport_error": 2.7755575615628914e-17,
+      "kappa_initial": 0.09002443795247922,
+      "kappa_infinity": 0.08199255430873562,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 6.55860227238847e-11,
+      "index": 25,
+      "source_row": 0,
+      "inputs": {
+        "theta1": 1.1975546470239036,
+        "theta2": 0.4281690178629329,
+        "phi12": 5.62557734279408,
+        "q": 0.5505631514574986,
+        "a1": 0.20620110668901032,
+        "a2": 0.42664683306701673,
+        "total_detector_mass": 126.57778950763077,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.4042769449369849,
+        0.8749289585513466
+      ],
+      "implementation_difference": [
+        0.0066647658895941375,
+        -0.005850597524657997
+      ],
+      "tight_cosine_max_difference": 2.176037128265307e-12,
+      "independent_solver_max_difference": 4.925816032841368e-09,
+      "independent_roundtrip_kappa_error": 3.8094527532450684e-14
+    },
+    {
+      "pn_separation": 11.703099763949789,
+      "cos_tilt_1_infinity": 0.9174356412724406,
+      "cos_tilt_2_infinity": 0.930612559410347,
+      "chieff": 0.48694565126823636,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.3407399984075724,
+      "kappa_infinity": 0.2815715636645369,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.673179148679708e-10,
+      "index": 25,
+      "source_row": 10160,
+      "inputs": {
+        "theta1": 0.44952601893597965,
+        "theta2": 0.213794287854608,
+        "phi12": 0.1907602747627731,
+        "q": 0.49645784873125226,
+        "a1": 0.5818196226414386,
+        "a2": 0.42187749492338444,
+        "total_detector_mass": 143.6765428736728,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9141007065810705,
+        0.9398767388457895
+      ],
+      "implementation_difference": [
+        0.0033349346913701394,
+        -0.009264179435442443
+      ],
+      "tight_cosine_max_difference": 9.569434133993582e-11,
+      "independent_solver_max_difference": 1.3243502960946785e-09,
+      "independent_roundtrip_kappa_error": 2.5923707624997405e-14
+    },
+    {
+      "pn_separation": 12.651494798431413,
+      "cos_tilt_1_infinity": 0.4533850417807741,
+      "cos_tilt_2_infinity": 0.025718722149482686,
+      "chieff": 0.22875911586023762,
+      "chieff_transport_error": 2.7755575615628914e-17,
+      "kappa_initial": 0.18157501224465722,
+      "kappa_infinity": 0.12053803911606441,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.1318241338885713e-09,
+      "index": 25,
+      "source_row": 20321,
+      "inputs": {
+        "theta1": 1.6302811915392679,
+        "theta2": 0.9763323830705981,
+        "phi12": 5.015296649081716,
+        "q": 0.8867164872145592,
+        "a1": 0.902807195498729,
+        "a2": 0.9771588420460755,
+        "total_detector_mass": 129.70824052807993,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.4289839124179948,
+        0.05114337251709642
+      ],
+      "implementation_difference": [
+        0.024401129362779328,
+        -0.025424650367613735
+      ],
+      "tight_cosine_max_difference": 9.513177447184606e-09,
+      "independent_solver_max_difference": 4.768054635145846e-09,
+      "independent_roundtrip_kappa_error": 2.830485845706221e-12
+    },
+    {
+      "pn_separation": 11.743884010561212,
+      "cos_tilt_1_infinity": 0.9239786274903269,
+      "cos_tilt_2_infinity": 0.6350530511904788,
+      "chieff": 0.5146468258891647,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.339056618882667,
+      "kappa_infinity": 0.2828530462539779,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.4421142058296255e-10,
+      "index": 25,
+      "source_row": 30481,
+      "inputs": {
+        "theta1": 0.5303560607909782,
+        "theta2": 0.6195156836208912,
+        "phi12": 1.0691178231094223,
+        "q": 0.7236741431630838,
+        "a1": 0.7771132648603891,
+        "a2": 0.3678369716658742,
+        "total_detector_mass": 143.11821425427877,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9147206590973346,
+        0.6620802839532269
+      ],
+      "implementation_difference": [
+        0.00925796839299231,
+        -0.0270272327627481
+      ],
+      "tight_cosine_max_difference": 2.426219225526438e-10,
+      "independent_solver_max_difference": 1.507303726278053e-09,
+      "independent_roundtrip_kappa_error": 6.833422716567839e-14
+    },
+    {
+      "pn_separation": 11.853958448470058,
+      "cos_tilt_1_infinity": 0.6359294986540063,
+      "cos_tilt_2_infinity": 0.5435505761411249,
+      "chieff": 0.38269077042736593,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.23583977723987473,
+      "kappa_infinity": 0.19643306583976744,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.122618080248941e-10,
+      "index": 25,
+      "source_row": 40642,
+      "inputs": {
+        "theta1": 0.17374727033844165,
+        "theta2": 1.6448845139711785,
+        "phi12": 3.743454690833874,
+        "q": 0.8582547655182352,
+        "a1": 0.7540323903500596,
+        "a2": 0.49651251609351693,
+        "total_detector_mass": 141.7712891454379,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.6635776079942175,
+        0.4946280340023748
+      ],
+      "implementation_difference": [
+        -0.027648109340211224,
+        0.04892254213875008
+      ],
+      "tight_cosine_max_difference": 1.2134643290195868e-09,
+      "independent_solver_max_difference": 3.1164923863791216e-08,
+      "independent_roundtrip_kappa_error": 1.978417429882029e-13
+    },
+    {
+      "pn_separation": 12.028240307491911,
+      "cos_tilt_1_infinity": 0.5857815667955653,
+      "cos_tilt_2_infinity": -0.063372316722857,
+      "chieff": 0.2609303008903136,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.22439273587568886,
+      "kappa_infinity": 0.16567405837721158,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 7.633114418315046e-10,
+      "index": 25,
+      "source_row": 50803,
+      "inputs": {
+        "theta1": 0.5974772359200982,
+        "theta2": 2.0882097982976924,
+        "phi12": 3.9066194798265004,
+        "q": 0.6140689181628425,
+        "a1": 0.7652282943256726,
+        "a2": 0.6963166296239609,
+        "total_detector_mass": 139.2341459113942,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.6270876408409156,
+        -0.1372955673864064
+      ],
+      "implementation_difference": [
+        -0.04130607404535036,
+        0.07392325066354939
+      ],
+      "tight_cosine_max_difference": 2.0157442381929513e-10,
+      "independent_solver_max_difference": 1.5844627943017997e-08,
+      "independent_roundtrip_kappa_error": 2.795264020249988e-13
+    },
+    {
+      "pn_separation": 12.322423038718803,
+      "cos_tilt_1_infinity": 0.9590604177931168,
+      "cos_tilt_2_infinity": 0.06783836850461784,
+      "chieff": 0.3684811981528366,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.3366192031781414,
+      "kappa_infinity": 0.2730987234782866,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 6.851643696847987e-10,
+      "index": 25,
+      "source_row": 60963,
+      "inputs": {
+        "theta1": 0.34724739701201185,
+        "theta2": 1.4496855165364784,
+        "phi12": 5.524711089349974,
+        "q": 0.3270881373848839,
+        "a1": 0.497429947449006,
+        "a2": 0.5381759475976379,
+        "total_detector_mass": 133.7459388048085,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9562950534076113,
+        0.07565276090591319
+      ],
+      "implementation_difference": [
+        0.0027653643855054533,
+        -0.007814392401295348
+      ],
+      "tight_cosine_max_difference": 5.6040866391882105e-12,
+      "independent_solver_max_difference": 3.525985517449648e-09,
+      "independent_roundtrip_kappa_error": 1.4521717162097048e-13
+    },
+    {
+      "pn_separation": 11.86585459937427,
+      "cos_tilt_1_infinity": 0.916654175974949,
+      "cos_tilt_2_infinity": -0.10497744638563802,
+      "chieff": 0.2406876533675312,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.20431828586326833,
+      "kappa_infinity": 0.16830852524084303,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.0272895301663993e-11,
+      "index": 25,
+      "source_row": 71124,
+      "inputs": {
+        "theta1": 0.49563827240746655,
+        "theta2": 1.6427251612409546,
+        "phi12": 0.9829630316380283,
+        "q": 0.5288772179028398,
+        "a1": 0.46033364157159623,
+        "a2": 0.972347085895139,
+        "total_detector_mass": 141.79760301999573,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9197370781384979,
+        -0.10773711084576068
+      ],
+      "implementation_difference": [
+        -0.003082902163548895,
+        0.002759664460122657
+      ],
+      "tight_cosine_max_difference": 7.909939370165375e-11,
+      "independent_solver_max_difference": 5.540312097984668e-09,
+      "independent_roundtrip_kappa_error": 2.559341627517142e-13
+    },
+    {
+      "pn_separation": 12.934778567147067,
+      "cos_tilt_1_infinity": 0.2354019832327686,
+      "cos_tilt_2_infinity": 0.48030396764278194,
+      "chieff": 0.16971832465123046,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.12668617715883768,
+      "kappa_infinity": 0.08204836097532887,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.697716577377719e-10,
+      "index": 25,
+      "source_row": 81284,
+      "inputs": {
+        "theta1": 1.2302534155767442,
+        "theta2": 1.2593873563477316,
+        "phi12": 3.3087399171290466,
+        "q": 0.37400509933490583,
+        "a1": 0.4592996203581485,
+        "a2": 0.6962619369069424,
+        "total_detector_mass": 125.56065632431704,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.2483516558824021,
+        0.4574635153790453
+      ],
+      "implementation_difference": [
+        -0.012949672649633509,
+        0.022840452263736655
+      ],
+      "tight_cosine_max_difference": 3.664457626229023e-12,
+      "independent_solver_max_difference": 2.787112540758585e-09,
+      "independent_roundtrip_kappa_error": 7.990830219739564e-14
+    },
+    {
+      "pn_separation": 11.89005662644759,
+      "cos_tilt_1_infinity": 0.6014072221396739,
+      "cos_tilt_2_infinity": -0.37238181940925713,
+      "chieff": 0.232146976423876,
+      "chieff_transport_error": 2.7755575615628914e-17,
+      "kappa_initial": 0.18126055092002008,
+      "kappa_infinity": 0.13532297291233056,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.008494121546022e-09,
+      "index": 25,
+      "source_row": 91445,
+      "inputs": {
+        "theta1": 0.657426533486943,
+        "theta2": 2.6877157009438783,
+        "phi12": 0.4159020087039754,
+        "q": 0.8096136947644496,
+        "a1": 0.8997981428344827,
+        "a2": 0.4015078193920139,
+        "total_detector_mass": 141.6627898943518,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.6355657339316125,
+        -0.46693413742206413
+      ],
+      "implementation_difference": [
+        -0.03415851179193863,
+        0.094552318012807
+      ],
+      "tight_cosine_max_difference": 1.6347632136870516e-09,
+      "independent_solver_max_difference": 1.4074547804998616e-08,
+      "independent_roundtrip_kappa_error": 4.4508841057222526e-13
+    },
+    {
+      "pn_separation": 11.878787447083036,
+      "cos_tilt_1_infinity": 0.9123475740830578,
+      "cos_tilt_2_infinity": -0.4304939936657914,
+      "chieff": 0.39004785975764805,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.29802171778739694,
+      "kappa_infinity": 0.24454924383734922,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.230956336861766e-09,
+      "index": 25,
+      "source_row": 101606,
+      "inputs": {
+        "theta1": 0.6820720643598075,
+        "theta2": 1.59477179154588,
+        "phi12": 0.9264478409484853,
+        "q": 0.6882386456461442,
+        "a1": 0.857142315073659,
+        "a2": 0.4168919807975717,
+        "total_detector_mass": 141.2269611990404,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.8977373871053991,
+        -0.38684782635192594
+      ],
+      "implementation_difference": [
+        0.014610186977658701,
+        -0.04364616731386545
+      ],
+      "tight_cosine_max_difference": 1.0301242636678865e-09,
+      "independent_solver_max_difference": 2.346397914854137e-08,
+      "independent_roundtrip_kappa_error": 8.304468224196171e-14
+    },
+    {
+      "pn_separation": 11.877653136551189,
+      "cos_tilt_1_infinity": 0.9282207305946734,
+      "cos_tilt_2_infinity": 0.16324747709023552,
+      "chieff": 0.4456435609166287,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.32404500926901,
+      "kappa_infinity": 0.27171903158827126,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 8.11143485712762e-10,
+      "index": 25,
+      "source_row": 111766,
+      "inputs": {
+        "theta1": 0.4014834144837123,
+        "theta2": 1.2471238288523432,
+        "phi12": 1.2574723265448722,
+        "q": 0.6348706891621626,
+        "a1": 0.7780693751676881,
+        "a2": 0.06126406865532865,
+        "total_detector_mass": 141.08352501821886,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9260752047857842,
+        0.20616759953499927
+      ],
+      "implementation_difference": [
+        0.0021455258088891593,
+        -0.04292012244476376
+      ],
+      "tight_cosine_max_difference": 2.4355338495984924e-08,
+      "independent_solver_max_difference": 3.79540515405008e-08,
+      "independent_roundtrip_kappa_error": 1.588729148238599e-13
+    },
+    {
+      "pn_separation": 13.03124895581006,
+      "cos_tilt_1_infinity": 0.0652836211499126,
+      "cos_tilt_2_infinity": 0.5202034093948549,
+      "chieff": 0.15878179614050997,
+      "chieff_transport_error": 2.7755575615628914e-17,
+      "kappa_initial": 0.09424287650684082,
+      "kappa_infinity": 0.07581686712982186,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.0774859610384055e-10,
+      "index": 25,
+      "source_row": 121927,
+      "inputs": {
+        "theta1": 1.8608469812763566,
+        "theta2": 0.2986662925170715,
+        "phi12": 6.175774653321525,
+        "q": 0.8839339367624444,
+        "a1": 0.6169420171840022,
+        "a2": 0.5629488466290565,
+        "total_detector_mass": 124.69102791092988,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.01619442754911606,
+        0.5810647487232226
+      ],
+      "implementation_difference": [
+        0.04908919360079654,
+        -0.06086133932836768
+      ],
+      "tight_cosine_max_difference": 6.115286055319302e-10,
+      "independent_solver_max_difference": 1.8355339470588206e-10,
+      "independent_roundtrip_kappa_error": 3.2143732120459845e-13
+    },
+    {
+      "pn_separation": 12.797874656012683,
+      "cos_tilt_1_infinity": 0.9823344441465688,
+      "cos_tilt_2_infinity": 0.6103568978902283,
+      "chieff": 0.23278758479821088,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.15955949791338828,
+      "kappa_infinity": 0.14507547730956627,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.779263179128691e-11,
+      "index": 25,
+      "source_row": 132087,
+      "inputs": {
+        "theta1": 0.21115638572694231,
+        "theta2": 0.8980211975356336,
+        "phi12": 5.3430005056506955,
+        "q": 0.44309280925056943,
+        "a1": 0.2801696220566153,
+        "a2": 0.2244962018564655,
+        "total_detector_mass": 127.43253907132873,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9817373097081362,
+        0.6120387564243392
+      ],
+      "implementation_difference": [
+        0.0005971344384325672,
+        -0.0016818585341109582
+      ],
+      "tight_cosine_max_difference": 2.858824288409778e-13,
+      "independent_solver_max_difference": 4.71815320146618e-09,
+      "independent_roundtrip_kappa_error": 1.0769163338864018e-14
+    },
+    {
+      "pn_separation": 12.127112908239853,
+      "cos_tilt_1_infinity": 0.8266331906845714,
+      "cos_tilt_2_infinity": 0.1259258332835668,
+      "chieff": 0.3235645896120399,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.2438685790248938,
+      "kappa_infinity": 0.19654325066049275,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 6.29524599116138e-10,
+      "index": 25,
+      "source_row": 142248,
+      "inputs": {
+        "theta1": 0.32643066839337925,
+        "theta2": 1.5637095913175303,
+        "phi12": 1.9909902539601576,
+        "q": 0.5462977167135115,
+        "a1": 0.5242419447378761,
+        "a2": 0.973520551972944,
+        "total_detector_mass": 137.3119569844935,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.8519412675841136,
+        0.10097894387791749
+      ],
+      "implementation_difference": [
+        -0.025308076899542176,
+        0.024946889405649306
+      ],
+      "tight_cosine_max_difference": 4.405142917107696e-12,
+      "independent_solver_max_difference": 6.4532981181031346e-09,
+      "independent_roundtrip_kappa_error": 1.1610157280017575e-13
+    },
+    {
+      "pn_separation": 12.181863309404239,
+      "cos_tilt_1_infinity": 0.5636455099705922,
+      "cos_tilt_2_infinity": 0.8755583104302901,
+      "chieff": 0.3959161373027812,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.23460144485694284,
+      "kappa_infinity": 0.20073486477647193,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.223064120623121e-10,
+      "index": 25,
+      "source_row": 152409,
+      "inputs": {
+        "theta1": 0.31970444709290463,
+        "theta2": 1.7853110715767646,
+        "phi12": 2.8449325945842947,
+        "q": 0.9077114290918368,
+        "a1": 0.8642820823658272,
+        "a2": 0.3373936196502592,
+        "total_detector_mass": 136.42568193646673,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.5773080577708396,
+        0.8370013726354447
+      ],
+      "implementation_difference": [
+        -0.013662547800247449,
+        0.03855693779484537
+      ],
+      "tight_cosine_max_difference": 1.443444141990824e-08,
+      "independent_solver_max_difference": 2.2471760674491748e-08,
+      "independent_roundtrip_kappa_error": 1.6199541708061815e-12
+    },
+    {
+      "pn_separation": 11.163227519691338,
+      "cos_tilt_1_infinity": 0.9624446323380667,
+      "cos_tilt_2_infinity": 0.7038709922402258,
+      "chieff": 0.4853173321903095,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.34016680928180787,
+      "kappa_infinity": 0.28555803509592587,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.0235426101986604e-11,
+      "index": 38,
+      "source_row": 0,
+      "inputs": {
+        "theta1": 0.16792738020462655,
+        "theta2": 1.1146705442838554,
+        "phi12": 2.8573391882286265,
+        "q": 0.6646452539285318,
+        "a1": 0.788013173763555,
+        "a2": 0.10572798743990701,
+        "total_detector_mass": 153.71561268407004,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9687241107836696,
+        0.6334540473686769
+      ],
+      "implementation_difference": [
+        -0.006279478445602948,
+        0.07041694487154881
+      ],
+      "tight_cosine_max_difference": 5.569347849565531e-08,
+      "independent_solver_max_difference": 1.1376183217670643e-08,
+      "independent_roundtrip_kappa_error": 3.831934769493728e-13
+    },
+    {
+      "pn_separation": 10.889553177679685,
+      "cos_tilt_1_infinity": 0.592877318915341,
+      "cos_tilt_2_infinity": -0.0942888722104898,
+      "chieff": 0.41216284264450986,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.5069183490398735,
+      "kappa_infinity": 0.3036436087714026,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.501310352760356e-12,
+      "index": 38,
+      "source_row": 11269,
+      "inputs": {
+        "theta1": 1.0109774876191202,
+        "theta2": 1.208083874219053,
+        "phi12": 0.41426226072483624,
+        "q": 0.376344988847485,
+        "a1": 0.978246428394124,
+        "a2": 0.3579485669067871,
+        "total_detector_mass": 158.65884991143838,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.5806228623846797,
+        -0.005300029076453768
+      ],
+      "implementation_difference": [
+        0.012254456530661262,
+        -0.08898884313403603
+      ],
+      "tight_cosine_max_difference": 2.1654437964979678e-10,
+      "independent_solver_max_difference": 2.1419512552522946e-09,
+      "independent_roundtrip_kappa_error": 1.4288570326925765e-13
+    },
+    {
+      "pn_separation": 11.08035791190994,
+      "cos_tilt_1_infinity": 0.6625967530334568,
+      "cos_tilt_2_infinity": 0.9373765040600167,
+      "chieff": 0.5437276879642327,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.3203551375385748,
+      "kappa_infinity": 0.2655454794330615,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 9.534014133727453e-10,
+      "index": 38,
+      "source_row": 22538,
+      "inputs": {
+        "theta1": 0.6958629029817397,
+        "theta2": 0.5955061616580578,
+        "phi12": 3.7696740120994017,
+        "q": 0.7329366284362927,
+        "a1": 0.6037973778707071,
+        "a2": 0.7891438029807678,
+        "total_detector_mass": 155.05973763940187,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.6695754565063828,
+        0.9300912719749893
+      ],
+      "implementation_difference": [
+        -0.006978703472926062,
+        0.007285232085027404
+      ],
+      "tight_cosine_max_difference": 6.5109029279142305e-12,
+      "independent_solver_max_difference": 1.375605329645424e-08,
+      "independent_roundtrip_kappa_error": 1.7186252421197423e-13
+    },
+    {
+      "pn_separation": 12.060344675588663,
+      "cos_tilt_1_infinity": 0.8309025126658051,
+      "cos_tilt_2_infinity": 0.40014786293417404,
+      "chieff": 0.29386680250900177,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.2262425655187064,
+      "kappa_infinity": 0.19020099544140362,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.9854728972035218e-10,
+      "index": 38,
+      "source_row": 33807,
+      "inputs": {
+        "theta1": 0.6660582566826645,
+        "theta2": 1.024743733299275,
+        "phi12": 6.146137351769771,
+        "q": 0.40440072633406804,
+        "a1": 0.42078950869780885,
+        "a2": 0.3897642882742273,
+        "total_detector_mass": 138.2051898211996,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.823541708318246,
+        0.419798480592718
+      ],
+      "implementation_difference": [
+        0.007360804347559036,
+        -0.01965061765854398
+      ],
+      "tight_cosine_max_difference": 6.5677463467750385e-12,
+      "independent_solver_max_difference": 2.5407796422349804e-09,
+      "independent_roundtrip_kappa_error": 9.18709552877317e-14
+    },
+    {
+      "pn_separation": 9.896007826698286,
+      "cos_tilt_1_infinity": 0.8200873229424852,
+      "cos_tilt_2_infinity": 0.4819547386292334,
+      "chieff": 0.6264601121295058,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.4990648810599627,
+      "kappa_infinity": 0.3631217296728387,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 6.08755601483324e-10,
+      "index": 38,
+      "source_row": 45077,
+      "inputs": {
+        "theta1": 0.2721449195389553,
+        "theta2": 1.332962952474527,
+        "phi12": 2.680065138483418,
+        "q": 0.5101102681937391,
+        "a1": 0.8599782854343703,
+        "a2": 0.9793227509925212,
+        "total_detector_mass": 180.6591710153872,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.8486368732619519,
+        0.43280775731345306
+      ],
+      "implementation_difference": [
+        -0.02854955031946671,
+        0.049146981315780325
+      ],
+      "tight_cosine_max_difference": 1.1748069184136511e-10,
+      "independent_solver_max_difference": 1.560006901435429e-09,
+      "independent_roundtrip_kappa_error": 4.2377212849942225e-13
+    },
+    {
+      "pn_separation": 10.500443423348928,
+      "cos_tilt_1_infinity": 0.8477820751270603,
+      "cos_tilt_2_infinity": -0.3566108201834481,
+      "chieff": 0.29226855231713506,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.2796189978637634,
+      "kappa_infinity": 0.1981645617142472,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.174591173798035e-09,
+      "index": 38,
+      "source_row": 56346,
+      "inputs": {
+        "theta1": 0.4607577852627248,
+        "theta2": 2.002424869114044,
+        "phi12": 6.269880676160987,
+        "q": 0.6938504579711088,
+        "a1": 0.8671329233934282,
+        "a2": 0.9702787990975439,
+        "total_detector_mass": 168.14382296594863,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.8899610716477426,
+        -0.4109382923314101
+      ],
+      "implementation_difference": [
+        -0.042178996520682355,
+        0.05432747214796202
+      ],
+      "tight_cosine_max_difference": 1.205748278998442e-10,
+      "independent_solver_max_difference": 1.5383076923392025e-08,
+      "independent_roundtrip_kappa_error": 8.654188476953095e-14
+    },
+    {
+      "pn_separation": 11.712277536238933,
+      "cos_tilt_1_infinity": 0.8226785835954362,
+      "cos_tilt_2_infinity": 0.4400671208933133,
+      "chieff": 0.5700506083931918,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.5546531706678874,
+      "kappa_infinity": 0.39539697072397595,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.4304480650272353e-10,
+      "index": 38,
+      "source_row": 67615,
+      "inputs": {
+        "theta1": 0.6087947943422548,
+        "theta2": 0.9318978962512964,
+        "phi12": 1.3004059526271896,
+        "q": 0.43524409927612345,
+        "a1": 0.986603212320086,
+        "a2": 0.03395924383836885,
+        "total_detector_mass": 143.19993795241837,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.8220339306063479,
+        0.48309774277099343
+      ],
+      "implementation_difference": [
+        0.0006446529890883346,
+        -0.04303062187768014
+      ],
+      "tight_cosine_max_difference": 2.963870815442249e-10,
+      "independent_solver_max_difference": 1.8294699311027784e-08,
+      "independent_roundtrip_kappa_error": 2.790101483185481e-12
+    },
+    {
+      "pn_separation": 11.337675272276716,
+      "cos_tilt_1_infinity": 0.7964078928222333,
+      "cos_tilt_2_infinity": 0.18882859134448135,
+      "chieff": 0.42128253768506463,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.3617497063582251,
+      "kappa_infinity": 0.2796241382092735,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.0917323428903956e-11,
+      "index": 38,
+      "source_row": 78884,
+      "inputs": {
+        "theta1": 0.6797281623114034,
+        "theta2": 0.9622477654641869,
+        "phi12": 6.2608654590652275,
+        "q": 0.49795994627845347,
+        "a1": 0.7833339169856736,
+        "a2": 0.07668961223485907,
+        "total_detector_mass": 150.4237011070467,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.792245725672018,
+        0.27420453070679346
+      ],
+      "implementation_difference": [
+        0.0041621671502153346,
+        -0.08537593936231211
+      ],
+      "tight_cosine_max_difference": 1.7374252037072324e-10,
+      "independent_solver_max_difference": 2.485048108957777e-08,
+      "independent_roundtrip_kappa_error": 4.0273340218277554e-13
+    },
+    {
+      "pn_separation": 11.300105371227762,
+      "cos_tilt_1_infinity": 0.7990035657430627,
+      "cos_tilt_2_infinity": -0.35245407990679545,
+      "chieff": 0.39491816679709657,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.4424672436972309,
+      "kappa_infinity": 0.31548068594646217,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.5452023821870284e-10,
+      "index": 38,
+      "source_row": 90154,
+      "inputs": {
+        "theta1": 0.7442153148376794,
+        "theta2": 1.7735908803136122,
+        "phi12": 5.2078406620465225,
+        "q": 0.4174476753807831,
+        "a1": 0.8597348943097511,
+        "a2": 0.8642318126670074,
+        "total_detector_mass": 151.0159474292662,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.787726199673248,
+        -0.32557960816573417
+      ],
+      "implementation_difference": [
+        0.011277366069814776,
+        -0.02687447174106128
+      ],
+      "tight_cosine_max_difference": 1.2457873621585236e-10,
+      "independent_solver_max_difference": 1.3228125261832702e-09,
+      "independent_roundtrip_kappa_error": 2.2054580384178735e-13
+    },
+    {
+      "pn_separation": 11.4224726104635,
+      "cos_tilt_1_infinity": 0.7891625138683439,
+      "cos_tilt_2_infinity": 0.7265552367085303,
+      "chieff": 0.5528105844622123,
+      "chieff_transport_error": 1.1102230246251565e-16,
+      "kappa_initial": 0.33993785642398233,
+      "kappa_infinity": 0.2775089078705719,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.476441522489495e-10,
+      "index": 38,
+      "source_row": 101423,
+      "inputs": {
+        "theta1": 0.21906883206125252,
+        "theta2": 1.018235816544847,
+        "phi12": 1.709469901574016,
+        "q": 0.9039352753519948,
+        "a1": 0.7196266104098399,
+        "a2": 0.7378860363519891,
+        "total_detector_mass": 148.66710106873032,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.7985989280403147,
+        0.7163743036497001
+      ],
+      "implementation_difference": [
+        -0.00943641417197083,
+        0.010180933058830166
+      ],
+      "tight_cosine_max_difference": 3.447286900382096e-11,
+      "independent_solver_max_difference": 3.530905434701026e-08,
+      "independent_roundtrip_kappa_error": 5.971390049097636e-12
+    },
+    {
+      "pn_separation": 10.402490975912572,
+      "cos_tilt_1_infinity": 0.9241441272005285,
+      "cos_tilt_2_infinity": 0.8253216702401676,
+      "chieff": 0.5565324388944145,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.38482762702365386,
+      "kappa_infinity": 0.31222040120255695,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 9.451524007886292e-10,
+      "index": 38,
+      "source_row": 112692,
+      "inputs": {
+        "theta1": 0.3409870462230541,
+        "theta2": 0.6811326109100124,
+        "phi12": 4.410512881486031,
+        "q": 0.6051333838542337,
+        "a1": 0.7230484803327792,
+        "a2": 0.4507296868883221,
+        "total_detector_mass": 169.089381720288,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9272839753294516,
+        0.8169981165769866
+      ],
+      "implementation_difference": [
+        -0.003139848128923095,
+        0.008323553663180938
+      ],
+      "tight_cosine_max_difference": 2.0302599601507154e-09,
+      "independent_solver_max_difference": 2.746916538676203e-08,
+      "independent_roundtrip_kappa_error": 2.631228568361621e-14
+    },
+    {
+      "pn_separation": 11.25440584104949,
+      "cos_tilt_1_infinity": 0.9462900389013288,
+      "cos_tilt_2_infinity": 0.2316253499146622,
+      "chieff": 0.5397737170717652,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.3916331294406761,
+      "kappa_infinity": 0.30899218752051155,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.4822589256577885e-11,
+      "index": 38,
+      "source_row": 123961,
+      "inputs": {
+        "theta1": 0.7726621699795583,
+        "theta2": 0.871399931646045,
+        "phi12": 6.140783511959954,
+        "q": 0.6795455146661398,
+        "a1": 0.8427868191135098,
+        "a2": 0.6928448286795535,
+        "total_detector_mass": 151.62835468432866,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.9233031777305983,
+        0.2727727953159955
+      ],
+      "implementation_difference": [
+        0.022986861170730455,
+        -0.04114744540133333
+      ],
+      "tight_cosine_max_difference": 9.582923066187021e-10,
+      "independent_solver_max_difference": 6.319434947554825e-09,
+      "independent_roundtrip_kappa_error": 3.3333891202858013e-12
+    },
+    {
+      "pn_separation": 11.540682083336263,
+      "cos_tilt_1_infinity": 0.5840127853612016,
+      "cos_tilt_2_infinity": -0.3860535089649073,
+      "chieff": 0.2889982564962649,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.24825649093376406,
+      "kappa_infinity": 0.1834678809082257,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.3467335286706543e-10,
+      "index": 38,
+      "source_row": 135231,
+      "inputs": {
+        "theta1": 0.9976997111421928,
+        "theta2": 1.3252842784455692,
+        "phi12": 0.32686238581579585,
+        "q": 0.6038479828783834,
+        "a1": 0.830101504881236,
+        "a2": 0.09128705116567465,
+        "total_detector_mass": 147.31696053875962,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.5767088533415681,
+        -0.27606403491042736
+      ],
+      "implementation_difference": [
+        0.00730393201963353,
+        -0.10998947405447995
+      ],
+      "tight_cosine_max_difference": 4.735503655872719e-10,
+      "independent_solver_max_difference": 2.9458503025825422e-08,
+      "independent_roundtrip_kappa_error": 2.4893975769657573e-13
+    },
+    {
+      "pn_separation": 11.364970874850233,
+      "cos_tilt_1_infinity": 0.70821227757035,
+      "cos_tilt_2_infinity": 0.5805817377417136,
+      "chieff": 0.5675807028702091,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.4117295758182318,
+      "kappa_infinity": 0.31073672882577524,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.5488293980681078e-10,
+      "index": 38,
+      "source_row": 146500,
+      "inputs": {
+        "theta1": 0.43550008249750627,
+        "theta2": 1.362199118594832,
+        "phi12": 2.734444790624431,
+        "q": 0.6109524942478559,
+        "a1": 0.8993354733782785,
+        "a2": 0.7821228558575491,
+        "total_detector_mass": 149.59042727198565,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.7358964715294335,
+        0.5284777230301327
+      ],
+      "implementation_difference": [
+        -0.027684193959083503,
+        0.05210401471158088
+      ],
+      "tight_cosine_max_difference": 6.1329864520232036e-09,
+      "independent_solver_max_difference": 4.320052315875955e-09,
+      "independent_roundtrip_kappa_error": 8.271161533457416e-15
+    },
+    {
+      "pn_separation": 11.625962412785224,
+      "cos_tilt_1_infinity": 0.6436394267942036,
+      "cos_tilt_2_infinity": -0.357054515298039,
+      "chieff": 0.27155499743197464,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.25994031130411066,
+      "kappa_infinity": 0.18962570449667232,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.4850573548663704e-09,
+      "index": 38,
+      "source_row": 157769,
+      "inputs": {
+        "theta1": 0.8246936537613037,
+        "theta2": 2.0374948200791114,
+        "phi12": 4.739101389625216,
+        "q": 0.5885680723337195,
+        "a1": 0.848260340958308,
+        "a2": 0.5452758350452239,
+        "total_detector_mass": 145.90534611380426,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.6520439211541544,
+        -0.3792685682001258
+      ],
+      "implementation_difference": [
+        -0.008404494359950831,
+        0.02221405290208678
+      ],
+      "tight_cosine_max_difference": 1.334753974013836e-10,
+      "independent_solver_max_difference": 1.5466281644282986e-08,
+      "independent_roundtrip_kappa_error": 6.13398221105399e-14
+    },
+    {
+      "pn_separation": 11.83678051433774,
+      "cos_tilt_1_infinity": 0.4676459454600879,
+      "cos_tilt_2_infinity": 0.07863491212284633,
+      "chieff": 0.17576856624075485,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": 0.12151785049818525,
+      "kappa_infinity": 0.09661043369710616,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 6.590934048533725e-10,
+      "index": 38,
+      "source_row": 169039,
+      "inputs": {
+        "theta1": 1.1923466518157562,
+        "theta2": 1.304604348901022,
+        "phi12": 4.7925512240293235,
+        "q": 0.7876098339149534,
+        "a1": 0.6166918637931349,
+        "a2": 0.416771433741779,
+        "total_detector_mass": 142.71834221459994,
+        "reference_hz": 10.0
+      },
+      "released_cosines": [
+        0.4399702334415922,
+        0.13062947693442672
+      ],
+      "implementation_difference": [
+        0.027675712018495724,
+        -0.05199456481158039
+      ],
+      "tight_cosine_max_difference": 4.914828960478346e-10,
+      "independent_solver_max_difference": 6.332489713156697e-09,
+      "independent_roundtrip_kappa_error": 1.3671008769478021e-13
+    },
+    {
+      "pn_separation": 8.182309578599513,
+      "cos_tilt_1_infinity": -0.8793079393371708,
+      "cos_tilt_2_infinity": -0.7161500288823035,
+      "chieff": -0.6791388680277937,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": -0.23956472354478356,
+      "kappa_infinity": -0.3800585704524094,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.360266704304337e-10,
+      "index": 50,
+      "source_row": 0,
+      "inputs": {
+        "theta1": 2.6808955324211428,
+        "theta2": 2.3312528550070417,
+        "phi12": 1.4386732692374609,
+        "q": 0.4755062549630798,
+        "a1": 0.7609427446631599,
+        "a2": 0.9777902609945904,
+        "total_detector_mass": 124.16404870800602,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.8826127936277947,
+        -0.7107412110405357
+      ],
+      "implementation_difference": [
+        0.003304854290623882,
+        -0.005408817841767832
+      ],
+      "tight_cosine_max_difference": 3.125477654464248e-11,
+      "independent_solver_max_difference": 1.4847356677449852e-09,
+      "independent_roundtrip_kappa_error": 4.726774527341604e-14
+    },
+    {
+      "pn_separation": 7.001682967365089,
+      "cos_tilt_1_infinity": -0.17856783663158937,
+      "cos_tilt_2_infinity": 0.38970743854902745,
+      "chieff": 0.06748992142935219,
+      "chieff_transport_error": 1.3877787807814457e-17,
+      "kappa_initial": 0.06201170539954117,
+      "kappa_infinity": 0.026298786749680385,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 7.787184785890133e-11,
+      "index": 50,
+      "source_row": 18004,
+      "inputs": {
+        "theta1": 1.7826652662813525,
+        "theta2": 1.1283332107125394,
+        "phi12": 4.1983900344668035,
+        "q": 0.8813907416996795,
+        "a1": 0.8888898931320508,
+        "a2": 0.8317756260008401,
+        "total_detector_mass": 148.54231286209813,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.24287977696158464,
+        0.46768414843164896
+      ],
+      "implementation_difference": [
+        0.06431194032999527,
+        -0.07797670988262151
+      ],
+      "tight_cosine_max_difference": 1.6619389198169188e-10,
+      "independent_solver_max_difference": 2.6173108402804957e-08,
+      "independent_roundtrip_kappa_error": 5.975706041105866e-13
+    },
+    {
+      "pn_separation": 6.503101882201016,
+      "cos_tilt_1_infinity": 0.745165824666401,
+      "cos_tilt_2_infinity": -0.5869774648229059,
+      "chieff": 0.08310972799120692,
+      "chieff_transport_error": 9.71445146547012e-17,
+      "kappa_initial": 0.16782033327646328,
+      "kappa_infinity": 0.0604363970482045,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.976284469407119e-09,
+      "index": 50,
+      "source_row": 36009,
+      "inputs": {
+        "theta1": 1.8704252107193047,
+        "theta2": 1.0572203053808165,
+        "phi12": 6.068750629219101,
+        "q": 0.8833077294887546,
+        "a1": 0.8751912370373137,
+        "a2": 0.9559476765514567,
+        "total_detector_mass": 163.58089331768554,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.7106591240610711,
+        -0.5512122989510214
+      ],
+      "implementation_difference": [
+        0.0345067006053299,
+        -0.0357651658718845
+      ],
+      "tight_cosine_max_difference": 2.9424956915491407e-09,
+      "independent_solver_max_difference": 1.3171168822267987e-08,
+      "independent_roundtrip_kappa_error": 2.821298750177448e-12
+    },
+    {
+      "pn_separation": 6.859591168592692,
+      "cos_tilt_1_infinity": 0.14203732475674358,
+      "cos_tilt_2_infinity": 0.029484908250280273,
+      "chieff": 0.0854966103511891,
+      "chieff_transport_error": 1.3877787807814457e-17,
+      "kappa_initial": 0.09660919926909083,
+      "kappa_infinity": 0.044304002350632025,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 3.403668152879291e-09,
+      "index": 50,
+      "source_row": 54013,
+      "inputs": {
+        "theta1": 0.44362146163715876,
+        "theta2": 2.609398792476113,
+        "phi12": 0.989421395309076,
+        "q": 0.9010001132053467,
+        "a1": 0.9719436898083433,
+        "a2": 0.9213608127843324,
+        "total_detector_mass": 152.76423974677928,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.19766293454113587,
+        -0.03564212677283149
+      ],
+      "implementation_difference": [
+        -0.055625609784392294,
+        0.06512703502311176
+      ],
+      "tight_cosine_max_difference": 7.501277377031101e-12,
+      "independent_solver_max_difference": 3.536963285796779e-08,
+      "independent_roundtrip_kappa_error": 3.7417569043185495e-12
+    },
+    {
+      "pn_separation": 7.952004802554183,
+      "cos_tilt_1_infinity": -0.7518359157328844,
+      "cos_tilt_2_infinity": -0.9545922378056308,
+      "chieff": -0.5252022732930074,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": -0.18186414260045264,
+      "kappa_infinity": -0.3132017734747444,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 9.091572494845934e-10,
+      "index": 50,
+      "source_row": 72018,
+      "inputs": {
+        "theta1": 2.432886772648405,
+        "theta2": 2.7556903965678874,
+        "phi12": 0.9326843841457823,
+        "q": 0.44433878382013964,
+        "a1": 0.757152679558961,
+        "a2": 0.44632776270835023,
+        "total_detector_mass": 127.95063444983856,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.7521081124571609,
+        -0.9535530399684718
+      ],
+      "implementation_difference": [
+        0.00027219672427647446,
+        -0.0010391978371590005
+      ],
+      "tight_cosine_max_difference": 9.68447544380524e-12,
+      "independent_solver_max_difference": 1.526593074174798e-09,
+      "independent_roundtrip_kappa_error": 4.599098879509711e-14
+    },
+    {
+      "pn_separation": 8.130967421375669,
+      "cos_tilt_1_infinity": -0.9192154164776803,
+      "cos_tilt_2_infinity": 0.3958220652093217,
+      "chieff": -0.42828940319892894,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": -0.21144462338093584,
+      "kappa_infinity": -0.291041368673562,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 6.322703749450653e-10,
+      "index": 50,
+      "source_row": 90023,
+      "inputs": {
+        "theta1": 2.6481569571968566,
+        "theta2": 1.2464674154260533,
+        "phi12": 2.2356367440492098,
+        "q": 0.62331743429593,
+        "a1": 0.9633988772522507,
+        "a2": 0.771397899113005,
+        "total_detector_mass": 123.7192885765113,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.9173278851510867,
+        0.39204014311870883
+      ],
+      "implementation_difference": [
+        -0.0018875313265936944,
+        0.003781922090612899
+      ],
+      "tight_cosine_max_difference": 1.824653761417494e-10,
+      "independent_solver_max_difference": 5.080904530441188e-09,
+      "independent_roundtrip_kappa_error": 9.371670106617103e-13
+    },
+    {
+      "pn_separation": 7.525730669623933,
+      "cos_tilt_1_infinity": -0.6386862340511139,
+      "cos_tilt_2_infinity": -0.6428083245352649,
+      "chieff": -0.37040367917549116,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": -0.13159153651650524,
+      "kappa_infinity": -0.21108856729616313,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 6.114325157291489e-10,
+      "index": 50,
+      "source_row": 108027,
+      "inputs": {
+        "theta1": 2.26945969448682,
+        "theta2": 2.1181539905441173,
+        "phi12": 5.171001423825703,
+        "q": 0.7383132202154182,
+        "a1": 0.9720835366256539,
+        "a2": 0.048507239367031316,
+        "total_detector_mass": 137.7482132176208,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.638918799603954,
+        -0.6364958189936232
+      ],
+      "implementation_difference": [
+        0.00023256555284012492,
+        -0.006312505541641755
+      ],
+      "tight_cosine_max_difference": 1.261924575945983e-08,
+      "independent_solver_max_difference": 1.0043644127488704e-07,
+      "independent_roundtrip_kappa_error": 4.2058023730362493e-13
+    },
+    {
+      "pn_separation": 6.379985106276401,
+      "cos_tilt_1_infinity": 0.6748742112258908,
+      "cos_tilt_2_infinity": -0.10169660548342382,
+      "chieff": 0.2787070593206383,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": 0.27101521947828,
+      "kappa_infinity": 0.14167737004627146,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 6.1987564525800565e-09,
+      "index": 50,
+      "source_row": 126032,
+      "inputs": {
+        "theta1": 0.738287645263599,
+        "theta2": 1.7379235691835888,
+        "phi12": 5.560210246267825,
+        "q": 0.9756935822199692,
+        "a1": 0.9609274616548868,
+        "a2": 0.9863006827268312,
+        "total_detector_mass": 166.14279145489803,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        0.6806304968262102,
+        -0.10744451808995364
+      ],
+      "implementation_difference": [
+        -0.0057562856003194884,
+        0.00574791260652982
+      ],
+      "tight_cosine_max_difference": 5.728856578013364e-08,
+      "independent_solver_max_difference": 8.220422953453266e-08,
+      "independent_roundtrip_kappa_error": 2.64079869083389e-11
+    },
+    {
+      "pn_separation": 7.654269910505946,
+      "cos_tilt_1_infinity": -0.9122932947906475,
+      "cos_tilt_2_infinity": -0.7807927112764631,
+      "chieff": -0.276394922350401,
+      "chieff_transport_error": 5.551115123125783e-17,
+      "kappa_initial": -0.1281788786722155,
+      "kappa_infinity": -0.14677359119445493,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 2.0451310089875108e-09,
+      "index": 50,
+      "source_row": 144036,
+      "inputs": {
+        "theta1": 2.74891380359865,
+        "theta2": 2.229001048540683,
+        "phi12": 6.045970815889021,
+        "q": 0.869518209711611,
+        "a1": 0.535007494652936,
+        "a2": 0.042187393821769635,
+        "total_detector_mass": 134.012294941304,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.9133604058971629,
+        -0.7652291805559814
+      ],
+      "implementation_difference": [
+        0.0010671111065154726,
+        -0.015563530720481666
+      ],
+      "tight_cosine_max_difference": 8.260633177492593e-09,
+      "independent_solver_max_difference": 5.65858494394611e-07,
+      "independent_roundtrip_kappa_error": 8.704148513061227e-14
+    },
+    {
+      "pn_separation": 7.31990462028802,
+      "cos_tilt_1_infinity": -0.4027569377473716,
+      "cos_tilt_2_infinity": -0.38901170785330497,
+      "chieff": -0.18745603788478507,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": -0.06441039035256302,
+      "kappa_infinity": -0.08446526854348012,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.1332177957986715e-10,
+      "index": 50,
+      "source_row": 162041,
+      "inputs": {
+        "theta1": 1.9370540753315386,
+        "theta2": 1.9866391679310258,
+        "phi12": 4.489646087959793,
+        "q": 0.6614715944090763,
+        "a1": 0.1991138706543802,
+        "a2": 0.8987183833900872,
+        "total_detector_mass": 141.67346202273245,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.4113837787650299,
+        -0.3861222358881337
+      ],
+      "implementation_difference": [
+        0.008626841017658315,
+        -0.002889471965171253
+      ],
+      "tight_cosine_max_difference": 8.598565748307863e-10,
+      "independent_solver_max_difference": 2.049332481490751e-09,
+      "independent_roundtrip_kappa_error": 7.376044219853384e-14
+    },
+    {
+      "pn_separation": 7.572867413075134,
+      "cos_tilt_1_infinity": -0.5611140769178647,
+      "cos_tilt_2_infinity": 0.6339327943077528,
+      "chieff": -0.25782515328075256,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": -0.09372566621475634,
+      "kappa_infinity": -0.14811398116069002,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 4.13683420852351e-10,
+      "index": 50,
+      "source_row": 180046,
+      "inputs": {
+        "theta1": 2.137695821070763,
+        "theta2": 1.3824068401294505,
+        "phi12": 2.6933190754247933,
+        "q": 0.7670399785064859,
+        "a1": 0.8646292322193878,
+        "a2": 0.06080857775456881,
+        "total_detector_mass": 135.6909388038701,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.5587893613947273,
+        0.5908387866952731
+      ],
+      "implementation_difference": [
+        -0.0023247155231373995,
+        0.04309400761247972
+      ],
+      "tight_cosine_max_difference": 1.3325794134821933e-08,
+      "independent_solver_max_difference": 3.92355192779803e-09,
+      "independent_roundtrip_kappa_error": 1.3672951659771115e-12
+    },
+    {
+      "pn_separation": 7.937099340310285,
+      "cos_tilt_1_infinity": -0.9788598702518824,
+      "cos_tilt_2_infinity": -0.31854019476971757,
+      "chieff": -0.6162809577394984,
+      "chieff_transport_error": 1.1102230246251565e-16,
+      "kappa_initial": -0.25922028340595715,
+      "kappa_infinity": -0.35772357890049516,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 1.4036070639100728e-09,
+      "index": 50,
+      "source_row": 198050,
+      "inputs": {
+        "theta1": 2.9606643653728635,
+        "theta2": 1.8744399224793762,
+        "phi12": 1.6869115559866095,
+        "q": 0.6821149817098198,
+        "a1": 0.9803951059058552,
+        "a2": 0.3543153424801483,
+        "total_detector_mass": 129.69900159743943,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.9801259224760598,
+        -0.31340442899984494
+      ],
+      "implementation_difference": [
+        0.0012660522241774164,
+        -0.0051357657698726245
+      ],
+      "tight_cosine_max_difference": 1.9882318014197153e-11,
+      "independent_solver_max_difference": 2.6401802966091736e-08,
+      "independent_roundtrip_kappa_error": 6.987188605478423e-13
+    },
+    {
+      "pn_separation": 7.378661469578189,
+      "cos_tilt_1_infinity": -0.6309447481039117,
+      "cos_tilt_2_infinity": -0.636931210532884,
+      "chieff": -0.3337966296211477,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": -0.13007120227812052,
+      "kappa_infinity": -0.17111190419648406,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 7.399936496899073e-10,
+      "index": 50,
+      "source_row": 216055,
+      "inputs": {
+        "theta1": 2.5286715676964833,
+        "theta2": 1.9755483720578288,
+        "phi12": 6.159488460127653,
+        "q": 0.665719174942597,
+        "a1": 0.49604920954797677,
+        "a2": 0.5731648012451613,
+        "total_detector_mass": 141.26702570677946,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.6654097222002943,
+        -0.5921256267642488
+      ],
+      "implementation_difference": [
+        0.034464974096382606,
+        -0.04480558376863519
+      ],
+      "tight_cosine_max_difference": 2.338534921264568e-10,
+      "independent_solver_max_difference": 1.066678867456261e-08,
+      "independent_roundtrip_kappa_error": 1.7905121829642212e-13
+    },
+    {
+      "pn_separation": 8.064419653710955,
+      "cos_tilt_1_infinity": -0.6488514376291372,
+      "cos_tilt_2_infinity": -0.5846473387799348,
+      "chieff": -0.5176465788083073,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": -0.14540402831463992,
+      "kappa_infinity": -0.31227645703338774,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 5.089590138229738e-10,
+      "index": 50,
+      "source_row": 234059,
+      "inputs": {
+        "theta1": 2.29208984969441,
+        "theta2": 2.146270304272792,
+        "phi12": 1.3718592380590344,
+        "q": 0.48255024018724657,
+        "a1": 0.9413092864318315,
+        "a2": 0.555317681525654,
+        "total_detector_mass": 125.39999183775257,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.6500158662463762,
+        -0.5805569821444576
+      ],
+      "implementation_difference": [
+        0.0011644286172389773,
+        -0.004090356635477188
+      ],
+      "tight_cosine_max_difference": 7.553813130556364e-11,
+      "independent_solver_max_difference": 1.624371748221165e-10,
+      "independent_roundtrip_kappa_error": 2.046696145896476e-13
+    },
+    {
+      "pn_separation": 7.261233488689582,
+      "cos_tilt_1_infinity": -0.1631822809097657,
+      "cos_tilt_2_infinity": -0.27885333065567014,
+      "chieff": -0.1738376074111598,
+      "chieff_transport_error": 2.7755575615628914e-17,
+      "kappa_initial": -0.04441259373193726,
+      "kappa_infinity": -0.084634775514323,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 8.286154054570893e-10,
+      "index": 50,
+      "source_row": 252064,
+      "inputs": {
+        "theta1": 0.8042697199991024,
+        "theta2": 2.8955762383691366,
+        "phi12": 4.828439538285042,
+        "q": 0.8634946574539596,
+        "a1": 0.6365179293949329,
+        "a2": 0.9139852274769968,
+        "total_detector_mass": 143.4522370338036,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.07728452538094446,
+        -0.34813105702798297
+      ],
+      "implementation_difference": [
+        -0.08589775552882123,
+        0.06927772637231283
+      ],
+      "tight_cosine_max_difference": 1.4644163659482956e-10,
+      "independent_solver_max_difference": 8.585011673778453e-09,
+      "independent_roundtrip_kappa_error": 2.122468867327143e-13
+    },
+    {
+      "pn_separation": 8.118202936311988,
+      "cos_tilt_1_infinity": -0.8665432265792249,
+      "cos_tilt_2_infinity": -0.13981467620670046,
+      "chieff": -0.5110699400004333,
+      "chieff_transport_error": 0.0,
+      "kappa_initial": -0.21689575106035638,
+      "kappa_infinity": -0.3274652276977691,
+      "pn_separation_below_6": false,
+      "solver": "upstream",
+      "roundtrip_kappa_abs_error": 9.003447709599044e-10,
+      "index": 50,
+      "source_row": 270069,
+      "inputs": {
+        "theta1": 2.665199871211416,
+        "theta2": 1.6393466698079544,
+        "phi12": 1.301822468918301,
+        "q": 0.5253962480374488,
+        "a1": 0.8567877647988522,
+        "a2": 0.5056015820435361,
+        "total_detector_mass": 124.34380413045591,
+        "reference_hz": 20.0
+      },
+      "released_cosines": [
+        -0.8705092589417052,
+        -0.12702280381302175
+      ],
+      "implementation_difference": [
+        0.003966032362480276,
+        -0.01279187239367871
+      ],
+      "tight_cosine_max_difference": 2.49636783467011e-10,
+      "independent_solver_max_difference": 7.94525056857509e-09,
+      "independent_roundtrip_kappa_error": 1.2967404927621828e-13
+    }
+  ],
+  "failures": [],
+  "warnings": [],
+  "validation": {
+    "proof_max_roundtrip_kappa_error": 1.1488263118586417e-09,
+    "proof_max_tight_cosine_difference": 5.058624297227254e-09,
+    "proof_primary_cosine_range": [
+      0.14147754802721718,
+      0.7712406300797993
+    ],
+    "proof_secondary_cosine_range": [
+      -0.9862780059265153,
+      0.1440659875011963
+    ],
+    "sample_max_roundtrip_kappa_error": 1.2716546893276615e-07,
+    "sample_max_tight_cosine_difference": 1.373752919198168e-07,
+    "sample_max_independent_solver_difference": 8.74062785372054e-07,
+    "sample_max_independent_roundtrip_kappa_error": 2.993143510821028e-10,
+    "sample_max_chieff_drift": 1.1102230246251565e-16,
+    "released_implementation_abs_difference_quantiles": [
+      0.01277681742199864,
+      0.061198573531717176,
+      0.13535378453177838,
+      0.1922092219130157
+    ]
+  },
+  "common_reference_population_ready": false,
+  "upstream_tolerance_override": "precession 2.1.2 integrator_precav tests rol/aol, not rtol/atol, and resets tolerances to 1e-10. Independent DOP853 integration of its documented RHS performs the actual tolerance sweep; upstream source unmodified.",
+  "limits": "Event posterior summaries only; no population weighting or formation-channel inference. Infinity approximations differ between library and historical release; no assumption of equality. Missing tutorial phi12 and unresolved injection native reference prevent deterministic common-reference population transport."
+}

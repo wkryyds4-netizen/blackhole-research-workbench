@@ -1,0 +1,12 @@
+{
+  "schema": "blackhole-pipeline-policy-validation/1",
+  "status": "pass",
+  "all_accepted_indicator_relative_error": 0.0,
+  "full_product_quantile_max_error": 1.0547118733938987e-15,
+  "frozen_hashes_verified": {
+    "results/model.json": "6dcf3c9f4fd51b2007977d131c61f69c7d861afb986551ea82b70a7667a51083",
+    "data/posteriors.npz": "3aec709780ac373e485682323c20cbe6ed0c14028c66b030bb73d848739489c4",
+    "data/injections.npz": "00ce46283aaf5c1e3df1a8b479a2f3c5bf904e4aef6aa0cf641f93df54bf7a13"
+  },
+  "scope": "Estimator and pipeline-indicator validation only; event-search compatibility is documentary, not an independent FAR-log audit."
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "blackhole-population-display-export/1",
+  "output": "simulator/public/datasets/population-study.json",
+  "sha256": "e56ce3408553491974dbaf6b969da0b874a6470750962ef3a646e2527e5d442d",
+  "bytes": 1299922,
+  "models": 12,
+  "contrasts": 10,
+  "papers": [
+    {
+      "language": "en",
+      "url": "research-docs/blackhole-population-robustness-latex-en-v0.3.pdf",
+      "sha256": "0849e63d34a87ae3d8627227961b1044255188428adad430bae7e58f75be09ce",
+      "pages": 14,
+      "version": "0.3"
+    },
+    {
+      "language": "zh",
+      "url": "research-docs/blackhole-population-robustness-latex-zh-v0.3.pdf",
+      "sha256": "483fde7e6bda3ff485a8cfea8a722ea30ce325cf0ff7d8cedabd1354d376a681",
+      "pages": 14,
+      "version": "0.3"
+    }
+  ],
+  "source_reports": [
+    {
+      "id": "native",
+      "repo_path": "research/population-catalog/native-catalog-results.json",
+      "sha256": "6c4bada37bf3fe6c333a0f6786a42f7fb7b735621af7b132117712df52b9fabb"
+    },
+    {
+      "id": "native_validation",
+      "repo_path": "research/population-catalog/native-catalog-validation.json",
+      "sha256": "4f2e0e0ade1294453c449fcdf59f2db443e688cbdf4d200260d39ac89fe6d1c4"
+    },
+    {
+      "id": "effective",
+      "repo_path": "research/population-invariant/control-results.json",
+      "sha256": "6e4980f37fd53e7b874c2a2d66a10d57154e511f8558a96f9a6470f1517c3282"
+    },
+    {
+      "id": "effective_validation",
+      "repo_path": "research/population-invariant/control-validation.json",
+      "sha256": "1e54cd5d338a5af511bee77af00cc81d0bdcdb7405f3aef22c55cb6bcfbba83a"
+    },
+    {
+      "id": "o3",
+      "repo_path": "research/population-invariant/paired-o3-results.json",
+      "sha256": "6cfd4a5ac37ce0d88e9c33a9507d4b916000861d12737e7f2bcc5da5662cc8f8"
+    },
+    {
+      "id": "o3_validation",
+      "repo_path": "research/population-invariant/paired-o3-validation.json",
+      "sha256": "f26cbb561721a7da007b7f6b702d4865d001d575f24b39dd567d06fc7a2d562f"
+    },
+    {
+      "id": "paired",
+      "repo_path": "research/population-invariant/paired-pe-results.json",
+      "sha256": "bee5864f9d3cf6289ebeeb7026342a998e7e86088ddbdb71e89ab942dd4fb3ea"
+    },
+    {
+      "id": "paired_validation",
+      "repo_path": "research/population-invariant/paired-pe-validation.json",
+      "sha256": "b711924667080ea7164f79db21dffe3385996f3c96a8a04fedac81d94c9849f8"
+    },
+    {
+      "id": "support",
+      "repo_path": "research/population-invariant/support-results.json",
+      "sha256": "0dc9e22c09c863a52641f83725d0968de6584cdb64c9579d1a3f26eedf36dfdc"
+    },
+    {
+      "id": "support_validation",
+      "repo_path": "research/population-invariant/support-validation.json",
+      "sha256": "f7e95a0fe0adf1c82b44285e08431795bde4bd192d41e21c32d0a138a70f4e08"
+    },
+    {
+      "id": "tail_plan",
+      "repo_path": "research/population-invariant/tail-validation-plan.json",
+      "sha256": "19e1c5989362e62b172d3672dd852fb0324163fa2a46f0bae5c55bee7f20ede1"
+    }
+  ],
+  "exporter_sha256": "026dcdb60b53fad7afac613b9bc08e9e7d8096c2bd7713136d29d9c7b7115a63",
+  "scope": "Display adapter only; source results preserved, no new physical likelihood/selection fit."
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "blackhole-full69-source-milestone/1",
+  "source_events": 69,
+  "source_rows": 11180578,
+  "source_bytes": 23554981402,
+  "all_sources_checksum_verified": true,
+  "all_analysis_lineages_resolved": true,
+  "all_containing_labels_unique": false,
+  "native_width_gaps_pp": [
+    -0.060238300974113645,
+    6.353612530318886
+  ],
+  "native_median_shift_pp": [
+    -0.4358798322949886,
+    -0.24613107596878625,
+    -0.18984759526470274,
+    0.0016356522406890672,
+    -0.008238710618968526,
+    0.051103770578231345
+  ],
+  "native_result_sha256": "6c4bada37bf3fe6c333a0f6786a42f7fb7b735621af7b132117712df52b9fabb",
+  "invariant_result_sha256": "6e4980f37fd53e7b874c2a2d66a10d57154e511f8558a96f9a6470f1517c3282",
+  "invariant_reference_approximation": "2PN conserved effective spin and preserved isotropic angular measure; not exact full-GR invariance.",
+  "invariant_matched_quantiles": [
+    [
+      0.01689358321328956,
+      0.132889298241133,
+      0.32272070043196216
+    ],
+    [
+      0.017700593642158757,
+      0.13573793542018062,
+      0.32569376176681053
+    ],
+    [
+      0.019980468026760574,
+      0.14315650039275726,
+      0.33328588273834125
+    ],
+    [
+      0.0926406986911452,
+      0.2538691309296164,
+      0.4326740495672268
+    ],
+    [
+      0.10242699312569238,
+      0.26465999414100183,
+      0.442045028543938
+    ],
+    [
+      0.12328001117193266,
+      0.28657673578773213,
+      0.46058198076770446
+    ]
+  ],
+  "invariant_magnitude_median_differences_pp": [
+    12.097983268848338,
+    12.89220587208212,
+    14.342023539497486
+  ],
+  "source_restore_and_conditional_computation_complete": true,
+  "common_reference_tilt_population_complete": false,
+  "real_campaign_MC_calibrated": false,
+  "astrophysical_formation_channels_identified": false,
+  "limits": "A completed data-restoration and conditional-computation milestone. Not completion of the whole scientific study, bilingual revised papers, visual workbench or coherent Git release."
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "blackhole-historical-label-reference-source/1",
+  "source_sha256": "c5ad399119ea36a89aa869964e1fd5be6ab98c7cb21cd8a75ce0e7ef3e43305a",
+  "pesummary_version": [
+    "0.13.3+4.gf4e1c37"
+  ],
+  "historical_commit": "f4e1c37161f66419724706eaa5d81b0c9c5097a6",
+  "canonical_reference_hz": [
+    16.0
+  ],
+  "mixed_metadata_has_f_ref": false,
+  "posterior_reference_frequency_column_present": {
+    "C01:IMRPhenomXPHM": false,
+    "C01:Mixed": false
+  },
+  "historical_conversion_source": {
+    "sha256": "edf6f24352bf3cdcdd95cd4e654505d4829ec6f188f91570ec16096cbe42ad07",
+    "reference_method_line": 685,
+    "evolution_method_line": 1219,
+    "url": "https://github.com/pesummary/pesummary/blob/f4e1c37161f66419724706eaa5d81b0c9c5097a6/pesummary/gw/conversions/__init__.py"
+  },
+  "source_behavior": "Absent f_ref metadata and absent reference_frequency column lead to a 20 Hz default; backward evolution receives that reference.",
+  "targeted_prior_issue_searches": [
+    {
+      "file": "pesummary-issues-mixed-fref.json",
+      "total_count": 0,
+      "scope": "Recorded search observation in the provenance manifest; not a new live search."
+    },
+    {
+      "file": "pesummary-issues-infinity-reference.json",
+      "total_count": 0,
+      "scope": "Recorded search observation in the provenance manifest; not a new live search."
+    }
+  ],
+  "causal_status": "Version metadata, native posterior equality, missing Mixed f_ref, historical fallback source, and numerical 16/20 Hz controls support a reference-default explanation. Actual historical invocation/logs are not recovered; a small approximately 1.2e-6 release residual remains on one held-out row.",
+  "novelty": "Not established. Zero hits in two targeted issue searches do not establish absence of prior reports. Common-reference population inference is existing literature."
+}

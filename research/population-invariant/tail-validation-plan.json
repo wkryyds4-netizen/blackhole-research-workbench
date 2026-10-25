@@ -1,0 +1,90 @@
+{
+  "schema": "blackhole-tail-validation-planning/1",
+  "timing": "Post-result resource planning, not a preregistered or executed injection campaign.",
+  "relative_selection_completion_budget": 0.005,
+  "resulting_selection_log_shape_budget": 0.3441403642616961,
+  "minimum_two_policy_amplitude_ordering_B_threshold": 0.9097815851763379,
+  "family_confidence": 0.95,
+  "component_confidence": 0.9958333333333333,
+  "component_count": 12,
+  "design": "For each of6 invariant models and each sign component, draw iid sources from its normalized distribution conditional on the known omitted O3 domain. Evaluate the restored O3 union search; its probability upper bound also bounds the matched-filter subset. Require both component bounds at once. Counts below assume zero detections and use exact one-sided binomial bounds with Bonferroni over12 components.",
+  "model_requirements": [
+    {
+      "model": 0,
+      "key": "beta-1.5-8.5_lambda-0",
+      "sign_components": [
+        "negative",
+        "positive"
+      ],
+      "maximum_component_averaged_tail_detection_probability": 3.181092881232971e-05,
+      "minimum_independent_direct_draws_per_component_if_zero_detected": 172286,
+      "zero_detection_binomial_upper_bound": 3.181077830575285e-05
+    },
+    {
+      "model": 1,
+      "key": "beta-1.5-8.5_lambda-4",
+      "sign_components": [
+        "negative",
+        "positive"
+      ],
+      "maximum_component_averaged_tail_detection_probability": 3.1759511604150976e-05,
+      "minimum_independent_direct_draws_per_component_if_zero_detected": 172565,
+      "zero_detection_binomial_upper_bound": 3.1759348026087704e-05
+    },
+    {
+      "model": 2,
+      "key": "beta-1.5-8.5_lambda-16",
+      "sign_components": [
+        "negative",
+        "positive"
+      ],
+      "maximum_component_averaged_tail_detection_probability": 3.162845281226903e-05,
+      "minimum_independent_direct_draws_per_component_if_zero_detected": 173280,
+      "zero_detection_binomial_upper_bound": 3.1628302465560474e-05
+    },
+    {
+      "model": 3,
+      "key": "beta-2-5_lambda-0",
+      "sign_components": [
+        "negative",
+        "positive"
+      ],
+      "maximum_component_averaged_tail_detection_probability": 3.0349163926635548e-05,
+      "minimum_independent_direct_draws_per_component_if_zero_detected": 180584,
+      "zero_detection_binomial_upper_bound": 3.034906612316027e-05
+    },
+    {
+      "model": 4,
+      "key": "beta-2-5_lambda-4",
+      "sign_components": [
+        "negative",
+        "positive"
+      ],
+      "maximum_component_averaged_tail_detection_probability": 3.0203011077956534e-05,
+      "minimum_independent_direct_draws_per_component_if_zero_detected": 181458,
+      "zero_detection_binomial_upper_bound": 3.0202890792116753e-05
+    },
+    {
+      "model": 5,
+      "key": "beta-2-5_lambda-16",
+      "sign_components": [
+        "negative",
+        "positive"
+      ],
+      "maximum_component_averaged_tail_detection_probability": 2.9891972958548658e-05,
+      "minimum_independent_direct_draws_per_component_if_zero_detected": 183346,
+      "zero_detection_binomial_upper_bound": 2.9891882067935588e-05
+    }
+  ],
+  "total_direct_draws_if_all_zero": 2127038,
+  "required_before_execution": [
+    "Recover or otherwise validate the actual O3 reference/measurement and detection protocol for the quantity to be bounded; a new arbitrary protocol cannot bound the historical one.",
+    "Validate target direct sampling, including conditional sign/even-shape density, cosmology, redshift/spin union support, extrinsic averaging and time/noise sampling.",
+    "Record a fixed stopping rule and pipeline thresholds. Nonzero detections require updated exact binomial bounds, not declaring success from zero-count planning.",
+    "Keep represented-bank MC uncertainty and all event-integral omissions in a separate budget. The observed zero event component does not satisfy a finite uniform relative-completion bound if its missing component is positive."
+  ],
+  "limitations": "Planning counts apply to independent direct target draws with the correct historical detection law. Weighted injection reuse, correlated noise/time draws or unknown search configurations do not satisfy this binomial design automatically. Meeting selection-only tolerance would not establish total inference robustness.",
+  "support_results_sha256": "0dc9e22c09c863a52641f83725d0968de6584cdb64c9579d1a3f26eedf36dfdc",
+  "support_validation_sha256": "f7e95a0fe0adf1c82b44285e08431795bde4bd192d41e21c32d0a138a70f4e08",
+  "producer_sha256": "1082b110a3289eb0bd23bd2e5a8b04b0bc3f7d956fadcb552a5ebfbc94023963"
+}

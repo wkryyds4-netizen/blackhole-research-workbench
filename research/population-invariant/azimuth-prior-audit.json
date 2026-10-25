@@ -1,0 +1,359 @@
+{
+  "schema": "blackhole-relative-azimuth-prior-audit/1",
+  "analyses": 69,
+  "analytic_declarations": 63,
+  "configuration_default_families": 6,
+  "rows": [
+    {
+      "index": 2,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 0,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 3,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 5,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 19,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 21,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 18,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 24,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 23,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 34,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 36,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 37,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 38,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 40,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 41,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 57,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 59,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 58,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 60,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 61,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 63,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 62,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 6,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 1,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 7,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 8,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 9,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 10,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 12,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 11,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 14,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 13,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 16,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 17,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 20,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 22,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 25,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 26,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 27,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 28,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 31,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 30,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 42,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 43,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 46,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 45,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 47,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 49,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 50,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 51,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 52,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 54,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 55,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 56,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 66,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 65,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 67,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 68,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 70,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 69,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 71,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 72,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 48,
+      "mode": "released_analytic_uniform_azimuth",
+      "declaration": "Uniform(minimum=0, maximum=6.283185307179586, name='phi_12', latex_label='$\\\\Delta\\\\phi$', unit=None, boundary='periodic')"
+    },
+    {
+      "index": 4,
+      "mode": "released_configuration_and_historical_uniform_default",
+      "configured_azimuth_or_fixed_engine_overrides": []
+    },
+    {
+      "index": 29,
+      "mode": "released_configuration_and_historical_uniform_default",
+      "configured_azimuth_or_fixed_engine_overrides": []
+    },
+    {
+      "index": 32,
+      "mode": "released_configuration_and_historical_uniform_default",
+      "configured_azimuth_or_fixed_engine_overrides": []
+    },
+    {
+      "index": 33,
+      "mode": "released_configuration_and_historical_uniform_default",
+      "configured_azimuth_or_fixed_engine_overrides": []
+    },
+    {
+      "index": 35,
+      "mode": "released_configuration_and_historical_uniform_default",
+      "configured_azimuth_or_fixed_engine_overrides": []
+    },
+    {
+      "index": 44,
+      "mode": "released_configuration_and_historical_uniform_default",
+      "configured_azimuth_or_fixed_engine_overrides": []
+    }
+  ],
+  "default_source": {
+    "file": "gitlab-1438-af4bc21a9f92-lalinference--lib--LALInferenceInitCBC.c",
+    "url": "https://git.ligo.org/api/v4/projects/1438/repository/files/lalinference%2Flib%2FLALInferenceInitCBC.c/raw?ref=af4bc21a9f9246ef5403052ec3b66ed2b52d90ed",
+    "sha256": "f043b6615320f3f57f89c48b492a067f7214bc7b2802d6e98884c9bd98bb0fc5"
+  },
+  "scope": "Relative-azimuth prior declarations/default family for each selected Phenom-family analysis. Does not prove PN preservation of isotropic measure, identify unrecorded runtime overrides, or recover injection reference metadata."
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "blackhole-support-independent-validation/1",
+  "independent_completions_checked": 9,
+  "policies": 2,
+  "models": 6,
+  "maximum_density_absolute_error": 8.484768443395296e-12,
+  "maximum_simpson_root_quantile_error": 2.151513316950293e-07,
+  "quantile_gate": 2e-06,
+  "maximum_direct_shared_location_B_error": 1.308055989523993e-06,
+  "threshold_gate": 2e-05,
+  "maximum_split_quadrature_cdf_envelope_error": 2.9831925391077263e-07,
+  "cdf_gate": 2e-06,
+  "maximum_two_point_extremal_tv_error": 8.847089727481716e-17,
+  "maximum_independent_volume_tail_error": 5.551115123125783e-17,
+  "maximum_tabulated_mass_antiderivative_error": 0.0,
+  "maximum_spin_survival_integral_relative_error": 4.1522341120980855e-14,
+  "result_sha256": "0dc9e22c09c863a52641f83725d0968de6584cdb64c9579d1a3f26eedf36dfdc",
+  "validator_sha256": "dd406d1e8de3946a255f1b5fa49f4d9812dd3bb271cd30b4af16763a56859c4f",
+  "scope": "Numerical/algebraic validation only. Input event means were previously source-validated. These checks do not establish any physical missing-likelihood budget or realizability of all integral-level completions by one waveform likelihood."
+}

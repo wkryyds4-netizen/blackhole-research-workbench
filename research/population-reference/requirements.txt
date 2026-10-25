@@ -1,0 +1,5 @@
+# Tested in isolated Python 3.12; precession 2.1.2 uses float(size-one-array),
+# which is incompatible with the main workspace's NumPy 2.5.
+numpy==1.26.4
+scipy==1.13.1
+precession==2.1.2

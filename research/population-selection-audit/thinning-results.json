@@ -1,0 +1,104 @@
+{
+  "schema": "blackhole-conditional-o3-thinning/1",
+  "seed": 20261025,
+  "replicates": 512,
+  "full_accepted_rows": 284672,
+  "retained_rows": 128454,
+  "protocol": "Uniform simple random sampling without replacement on the saved accepted bank, all failed-detection contributions zero, shared indices across six models and two components.",
+  "full_bank_gaps_pp": [
+    0.2684029380376818,
+    6.342975459699468
+  ],
+  "actual_combined_subset_gaps_pp": [
+    1.1185476327809363,
+    6.713052124733859
+  ],
+  "simulated_gap_5_50_95_pp": [
+    [
+      -0.49521542465404966,
+      0.2729980296964363,
+      1.4869744717730333
+    ],
+    [
+      5.55808324592572,
+      6.312235739849726,
+      7.0864628782784695
+    ]
+  ],
+  "actual_gap_empirical_percentile": [
+    89.0625,
+    80.078125
+  ],
+  "simulated_median_shift_5_50_95_pp": [
+    [
+      -0.8626346675840402,
+      0.03785231110199905,
+      1.42269069485874
+    ],
+    [
+      -0.4547096867048156,
+      0.0191696506830763,
+      0.7117341269805433
+    ],
+    [
+      -0.418972080438082,
+      0.015648730599723826,
+      0.4811487442488348
+    ],
+    [
+      -0.9279859292808387,
+      0.023845407047079492,
+      0.8770283246092822
+    ],
+    [
+      -0.7090640017435925,
+      0.01610812763097602,
+      0.7968705085522745
+    ],
+    [
+      -0.3875807064875317,
+      0.01774210890100325,
+      0.49735066878516915
+    ]
+  ],
+  "actual_median_shift_from_full_pp": [
+    0.6342819026875723,
+    0.05131290842935177,
+    -0.21586279205568215,
+    0.45836826321302704,
+    0.5112980641435616,
+    0.08829159817863586
+  ],
+  "exact_small_bank_covariance_error": 4.440892098500626e-16,
+  "selection_covariance_diagonal_simulated_over_analytic": [
+    1.0227037883235819,
+    0.944216893060234,
+    0.9873847221197217,
+    0.944216893060234,
+    0.9710147137862534,
+    0.944216893060234,
+    0.9682638745759401,
+    0.9660402454364257,
+    0.8958764664892638,
+    0.9660402454364257,
+    0.900567689828184,
+    0.9660402454364257
+  ],
+  "selection_mean_standardized_by_mc_standard_error": [
+    1.218470734960378,
+    0.20492948656933757,
+    1.151629853693668,
+    0.20492948656933757,
+    0.46591862480152224,
+    0.20492948656933757,
+    1.5330533107345974,
+    0.7522703948973387,
+    1.8510469971294208,
+    0.7522703948973388,
+    1.471204531141932,
+    0.7522703948973388
+  ],
+  "max_quantile_regression_error": 3.885780586188048e-16,
+  "o3_bank_sha256": "2bae57e034428b424a634b5eebaf41f75a2cfd3be1e07ef3afe95cd49de90298",
+  "limits": "Calibrates only the specified artificial thinning design conditional on the full saved bank. Actual historical thinning law is unverified. Empirical percentile is not a p-value; intervals are neither astrophysical credible intervals nor calibrated uncertainty of the historical campaign. O1/O2, events, noise, spin reference, and population models are fixed."
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "blackhole-generation-source-provenance/1",
+  "project": 8759,
+  "commit": "ebbc51a29a9cf1785c0f1bbdf6c3cef2e2cc3bfd",
+  "cutoff": "2025-05-03T13:46:59Z",
+  "commit_selection": "Latest public master commit no later than the cumulative filename timestamp, not a recovered execution commit.",
+  "verified_sources": [
+    {
+      "path": "gwdistributions/transforms/detection/detection.py",
+      "sha256": "027d42a84f94872c7a8b42465c8c09316f5a19825984b165586fb6a711109811",
+      "git_blob_sha1": "c4229d49da956838fac04f46d28012833cc95006",
+      "url": "https://git.ligo.org/reed.essick/gw-distributions/-/blob/ebbc51a29a9cf1785c0f1bbdf6c3cef2e2cc3bfd/gwdistributions/transforms/detection/detection.py"
+    },
+    {
+      "path": "gwdistributions/transforms/detection/waveform.py",
+      "sha256": "0fb060b0496825d1003ba9b7e08485712fe30b9b5d2a430fc736e3f2734db12f",
+      "git_blob_sha1": "89e862be4d89da9c449b703710e420d0b8ec6ce6",
+      "url": "https://git.ligo.org/reed.essick/gw-distributions/-/blob/ebbc51a29a9cf1785c0f1bbdf6c3cef2e2cc3bfd/gwdistributions/transforms/detection/waveform.py"
+    },
+    {
+      "path": "gwdistributions/generators.py",
+      "sha256": "06458a48426b2d988460c6b922e6c72d5099bdda600ed6abe9840a73226027cd",
+      "git_blob_sha1": "cfb6f0d6d2c675cc22ef70aed5980540eab02b83",
+      "url": "https://git.ligo.org/reed.essick/gw-distributions/-/blob/ebbc51a29a9cf1785c0f1bbdf6c3cef2e2cc3bfd/gwdistributions/generators.py"
+    }
+  ],
+  "findings": {
+    "independent_gaussian_quadratures_implementation": {
+      "confirmed": true,
+      "line": 266
+    },
+    "phase_maximized_network_dof": "2*N_IFO; source agrees with the declared ncx2 noise model",
+    "unspecified_reference_frequency": {
+      "behavior": "If unset, fref defaults to waveform low frequency; that low frequency may depend on total detector-frame mass.",
+      "line": 134
+    },
+    "stored_generator_logprob": {
+      "behavior": "Sum of base-distribution log probabilities; conditionals applied separately. All attempts counted before acceptance.",
+      "line": 436
+    }
+  },
+  "release_execution_commit_verified": false,
+  "retention_threshold_configuration_verified": false,
+  "injection_spin_reference_recovered": false,
+  "dcc_probe": {
+    "http_status": 200,
+    "scientific_document_available": false,
+    "message": "Requested version of document does not exist."
+  },
+  "limits": "Source-level availability and implementation verification strengthen the conditional model, but do not identify the configuration or runtime that produced the fixed LVK cumulative file or the old O3 campaign."
+}

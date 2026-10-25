@@ -1,0 +1,127 @@
+{
+  "schema": "blackhole-population-followup-source-plan/1",
+  "metadata_snapshots": [
+    {
+      "record": 6513631,
+      "file": "zenodo-6513631.json",
+      "sha256": "78164b4a1e7eb5e2c9d04edeebe03843b5065cdd7da313d1b1174dcbe1de2baf"
+    },
+    {
+      "record": 5546663,
+      "file": "zenodo-5546663.json",
+      "sha256": "a93891c2d1aacee531b882f7c399f078ba79e6a48e67aace395e3158ab41f7cb"
+    }
+  ],
+  "screen_sha256": "fb15c5c5444d25293cbdcc1e79a6ae28edbb4d1e3b67368c4db83442f7e1c9d8",
+  "events": [
+    {
+      "index": 19,
+      "event": "GW190517_055101",
+      "identity_status": "proposed tutorial identity; summary match only",
+      "selection_reasons": [
+        "lowest_median_ess",
+        "largest_single_row_shift",
+        "largest_event_shift"
+      ],
+      "files": [
+        {
+          "record": 6513631,
+          "file": "IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_cosmo.h5",
+          "bytes": 75609885,
+          "md5": "md5:129a4483dd30718158494c76fcece549",
+          "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_cosmo.h5/content"
+        },
+        {
+          "record": 6513631,
+          "file": "IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_nocosmo.h5",
+          "bytes": 463354360,
+          "md5": "md5:fa713aa8cdf4467c3c4b9af46fc6a6b7",
+          "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_nocosmo.h5/content"
+        }
+      ],
+      "analysis_label_status": "not yet inspected or matched for these new candidates"
+    },
+    {
+      "index": 20,
+      "event": "GW190519_153544",
+      "identity_status": "proposed tutorial identity; summary match only",
+      "selection_reasons": [
+        "lowest_median_ess",
+        "largest_single_row_shift",
+        "largest_event_shift"
+      ],
+      "files": [
+        {
+          "record": 6513631,
+          "file": "IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_cosmo.h5",
+          "bytes": 54066987,
+          "md5": "md5:11bd2027d08efa5f5070327f54451053",
+          "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_cosmo.h5/content"
+        },
+        {
+          "record": 6513631,
+          "file": "IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5",
+          "bytes": 291538272,
+          "md5": "md5:ce75a83120e850bd145c9a080c4e33c3",
+          "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5/content"
+        }
+      ],
+      "analysis_label_status": "not yet inspected or matched for these new candidates"
+    },
+    {
+      "index": 25,
+      "event": "GW190620_030421",
+      "identity_status": "proposed tutorial identity; summary match only",
+      "selection_reasons": [
+        "lowest_median_ess",
+        "largest_single_row_shift"
+      ],
+      "files": [
+        {
+          "record": 6513631,
+          "file": "IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_cosmo.h5",
+          "bytes": 36306568,
+          "md5": "md5:1ecd1dc4bfa7ea19b8c3f77049bb6dc9",
+          "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_cosmo.h5/content"
+        },
+        {
+          "record": 6513631,
+          "file": "IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_nocosmo.h5",
+          "bytes": 203410640,
+          "md5": "md5:33f25110b7086a386e5a3f4238462131",
+          "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_nocosmo.h5/content"
+        }
+      ],
+      "analysis_label_status": "not yet inspected or matched for these new candidates"
+    },
+    {
+      "index": 50,
+      "event": "GW191109_010717",
+      "identity_status": "proposed tutorial identity; summary match only",
+      "selection_reasons": [
+        "largest_event_shift"
+      ],
+      "files": [
+        {
+          "record": 5546663,
+          "file": "IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_nocosmo.h5",
+          "bytes": 374495928,
+          "md5": "md5:343f3af272edbbd922630ecc5b982d00",
+          "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_nocosmo.h5/content"
+        },
+        {
+          "record": 5546663,
+          "file": "IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_cosmo.h5",
+          "bytes": 159770320,
+          "md5": "md5:20926725dba7cd85cb9addba2b8c8fd5",
+          "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_cosmo.h5/content"
+        }
+      ],
+      "analysis_label_status": "not yet inspected or matched for these new candidates"
+    }
+  ],
+  "total_bytes": 1658552960,
+  "first_pair": "GW190517_055101",
+  "downloads_performed": false,
+  "caution": "Filename and metadata match only. No confirmed tutorial row identities, prior support, or sampling counts for the new files."
+}

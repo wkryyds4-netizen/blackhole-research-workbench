@@ -1,0 +1,80 @@
+[
+  {
+    "file": "mould-gerosa-2110.05507v2.html",
+    "url": "https://arxiv.org/html/2110.05507v2",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/html/2110.05507v2",
+    "bytes": 131817,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "dd91027be0bdb6f85e483e6eb89d147b4b59ce22c90920dea23c725af77c6552"
+  },
+  {
+    "file": "gwtc3-populations-2111.03634v3.html",
+    "url": "https://arxiv.org/html/2111.03634v3",
+    "http_status": 200,
+    "final_url": "https://arxiv.org/html/2111.03634v3",
+    "bytes": 2320369,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "fdd380c62383bd4e95471d9c2cc0d59a62cbb81432d1350ba2e16c215a4e113d"
+  },
+  {
+    "file": "precession-pypi-2.1.2.json",
+    "url": "https://pypi.org/pypi/precession/2.1.2/json",
+    "http_status": 200,
+    "final_url": "https://pypi.org/pypi/precession/2.1.2/json",
+    "bytes": 2889,
+    "content_type": "application/json",
+    "sha256": "7a207c6e0b61abb767185f3e6c265dc0fddb2c79d0db096acef25e5dd8f64819"
+  },
+  {
+    "file": null,
+    "url": "https://git.ligo.org/api/v4/projects/RatesAndPopulations%2Flvc-rates-and-pop",
+    "http_status": 404,
+    "final_url": "https://git.ligo.org/api/v4/projects/RatesAndPopulations%2Flvc-rates-and-pop",
+    "bytes": 35,
+    "content_type": "application/json"
+  },
+  {
+    "file": null,
+    "url": "https://git.ligo.org/RatesAndPopulations/lvc-rates-and-pop/-/tree/28446706ad69ff815a2ddc0b1dc3cf813215899c",
+    "http_status": 200,
+    "final_url": "https://git.ligo.org/users/sign_in",
+    "bytes": 16419,
+    "content_type": "text/html; charset=utf-8",
+    "interpretation": "Login page, not generation code; access control respected."
+  },
+  {
+    "file": null,
+    "url": "https://dcc.ligo.org/LIGO-T2100113/public",
+    "http_status": 200,
+    "final_url": "https://dcc.ligo.org/LIGO-T2100113/public",
+    "bytes": 4128,
+    "content_type": "text/html; charset=ISO-8859-1",
+    "interpretation": "HTTP 200 error page says requested document version does not exist; not a retrieved technical report."
+  },
+  {
+    "file": "precession-2.1.2-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/b1/a7/6eabefcde520722559c31a217891083822d8bc1e9277b2d6256933144dc2/precession-2.1.2-py3-none-any.whl",
+    "bytes": 56473,
+    "sha256": "97c2dcae5821fcf27bf78d111fff1dc1df44d6acc683983f774108f873b0e5d0",
+    "official_pypi_digest_verified": true
+  },
+  {
+    "file": "lal-7.26-precavg.html",
+    "url": "https://lscsoft.docs.ligo.org/lalsuite/7.26/lalsimulation/calc__tilts__prec__avg__regularized_8py_source.html",
+    "bytes": 269930,
+    "sha256": "24f95c2d4a1e1773f679a8267609a642c6bdcb8322f82ad29fa74542fea52035"
+  },
+  {
+    "file": "pesummary-v0.13.0-evolve.py",
+    "url": "https://raw.githubusercontent.com/pesummary/pesummary/v0.13.0/pesummary/gw/conversions/evolve.py",
+    "bytes": 13056,
+    "sha256": "20f946305289c7de798957b39d881e5a8a04453be52dbd8f418da12d7f8783cf"
+  },
+  {
+    "file": "lal-7.26-hybrid.html",
+    "url": "https://lscsoft.docs.ligo.org/lalsuite/7.26/lalsimulation/hybrid__spin__evolution_8py_source.html",
+    "bytes": 97078,
+    "sha256": "f6286e78b344fe4f260fd1cfad60604423dc0ac3cb2f1615455b382c73eaef39"
+  }
+]

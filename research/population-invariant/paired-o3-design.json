@@ -1,0 +1,15 @@
+{
+  "schema": "blackhole-full69-paired-o3-design/1",
+  "date": "2026-10-25",
+  "recorded_before_updated_thinning_results": true,
+  "purpose": "Update conditional finite-bank propagation for the completed69-source native-tilt and invariant-effective-spin controls.",
+  "fixed": ["All69 full event posteriors", "O1/O2 contribution", "Six native models and six effective-spin models", "Each metric's own prior and grid"],
+  "bank": "284672 accepted O3 rows, including zero contribution for failed searches",
+  "draw": "SRS without replacement,128454 rows per draw,512 draws, seed20261025",
+  "pairing": "The same row indices across both metrics, both policies, all models and both components.",
+  "policies": ["Union including cWB", "Matched-filter only"],
+  "estimator": "fixed early contribution + c*M/n*sum(selected row weights)",
+  "checks": ["Recover both current full-bank posteriors", "Recover old512 native selection estimates, without asserting old event posteriors are current", "Finite-population analytic48-dimensional selection covariance", "Posterior-quantile Jacobian and independent finite differences", "Full-product verification of full-bank and selected thinned cases", "Compare paired contrast covariance with linear propagation"],
+  "contrasts": ["Two native width gaps", "Three effective-spin amplitude-family gaps", "Two effective-spin even-shape gaps", "Six effective-spin search-policy median differences", "Two native search-policy width-gap changes"],
+  "interpretation": "Post-hoc reanalysis using an already used random seed for comparability. Not new independent calibration trials, actual-campaign coverage, astrophysical intervals, p-values, or event/PE-chain error calibration. The metrics r and g are never numerically subtracted from each other."
+}

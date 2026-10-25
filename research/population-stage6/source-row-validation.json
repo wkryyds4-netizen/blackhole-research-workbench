@@ -1,0 +1,17 @@
+{
+  "schema": "blackhole-weighted-source-row-validation/1",
+  "status": "pass",
+  "source_sha256": "0f6e816977f361bba2122b3a39fbc626b68a66a10ee555f7c4a03cb020f21dad",
+  "n_rows": 169040,
+  "exact_coordinates": [
+    "mass_1",
+    "mass_ratio",
+    "redshift",
+    "a_1",
+    "a_2",
+    "cos_tilt_1",
+    "cos_tilt_2"
+  ],
+  "all_original_rows_in_original_order": true,
+  "cache_sha256": "124e40b439ef614aaa2531d3c4eee67b6d73542094a6b2312de4c372f3ab2c68"
+}

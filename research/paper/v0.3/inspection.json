@@ -1,0 +1,392 @@
+{
+  "schema": "blackhole-bilingual-v03-text-geometry-inspection/1",
+  "status": "text_and_geometry_checked_visual_review_required",
+  "build_manifest_sha256": "3e370c5313db39d6488c633c72f11f4642786e630581c3301041b8fccbf85a2a",
+  "source_structure": {
+    "fact_uses": {
+      "DataEvents": 4,
+      "DataRows": 2,
+      "DataReplicates": 2,
+      "DataCompletionMax": 2,
+      "DataBytes": 1,
+      "DataOThreeRows": 2,
+      "DataMaxSourceShift": 1,
+      "DataNativeLowGap": 1,
+      "DataNativeBaseGap": 1,
+      "DataEventDraw": 1,
+      "DataOThreeDraw": 1,
+      "DataOThreeLowNonpositive": 1,
+      "DataJointLowNonpositive": 1,
+      "DataInteraction": 1,
+      "DataEventZeroRows": 1,
+      "DataTailMass": 1,
+      "DataTailBound": 1,
+      "DataTailPlan": 1
+    },
+    "labels": [
+      "sec:data",
+      "eq:prior",
+      "sec:models",
+      "eq:r",
+      "eq:gmodel",
+      "eq:likelihood",
+      "sec:results",
+      "fig:native",
+      "tab:g",
+      "fig:g",
+      "fig:reference",
+      "sec:banks",
+      "eq:cov",
+      "tab:finite",
+      "fig:finite",
+      "sec:support",
+      "eq:B",
+      "eq:cdf",
+      "eq:quantile",
+      "eq:budget",
+      "tab:support",
+      "fig:support",
+      "tab:completion",
+      "app:repro"
+    ],
+    "citations": [
+      "zevin",
+      "spinlike",
+      "infinity",
+      "growing",
+      "structure",
+      "injections",
+      "longroad",
+      "degeneracies",
+      "spinpriors",
+      "tutorial",
+      "pe21",
+      "pe3",
+      "o3",
+      "lvk3",
+      "arxivtex"
+    ],
+    "equations": 14,
+    "figures": 5,
+    "tables": 4
+  },
+  "editions": [
+    {
+      "language": "en",
+      "pdf_sha256": "0849e63d34a87ae3d8627227961b1044255188428adad430bae7e58f75be09ce",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 3012,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "d2e620704c477b1a7a9c4e46e436d76188147d1511846b5c54f0f0b3f2ec8ace"
+        },
+        {
+          "page": 2,
+          "characters": 3731,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "147406baab7f13fec234a814d2de32520a3ba54c4888b99af86dcb032973529c"
+        },
+        {
+          "page": 3,
+          "characters": 3434,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "d4da875967cf7755ff477ac0f01de01bbac06dd1f191632274472dd90b1e301f"
+        },
+        {
+          "page": 4,
+          "characters": 2477,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "1cbc590f73b7631373322469c1b1ac04c032029ceb6fa31064f473d08c2be2d9"
+        },
+        {
+          "page": 5,
+          "characters": 2550,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "7523e55ee6d95ecb38650727009e4c823ffb47d4e530e776b2c362f5ca3f3742"
+        },
+        {
+          "page": 6,
+          "characters": 850,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "49074edc5ab3a114332bc146b9f11f9f4b34e00baf331703fb99e215e7ebf7af"
+        },
+        {
+          "page": 7,
+          "characters": 2500,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "07594d7a40d3425551c28adf37125fda2a2ba27e5719704033228caff41dd436"
+        },
+        {
+          "page": 8,
+          "characters": 2826,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "d3ee79d2cf16f0133c8031d20de637d7636d3d6a1e10615bc9b978f3cf3027e8"
+        },
+        {
+          "page": 9,
+          "characters": 1654,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "ce7bc44eebdfd0809440d27db87672070f65e6e940995fe5ffa689a11cd1c987"
+        },
+        {
+          "page": 10,
+          "characters": 2278,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "28e7e1e66066939b870fef05e976a6b289ddb99addef791f57bc3d759ebbbe8f"
+        },
+        {
+          "page": 11,
+          "characters": 3451,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "a5c194943ed6c610c72216bf246b694e0ef7cb131fd9cd86e10893e2f46a684c"
+        },
+        {
+          "page": 12,
+          "characters": 3594,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "4dc9f021c0ce2a196f85d635e1a72a508fb48d6a56241296c3f33d23896d8182"
+        },
+        {
+          "page": 13,
+          "characters": 3070,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "fe4274ed9c4a06636439d42abb55713ab4bb0bc361340fea0a8eebf4690b3c2a"
+        },
+        {
+          "page": 14,
+          "characters": 1395,
+          "width": 595.276,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "6ec8fdd4c52e4e4e230afc3317dd1819cebcc8145e867dffcebfee0975f1ad06"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "path": "research/paper/tmp/v0.3/en/contact-01.png",
+          "sha256": "88a0781cdbfef2880b9c5b3b0c572ddb439300b82b6032f4d3a6a8bfedb4877d"
+        },
+        {
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "path": "research/paper/tmp/v0.3/en/contact-05.png",
+          "sha256": "2aaf41b57013e4b637f7ce8b134fd124b297dabc0f462fb96a7a7727834eb4a5"
+        },
+        {
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "path": "research/paper/tmp/v0.3/en/contact-09.png",
+          "sha256": "fe71714b15a04e4eb8e37f7cf7e7b4531e7bb750bc86954c335e993e625c30b0"
+        },
+        {
+          "pages": [
+            13,
+            14
+          ],
+          "path": "research/paper/tmp/v0.3/en/contact-13.png",
+          "sha256": "5a032ca7f6a4e1cb09434ec48c215401ce98c8c3ba8a3c5803d824cbc8fd82cd"
+        }
+      ]
+    },
+    {
+      "language": "zh",
+      "pdf_sha256": "483fde7e6bda3ff485a8cfea8a722ea30ce325cf0ff7d8cedabd1354d376a681",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 1114,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "e67ecf99b3b36a4b7bd1410ccafa9f877833427ea574eeaca99aedb138edab6e"
+        },
+        {
+          "page": 2,
+          "characters": 1351,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "4a2f4b436ad59d0fd5336b3cbf4126396865346b14b6086513633162e15b4c0b"
+        },
+        {
+          "page": 3,
+          "characters": 1233,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "d7499b3bc44a30156d64ad3f8d0f530afdf965b56d61c82f6d67b8a7a380dba1"
+        },
+        {
+          "page": 4,
+          "characters": 1331,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "51a32d43de72b2f274c4c6a3f758d78db5ecb1bc03c8b6bc1d5d26632aa8b739"
+        },
+        {
+          "page": 5,
+          "characters": 696,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "1513b53c6f57131c3193f649d24282fabd367a4ba5306c6a201d0aed389e80a7"
+        },
+        {
+          "page": 6,
+          "characters": 724,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "925157c5d102329058af0bf6e7f470ec14d2397415e918a58a371aefac498d6b"
+        },
+        {
+          "page": 7,
+          "characters": 994,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "9b9df1b0648384bf4d2ba5ea47928c4dd446a63e17e6d60b0edf864b545aa271"
+        },
+        {
+          "page": 8,
+          "characters": 698,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "a46c4c0928ac7569b336a3801ffb0d7b5e2f76175e6d9ed8add32d36df55acfc"
+        },
+        {
+          "page": 9,
+          "characters": 1171,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "02ff55e34299e8437926a5b0617147a352a218b594b2ea368096698cfc544e15"
+        },
+        {
+          "page": 10,
+          "characters": 478,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "ec11e729f3c50febe8241498a456e96fa479a65cc2bb43e089c892afab731bf4"
+        },
+        {
+          "page": 11,
+          "characters": 1267,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "265451157d239e36af7876e63c4aa6547a61e15c043796767e252c7f1eebf922"
+        },
+        {
+          "page": 12,
+          "characters": 1213,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "6e5dcd5b3af4b7ffa82e887bcd41b1ce5a3b313c66c3c4c9ea44360568df5234"
+        },
+        {
+          "page": 13,
+          "characters": 1865,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "4d3e275681346abc626954a88cc4281e1e094fa6b4b077d678a41110282fb3dc"
+        },
+        {
+          "page": 14,
+          "characters": 1561,
+          "width": 595.28,
+          "height": 841.89,
+          "text_inside_page_safety_margins": true,
+          "render_sha256": "737b622579409018a78b983f039b62ecfa7e199a5f996f87e996a874a9b2142c"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "path": "research/paper/tmp/v0.3/zh/contact-01.png",
+          "sha256": "00c90d6bc5988146971cc9d7c68c89d49d645505063997bcf7536ace49789d3e"
+        },
+        {
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "path": "research/paper/tmp/v0.3/zh/contact-05.png",
+          "sha256": "6d6b8c9f5083cf1a60112acbee6be076fb51621d76c876952b1db9271682975a"
+        },
+        {
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "path": "research/paper/tmp/v0.3/zh/contact-09.png",
+          "sha256": "07f4648e55516d05caeac6c306d97f87e273bff2df84ef980bfa133c4581e056"
+        },
+        {
+          "pages": [
+            13,
+            14
+          ],
+          "path": "research/paper/tmp/v0.3/zh/contact-13.png",
+          "sha256": "1ae63a31333afabecd48571f29d78418fde1891b315952f773427a6112a0e660"
+        }
+      ]
+    }
+  ],
+  "scope": "Source/translation structure, numeric tables, PDF text, broad page margins and rendered-file inventory. Not a peer review or an automatic visual-quality certificate."
+}

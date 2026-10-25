@@ -1,0 +1,356 @@
+{
+  "schema": "blackhole-configuration-prior-row-audit/1",
+  "recovery_sha256": "36116d2c8868df4b4f783fb89fe23dc54d10c7f60acfb1c319d766285c353506",
+  "events": [
+    {
+      "index": 4,
+      "event": "GW170608",
+      "rows": 285112,
+      "bounds_violations": {
+        "chirp_mass": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "mass_ratio": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "observed_ranges": {
+        "chirp_mass": [
+          8.360791872402523,
+          8.919100514974229
+        ],
+        "mass_1": [
+          9.642339497356515,
+          52.83284659012589
+        ],
+        "mass_2": [
+          2.7424220750453685,
+          9.869346995914167
+        ],
+        "mass_ratio": [
+          0.05190752064375629,
+          0.9999983788583565
+        ],
+        "luminosity_distance": [
+          68.07643080730726,
+          639.4063557598336
+        ],
+        "a_1": [
+          2.269186884909513e-06,
+          0.9899956444352802
+        ],
+        "a_2": [
+          5.048395843018638e-06,
+          0.9899979461818808
+        ],
+        "tilt_1": [
+          0.0022676226551121767,
+          3.1388184885207653
+        ],
+        "tilt_2": [
+          0.005106158261387766,
+          3.1405130909692778
+        ]
+      },
+      "numerical_sampling_coordinate_jacobian_max_relative_error": 1.2379716807231489e-08,
+      "source_cache_sha256": "831510428787be32b3b8b0ded59089f22cc0e290a1d861b03143a485b6be1864",
+      "source_supported_default_family": true,
+      "scope": "Released configuration plus documented defaults; rows satisfy recorded support. No bound on likelihood outside it."
+    },
+    {
+      "index": 29,
+      "event": "GW190707_093326",
+      "rows": 367463,
+      "bounds_violations": {
+        "chirp_mass": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "mass_ratio": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "observed_ranges": {
+        "chirp_mass": [
+          9.659015757956178,
+          10.494254011926348
+        ],
+        "mass_1": [
+          11.138901440360115,
+          62.23289088602901
+        ],
+        "mass_2": [
+          3.1728947005445103,
+          11.627220713190752
+        ],
+        "mass_ratio": [
+          0.05123107208366573,
+          0.9999969379191183
+        ],
+        "luminosity_distance": [
+          138.65307570198584,
+          1624.533731707424
+        ],
+        "a_1": [
+          1.532921559148706e-06,
+          0.9899399950746508
+        ],
+        "a_2": [
+          4.3649733116185585e-07,
+          0.9899953436415276
+        ],
+        "tilt_1": [
+          0.0049820466888232245,
+          3.137785407228305
+        ],
+        "tilt_2": [
+          0.005013590719955137,
+          3.13840970312323
+        ]
+      },
+      "numerical_sampling_coordinate_jacobian_max_relative_error": 5.730588781283075e-08,
+      "source_cache_sha256": "38bc4564d42618dc646cdb791551357b738e5d25629c2dcf8c88fa3f979d922a",
+      "source_supported_default_family": true,
+      "scope": "Released configuration plus documented defaults; rows satisfy recorded support. No bound on likelihood outside it."
+    },
+    {
+      "index": 32,
+      "event": "GW190720_000836",
+      "rows": 131644,
+      "bounds_violations": {
+        "chirp_mass": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "mass_ratio": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "observed_ranges": {
+        "chirp_mass": [
+          9.896734149817012,
+          10.939918806701785
+        ],
+        "mass_1": [
+          11.51705261837482,
+          50.72131046326414
+        ],
+        "mass_2": [
+          3.8414806784088906,
+          12.24407223881233
+        ],
+        "mass_ratio": [
+          0.0757370155329712,
+          0.9999870871015937
+        ],
+        "luminosity_distance": [
+          298.70563832709445,
+          2712.3201187732875
+        ],
+        "a_1": [
+          1.0964709594909333e-06,
+          0.9899506120814702
+        ],
+        "a_2": [
+          5.3442264806857764e-06,
+          0.9899844602536587
+        ],
+        "tilt_1": [
+          0.0036806237954791696,
+          3.1280705238964237
+        ],
+        "tilt_2": [
+          0.003449390008856648,
+          3.1333582112826766
+        ]
+      },
+      "numerical_sampling_coordinate_jacobian_max_relative_error": 2.7476422643779586e-06,
+      "source_cache_sha256": "436a5e9184aa573ff621b88e515a449692a74636a2c34e86f91c2b22ee8f8252",
+      "source_supported_default_family": true,
+      "scope": "Released configuration plus documented defaults; rows satisfy recorded support. No bound on likelihood outside it."
+    },
+    {
+      "index": 33,
+      "event": "GW190725_174728",
+      "rows": 170198,
+      "bounds_violations": {
+        "chirp_mass": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "mass_ratio": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "observed_ranges": {
+        "chirp_mass": [
+          7.845513308352669,
+          9.98576858906891
+        ],
+        "mass_1": [
+          9.742909099524,
+          58.70846577174678
+        ],
+        "mass_2": [
+          2.7296853252326905,
+          10.917885359548356
+        ],
+        "mass_ratio": [
+          0.05002225969403932,
+          0.9999889991153599
+        ],
+        "luminosity_distance": [
+          145.56440701172042,
+          2978.786716176045
+        ],
+        "a_1": [
+          5.298514229368223e-06,
+          0.989999138812156
+        ],
+        "a_2": [
+          8.239400671531272e-06,
+          0.9899976919717136
+        ],
+        "tilt_1": [
+          0.0034860288534173077,
+          3.1378282636818766
+        ],
+        "tilt_2": [
+          0.0031610357149597645,
+          3.135404897955215
+        ]
+      },
+      "numerical_sampling_coordinate_jacobian_max_relative_error": 1.1324720494698681e-07,
+      "source_cache_sha256": "908818a6efd657ad4fed17d422980b50bd9f5dc7a6d5e0427d15665a30975cd6",
+      "source_supported_default_family": true,
+      "scope": "Released configuration plus documented defaults; rows satisfy recorded support. No bound on likelihood outside it."
+    },
+    {
+      "index": 35,
+      "event": "GW190728_064510",
+      "rows": 20000,
+      "bounds_violations": {
+        "chirp_mass": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "mass_ratio": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "observed_ranges": {
+        "chirp_mass": [
+          9.837111891956114,
+          10.958707386100171
+        ],
+        "mass_1": [
+          11.512138257033781,
+          62.08571202582253
+        ],
+        "mass_2": [
+          3.258290028236153,
+          11.880324356216917
+        ],
+        "mass_ratio": [
+          0.052935680889671106,
+          0.9999830317029634
+        ],
+        "luminosity_distance": [
+          219.22655999207518,
+          1561.7953943909554
+        ],
+        "a_1": [
+          0.00012727036896753238,
+          0.9891014396541602
+        ],
+        "a_2": [
+          6.912370824671554e-05,
+          0.9899137707083524
+        ],
+        "tilt_1": [
+          0.002302289263455673,
+          3.1270826599677193
+        ],
+        "tilt_2": [
+          0.006060880509081587,
+          3.122240651280982
+        ]
+      },
+      "numerical_sampling_coordinate_jacobian_max_relative_error": 3.829162824597887e-06,
+      "source_cache_sha256": "53b2826e39c3bcf418adda747dd2b7c2ecc8f62fbfa6646676b0e81356eb3cd8",
+      "source_supported_default_family": true,
+      "scope": "Released configuration plus documented defaults; rows satisfy recorded support. No bound on likelihood outside it."
+    },
+    {
+      "index": 44,
+      "event": "GW190924_021846",
+      "rows": 46372,
+      "bounds_violations": {
+        "chirp_mass": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "mass_ratio": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "observed_ranges": {
+        "chirp_mass": [
+          6.294517422537595,
+          6.611039404088749
+        ],
+        "mass_1": [
+          7.349345341923291,
+          36.65152939579472
+        ],
+        "mass_2": [
+          2.1461605693448744,
+          7.438516274327471
+        ],
+        "mass_ratio": [
+          0.058585165375924265,
+          0.9999828294978172
+        ],
+        "luminosity_distance": [
+          170.87326464753318,
+          1208.7762602913901
+        ],
+        "a_1": [
+          1.3783941264392235e-05,
+          0.9899206788293077
+        ],
+        "a_2": [
+          3.464338916509338e-06,
+          0.9899964043055722
+        ],
+        "tilt_1": [
+          0.008911081167820153,
+          3.1305895145720277
+        ],
+        "tilt_2": [
+          0.008453054882760158,
+          3.1358034197751437
+        ]
+      },
+      "numerical_sampling_coordinate_jacobian_max_relative_error": 3.2382060344282593e-07,
+      "source_cache_sha256": "dd9143ac3c14fc9e6f18c8f9aa7d4d7ab82b5f01c231b34c81cced773a77befc",
+      "source_supported_default_family": true,
+      "scope": "Released configuration plus documented defaults; rows satisfy recorded support. No bound on likelihood outside it."
+    }
+  ],
+  "pending": [],
+  "density_comparison": "Historical (Mchirp,q,logDL,tilt1,tilt2) branch times numerical five-dimensional Jacobian versus direct source-coordinate density, up to fixed normalizations."
+}

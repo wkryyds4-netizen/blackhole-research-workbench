@@ -1,0 +1,33 @@
+{
+  "schema": "blackhole-reference-invariant-control-design/1",
+  "recorded_before_population_results": true,
+  "date": "2026-10-25",
+  "purpose": "Supplement the original native-tilt audit with an explicitly reference-invariant control at the stated 2PN approximation. This does not replace the original study or determine formation-channel fractions.",
+  "data_gate": "All fixed69 original-prior event sources must have resolved tutorial-row identity and supported prior families before fitting this control.",
+  "functional": "g = P(chi_eff < 0), a binary-level population probability",
+  "prior": {"family": "Uniform", "minimum": 0.0, "maximum": 1.0},
+  "mass_redshift": "Same fixed target mass, mass-ratio and redshift distributions as the original six-model control; source-frame masses and target redshift support0..2.3.",
+  "spin_magnitude_families": [[1.5, 8.5], [2.0, 5.0]],
+  "even_shape_lambda": [0.0, 4.0, 16.0],
+  "model": {
+    "x": "chi_eff = (a1*c1 + q*a2*c2)/(1+q)",
+    "u_v": "u=a1/(1+q), v=q*a2/(1+q)",
+    "isotropic_second_moment": "E_iso[x^2 | q,a1,a2] = (u^2+v^2)/3",
+    "angular_density_dc1_dc2": "[1+lambda*x^2]/[4*(1+lambda*(u^2+v^2)/3)] * [2*g*I(x<0)+2*(1-g)*I(x>0)]",
+    "relative_azimuth": "Uniform; invariance is conditional on the same isotropic-measure-preserving PN approximation used in the cited spin-reference literature.",
+    "exact_ties": "For a stored x==0 row use the symmetric midpoint, with equal half contributions to the two sign components. Report counts; do not remove rows.",
+    "normalization": "Evenness makes each sign half carry half the normalized base measure at every q,a1,a2; the radial and mass distributions are unchanged.",
+    "interpretation": "A restricted phenomenological sign-asymmetry family with fixed within-half shapes. It can have a density jump at zero for g!=1/2. No universal prior or model-independent measurement is claimed."
+  },
+  "selection": ["Historical O1/O2 semianalytic plus full O3 matched-filter bank", "Same bank with cWB union as a paired search-policy control", "Constant selection function as an explicitly uncorrected diagnostic, not a valid unbiased population estimate"],
+  "checks": [
+    "Independent angular quadrature of normalization and negative fraction, including unequal, equal, small and vanishing spin limits",
+    "Invariance of the density ratio along previously validated native-to-infinity source rows; keep any finite PN or release discrepancies",
+    "Independent target density and source-prior quadrature on every restored event",
+    "Full69-event product versus log-domain posterior and1001/2001 grids",
+    "Contribution ESS and largest-weight diagnostics without data-dependent hyperparameter rejection",
+    "Finite-bank calibration must remain explicitly conditional; PE-chain correlations and actual campaign coverage cannot be inferred from Kish ESS"
+  ],
+  "limits": ["Approximate2PN invariance, not exact full-GR spin transport", "Historical injection reference itself remains unrecovered", "PE likelihood outside its original prior support remains unavailable", "O3 high-redshift support and semianalytic early-run assumptions remain", "Does not identify physical formation channels or revise the original frozen results"],
+  "literature": ["https://arxiv.org/html/2110.05507v2", "https://arxiv.org/html/2602.12509v2", "https://arxiv.org/html/2610.18973v1"]
+}

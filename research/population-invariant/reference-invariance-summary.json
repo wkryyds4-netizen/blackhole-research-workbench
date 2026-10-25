@@ -1,0 +1,9 @@
+{
+  "events": 69,
+  "rows": 11180578,
+  "infinity_nonfinite_rows": 0,
+  "infinity_sign_disagreement_rows": 0,
+  "maximum_effective_spin_difference": 5.551115123125783e-16,
+  "maximum_full_ratio_difference": 7.105427357601002e-15,
+  "limits": "Released-column invariance diagnostic; assumes an invariant isotropic PN measure and does not establish the injection generation reference."
+}

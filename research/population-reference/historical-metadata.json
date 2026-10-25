@@ -1,0 +1,62 @@
+[
+  {
+    "file": "IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_nocosmo.h5",
+    "sha256": "e7be975d101dd94ccb520bfa2cac7151fdc659a3c9806b85dfaeee90dc4e659d",
+    "backward_spin_evolution": [
+      "precession_averaged",
+      "lalsimulation.tilts_at_infinity.hybrid_spin_evolution.calc_tilts_at_infty_hybrid_evolve==v1"
+    ],
+    "pesummary": [
+      "0.13.2+45.g7f00ea4"
+    ],
+    "lalsuite": "7.0"
+  },
+  {
+    "file": "IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5",
+    "sha256": "a5b26ece547cce96f0ed8802c756af0454ed89632cc82c6875f383d714f5f908",
+    "backward_spin_evolution": [
+      "precession_averaged",
+      "lalsimulation.tilts_at_infinity.hybrid_spin_evolution.calc_tilts_at_infty_hybrid_evolve==v1"
+    ],
+    "pesummary": [
+      "0.13.3+4.gf4e1c37"
+    ],
+    "lalsuite": "7.0"
+  },
+  {
+    "file": "IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_nocosmo.h5",
+    "sha256": "61e81232d4eb8010ce58720d1dfa0e1abae3308a8bd61d131c9ad18ce37293f4",
+    "backward_spin_evolution": [
+      "precession_averaged",
+      "lalsimulation.tilts_at_infinity.hybrid_spin_evolution.calc_tilts_at_infty_hybrid_evolve==v1"
+    ],
+    "pesummary": [
+      "0.13.2+45.g7f00ea4"
+    ],
+    "lalsuite": "7.0"
+  },
+  {
+    "file": "IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_nocosmo.h5",
+    "sha256": "db4daf7981d317525197c7eadf3842b8fa48c05f0b638fc3182590f223dfdbcf",
+    "backward_spin_evolution": [
+      "precession_averaged",
+      "lalsimulation.tilts_at_infinity.hybrid_spin_evolution.calc_tilts_at_infty_hybrid_evolve==v1"
+    ],
+    "pesummary": [
+      "0.13.0"
+    ],
+    "lalsuite": "7.0"
+  },
+  {
+    "file": "IGWN-GWTC2p1-v2-GW190805_211137_PEDataRelease_mixed_nocosmo.h5",
+    "sha256": "0f6e816977f361bba2122b3a39fbc626b68a66a10ee555f7c4a03cb020f21dad",
+    "backward_spin_evolution": [
+      "precession_averaged",
+      "lalsimulation.tilts_at_infinity.hybrid_spin_evolution.calc_tilts_at_infty_hybrid_evolve==v1"
+    ],
+    "pesummary": [
+      "0.13.2+45.g7f00ea4"
+    ],
+    "lalsuite": "7.0"
+  }
+]

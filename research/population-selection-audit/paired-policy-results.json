@@ -1,0 +1,128 @@
+{
+  "schema": "blackhole-paired-policy-thinning/1",
+  "seed": 20261025,
+  "replicates": 512,
+  "protocol": "SRS without replacement of 128454 from 284672 accepted O3 rows. Shared indices across two policies, six models and both components; failed detections contribute zero. Fixed events and O1/O2.",
+  "policies": [
+    "union_including_cwb",
+    "matched_filter_only"
+  ],
+  "full_gaps_pp": [
+    [
+      0.2684029380376818,
+      6.342975459699468
+    ],
+    [
+      0.18579393605617778,
+      6.403080648656423
+    ]
+  ],
+  "historical_subset_gaps_pp": [
+    [
+      1.1185476327809363,
+      6.713052124733859
+    ],
+    [
+      0.9247690457842406,
+      6.813846284143771
+    ]
+  ],
+  "gap_5_50_95_pp": [
+    [
+      [
+        -0.49521542465404966,
+        0.2729980296964363,
+        1.4869744717730333
+      ],
+      [
+        5.55808324592572,
+        6.312235739849726,
+        7.0864628782784695
+      ]
+    ],
+    [
+      [
+        -0.5630520982273226,
+        0.19558724995438204,
+        1.4075975995281742
+      ],
+      [
+        5.602221737077467,
+        6.382890099428548,
+        7.097401230199784
+      ]
+    ]
+  ],
+  "matched_historical_gap_empirical_percentile": [
+    87.3046875,
+    82.2265625
+  ],
+  "diagnostics": [
+    {
+      "amplitude": "Beta(1.5,8.5)",
+      "full_policy_gap_change_pp": -0.082609001981504,
+      "paired_policy_gap_change_5_50_95_pp": [
+        -0.3250013255149603,
+        -0.06038763359502153,
+        0.10331401703238817
+      ],
+      "interaction_5_50_95_pp": [
+        -0.2423923235334563,
+        0.022221368386482476,
+        0.1859230190138922
+      ],
+      "union_matched_gap_correlation": 0.9731281297374346,
+      "policy_change_std_pp": 0.14331956680218266,
+      "unpaired_variance_sum_std_pp": 0.8655185385532832,
+      "matched_gap_nonpositive_fraction": 0.35546875
+    },
+    {
+      "amplitude": "Beta(2,5)",
+      "full_policy_gap_change_pp": 0.06010518895695505,
+      "paired_policy_gap_change_5_50_95_pp": [
+        -0.058166410533959254,
+        0.05721057069853197,
+        0.17312048590402485
+      ],
+      "interaction_5_50_95_pp": [
+        -0.1182715994909143,
+        -0.002894618258423076,
+        0.1130152969470698
+      ],
+      "union_matched_gap_correlation": 0.9892190043403897,
+      "policy_change_std_pp": 0.06766814475091183,
+      "unpaired_variance_sum_std_pp": 0.6462758348833382,
+      "matched_gap_nonpositive_fraction": 0.0
+    }
+  ],
+  "selection_variance_empirical_over_analytic": [
+    1.0227037883235819,
+    0.944216893060234,
+    0.9873847221197217,
+    0.944216893060234,
+    0.9710147137862534,
+    0.944216893060234,
+    0.9682638745759401,
+    0.9660402454364257,
+    0.8958764664892639,
+    0.9660402454364257,
+    0.9005676898281845,
+    0.9660402454364257,
+    1.0560406529657669,
+    0.968227075697415,
+    1.0103233959967381,
+    0.968227075697415,
+    0.9856193128955966,
+    0.968227075697415,
+    0.963751544517075,
+    0.9584397296622619,
+    0.8931116792509427,
+    0.9584397296622619,
+    0.8978417924910542,
+    0.9584397296622619
+  ],
+  "original_union_selection_relative_regression_error": 0.0,
+  "original_union_quantile_regression_error": 0.0,
+  "o3_bank_sha256": "2bae57e034428b424a634b5eebaf41f75a2cfd3be1e07ef3afe95cd49de90298",
+  "limits": "These are conditional artificial-thinning distributions, not astrophysical credible intervals, p-values, or calibrated errors of the actual historical injection campaign. Event/search compatibility remains documentary. No physical spin-reference correction."
+}

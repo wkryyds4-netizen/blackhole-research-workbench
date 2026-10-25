@@ -1,0 +1,191 @@
+{
+  "schema": "blackhole-historical-python-precision-replay/1",
+  "commit": "af4bc21a9f9246ef5403052ec3b66ed2b52d90ed",
+  "constants": {
+    "G_SI": 6.6743e-11,
+    "C_SI": 299792458.0,
+    "MSUN_SI": 1.9884099021470415e+30,
+    "MTSUN_SI": 4.925491025543576e-06
+  },
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "dependency_scope": "Current isolated NumPy/SciPy; lal module provides ONLY three constants from the pinned 7.0 header. Unmodified historical pure-Python routines loaded by file path; no hybrid or compiled LAL simulation."
+  },
+  "maximum_released_cosine_residual": {
+    "historical_defaults": 2.030163903654625e-08,
+    "historical_tight": 1.232100439230166e-06,
+    "independent_same_constants": 1.2320950252275864e-06
+  },
+  "maximum_tight_implementation_difference": 4.951097754002376e-09,
+  "rows": [
+    {
+      "source_row": 3831,
+      "frequency": 16.0,
+      "answers": {
+        "historical_defaults": {
+          "cosines": [
+            0.5171937285080744,
+            -0.5867463376931991
+          ],
+          "released_difference": [
+            -1.1974021552063618e-08,
+            1.849235320428022e-09
+          ]
+        },
+        "historical_tight": {
+          "cosines": [
+            0.5171933454377408,
+            -0.5867462785328532
+          ],
+          "released_difference": [
+            -3.9504435522808024e-07,
+            6.100958116483923e-08
+          ]
+        },
+        "independent_same_constants": {
+          "cosines": [
+            0.517193340486643,
+            -0.5867462777682194
+          ],
+          "released_difference": [
+            -3.999954529820826e-07,
+            6.177421496555979e-08
+          ]
+        }
+      },
+      "warnings": [],
+      "historical_tight_minus_independent": [
+        4.951097754002376e-09,
+        -7.6463380072056e-10
+      ]
+    },
+    {
+      "source_row": 3831,
+      "frequency": 20.0,
+      "answers": {
+        "historical_defaults": {
+          "cosines": [
+            0.5171927419113442,
+            -0.5867461853258706
+          ],
+          "released_difference": [
+            4.438611478363441e-09,
+            -6.854874445849646e-10
+          ]
+        },
+        "historical_tight": {
+          "cosines": [
+            0.517192330972299,
+            -0.5867461218615568
+          ],
+          "released_difference": [
+            -4.065004337583389e-07,
+            6.277882635963294e-08
+          ]
+        },
+        "independent_same_constants": {
+          "cosines": [
+            0.5171923306169703,
+            -0.586746121806681
+          ],
+          "released_difference": [
+            -4.06855762413727e-07,
+            6.283370224124951e-08
+          ]
+        }
+      },
+      "warnings": [],
+      "historical_tight_minus_independent": [
+        3.5532865538812075e-10,
+        -5.487588161656731e-11
+      ]
+    },
+    {
+      "source_row": 134864,
+      "frequency": 16.0,
+      "answers": {
+        "historical_defaults": {
+          "cosines": [
+            0.5899540108653739,
+            -0.5770218476092771
+          ],
+          "released_difference": [
+            -1.6198086205676532e-09,
+            1.6909325051273072e-09
+          ]
+        },
+        "historical_tight": {
+          "cosines": [
+            0.5899532327806802,
+            -0.5770210353596804
+          ],
+          "released_difference": [
+            -7.797045022961413e-07,
+            8.139405291984758e-07
+          ]
+        },
+        "independent_same_constants": {
+          "cosines": [
+            0.5899532328024946,
+            -0.5770210353824524
+          ],
+          "released_difference": [
+            -7.796826879680196e-07,
+            8.139177571919731e-07
+          ]
+        }
+      },
+      "warnings": [],
+      "historical_tight_minus_independent": [
+        -2.181432812164985e-11,
+        2.277200650269151e-11
+      ]
+    },
+    {
+      "source_row": 134864,
+      "frequency": 20.0,
+      "answers": {
+        "historical_defaults": {
+          "cosines": [
+            0.5930336226601123,
+            -0.5802366820067751
+          ],
+          "released_difference": [
+            1.9447709997955087e-08,
+            -2.030163903654625e-08
+          ]
+        },
+        "historical_tight": {
+          "cosines": [
+            0.593032422936663,
+            -0.5802354296046969
+          ],
+          "released_difference": [
+            -1.1802757392542773e-06,
+            1.232100439230166e-06
+          ]
+        },
+        "independent_same_constants": {
+          "cosines": [
+            0.5930324229418497,
+            -0.5802354296101109
+          ],
+          "released_difference": [
+            -1.1802705526253732e-06,
+            1.2320950252275864e-06
+          ]
+        }
+      },
+      "warnings": [],
+      "historical_tight_minus_independent": [
+        -5.186628904141344e-12,
+        5.414002579584576e-12
+      ]
+    }
+  ],
+  "limits": "A controlled algorithm/tolerance/unit-convention diagnosis on two source rows, not a complete historical execution environment or full-domain validation.",
+  "original_numerical_checks_passed": false,
+  "original_gate_and_failure_preserved": true,
+  "original_validation_sha256": "c9c86566f4bcf134639c8842b76d38770686aff99df609078a562b30ee2b4087"
+}

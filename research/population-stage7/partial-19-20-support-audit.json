@@ -1,0 +1,674 @@
+{
+  "schema": "blackhole-retained-support-diagnostic/1",
+  "boundary_band_fraction": 0.01,
+  "keys": [
+    "0-0-0-1",
+    "1-0-0-1",
+    "2-0-0-1",
+    "0-1-0-1",
+    "1-1-0-1",
+    "2-1-0-1"
+  ],
+  "events": [
+    {
+      "index": 19,
+      "event": "GW190517_055101",
+      "n_rows": 161299,
+      "fields": {
+        "chirp_mass": {
+          "bounds": {
+            "minimum": 20.86334391421937,
+            "maximum": 55.87431108202617
+          },
+          "observed_min": 20.911468013654478,
+          "observed_max": 53.04635721001244,
+          "bands": {
+            "lower": {
+              "rows": 24,
+              "row_fraction": 0.0001487919949906695,
+              "integral_fraction_at_original_medians": [
+                2.8050389228655708e-08,
+                3.9698666651338693e-08,
+                5.823427075791341e-08,
+                4.891817005410769e-07,
+                4.978621018976744e-07,
+                5.741932670751475e-07
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "mass_ratio": {
+          "bounds": {
+            "minimum": 0.05,
+            "maximum": 1.0
+          },
+          "observed_min": 0.08399298665766423,
+          "observed_max": 0.9999915994886591,
+          "bands": {
+            "lower": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "upper": {
+              "rows": 969,
+              "row_fraction": 0.006007476797748281,
+              "integral_fraction_at_original_medians": [
+                0.008995940302849264,
+                0.005595912326865491,
+                0.004470171766157937,
+                0.014865307877839217,
+                0.012477494968780894,
+                0.011257763771389331
+              ]
+            }
+          }
+        },
+        "mass_1": {
+          "bounds": {
+            "minimum": 1.0,
+            "maximum": 1000.0
+          },
+          "observed_min": 34.19987814119273,
+          "observed_max": 163.61206750671982,
+          "bands": {
+            "lower": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "mass_2": {
+          "bounds": {
+            "minimum": 1.0,
+            "maximum": 1000.0
+          },
+          "observed_min": 8.128321225101132,
+          "observed_max": 51.05219951518979,
+          "bands": {
+            "lower": {
+              "rows": 97,
+              "row_fraction": 0.0006013676464206225,
+              "integral_fraction_at_original_medians": [
+                3.518856557490119e-06,
+                5.972335774730425e-06,
+                8.44655390414497e-06,
+                1.6250557406083227e-05,
+                1.8848679612016633e-05,
+                2.3545772185919914e-05
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "luminosity_distance": {
+          "bounds": {
+            "minimum": 100.0,
+            "maximum": 10000.0
+          },
+          "observed_min": 439.26733370166465,
+          "observed_max": 7130.002570989828,
+          "bands": {
+            "lower": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "a_1": {
+          "bounds": {
+            "minimum": 0.0,
+            "maximum": 0.99
+          },
+          "observed_min": 0.0007031959220437748,
+          "observed_max": 0.9899993396920554,
+          "bands": {
+            "lower": {
+              "rows": 7,
+              "row_fraction": 4.339766520561194e-05,
+              "integral_fraction_at_original_medians": [
+                9.317683407199193e-06,
+                9.716296770432935e-06,
+                8.56507490325283e-06,
+                1.7666248526650268e-06,
+                1.9829037984639675e-06,
+                1.903132705698889e-06
+              ]
+            },
+            "upper": {
+              "rows": 13300,
+              "row_fraction": 0.08245556389066268,
+              "integral_fraction_at_original_medians": [
+                9.206054854663496e-11,
+                1.0724175679892664e-10,
+                1.143983615018269e-10,
+                3.4512742529671952e-06,
+                3.7817911182735625e-06,
+                4.004177622621919e-06
+              ]
+            }
+          }
+        },
+        "a_2": {
+          "bounds": {
+            "minimum": 0.0,
+            "maximum": 0.99
+          },
+          "observed_min": 2.1121240594857252e-05,
+          "observed_max": 0.9899979927047352,
+          "bands": {
+            "lower": {
+              "rows": 1002,
+              "row_fraction": 0.006212065790860452,
+              "integral_fraction_at_original_medians": [
+                0.003150189194456229,
+                0.003411278619019391,
+                0.0034013535808583573,
+                0.0003294614053263097,
+                0.0003459928532694618,
+                0.00036586202628849845
+              ]
+            },
+            "upper": {
+              "rows": 2882,
+              "row_fraction": 0.01786743873179623,
+              "integral_fraction_at_original_medians": [
+                3.009069689985281e-12,
+                2.4401239878814827e-12,
+                2.1901486665168035e-12,
+                3.030531475499085e-07,
+                3.083570819682759e-07,
+                2.9942841386731826e-07
+              ]
+            }
+          }
+        },
+        "tilt_1": {
+          "bounds": {
+            "minimum": 0.0,
+            "maximum": 3.141592653589793
+          },
+          "observed_min": 0.002629174701788172,
+          "observed_max": 2.8365563927462007,
+          "bands": {
+            "lower": {
+              "rows": 173,
+              "row_fraction": 0.0010725422972244093,
+              "integral_fraction_at_original_medians": [
+                0.00406468532634736,
+                0.0024708746911008763,
+                0.0020716258114335815,
+                0.004419286683887486,
+                0.0036091982831784595,
+                0.003368306135479629
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "tilt_2": {
+          "bounds": {
+            "minimum": 0.0,
+            "maximum": 3.141592653589793
+          },
+          "observed_min": 0.007458508669803161,
+          "observed_max": 3.135420838476568,
+          "bands": {
+            "lower": {
+              "rows": 60,
+              "row_fraction": 0.00037197998747667376,
+              "integral_fraction_at_original_medians": [
+                0.00011614901033791939,
+                8.44580567358052e-05,
+                7.082006749408725e-05,
+                0.00047552732610189256,
+                0.00041077307029598335,
+                0.00037805995041318455
+              ]
+            },
+            "upper": {
+              "rows": 14,
+              "row_fraction": 8.679533041122388e-05,
+              "integral_fraction_at_original_medians": [
+                2.4265282165326113e-09,
+                2.922809751071216e-09,
+                3.002191054120986e-09,
+                7.79761656643237e-07,
+                7.148536231753615e-07,
+                6.295422060230353e-07
+              ]
+            }
+          }
+        }
+      },
+      "spin_support_population_mass": [
+        {
+          "beta": [
+            1.5,
+            8.5
+          ],
+          "population_probability_outside_either_spin_support": 6.834132522525535e-17
+        },
+        {
+          "beta": [
+            2,
+            5
+          ],
+          "population_probability_outside_either_spin_support": 1.1899999996459804e-09
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "event": "GW190519_153544",
+      "n_rows": 150207,
+      "fields": {
+        "chirp_mass": {
+          "bounds": {
+            "minimum": 36.008499230478826,
+            "maximum": 101.1090474503333
+          },
+          "observed_min": 36.323476265747324,
+          "observed_max": 83.70009072181699,
+          "bands": {
+            "lower": {
+              "rows": 1,
+              "row_fraction": 6.657479345170332e-06,
+              "integral_fraction_at_original_medians": [
+                5.304471491484824e-11,
+                1.0740024012944159e-10,
+                1.2627109346145987e-10,
+                2.9956130233388754e-08,
+                3.888196598329015e-08,
+                4.4808923567524753e-08
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "mass_ratio": {
+          "bounds": {
+            "minimum": 0.05,
+            "maximum": 1.0
+          },
+          "observed_min": 0.14150831150958273,
+          "observed_max": 0.9999828298612956,
+          "bands": {
+            "lower": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "upper": {
+              "rows": 790,
+              "row_fraction": 0.005259408682684562,
+              "integral_fraction_at_original_medians": [
+                0.0036651314653957756,
+                0.002325206690635321,
+                0.0019628053956099838,
+                0.00678819170138394,
+                0.0060677967008816594,
+                0.005723119870722793
+              ]
+            }
+          }
+        },
+        "mass_1": {
+          "bounds": {
+            "minimum": 1.0,
+            "maximum": 1000.0
+          },
+          "observed_min": 67.09455207947991,
+          "observed_max": 140.61529069349012,
+          "bands": {
+            "lower": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "mass_2": {
+          "bounds": {
+            "minimum": 1.0,
+            "maximum": 1000.0
+          },
+          "observed_min": 17.060666766820546,
+          "observed_max": 93.89371741797791,
+          "bands": {
+            "lower": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "luminosity_distance": {
+          "bounds": {
+            "minimum": 10.0,
+            "maximum": 10000.0
+          },
+          "observed_min": 698.9110354108234,
+          "observed_max": 8382.69767290044,
+          "bands": {
+            "lower": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "a_1": {
+          "bounds": {
+            "minimum": 0.0,
+            "maximum": 0.99
+          },
+          "observed_min": 2.7740165079449922e-05,
+          "observed_max": 0.98999496302717,
+          "bands": {
+            "lower": {
+              "rows": 317,
+              "row_fraction": 0.0021104209524189952,
+              "integral_fraction_at_original_medians": [
+                0.003588724482328013,
+                0.004362201834885494,
+                0.0046541473108875474,
+                0.00013876403532434855,
+                0.00014397970073271922,
+                0.0001571750481728649
+              ]
+            },
+            "upper": {
+              "rows": 2014,
+              "row_fraction": 0.013408163401173049,
+              "integral_fraction_at_original_medians": [
+                1.2304974391201582e-13,
+                1.4473518462451895e-13,
+                1.5232400591834207e-13,
+                4.742756264192184e-08,
+                5.1486385826415565e-08,
+                5.438402037698519e-08
+              ]
+            }
+          }
+        },
+        "a_2": {
+          "bounds": {
+            "minimum": 0.0,
+            "maximum": 0.99
+          },
+          "observed_min": 4.543000498268877e-06,
+          "observed_max": 0.9899843006349351,
+          "bands": {
+            "lower": {
+              "rows": 985,
+              "row_fraction": 0.006557617154992776,
+              "integral_fraction_at_original_medians": [
+                0.01221584685260265,
+                0.012983392256265281,
+                0.013453696429007542,
+                0.0007033205617729948,
+                0.0007275676747034431,
+                0.0007660750506523978
+              ]
+            },
+            "upper": {
+              "rows": 2399,
+              "row_fraction": 0.015971292949063624,
+              "integral_fraction_at_original_medians": [
+                2.462992532458821e-13,
+                2.5007690606465683e-13,
+                2.4629122743686717e-13,
+                9.694264151231204e-08,
+                1.026522244993602e-07,
+                1.0499749513694521e-07
+              ]
+            }
+          }
+        },
+        "tilt_1": {
+          "bounds": {
+            "minimum": 0.0,
+            "maximum": 3.141592653589793
+          },
+          "observed_min": 0.003843493149348816,
+          "observed_max": 3.068156334956844,
+          "bands": {
+            "lower": {
+              "rows": 97,
+              "row_fraction": 0.0006457754964815221,
+              "integral_fraction_at_original_medians": [
+                0.0015393260341866309,
+                0.0011679859973209362,
+                0.0010090159957888308,
+                0.001151089133151254,
+                0.0010070174707704975,
+                0.0009571181481406984
+              ]
+            },
+            "upper": {
+              "rows": 0,
+              "row_fraction": 0.0,
+              "integral_fraction_at_original_medians": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        "tilt_2": {
+          "bounds": {
+            "minimum": 0.0,
+            "maximum": 3.141592653589793
+          },
+          "observed_min": 0.006500913288738915,
+          "observed_max": 3.1282482155588234,
+          "bands": {
+            "lower": {
+              "rows": 78,
+              "row_fraction": 0.0005192833889232859,
+              "integral_fraction_at_original_medians": [
+                0.0009592898695367838,
+                0.0004779975946439103,
+                0.00037270387760800433,
+                0.0005259912207818358,
+                0.0003980182646380496,
+                0.00036121544217783316
+              ]
+            },
+            "upper": {
+              "rows": 12,
+              "row_fraction": 7.988975214204398e-05,
+              "integral_fraction_at_original_medians": [
+                5.061424538878473e-06,
+                5.526165966793352e-06,
+                5.441383014716717e-06,
+                1.851113046124594e-05,
+                1.5620140769464888e-05,
+                1.3244297017217286e-05
+              ]
+            }
+          }
+        }
+      },
+      "spin_support_population_mass": [
+        {
+          "beta": [
+            1.5,
+            8.5
+          ],
+          "population_probability_outside_either_spin_support": 6.834132522525535e-17
+        },
+        {
+          "beta": [
+            2,
+            5
+          ],
+          "population_probability_outside_either_spin_support": 1.1899999996459804e-09
+        }
+      ]
+    }
+  ],
+  "design": "Exploratory follow-up defined after two main comparisons; see design.md.",
+  "caution": "Observed-row diagnostics cannot bound unobserved likelihood tails. The Beta probability is population mass, not posterior mass or an event-evidence error bound."
+}

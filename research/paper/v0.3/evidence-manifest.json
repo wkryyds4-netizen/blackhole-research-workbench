@@ -1,0 +1,62 @@
+{
+  "schema": "blackhole-bilingual-v03-evidence/1",
+  "date": "2026-10-25",
+  "facts": {
+    "DataEvents": "69",
+    "DataRows": "11,180,578",
+    "DataBytes": "23,554,981,402",
+    "DataReplicates": "512",
+    "DataEventDraw": "6,913",
+    "DataOThreeRows": "284,672",
+    "DataOThreeDraw": "128,454",
+    "DataNativeLowGap": "-0.06024",
+    "DataNativeBaseGap": "6.35361",
+    "DataMaxSourceShift": "0.43588",
+    "DataJointLowNonpositive": "50.98",
+    "DataOThreeLowNonpositive": "55.47",
+    "DataInteraction": "0.07185",
+    "DataTailMass": "33.4075",
+    "DataTailBound": "0.15214",
+    "DataCompletionMax": "8.02",
+    "DataTailPlan": "2,127,038",
+    "DataEventZeroRows": "206,292"
+  },
+  "source_sha256": {
+    "research/population-catalog/native-catalog-results.json": "6c4bada37bf3fe6c333a0f6786a42f7fb7b735621af7b132117712df52b9fabb",
+    "research/population-catalog/native-catalog-validation.json": "4f2e0e0ade1294453c449fcdf59f2db443e688cbdf4d200260d39ac89fe6d1c4",
+    "research/population-invariant/control-results.json": "6e4980f37fd53e7b874c2a2d66a10d57154e511f8558a96f9a6470f1517c3282",
+    "research/population-invariant/control-validation.json": "1e54cd5d338a5af511bee77af00cc81d0bdcdb7405f3aef22c55cb6bcfbba83a",
+    "research/population-invariant/paired-o3-results.json": "6cfd4a5ac37ce0d88e9c33a9507d4b916000861d12737e7f2bcc5da5662cc8f8",
+    "research/population-invariant/paired-o3-validation.json": "f26cbb561721a7da007b7f6b702d4865d001d575f24b39dd567d06fc7a2d562f",
+    "research/population-invariant/paired-pe-results.json": "bee5864f9d3cf6289ebeeb7026342a998e7e86088ddbdb71e89ab942dd4fb3ea",
+    "research/population-invariant/paired-pe-validation.json": "b711924667080ea7164f79db21dffe3385996f3c96a8a04fedac81d94c9849f8",
+    "research/population-invariant/support-results.json": "0dc9e22c09c863a52641f83725d0968de6584cdb64c9579d1a3f26eedf36dfdc",
+    "research/population-invariant/support-validation.json": "f7e95a0fe0adf1c82b44285e08431795bde4bd192d41e21c32d0a138a70f4e08",
+    "research/population-invariant/tail-validation-plan.json": "19e1c5989362e62b172d3672dd852fb0324163fa2a46f0bae5c55bee7f20ede1",
+    "research/population-invariant/finite-bank-milestone.json": "e0b74adc09f332736f85dede74433201d7661dea08a539550d959cc9cfabe672",
+    "research/population-catalog/alias-heldout-validation.json": "c9c86566f4bcf134639c8842b76d38770686aff99df609078a562b30ee2b4087",
+    "research/population-catalog/historical-defaults-validation.json": "d4fd0e7b33bf8e898a575bc7029fcb146716e9e4d716643b639db0cd44f804fe",
+    "research/population-invariant/reference-invariance-summary.json": "6fd5b92aa34960e14105c046e46c26b65e63ec37f1e312e0d97d9a8db3611fde"
+  },
+  "generated_sha256": {
+    "latex-en/completion-table.tex": "94dc5c235f523b6d51e6bf47a53f7100ac1e0a0537e89aac86ddd3acaa689f94",
+    "latex-en/facts.tex": "28069016adb4460a3f50c7b867ad11870ea56baa6f752509ea1f143de4f1643c",
+    "latex-en/finite-table.tex": "47cc3a70623b76d353457f1d0ece9a615bf85bccec3b86474daa297b596905a6",
+    "latex-en/g-table.tex": "faf4da0f6df906808e514d20b8fd88066ed93d9a544debdbf53fc06ba8294653",
+    "latex-en/support-table.tex": "9eac7e139559498d3208ca4817eb092959c1f6483722db898baf337d4105fb25",
+    "latex-zh/completion-table.tex": "5442ca3314f77cb32006629717307bf154a834895ef171fe617d1f27d8d79dbe",
+    "latex-zh/facts.tex": "28069016adb4460a3f50c7b867ad11870ea56baa6f752509ea1f143de4f1643c",
+    "latex-zh/finite-table.tex": "47dcd2c3a0ed3d4671fb4a407c0c305a7b13df8b9ea0f5e53a8b9f5e4811dab2",
+    "latex-zh/g-table.tex": "b5d4f434eecfbc6d2fed4821094feff7c043c09388a284139799eb9c2a3212d6",
+    "latex-zh/support-table.tex": "56a314c30ca360cf7ddc7c0634c3e21e3f316ee05e8a2beed7f87714a631a8d0"
+  },
+  "figure_sha256": {
+    "effective-spin.pdf": "d16cc3966207b6ecef12a961f8d28b4975f3ca842caed85797845b6c839f554c",
+    "finite-banks.pdf": "8f052d9244d1ac5064f8cdd7fb079ef281beebbb04d6b5cafea494e4960c3ed3",
+    "native-restoration.pdf": "c2aca279dad16c2df15f429231cda2bcdafbc49eca784361d7a33a863bb1e835",
+    "reference-residual.pdf": "d1f41800b880288db6d2ebcd2c2b0b049bd6bf0c9b06bf9a959a85009257423b",
+    "support-envelope.pdf": "ce309bff10143e4da5c208fed2d4907b3f1328663fc49f06bbff9c37f5213291"
+  },
+  "producer_sha256": "55cc429b5b34166424481f1b00f38c4aa535d91ab0fa31d493f9d93c28ba9fd0",
+  "scope": "Bilingual fact/table identity and data-derived figures. Not an independent scientific validation or a peer review."
+}

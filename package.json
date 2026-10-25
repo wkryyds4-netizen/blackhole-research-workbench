@@ -7,7 +7,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "test": "node simulator/test-generalization.mjs && node simulator/test-research-stage.mjs && node simulator/test-waveform-view.mjs",
+    "test": "node simulator/test-generalization.mjs && node simulator/test-research-stage.mjs && node simulator/test-waveform-view.mjs && node simulator/test-population-study.mjs",
     "test:browser:waveform": "node simulator/qa-waveform-stage.cjs",
     "test:release": "node simulator/qa-release.cjs"
   },

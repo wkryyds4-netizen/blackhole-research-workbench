@@ -81,6 +81,25 @@ NPZ are not redistributed. Download/checksum scripts and aggregate audit results
 are supplied. The weighting prescription is credited to Reed Essick (2021),
 https://doi.org/10.3847/2515-5172/ac2ba7 .
 
+### All-source follow-up and v0.3 interim manuscripts
+
+The catalog, stage-six/seven, reference, selection and invariant-control reports
+extend the original analyses to the 69-source catalog. They include derived
+diagnostics, provenance metadata and original figures; they do not redistribute
+the underlying posterior rows or injection banks. The full O3 injection study
+uses the fixed release https://zenodo.org/records/7890437 . The cumulative
+sensitivity checks use https://zenodo.org/records/16740128 . Those releases retain
+their own licenses and attribution; this project's MIT license does not
+relicense them. Individual file URLs, versions, hashes and transformations are
+recorded in the corresponding provenance reports and source manifests.
+
+Historical precession, LALSuite, PESummary and other upstream source snapshots
+are local reference materials and are not distributed in this release. Public
+manifests identify the retrieved sources and their hashes. Original diagnostic
+scripts and summaries do not replace the upstream authors' work or imply their
+endorsement. The v0.3 manuscripts and display adapter report conditional results,
+not a physical formation-channel measurement or a completed selection audit.
+
 `research/population-stage2/provenance-history.json` contains short documentary
 source-cell excerpts from Colm Talbot's `GWPopulation` tutorial. These excerpts
 retain the upstream MIT license below. They are not original project prose, and

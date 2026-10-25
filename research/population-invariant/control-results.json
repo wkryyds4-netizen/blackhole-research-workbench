@@ -1,0 +1,1204 @@
+{
+  "schema": "blackhole-reference-invariant-control/1",
+  "keys": [
+    "beta-1.5-8.5_lambda-0",
+    "beta-1.5-8.5_lambda-4",
+    "beta-1.5-8.5_lambda-16",
+    "beta-2-5_lambda-0",
+    "beta-2-5_lambda-4",
+    "beta-2-5_lambda-16"
+  ],
+  "event_count": 69,
+  "full_source_rows": 11180578,
+  "functional": "g=P(chi_eff<0), binary-level; not primary negative tilt or a formation-channel fraction",
+  "prior": {
+    "family": "Uniform",
+    "minimum": 0.0,
+    "maximum": 1.0
+  },
+  "approximation": "2PN conserved effective spin and preserved isotropic angular measure; not exact full-GR invariance.",
+  "scenarios": {
+    "matched_filter": {
+      "quantiles": [
+        [
+          0.01689358321328956,
+          0.132889298241133,
+          0.32272070043196216
+        ],
+        [
+          0.017700593642158757,
+          0.13573793542018062,
+          0.32569376176681053
+        ],
+        [
+          0.019980468026760574,
+          0.14315650039275726,
+          0.33328588273834125
+        ],
+        [
+          0.0926406986911452,
+          0.2538691309296164,
+          0.4326740495672268
+        ],
+        [
+          0.10242699312569238,
+          0.26465999414100183,
+          0.442045028543938
+        ],
+        [
+          0.12328001117193266,
+          0.28657673578773213,
+          0.46058198076770446
+        ]
+      ],
+      "median_negative_probability": [
+        0.132889298241133,
+        0.13573793542018062,
+        0.14315650039275726,
+        0.2538691309296164,
+        0.26465999414100183,
+        0.28657673578773213
+      ],
+      "magnitude_model_median_difference_pp": [
+        12.097983268848338,
+        12.89220587208212,
+        14.342023539497486
+      ],
+      "lambda16_minus0_median_difference_pp": [
+        1.026720215162427,
+        3.2707604858115746
+      ]
+    },
+    "with_cwb": {
+      "quantiles": [
+        [
+          0.016801156025135502,
+          0.13247263267699405,
+          0.322122512581734
+        ],
+        [
+          0.017592638907848054,
+          0.13527087318341358,
+          0.3250321828127451
+        ],
+        [
+          0.019825471881236373,
+          0.14255298881085568,
+          0.3324586604588822
+        ],
+        [
+          0.09102129030788646,
+          0.25155175615577174,
+          0.4301808134197106
+        ],
+        [
+          0.10057053160211077,
+          0.26209341015642934,
+          0.4393190285788708
+        ],
+        [
+          0.12090659783091941,
+          0.28348218592632257,
+          0.4573720862258627
+        ]
+      ],
+      "median_negative_probability": [
+        0.13247263267699405,
+        0.13527087318341358,
+        0.14255298881085568,
+        0.25155175615577174,
+        0.26209341015642934,
+        0.28348218592632257
+      ],
+      "magnitude_model_median_difference_pp": [
+        11.907912347877769,
+        12.682253697301576,
+        14.092919711546688
+      ],
+      "lambda16_minus0_median_difference_pp": [
+        1.0080356133861628,
+        3.1930429770550828
+      ]
+    },
+    "without_selection_diagnostic": {
+      "quantiles": [
+        [
+          0.007791250117461348,
+          0.08087307658397601,
+          0.23743565342976428
+        ],
+        [
+          0.007949910838896861,
+          0.08172973808205711,
+          0.23823376746525088
+        ],
+        [
+          0.008397670852691682,
+          0.08407611762954588,
+          0.24049855432550882
+        ],
+        [
+          0.02668902522950135,
+          0.13524058593751404,
+          0.2904567017078257
+        ],
+        [
+          0.029276617485619563,
+          0.139132557483039,
+          0.29341704513806416
+        ],
+        [
+          0.03557560261872338,
+          0.1479546485232358,
+          0.30034947739195444
+        ]
+      ],
+      "median_negative_probability": [
+        0.08087307658397601,
+        0.08172973808205711,
+        0.08407611762954588,
+        0.13524058593751404,
+        0.139132557483039,
+        0.1479546485232358
+      ],
+      "magnitude_model_median_difference_pp": [
+        5.436750935353802,
+        5.740281940098188,
+        6.387853089368993
+      ],
+      "lambda16_minus0_median_difference_pp": [
+        0.3203041045569871,
+        1.2714062585721775
+      ]
+    }
+  },
+  "grid_checks": {
+    "matched_filter": [
+      {
+        "points": 2001,
+        "maximum_quantile_change": 2.5723878238625986e-06
+      },
+      {
+        "points": 4001,
+        "maximum_quantile_change": 6.796481683279954e-07
+      }
+    ],
+    "with_cwb": [
+      {
+        "points": 2001,
+        "maximum_quantile_change": 2.5885092066746385e-06
+      },
+      {
+        "points": 4001,
+        "maximum_quantile_change": 5.786194126611299e-07
+      }
+    ],
+    "without_selection_diagnostic": [
+      {
+        "points": 2001,
+        "maximum_quantile_change": 3.080232315988418e-06
+      },
+      {
+        "points": 4001,
+        "maximum_quantile_change": 7.300923968445172e-07
+      }
+    ]
+  },
+  "common_grid_points": 4001,
+  "isotropic_selection_bridges": {
+    "matched_filter": 1.9317880628477724e-14,
+    "with_cwb": 1.8207657603852567e-14
+  },
+  "event_concentration": [
+    {
+      "index": 0,
+      "event": "GW150914",
+      "rows": 199766,
+      "ess_at_medians": [
+        14849.960668208352,
+        14857.781921500655,
+        14896.567616280725,
+        55468.325162544446,
+        55944.15356688519,
+        56433.04079864666
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 1,
+      "event": "GW151012",
+      "rows": 137933,
+      "ess_at_medians": [
+        11651.776383343247,
+        11712.446160860089,
+        11835.841219440505,
+        37158.95301397409,
+        37310.64924384916,
+        36845.7080597334
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 2,
+      "event": "GW151226",
+      "rows": 188541,
+      "ess_at_medians": [
+        9376.505923846236,
+        9353.1092136668,
+        9177.509069135682,
+        31467.104025547018,
+        30815.95094541964,
+        29205.227435223132
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 3,
+      "event": "GW170104",
+      "rows": 169007,
+      "ess_at_medians": [
+        16403.421242176788,
+        16370.18645756773,
+        16293.37101256071,
+        52205.33183731276,
+        52506.62480834786,
+        52604.73400642431
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 4,
+      "event": "GW170608",
+      "rows": 285112,
+      "ess_at_medians": [
+        46693.835844260466,
+        46239.85790899882,
+        45106.29687858089,
+        104117.79033857751,
+        102857.0388838262,
+        100316.70096379616
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 5,
+      "event": "GW170729",
+      "rows": 173308,
+      "ess_at_medians": [
+        2826.6551395746064,
+        2903.6897041787006,
+        3058.131843282786,
+        12700.096453275793,
+        13304.33904721454,
+        13455.597020293531
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 6,
+      "event": "GW170809",
+      "rows": 177783,
+      "ess_at_medians": [
+        19539.65875009874,
+        19507.997672621168,
+        19389.728804903396,
+        55315.95091351155,
+        54416.869076343064,
+        51791.336217642485
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 7,
+      "event": "GW170814",
+      "rows": 197034,
+      "ess_at_medians": [
+        34104.58004474927,
+        33931.38016420526,
+        33460.71019205041,
+        79455.73230898792,
+        78267.45844110243,
+        75160.1227522001
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 8,
+      "event": "GW170818",
+      "rows": 160046,
+      "ess_at_medians": [
+        7772.15054823174,
+        7739.357070702183,
+        7662.7686758598,
+        30725.052960399942,
+        30518.119614284282,
+        29827.876922867483
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 9,
+      "event": "GW170823",
+      "rows": 136399,
+      "ess_at_medians": [
+        8820.198280087556,
+        8819.940977420583,
+        8810.750127504898,
+        29946.294836439294,
+        29652.05179962942,
+        28638.66131275707
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 10,
+      "event": "GW190408_181802",
+      "rows": 127008,
+      "ess_at_medians": [
+        14976.478658986196,
+        14985.13254919338,
+        15014.089849828406,
+        44265.71670227899,
+        44683.15901615977,
+        45067.10302611216
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 11,
+      "event": "GW190412",
+      "rows": 264789,
+      "ess_at_medians": [
+        46025.16140266942,
+        47969.69960912938,
+        50236.925275237285,
+        128684.19731245056,
+        129615.9035806877,
+        128139.38450237083
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 12,
+      "event": "GW190413_052954",
+      "rows": 144722,
+      "ess_at_medians": [
+        10266.90777953681,
+        10301.715192871798,
+        10383.1867059119,
+        34534.684002717586,
+        34849.29815516018,
+        34904.96613866116
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 13,
+      "event": "GW190413_134308",
+      "rows": 155335,
+      "ess_at_medians": [
+        5362.100692315963,
+        5376.234538683023,
+        5404.152195358665,
+        18621.00575193497,
+        18659.699880163294,
+        18375.873021157422
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 14,
+      "event": "GW190421_213856",
+      "rows": 147856,
+      "ess_at_medians": [
+        7624.555737891191,
+        7664.5414343948205,
+        7773.904736084586,
+        30583.494807818024,
+        31237.055373886487,
+        31861.118866545294
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 16,
+      "event": "GW190503_185404",
+      "rows": 166116,
+      "ess_at_medians": [
+        9868.477743516567,
+        9898.373666102183,
+        9974.976961418306,
+        33067.745636333435,
+        33567.610131763235,
+        34041.42449448815
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 17,
+      "event": "GW190512_180714",
+      "rows": 181271,
+      "ess_at_medians": [
+        22226.77829654814,
+        22187.083910411,
+        22091.131534763543,
+        58590.04409281068,
+        58493.73046509858,
+        57876.28605853463
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 18,
+      "event": "GW190513_205428",
+      "rows": 180002,
+      "ess_at_medians": [
+        14877.864397048797,
+        14971.159138298872,
+        15140.355264352109,
+        45433.59687096371,
+        45476.1732678747,
+        44129.02417292014
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 19,
+      "event": "GW190517_055101",
+      "rows": 161299,
+      "ess_at_medians": [
+        194.59063923912484,
+        222.63937564351028,
+        244.2824544124976,
+        3518.0919871592455,
+        3963.794943000868,
+        3914.7497172318344
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 20,
+      "event": "GW190519_153544",
+      "rows": 150207,
+      "ess_at_medians": [
+        2025.1929237247755,
+        2148.0258659010774,
+        2359.2272901974266,
+        21234.601049093533,
+        21844.22670016966,
+        21001.95380932764
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 21,
+      "event": "GW190521",
+      "rows": 148527,
+      "ess_at_medians": [
+        7014.410213408721,
+        7042.9326010869345,
+        7103.966756135372,
+        24689.578523607608,
+        24911.798970331747,
+        24797.419171597623
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 22,
+      "event": "GW190521_074359",
+      "rows": 210737,
+      "ess_at_medians": [
+        35878.815547454746,
+        35797.77256776016,
+        35573.717354897875,
+        74859.01152133802,
+        74530.65277772129,
+        73512.13151574435
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 23,
+      "event": "GW190527_092055",
+      "rows": 141653,
+      "ess_at_medians": [
+        6207.7271926790445,
+        6230.293504539618,
+        6267.12636510375,
+        20896.334944440845,
+        20855.262741108712,
+        20250.663205123703
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 24,
+      "event": "GW190602_175927",
+      "rows": 155451,
+      "ess_at_medians": [
+        7485.6482808036935,
+        7543.186615780568,
+        7655.641715586382,
+        30161.832110717067,
+        30201.139301872794,
+        29331.123338603247
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 25,
+      "event": "GW190620_030421",
+      "rows": 152410,
+      "ess_at_medians": [
+        904.0632673765392,
+        959.3287327132207,
+        1073.4163373613321,
+        6614.143927710345,
+        7294.862755236108,
+        7871.791268271431
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 26,
+      "event": "GW190630_185205",
+      "rows": 171387,
+      "ess_at_medians": [
+        31496.899396857378,
+        31538.980320570616,
+        31549.009749714514,
+        72740.05113114475,
+        72079.19936189364,
+        69514.05203854176
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 27,
+      "event": "GW190701_203306",
+      "rows": 160160,
+      "ess_at_medians": [
+        8317.72502431421,
+        8350.568174255288,
+        8439.00578100349,
+        31332.77036749247,
+        31895.428670334095,
+        32247.968353352688
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 28,
+      "event": "GW190706_222641",
+      "rows": 159868,
+      "ess_at_medians": [
+        1898.911219056079,
+        1946.5290291665654,
+        2027.0833642001153,
+        14622.889393598782,
+        14944.403309137662,
+        14378.427434960537
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 29,
+      "event": "GW190707_093326",
+      "rows": 367463,
+      "ess_at_medians": [
+        53130.76610505135,
+        53795.07723843288,
+        55454.983016261715,
+        154238.24169104703,
+        151929.32756902426,
+        145227.18453495626
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 30,
+      "event": "GW190708_232457",
+      "rows": 94772,
+      "ess_at_medians": [
+        15315.40708463348,
+        15236.689825495705,
+        15036.187868903158,
+        34604.69240414652,
+        34528.76363587632,
+        34260.56627830335
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 31,
+      "event": "GW190719_215514",
+      "rows": 153538,
+      "ess_at_medians": [
+        3853.934698908883,
+        3913.9381568287167,
+        4031.90543665011,
+        16274.521462116714,
+        16661.39971852846,
+        16597.05866865547
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 32,
+      "event": "GW190720_000836",
+      "rows": 131644,
+      "ess_at_medians": [
+        10370.776175700606,
+        10421.547593533172,
+        10497.040648714968,
+        32257.19503956131,
+        32197.148968488575,
+        31865.85108152533
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 33,
+      "event": "GW190725_174728",
+      "rows": 170198,
+      "ess_at_medians": [
+        12001.837084551216,
+        12082.103290244575,
+        12285.269067776968,
+        39977.06324785817,
+        39194.520497689,
+        36718.48530731066
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 34,
+      "event": "GW190727_060333",
+      "rows": 162922,
+      "ess_at_medians": [
+        9080.196497296984,
+        9101.751993716514,
+        9137.563782944553,
+        33051.94125791557,
+        32815.37236062186,
+        31712.111303398735
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 35,
+      "event": "GW190728_064510",
+      "rows": 20000,
+      "ess_at_medians": [
+        2255.0397261571316,
+        2251.7342589888267,
+        2238.719021020235,
+        5876.797375841611,
+        5843.928959518314,
+        5758.217836391381
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 36,
+      "event": "GW190731_140936",
+      "rows": 126255,
+      "ess_at_medians": [
+        9298.415040028709,
+        9325.835048981144,
+        9369.566535808384,
+        28865.272399799633,
+        28886.133112351123,
+        28357.8546135008
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 37,
+      "event": "GW190803_022701",
+      "rows": 101656,
+      "ess_at_medians": [
+        7737.668731357906,
+        7740.912220644467,
+        7744.422799603171,
+        25054.941732412437,
+        25109.574787289162,
+        24846.753878908694
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 38,
+      "event": "GW190805_211137",
+      "rows": 169040,
+      "ess_at_medians": [
+        1182.2249669802934,
+        1217.3328701906617,
+        1291.0918353824966,
+        7646.519891703052,
+        8216.320997483388,
+        8534.367895923278
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 40,
+      "event": "GW190828_063405",
+      "rows": 128000,
+      "ess_at_medians": [
+        13448.178527912434,
+        13593.000574944192,
+        13865.2289484744,
+        42044.24335968501,
+        41565.59463836661,
+        39662.37906278359
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 41,
+      "event": "GW190828_065509",
+      "rows": 181548,
+      "ess_at_medians": [
+        19658.88732501198,
+        19678.351651721732,
+        19738.27722416157,
+        56950.898622097026,
+        56968.968763771605,
+        56624.33168513117
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 42,
+      "event": "GW190910_112807",
+      "rows": 159609,
+      "ess_at_medians": [
+        15526.556026173344,
+        15509.152288787838,
+        15461.850121330737,
+        42881.08820276275,
+        42944.97149643118,
+        42641.90735250948
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 43,
+      "event": "GW190915_235702",
+      "rows": 144305,
+      "ess_at_medians": [
+        7438.245514061425,
+        7400.388896591641,
+        7311.641853316457,
+        30169.588867593655,
+        29945.547018639772,
+        29198.568111162684
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 44,
+      "event": "GW190924_021846",
+      "rows": 46372,
+      "ess_at_medians": [
+        6254.078415299439,
+        6244.475760846943,
+        6220.254251540403,
+        15863.862192484114,
+        15771.188817383934,
+        15523.933758976891
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 45,
+      "event": "GW190925_232845",
+      "rows": 164960,
+      "ess_at_medians": [
+        22213.862226919868,
+        22204.549940207147,
+        22147.344956819332,
+        57124.04776364462,
+        56671.43967232667,
+        55102.483640163155
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 46,
+      "event": "GW190929_012149",
+      "rows": 153782,
+      "ess_at_medians": [
+        5500.556192372466,
+        5509.751401211567,
+        5532.527565829211,
+        17689.28458737943,
+        17849.050497811706,
+        17876.68610041504
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 47,
+      "event": "GW190930_133541",
+      "rows": 137344,
+      "ess_at_medians": [
+        12406.249379450861,
+        12449.869123761788,
+        12526.905369991235,
+        35789.81035843867,
+        35521.057222660944,
+        34591.37626550077
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 48,
+      "event": "GW191103_012549",
+      "rows": 167837,
+      "ess_at_medians": [
+        8716.205258164928,
+        8938.076933850434,
+        9281.449325634343,
+        34864.076932541604,
+        34623.41986578946,
+        33352.30884245745
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 49,
+      "event": "GW191105_143521",
+      "rows": 142741,
+      "ess_at_medians": [
+        17453.452362707772,
+        17518.523555728392,
+        17693.453986284363,
+        49697.13171225548,
+        49884.421317755245,
+        49739.01564989165
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 50,
+      "event": "GW191109_010717",
+      "rows": 270070,
+      "ess_at_medians": [
+        1278.835673862824,
+        1334.76028424628,
+        1481.6415504322654,
+        19803.315204373972,
+        21611.11586703284,
+        23217.887068544882
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 51,
+      "event": "GW191127_050227",
+      "rows": 185048,
+      "ess_at_medians": [
+        1650.761055728524,
+        1672.2119725503371,
+        1722.4263692242764,
+        8103.98735200663,
+        8389.658818197455,
+        8666.977692912822
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 52,
+      "event": "GW191129_134029",
+      "rows": 135743,
+      "ess_at_medians": [
+        21409.298719383176,
+        21292.580789420233,
+        21002.970714700416,
+        48817.470469783366,
+        48817.430522306044,
+        48920.60586678768
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 54,
+      "event": "GW191204_171526",
+      "rows": 206292,
+      "ess_at_medians": [
+        20674.34480784206,
+        20456.74704976793,
+        19817.028722328836,
+        63073.61911992419,
+        61555.72521900607,
+        58221.11444004491
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 55,
+      "event": "GW191215_223052",
+      "rows": 20000,
+      "ess_at_medians": [
+        1376.4817589292913,
+        1370.4398220206479,
+        1355.5113058671704,
+        4813.882638001166,
+        4805.402679685568,
+        4737.6168627293655
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 56,
+      "event": "GW191216_213338",
+      "rows": 315108,
+      "ess_at_medians": [
+        45990.923839457486,
+        45945.888040494356,
+        45786.29299003525,
+        109980.95869424225,
+        110110.15106297661,
+        110513.50605766165
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 57,
+      "event": "GW191222_033537",
+      "rows": 135537,
+      "ess_at_medians": [
+        8957.646844575356,
+        8980.887382089886,
+        9043.806159911739,
+        29720.998411779325,
+        30088.27377664004,
+        30365.239338348747
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 58,
+      "event": "GW191230_180458",
+      "rows": 139585,
+      "ess_at_medians": [
+        5228.823911033535,
+        5238.89988757902,
+        5264.309691527668,
+        20212.846007404918,
+        20372.262635968393,
+        20329.53425518692
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 59,
+      "event": "GW200112_155838",
+      "rows": 157304,
+      "ess_at_medians": [
+        25277.42395920352,
+        25209.22790762426,
+        25003.616735392858,
+        60655.67935993236,
+        60075.60522821093,
+        58176.434954042554
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 60,
+      "event": "GW200128_022011",
+      "rows": 150506,
+      "ess_at_medians": [
+        7957.19685169869,
+        7963.296573226514,
+        7965.795297327189,
+        29189.185107274207,
+        28975.01435979305,
+        28104.08153710609
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 61,
+      "event": "GW200129_065458",
+      "rows": 148072,
+      "ess_at_medians": [
+        2800.6941614649763,
+        2784.7797935674007,
+        2739.0866139914897,
+        14436.41180112034,
+        13757.870019310523,
+        12351.576295679492
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 62,
+      "event": "GW200202_154313",
+      "rows": 170115,
+      "ess_at_medians": [
+        33517.618818255934,
+        33318.85126469643,
+        32809.092084838754,
+        64887.180764382014,
+        64672.81026753101,
+        64198.64560547706
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 63,
+      "event": "GW200208_130117",
+      "rows": 104414,
+      "ess_at_medians": [
+        7511.701415877635,
+        7533.558772677928,
+        7589.570619367208,
+        25967.095517669422,
+        26422.976519074313,
+        26900.63434001988
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 65,
+      "event": "GW200209_085452",
+      "rows": 161419,
+      "ess_at_medians": [
+        6193.4468745823,
+        6220.182141266278,
+        6293.138309107599,
+        26994.16898958913,
+        27602.70791909519,
+        28270.436795202164
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 66,
+      "event": "GW200216_220804",
+      "rows": 145692,
+      "ess_at_medians": [
+        3654.0870923659754,
+        3676.781821524848,
+        3724.069104653433,
+        14526.411252561355,
+        14770.513925943327,
+        14879.695407501227
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 67,
+      "event": "GW200219_094415",
+      "rows": 154656,
+      "ess_at_medians": [
+        8266.503990551499,
+        8305.812811660411,
+        8412.241163100683,
+        33773.718403957966,
+        34456.73652983765,
+        35115.6982707713
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 68,
+      "event": "GW200224_222234",
+      "rows": 216261,
+      "ess_at_medians": [
+        16756.02373972209,
+        16725.270622208805,
+        16615.27630323488,
+        54084.15904941508,
+        53005.42546815566,
+        50198.96713433028
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 69,
+      "event": "GW200225_060421",
+      "rows": 195767,
+      "ess_at_medians": [
+        5236.468515265685,
+        5268.852251889885,
+        5363.441261881383,
+        34241.775827298894,
+        35150.63951068615,
+        35929.84108654062
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 70,
+      "event": "GW200302_015811",
+      "rows": 104245,
+      "ess_at_medians": [
+        7773.023653911265,
+        7772.513569250475,
+        7764.11251227536,
+        24087.93233869051,
+        24066.939610719564,
+        23648.16072923392
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 71,
+      "event": "GW200311_115853",
+      "rows": 202628,
+      "ess_at_medians": [
+        16583.359347469504,
+        16550.593859783414,
+        16475.626604141344,
+        54686.870752541974,
+        54873.67566285155,
+        54810.37345306999
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    },
+    {
+      "index": 72,
+      "event": "GW200316_215756",
+      "rows": 134403,
+      "ess_at_medians": [
+        12280.636941012706,
+        12272.613030190614,
+        12239.982412912952,
+        34829.65932581696,
+        34890.39872501561,
+        34975.674486818076
+      ],
+      "limits": "Contribution ESS only; excludes PE-chain correlations and actual-campaign design. No ESS-based parameter or event rejection."
+    }
+  ],
+  "cwb_minus_matched_median_pp": [
+    -0.04166655641389405,
+    -0.04670622367670407,
+    -0.06035115819015835,
+    -0.23173747738446382,
+    -0.256658398457249,
+    -0.3094549861409557
+  ],
+  "no_selection_minus_matched_median_pp": [
+    -5.2016221657156985,
+    -5.400819733812351,
+    -5.908038276321139,
+    -11.862854499210234,
+    -12.552743665796285,
+    -13.862208726449632
+  ],
+  "input_hashes": {
+    "native_results": "6c4bada37bf3fe6c333a0f6786a42f7fb7b735621af7b132117712df52b9fabb",
+    "native_validation": "4f2e0e0ade1294453c449fcdf59f2db443e688cbdf4d200260d39ac89fe6d1c4",
+    "design": "867a7ce6109f2627806164ec3d9e0ee9b684b8bce503405a32fd56882b7c38da",
+    "model": "15f92ab6ae8af7e53acbd6c619f1f53a15e52f4c467aa86e2ebc364f814aa82a",
+    "event_integrals": "d9379d5ec11f0de5b6cd542593c050e266ed4fad02ac993bfc17c1815f164ead"
+  },
+  "limits": "Restricted sign-shape families. Unknown injection execution reference, prior-excluded likelihood, O3 redshift support, early semianalytic approximations, finite-bank error and PE-chain correlation are not repaired. Does not replace original native-tilt audit or identify astrophysical channels."
+}

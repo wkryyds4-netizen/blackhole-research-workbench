@@ -1,0 +1,1025 @@
+{
+  "schema": "blackhole-label-alias-evolution-diagnosis/1",
+  "source_diagnosis_sha256": "abfd8360a87d41c42a508487023ae5c3a951a02d6b73c7a83baa6f2bbd0e41ba",
+  "summaries": [
+    {
+      "frequency": 16.0,
+      "rows": 20,
+      "max_difference_from_canonical": 3.7174389522220963e-07,
+      "max_difference_from_alias": 0.12980419549964886,
+      "max_roundtrip_kappa_error": 1.1799006216506314e-11
+    },
+    {
+      "frequency": 20.0,
+      "rows": 20,
+      "max_difference_from_canonical": 0.12980444256460252,
+      "max_difference_from_alias": 4.256771565236406e-07,
+      "max_roundtrip_kappa_error": 2.4137497556253606e-12
+    }
+  ],
+  "rows": [
+    {
+      "source_row": 0,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -2.0108905818272405e-08,
+        2.9382704713754038e-08
+      ],
+      "difference_from_alias": [
+        0.008394947537574415,
+        -0.012266518320189879
+      ],
+      "result": {
+        "pn_separation": 14.611799210941063,
+        "cos_tilt_1_infinity": -0.17433159978379809,
+        "cos_tilt_2_infinity": -0.5684952643519928,
+        "chieff": -0.1432093488610278,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": -0.04950852898847265,
+        "kappa_infinity": -0.06642229425342266,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.4613310561628623e-14
+      }
+    },
+    {
+      "source_row": 0,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        -0.008394934559527917,
+        0.012266499356945681
+      ],
+      "difference_from_alias": [
+        3.308695231685199e-08,
+        -4.8345948910899494e-08
+      ],
+      "result": {
+        "pn_separation": 13.28159531126674,
+        "cos_tilt_1_infinity": -0.18272651423442018,
+        "cos_tilt_2_infinity": -0.5562287943777519,
+        "chieff": -0.1432093488610278,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": -0.04908751220567287,
+        "kappa_infinity": -0.06682749801725126,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 9.200973316580985e-15
+      }
+    },
+    {
+      "source_row": 9857,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -1.4401371983829847e-08,
+        1.647687997152758e-08
+      ],
+      "difference_from_alias": [
+        -0.0024314168556214266,
+        0.0027818296815264043
+      ],
+      "result": {
+        "pn_separation": 16.406771965287025,
+        "cos_tilt_1_infinity": -0.8613700156509261,
+        "cos_tilt_2_infinity": -0.7730613182686051,
+        "chieff": -0.5522878771085412,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.23293456462054532,
+        "kappa_infinity": -0.28215050174207595,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.81826775857985e-13
+      }
+    },
+    {
+      "source_row": 9857,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.002431374687408727,
+        -0.002781781436082764
+      ],
+      "difference_from_alias": [
+        -2.7766840715592878e-08,
+        3.176856366859937e-08
+      ],
+      "result": {
+        "pn_separation": 14.782231509319766,
+        "cos_tilt_1_infinity": -0.8589386265621454,
+        "cos_tilt_2_infinity": -0.7758431161815679,
+        "chieff": -0.5522878771085412,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.23011464125320874,
+        "kappa_infinity": -0.28199320186613774,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 3.747002708109903e-15
+      }
+    },
+    {
+      "source_row": 19714,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -6.702080224130214e-08,
+        3.978882956445773e-08
+      ],
+      "difference_from_alias": [
+        0.0010974300856748664,
+        -0.0006515209772225417
+      ],
+      "result": {
+        "pn_separation": 14.859199327530723,
+        "cos_tilt_1_infinity": 0.8165134666542968,
+        "cos_tilt_2_infinity": -0.5301229280513481,
+        "chieff": -0.020669081138463743,
+        "chieff_transport_error": 1.3877787807814457e-17,
+        "kappa_initial": 0.0485609630348995,
+        "kappa_infinity": -0.0018655348265004743,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 2.3132190607455527e-13
+      }
+    },
+    {
+      "source_row": 19714,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        -0.0010976226532554145,
+        0.0006516353005129316
+      ],
+      "difference_from_alias": [
+        -1.255467783067843e-07,
+        7.453446082550386e-08
+      ],
+      "result": {
+        "pn_separation": 13.486321303095373,
+        "cos_tilt_1_infinity": 0.8154159110218436,
+        "cos_tilt_2_infinity": -0.5294713325396647,
+        "chieff": -0.020669081138463743,
+        "chieff_transport_error": 1.3877787807814457e-17,
+        "kappa_initial": 0.05136440467718373,
+        "kappa_infinity": -0.0018764098508063285,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 3.4899166889701405e-13
+      }
+    },
+    {
+      "source_row": 29571,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -2.652285613358174e-09,
+        2.6571298632725726e-08
+      ],
+      "difference_from_alias": [
+        0.0011243024292608705,
+        -0.011263559696179773
+      ],
+      "result": {
+        "pn_separation": 14.441337479434665,
+        "cos_tilt_1_infinity": 0.3898764246967079,
+        "cos_tilt_2_infinity": -0.006640664477779009,
+        "chieff": 0.16090100386321685,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": 0.11239894935205878,
+        "kappa_infinity": 0.08634623130003947,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 4.054812041687228e-13
+      }
+    },
+    {
+      "source_row": 29571,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        -0.0011243101827167479,
+        0.011263637372354023
+      ],
+      "difference_from_alias": [
+        -5.10117026397694e-09,
+        5.110487561691551e-08
+      ],
+      "result": {
+        "pn_separation": 13.139335061508286,
+        "cos_tilt_1_infinity": 0.3887521171662768,
+        "cos_tilt_2_infinity": 0.004622946323276381,
+        "chieff": 0.16090100386321685,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": 0.11360308790023516,
+        "kappa_infinity": 0.08631228535268745,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 2.518818487118324e-13
+      }
+    },
+    {
+      "source_row": 39428,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -2.8209317959326796e-07,
+        6.972863325627188e-08
+      ],
+      "difference_from_alias": [
+        -0.0019654184737072367,
+        0.0004858179989987721
+      ],
+      "result": {
+        "pn_separation": 14.723223838179745,
+        "cos_tilt_1_infinity": 0.8636428562279985,
+        "cos_tilt_2_infinity": -0.285237901988284,
+        "chieff": -0.03045505187516375,
+        "chieff_transport_error": 6.938893903907228e-18,
+        "kappa_initial": 0.018878371358172982,
+        "kappa_infinity": -0.013567003028770239,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 8.720524302674448e-13
+      }
+    },
+    {
+      "source_row": 39428,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.001964919223602646,
+        -0.0004856945928692902
+      ],
+      "difference_from_alias": [
+        -2.1715692499757466e-07,
+        5.367749622564588e-08
+      ],
+      "result": {
+        "pn_separation": 13.373191843244095,
+        "cos_tilt_1_infinity": 0.8656080575447808,
+        "cos_tilt_2_infinity": -0.2857236663097866,
+        "chieff": -0.03045505187516375,
+        "chieff_transport_error": 6.938893903907228e-18,
+        "kappa_initial": 0.020573008738412717,
+        "kappa_infinity": -0.013563768228846168,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 7.033124083122289e-13
+      }
+    },
+    {
+      "source_row": 49285,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -6.169826460844519e-08,
+        6.835055688103608e-08
+      ],
+      "difference_from_alias": [
+        -0.0025513643203416148,
+        0.002826451832044996
+      ],
+      "result": {
+        "pn_separation": 14.91949901747224,
+        "cos_tilt_1_infinity": 0.24953093083358288,
+        "cos_tilt_2_infinity": -0.903320062020905,
+        "chieff": -0.0786040786210651,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.018691193688611895,
+        "kappa_infinity": -0.023251046144380467,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 5.492134524942571e-15
+      }
+    },
+    {
+      "source_row": 49285,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.0025512547687902842,
+        -0.002826330468671312
+      ],
+      "difference_from_alias": [
+        -4.7853286722077115e-08,
+        5.301281680303305e-08
+      ],
+      "result": {
+        "pn_separation": 13.537694023450731,
+        "cos_tilt_1_infinity": 0.2520822473006378,
+        "cos_tilt_2_infinity": -0.9061464608401332,
+        "chieff": -0.0786040786210651,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.018377016196252663,
+        "kappa_infinity": -0.023174137812935678,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 2.5954932647564988e-14
+      }
+    },
+    {
+      "source_row": 51411,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -1.6924549191277283e-07,
+        1.3090262207526848e-09
+      ],
+      "difference_from_alias": [
+        0.12753421849687488,
+        -0.0009864112359860844
+      ],
+      "result": {
+        "pn_separation": 15.176441643805013,
+        "cos_tilt_1_infinity": 0.12247014754797479,
+        "cos_tilt_2_infinity": -0.937954703705852,
+        "chieff": -0.29739640434389214,
+        "chieff_transport_error": 5.551115123125783e-17,
+        "kappa_initial": -0.12536178936623696,
+        "kappa_infinity": -0.1362870433558822,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.1799006216506314e-11
+      }
+    },
+    {
+      "source_row": 51411,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        -0.12753451176670594,
+        0.0009864135042763067
+      ],
+      "difference_from_alias": [
+        -1.2402433915374017e-07,
+        9.592640015654297e-10
+      ],
+      "result": {
+        "pn_separation": 13.750845187266307,
+        "cos_tilt_1_infinity": -0.005064194973239244,
+        "cos_tilt_2_infinity": -0.9369682915106019,
+        "chieff": -0.29739640434389214,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.12481806477982009,
+        "kappa_infinity": -0.1363131217306323,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 8.330836021031018e-14
+      }
+    },
+    {
+      "source_row": 53360,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        8.075202622206956e-08,
+        -2.0855313254131147e-08
+      ],
+      "difference_from_alias": [
+        -0.12980419549964886,
+        0.033523705692429795
+      ],
+      "result": {
+        "pn_separation": 14.833362601763723,
+        "cos_tilt_1_infinity": 0.012208205831096216,
+        "cos_tilt_2_infinity": -0.7488164939737607,
+        "chieff": -0.09573784011236132,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.04416242149899581,
+        "kappa_infinity": -0.046256761160853074,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 9.506284648352903e-16
+      }
+    },
+    {
+      "source_row": 53360,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.12980444256460252,
+        -0.033523769500327316
+      ],
+      "difference_from_alias": [
+        1.6631292742985693e-07,
+        -4.2952584267119676e-08
+      ],
+      "result": {
+        "pn_separation": 13.464814525601282,
+        "cos_tilt_1_infinity": 0.1420125676436725,
+        "cos_tilt_2_infinity": -0.7823402426187748,
+        "chieff": -0.09573784011236132,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.044009859580147796,
+        "kappa_infinity": -0.04611301699402798,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.2100043189633425e-13
+      }
+    },
+    {
+      "source_row": 59142,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -8.712399424126716e-08,
+        8.56048782971186e-08
+      ],
+      "difference_from_alias": [
+        0.021835790349059025,
+        -0.021455055977362913
+      ],
+      "result": {
+        "pn_separation": 14.617096663541442,
+        "cos_tilt_1_infinity": 0.6127750314661373,
+        "cos_tilt_2_infinity": -0.39662219359959083,
+        "chieff": 0.057721450005034265,
+        "chieff_transport_error": 2.0816681711721685e-17,
+        "kappa_initial": 0.07155856219171869,
+        "kappa_infinity": 0.0526375557809018,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 8.909400994738803e-13
+      }
+    },
+    {
+      "source_row": 59142,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        -0.02183589984506018,
+        0.021455163564164048
+      ],
+      "difference_from_alias": [
+        -2.2372006913684572e-08,
+        2.1981922837532863e-08
+      ],
+      "result": {
+        "pn_separation": 13.28579332301348,
+        "cos_tilt_1_infinity": 0.5909392187450714,
+        "cos_tilt_2_infinity": -0.3751671156403051,
+        "chieff": 0.057721450005034265,
+        "chieff_transport_error": 2.0816681711721685e-17,
+        "kappa_initial": 0.07172835598452858,
+        "kappa_infinity": 0.05161597320662706,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 4.5112524826862455e-13
+      }
+    },
+    {
+      "source_row": 68999,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        1.5503703731933882e-07,
+        -1.0641897051077986e-07
+      ],
+      "difference_from_alias": [
+        -0.00850063626452402,
+        0.00583492162291363
+      ],
+      "result": {
+        "pn_separation": 15.344339079879871,
+        "cos_tilt_1_infinity": -0.8714097412994076,
+        "cos_tilt_2_infinity": -0.11168199270031981,
+        "chieff": -0.2239727416224142,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": -0.1025965206811609,
+        "kappa_infinity": -0.11375582597064823,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.1599055049771323e-12
+      }
+    },
+    {
+      "source_row": 68999,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.00850088180529529,
+        -0.0058350901645508185
+      ],
+      "difference_from_alias": [
+        9.050373395158573e-08,
+        -6.212266667748878e-08
+      ],
+      "result": {
+        "pn_separation": 13.89088352786511,
+        "cos_tilt_1_infinity": -0.8629090145311497,
+        "cos_tilt_2_infinity": -0.11751697644590012,
+        "chieff": -0.2239727416224142,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": -0.1020457320657937,
+        "kappa_infinity": -0.11371337770320608,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 6.914746553121631e-13
+      }
+    },
+    {
+      "source_row": 78856,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -2.1060074406609175e-08,
+        1.7245266770160583e-08
+      ],
+      "difference_from_alias": [
+        -0.0029404815554394184,
+        0.002407844739162557
+      ],
+      "result": {
+        "pn_separation": 15.55598043644934,
+        "cos_tilt_1_infinity": 0.06055033426699447,
+        "cos_tilt_2_infinity": -0.7397224042900601,
+        "chieff": -0.24192928679497389,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": -0.08077954007534999,
+        "kappa_infinity": -0.11219181840631026,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 4.627687122393809e-13
+      }
+    },
+    {
+      "source_row": 78856,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.0029404606614322135,
+        -0.002407827629882009
+      ],
+      "difference_from_alias": [
+        1.6606720165679434e-10,
+        -1.359862222827246e-10
+      ],
+      "result": {
+        "pn_separation": 14.06792669871093,
+        "cos_tilt_1_infinity": 0.06349081598850109,
+        "cos_tilt_2_infinity": -0.7421302491652089,
+        "chieff": -0.24192928679497389,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": -0.07881650600320372,
+        "kappa_infinity": -0.11213829382474484,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 3.6702585415326894e-13
+      }
+    },
+    {
+      "source_row": 88713,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        3.631681166904599e-08,
+        -5.609452669030901e-08
+      ],
+      "difference_from_alias": [
+        0.005507738038151411,
+        -0.00850718839761011
+      ],
+      "result": {
+        "pn_separation": 14.483228930987094,
+        "cos_tilt_1_infinity": 0.36619037261946613,
+        "cos_tilt_2_infinity": -0.5591729838742712,
+        "chieff": 0.002146271698201956,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": 0.07433117134800464,
+        "kappa_infinity": 0.017827019861749286,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 5.184186413487168e-13
+      }
+    },
+    {
+      "source_row": 88713,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        -0.005507642912019883,
+        0.008507041466889187
+      ],
+      "difference_from_alias": [
+        5.8809319858355025e-08,
+        -9.083619423311262e-08
+      ],
+      "result": {
+        "pn_separation": 13.17414151123109,
+        "cos_tilt_1_infinity": 0.3606826933906346,
+        "cos_tilt_2_infinity": -0.5506658863128553,
+        "chieff": 0.002146271698201956,
+        "chieff_transport_error": 3.0357660829594124e-17,
+        "kappa_initial": 0.0769542046489003,
+        "kappa_infinity": 0.01757359054095781,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.8859913630819847e-13
+      }
+    },
+    {
+      "source_row": 98570,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        -6.930068088828456e-09,
+        1.3377972618577871e-08
+      ],
+      "difference_from_alias": [
+        0.002680364562872406,
+        -0.005174241261237222
+      ],
+      "result": {
+        "pn_separation": 14.970146072434895,
+        "cos_tilt_1_infinity": -0.05304280971751559,
+        "cos_tilt_2_infinity": -0.5170606451949352,
+        "chieff": -0.1476963193431347,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": 0.02151070043470249,
+        "kappa_infinity": -0.0525585817351496,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.636607516175559e-13
+      }
+    },
+    {
+      "source_row": 98570,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        -0.002680405964304647,
+        0.00517432118357386
+      ],
+      "difference_from_alias": [
+        -3.447136415202223e-08,
+        6.654436401909436e-08
+      ],
+      "result": {
+        "pn_separation": 13.58338878422271,
+        "cos_tilt_1_infinity": -0.05572320875175215,
+        "cos_tilt_2_infinity": -0.511886337389334,
+        "chieff": -0.1476963193431347,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": 0.024727993674180687,
+        "kappa_infinity": -0.05308989590004529,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 5.0393716977126246e-14
+      }
+    },
+    {
+      "source_row": 108427,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        4.103031039925931e-09,
+        -6.57110255097848e-09
+      ],
+      "difference_from_alias": [
+        0.003441873610550761,
+        -0.005512243231152514
+      ],
+      "result": {
+        "pn_separation": 15.194122695327891,
+        "cos_tilt_1_infinity": -0.08784098945438715,
+        "cos_tilt_2_infinity": -0.7422571640439598,
+        "chieff": -0.22872971011477158,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": -0.06579952853112651,
+        "kappa_infinity": -0.10969002464272566,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 5.122846591376629e-13
+      }
+    },
+    {
+      "source_row": 108427,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        -0.003441817536818159,
+        0.005512153427723376
+      ],
+      "difference_from_alias": [
+        5.197070156170991e-08,
+        -8.323232658646873e-08
+      ],
+      "result": {
+        "pn_separation": 13.765518825301507,
+        "cos_tilt_1_infinity": -0.09128281109423635,
+        "cos_tilt_2_infinity": -0.7367450040451339,
+        "chieff": -0.22872971011477158,
+        "chieff_transport_error": 2.7755575615628914e-17,
+        "kappa_initial": -0.06361850016950366,
+        "kappa_infinity": -0.10977569408417487,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 8.48626724447854e-14
+      }
+    },
+    {
+      "source_row": 118284,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        3.7174389522220963e-07,
+        -3.347771515560538e-07
+      ],
+      "difference_from_alias": [
+        0.0025491400314110457,
+        -0.0022956499084901827
+      ],
+      "result": {
+        "pn_separation": 14.694635514161961,
+        "cos_tilt_1_infinity": -0.8319043950390822,
+        "cos_tilt_2_infinity": 0.7533828131399273,
+        "chieff": 0.0014191474117792135,
+        "chieff_transport_error": 2.8406096919120216e-17,
+        "kappa_initial": -0.0010257195202177194,
+        "kappa_infinity": -0.005195600196680915,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.1037698532945228e-13
+      }
+    },
+    {
+      "source_row": 118284,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        -0.0025483426103593,
+        0.0022949317841260974
+      ],
+      "difference_from_alias": [
+        4.256771565236406e-07,
+        -3.833472125291948e-07
+      ],
+      "result": {
+        "pn_separation": 13.349438676463597,
+        "cos_tilt_1_infinity": -0.8344531093933367,
+        "cos_tilt_2_infinity": 0.7556780797012049,
+        "chieff": 0.0014191474117792135,
+        "chieff_transport_error": 2.8406096919120216e-17,
+        "kappa_initial": -0.0009669314962472569,
+        "kappa_infinity": -0.005213641320013013,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 6.996128936592738e-14
+      }
+    },
+    {
+      "source_row": 128141,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        1.894355672327208e-08,
+        -6.5962791895302075e-09
+      ],
+      "difference_from_alias": [
+        -0.008885174102126803,
+        0.0030938798334005924
+      ],
+      "result": {
+        "pn_separation": 14.948698558655588,
+        "cos_tilt_1_infinity": 0.4667582335145962,
+        "cos_tilt_2_infinity": -0.5011484686755876,
+        "chieff": -0.09614798454982586,
+        "chieff_transport_error": 4.163336342344337e-17,
+        "kappa_initial": -0.03299649183765804,
+        "kappa_infinity": -0.044530625942362914,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.2573969643270289e-13
+      }
+    },
+    {
+      "source_row": 128141,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.008885111846591576,
+        -0.00309385815558727
+      ],
+      "difference_from_alias": [
+        -8.119909195025699e-08,
+        2.827409251171531e-08
+      ],
+      "result": {
+        "pn_separation": 13.560840284516198,
+        "cos_tilt_1_infinity": 0.4756433264176311,
+        "cos_tilt_2_infinity": -0.5042423202348957,
+        "chieff": -0.09614798454982586,
+        "chieff_transport_error": 1.3877787807814457e-17,
+        "kappa_initial": -0.03227566111901802,
+        "kappa_infinity": -0.04449758984131251,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 8.656755867697541e-13
+      }
+    },
+    {
+      "source_row": 132718,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        8.075202622206956e-08,
+        -2.0855313254131147e-08
+      ],
+      "difference_from_alias": [
+        -0.12980419549964886,
+        0.033523705692429795
+      ],
+      "result": {
+        "pn_separation": 14.833362601763723,
+        "cos_tilt_1_infinity": 0.012208205831096216,
+        "cos_tilt_2_infinity": -0.7488164939737607,
+        "chieff": -0.09573784011236132,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.04416242149899581,
+        "kappa_infinity": -0.046256761160853074,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 9.506284648352903e-16
+      }
+    },
+    {
+      "source_row": 132718,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.12980444256460252,
+        -0.033523769500327316
+      ],
+      "difference_from_alias": [
+        1.6631292742985693e-07,
+        -4.2952584267119676e-08
+      ],
+      "result": {
+        "pn_separation": 13.464814525601282,
+        "cos_tilt_1_infinity": 0.1420125676436725,
+        "cos_tilt_2_infinity": -0.7823402426187748,
+        "chieff": -0.09573784011236132,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.044009859580147796,
+        "kappa_infinity": -0.04611301699402798,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.2100043189633425e-13
+      }
+    },
+    {
+      "source_row": 135574,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        8.075202622206956e-08,
+        -2.0855313254131147e-08
+      ],
+      "difference_from_alias": [
+        -0.12980419549964886,
+        0.033523705692429795
+      ],
+      "result": {
+        "pn_separation": 14.833362601763723,
+        "cos_tilt_1_infinity": 0.012208205831096216,
+        "cos_tilt_2_infinity": -0.7488164939737607,
+        "chieff": -0.09573784011236132,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.04416242149899581,
+        "kappa_infinity": -0.046256761160853074,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 9.506284648352903e-16
+      }
+    },
+    {
+      "source_row": 135574,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.12980444256460252,
+        -0.033523769500327316
+      ],
+      "difference_from_alias": [
+        1.6631292742985693e-07,
+        -4.2952584267119676e-08
+      ],
+      "result": {
+        "pn_separation": 13.464814525601282,
+        "cos_tilt_1_infinity": 0.1420125676436725,
+        "cos_tilt_2_infinity": -0.7823402426187748,
+        "chieff": -0.09573784011236132,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.044009859580147796,
+        "kappa_infinity": -0.04611301699402798,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 1.2100043189633425e-13
+      }
+    },
+    {
+      "source_row": 137998,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        5.4154228767977486e-08,
+        -6.176888445175166e-09
+      ],
+      "difference_from_alias": [
+        -0.0028245446151797804,
+        0.0003221705339696568
+      ],
+      "result": {
+        "pn_separation": 14.85810075658982,
+        "cos_tilt_1_infinity": -0.6341509668115018,
+        "cos_tilt_2_infinity": -0.843253351301127,
+        "chieff": -0.09933420124795948,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.041399810092705755,
+        "kappa_infinity": -0.042700249342995544,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 2.1510571102112408e-16
+      }
+    },
+    {
+      "source_row": 137998,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.0028246875219679612,
+        -0.00032218683406859405
+      ],
+      "difference_from_alias": [
+        8.875255941287463e-08,
+        -1.0123210492096746e-08
+      ],
+      "result": {
+        "pn_separation": 13.486092549152788,
+        "cos_tilt_1_infinity": -0.6313263334437627,
+        "cos_tilt_2_infinity": -0.8435755319583071,
+        "chieff": -0.09933420124795948,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.041330450439657065,
+        "kappa_infinity": -0.042694426221068636,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 6.800116025829084e-15
+      }
+    },
+    {
+      "source_row": 147855,
+      "frequency": 16.0,
+      "difference_from_canonical": [
+        6.303743760316394e-08,
+        -1.858868183268747e-07
+      ],
+      "difference_from_alias": [
+        -0.00021910648888834316,
+        0.0006461082434749271
+      ],
+      "result": {
+        "pn_separation": 15.338095365254436,
+        "cos_tilt_1_infinity": -0.6523722952795576,
+        "cos_tilt_2_infinity": -0.07316340131275959,
+        "chieff": -0.27333590942781016,
+        "chieff_transport_error": 5.551115123125783e-17,
+        "kappa_initial": -0.11566191055846521,
+        "kappa_infinity": -0.13803952449172974,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 3.2988334286443433e-12
+      }
+    },
+    {
+      "source_row": 147855,
+      "frequency": 20.0,
+      "difference_from_canonical": [
+        0.0002192520993912206,
+        -0.0006465376243973281
+      ],
+      "difference_from_alias": [
+        8.257306527426067e-08,
+        -2.4349410407409344e-07
+      ],
+      "result": {
+        "pn_separation": 13.885657093504902,
+        "cos_tilt_1_infinity": -0.652153106217604,
+        "cos_tilt_2_infinity": -0.07380975305033859,
+        "chieff": -0.27333590942781016,
+        "chieff_transport_error": 0.0,
+        "kappa_initial": -0.11451694712897045,
+        "kappa_infinity": -0.13803856639223042,
+        "pn_separation_below_6": false,
+        "solver": "DOP853",
+        "initial_separation_override": true,
+        "roundtrip_kappa_abs_error": 2.4137497556253606e-12
+      }
+    }
+  ],
+  "failures": [],
+  "warnings": [],
+  "scope": "Exploratory reference-frequency controls on 16 uniform-spaced plus four largest-disagreement source rows. Numerical agreement is not recovered historical execution metadata."
+}

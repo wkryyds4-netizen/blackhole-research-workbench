@@ -1,0 +1,320 @@
+{
+  "schema": "blackhole-full69-finite-bank-support-milestone/1",
+  "date": "2026-10-25",
+  "events": 69,
+  "full_source_rows": 11180578,
+  "replicates": 512,
+  "matched_contrasts": [
+    {
+      "name": "matched:native_width:low_spin",
+      "full_bank_value_pp": -0.0602383009741132,
+      "event_only_5_50_95_pp": [
+        -0.2776178428060718,
+        -0.008707191152911964,
+        0.2886351758522328
+      ],
+      "selection_only_5_50_95_pp": [
+        -0.6763545787758437,
+        -0.07157459715354442,
+        0.9316161936368251
+      ],
+      "joint_5_50_95_pp": [
+        -0.6612927816979366,
+        -0.012548385736266932,
+        1.074750639702086
+      ],
+      "event_only_std_pp": 0.1764223705269197,
+      "selection_only_std_pp": 0.49261092122625044,
+      "joint_std_pp": 0.5620578176383695,
+      "linear_event_std_pp": 0.17066603291609508,
+      "linear_joint_std_pp": 0.4621173288953112,
+      "event_nonpositive_fraction": 0.517578125,
+      "joint_nonpositive_fraction": 0.509765625,
+      "interaction_5_50_95_pp": [
+        -0.10006587379449382,
+        -0.0021402617124149925,
+        0.11564399665290931
+      ],
+      "interaction_rms_pp": 0.07185023951622567
+    },
+    {
+      "name": "matched:native_width:baseline_spin",
+      "full_bank_value_pp": 6.353612530318884,
+      "event_only_5_50_95_pp": [
+        6.112343142613911,
+        6.372386358696136,
+        6.637490509682602
+      ],
+      "selection_only_5_50_95_pp": [
+        5.548250345986913,
+        6.332663555757355,
+        7.051970888741491
+      ],
+      "joint_5_50_95_pp": [
+        5.56441110162264,
+        6.367476154863876,
+        7.095932376446596
+      ],
+      "event_only_std_pp": 0.16047362027484954,
+      "selection_only_std_pp": 0.4550608173123516,
+      "joint_std_pp": 0.47656267884511705,
+      "linear_event_std_pp": 0.16555429705917823,
+      "linear_joint_std_pp": 0.4834398831566421,
+      "event_nonpositive_fraction": 0.0,
+      "joint_nonpositive_fraction": 0.0,
+      "interaction_5_50_95_pp": [
+        -0.03156080092886184,
+        0.0007108891618390345,
+        0.03579849795516317
+      ],
+      "interaction_rms_pp": 0.021927381537314484
+    },
+    {
+      "name": "matched:effective_amplitude:lambda0",
+      "full_bank_value_pp": 12.097983268848338,
+      "event_only_5_50_95_pp": [
+        10.411786261346423,
+        11.979280622431697,
+        13.224720770332556
+      ],
+      "selection_only_5_50_95_pp": [
+        9.791536862919012,
+        12.01487852772065,
+        14.163563574108514
+      ],
+      "joint_5_50_95_pp": [
+        9.096940995001285,
+        11.907058241352633,
+        14.332727015851427
+      ],
+      "event_only_std_pp": 0.8759596367738484,
+      "selection_only_std_pp": 1.3613440024134382,
+      "joint_std_pp": 1.609296261667529,
+      "linear_event_std_pp": 0.8386347409793726,
+      "linear_joint_std_pp": 1.5934749024959092,
+      "event_nonpositive_fraction": 0.0,
+      "joint_nonpositive_fraction": 0.0,
+      "interaction_5_50_95_pp": [
+        -0.11492047023987144,
+        0.0006127645297819839,
+        0.15145607447630516
+      ],
+      "interaction_rms_pp": 0.08749688068942678
+    },
+    {
+      "name": "matched:effective_amplitude:lambda4",
+      "full_bank_value_pp": 12.89220587208212,
+      "event_only_5_50_95_pp": [
+        11.192869831891683,
+        12.759682640926698,
+        14.040662961884289
+      ],
+      "selection_only_5_50_95_pp": [
+        10.545951555240746,
+        12.810724110482983,
+        15.00130253377207
+      ],
+      "joint_5_50_95_pp": [
+        9.870621100414354,
+        12.716696398167809,
+        15.135351938455278
+      ],
+      "event_only_std_pp": 0.884214552626313,
+      "selection_only_std_pp": 1.3806432561372735,
+      "joint_std_pp": 1.6296635423335777,
+      "linear_event_std_pp": 0.8514525123822537,
+      "linear_joint_std_pp": 1.6132470901912863,
+      "event_nonpositive_fraction": 0.0,
+      "joint_nonpositive_fraction": 0.0,
+      "interaction_5_50_95_pp": [
+        -0.11261896089990184,
+        0.0007951939247288209,
+        0.14050050619299215
+      ],
+      "interaction_rms_pp": 0.08432933041687818
+    },
+    {
+      "name": "matched:effective_amplitude:lambda16",
+      "full_bank_value_pp": 14.342023539497488,
+      "event_only_5_50_95_pp": [
+        12.597713889985389,
+        14.167508763232977,
+        15.52222047257372
+      ],
+      "selection_only_5_50_95_pp": [
+        11.874117155318132,
+        14.241934999813651,
+        16.5704885744702
+      ],
+      "joint_5_50_95_pp": [
+        11.12221584117433,
+        14.137565792366551,
+        16.72407138882007
+      ],
+      "event_only_std_pp": 0.8986751949401286,
+      "selection_only_std_pp": 1.4310380302090053,
+      "joint_std_pp": 1.6788908325284544,
+      "linear_event_std_pp": 0.8779182951010364,
+      "linear_joint_std_pp": 1.6649373302611963,
+      "event_nonpositive_fraction": 0.0,
+      "joint_nonpositive_fraction": 0.0,
+      "interaction_5_50_95_pp": [
+        -0.10733318842262474,
+        0.0008908449832452092,
+        0.12254374772652875
+      ],
+      "interaction_rms_pp": 0.07709848326400534
+    },
+    {
+      "name": "matched:effective_shape:low_spin",
+      "full_bank_value_pp": 1.0267202151624257,
+      "event_only_5_50_95_pp": [
+        0.9162915959065419,
+        1.0159355064932876,
+        1.1283478374052753
+      ],
+      "selection_only_5_50_95_pp": [
+        0.8233757446978444,
+        1.015292337422202,
+        1.2338133426759026
+      ],
+      "joint_5_50_95_pp": [
+        0.7890873750691096,
+        1.0064585106546589,
+        1.2420444927813306
+      ],
+      "event_only_std_pp": 0.06456779290275198,
+      "selection_only_std_pp": 0.12604127277148067,
+      "joint_std_pp": 0.1375246801979587,
+      "linear_event_std_pp": 0.0640579714527064,
+      "linear_joint_std_pp": 0.13909142051762835,
+      "event_nonpositive_fraction": 0.0,
+      "joint_nonpositive_fraction": 0.0,
+      "interaction_5_50_95_pp": [
+        -0.02556539580701602,
+        -0.00044119772788464573,
+        0.028365266910039225
+      ],
+      "interaction_rms_pp": 0.01762159225793885
+    },
+    {
+      "name": "matched:effective_shape:baseline_spin",
+      "full_bank_value_pp": 3.270760485811575,
+      "event_only_5_50_95_pp": [
+        3.1185739399578347,
+        3.2574543112172893,
+        3.4176940022366717
+      ],
+      "selection_only_5_50_95_pp": [
+        2.879348947209906,
+        3.2568958554687804,
+        3.632239407197888
+      ],
+      "joint_5_50_95_pp": [
+        2.8699887469810315,
+        3.2429873825165965,
+        3.672807459979016
+      ],
+      "event_only_std_pp": 0.0919385002772799,
+      "selection_only_std_pp": 0.22382631996533958,
+      "joint_std_pp": 0.24122380247120362,
+      "linear_event_std_pp": 0.0940035593171839,
+      "linear_joint_std_pp": 0.23726759516163723,
+      "event_nonpositive_fraction": 0.0,
+      "joint_nonpositive_fraction": 0.0,
+      "interaction_5_50_95_pp": [
+        -0.006994288715204955,
+        0.00014474707934342135,
+        0.007829800307745981
+      ],
+      "interaction_rms_pp": 0.004775215819226977
+    }
+  ],
+  "matched_support_ordering_thresholds": [
+    {
+      "policy": 0,
+      "lambda_shape": 0,
+      "full_median_difference_pp": 12.097983268848333,
+      "critical_log_correction_oscillation": 0.9225133526574852,
+      "equal_per_event_relative_omission_bound_at_threshold": 0.013459533601756245,
+      "uniform_relative_selection_completion_bound_at_threshold": 0.013459533601756245,
+      "interpretation": "Sufficient outer-envelope ordering certificate is positive below this B. Failure of the certificate is not an observed physical reversal."
+    },
+    {
+      "policy": 0,
+      "lambda_shape": 4,
+      "full_median_difference_pp": 12.892205872082116,
+      "critical_log_correction_oscillation": 0.9824579697037397,
+      "equal_per_event_relative_omission_bound_at_threshold": 0.014340371870847956,
+      "uniform_relative_selection_completion_bound_at_threshold": 0.014340371870847956,
+      "interpretation": "Sufficient outer-envelope ordering certificate is positive below this B. Failure of the certificate is not an observed physical reversal."
+    },
+    {
+      "policy": 0,
+      "lambda_shape": 16,
+      "full_median_difference_pp": 14.342023539497486,
+      "critical_log_correction_oscillation": 1.0937110048590462,
+      "equal_per_event_relative_omission_bound_at_threshold": 0.015977175788029693,
+      "uniform_relative_selection_completion_bound_at_threshold": 0.015977175788029693,
+      "interpretation": "Sufficient outer-envelope ordering certificate is positive below this B. Failure of the certificate is not an observed physical reversal."
+    }
+  ],
+  "completion_event": {
+    "index": 54,
+    "event": "GW191204_171526",
+    "rows": 206292,
+    "zero_negative_components": 6,
+    "scope": "An observed finite-bank zero, not a likelihood zero. eta is missing negative integral divided by the retained positive integral, not missing posterior probability."
+  },
+  "maximum_matched_infinite_completion_shift_pp": 8.02311270611265,
+  "known_omitted_o3_redshift_mass": 0.3340753057462445,
+  "tail_planning_direct_draws": 2127038,
+  "original_derivative_step_passed": false,
+  "derivative_failure_and_followup_preserved": true,
+  "file_sha256": {
+    "paired-o3-design.json": "d8a9d497b178b25234b7874b51a5d325425b9d494023e93d5f3cf29d7c7d491c",
+    "paired_o3.py": "4712834abea67fce6551e9cc210c2ced43b8792b3ae89e06a3e0d7757c848fce",
+    "paired-o3-results.json": "6cfd4a5ac37ce0d88e9c33a9507d4b916000861d12737e7f2bcc5da5662cc8f8",
+    "validate_paired_o3.py": "c77ee5b8649e9c860b5f0ef036f98ba7c90638ed12f5f33c11a888f85b1c6f5b",
+    "paired-o3-validation.json": "f26cbb561721a7da007b7f6b702d4865d001d575f24b39dd567d06fc7a2d562f",
+    "paired-pe-design.json": "e56697ee591afaf0a487d0e531867523193332f5594a51e7d13fb3855d4b6ff3",
+    "paired_pe.py": "f00de553e5cf4f03280e86d00a004f182f283857ec4e43b60297da56407955d7",
+    "paired-pe-results.json": "bee5864f9d3cf6289ebeeb7026342a998e7e86088ddbdb71e89ab942dd4fb3ea",
+    "validate_paired_pe.py": "149ddfcd0959171785d7e79a1386587c95c9c4393c1ae3437a16aa2195e86dee",
+    "paired-pe-validation.json": "b711924667080ea7164f79db21dffe3385996f3c96a8a04fedac81d94c9849f8",
+    "diagnose_pe_derivative.py": "ef5f6c084ed328792d4ade80decce0629c6b0d852cf86a047c4fb004cc729fa7",
+    "pe-derivative-diagnosis.json": "c9408a6e3cc9d7a0dedf57dfe873971f238a16ced6ed736b5e10bdb23e7faa7c",
+    "plot_finite_banks.py": "acea90a5d025280e934e715bc4d02c3ee8aa3e2232af67a21fcf7969a64caea2",
+    "finite-bank-comparison.svg": "6624aff60b8f8bc03b7fc4078de85b5ec6bf7db13a11a13c847f1e45adc678fb",
+    "support-design.json": "cfabd78ecbb1847d843c3037a61609bf5171be893a3f4e95f5374ba220e1be5b",
+    "support_sensitivity.py": "81bcd78ef6a6a8d4e8e4f142a625daa5d5a57bce1c5611013fcb5d72a944f73f",
+    "support-results.json": "0dc9e22c09c863a52641f83725d0968de6584cdb64c9579d1a3f26eedf36dfdc",
+    "validate_support.py": "dd406d1e8de3946a255f1b5fa49f4d9812dd3bb271cd30b4af16763a56859c4f",
+    "support-validation.json": "f7e95a0fe0adf1c82b44285e08431795bde4bd192d41e21c32d0a138a70f4e08",
+    "plot_support.py": "c4ea4d325e092e54a91aab0de9686d79938c48fafc0c79d0b86aa348e3639112",
+    "support-sensitivity.svg": "9b3ca2dbd74bcf3465e685ca5b8b3776268b0d2046453e4e81cbd673f78e7fbf",
+    "plan_tail_validation.py": "1082b110a3289eb0bd23bd2e5a8b04b0bc3f7d956fadcb552a5ebfbc94023963",
+    "tail-validation-plan.json": "19e1c5989362e62b172d3672dd852fb0324163fa2a46f0bae5c55bee7f20ede1",
+    "summarize_followup.py": "03d755cbff46bbcf28495dd5ddafaa180733685d79b00e3d83ab9631d5989c24"
+  },
+  "frozen_hashes": {
+    "results/model.json": "6dcf3c9f4fd51b2007977d131c61f69c7d861afb986551ea82b70a7667a51083",
+    "data/posteriors.npz": "3aec709780ac373e485682323c20cbe6ed0c14028c66b030bb73d848739489c4",
+    "data/injections.npz": "00ce46283aaf5c1e3df1a8b479a2f3c5bf904e4aef6aa0cf641f93df54bf7a13"
+  },
+  "event_integral_protocol": "dead47886999c73c133ac8b803251bc15934da57d0440066beffd568a3d65195",
+  "completed": [
+    "all69 paired O3/event/joint finite-bank experiment and independent validation",
+    "conditional log-shape envelopes, single-zero-event integral-completion family and independent numerical validation",
+    "known omitted O3 domain upper bound and unexecuted direct-draw resource plan",
+    "two scientific figures generated and visually checked; research documentation updated"
+  ],
+  "still_required": [
+    "actual missed-likelihood/selection evidence is not recovered by these conditional diagnostics",
+    "original tilt common reference and historical injection execution metadata remain unresolved",
+    "coherent bilingual LaTeX/PDF rewrite, workbench adaptation and publication/reproduction/license audit"
+  ],
+  "scope": "Conditional sensitivity results, not real-campaign/PE-chain coverage or formation-channel identification.",
+  "new_git_publication": false,
+  "manuscript_updated_to_this_milestone": false
+}

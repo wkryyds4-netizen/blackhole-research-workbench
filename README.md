@@ -4,13 +4,17 @@
 
 ## 研究论文与复现材料
 
-**[中文 LaTeX 论文 PDF（14页）](output/pdf/blackhole-population-robustness-latex-zh-v0.2.pdf)** · **[English LaTeX PDF (14 pages)](output/pdf/blackhole-population-robustness-latex-en-v0.2.pdf)**
+阶段快照（2026-10-25，研究按用户要求暂停）：[全69来源及后续诊断](research/population-catalog/README.md)已扩展到11180578原始先验后验行，完成O3/事件/联合成对抽稀及未见贡献的条件边界。下列v0.3论文/PDF已纳入这些结果；静态工作台已初步接入同一研究快照，旧81设置视图保留在历史折叠入口。界面尚未完成全部交互与响应式验证。续研所需证据与未完成事项见[研究路线](research/RESEARCH_ROADMAP.md)。
 
-[中文全文](research/paper/manuscript.zh.md) · [Full English text](research/paper/manuscript.en.md) · [双语构建与审阅](research/paper/README.md) · [English guide](research/paper/README.en.md) · [科学计算复现](research/REPRODUCING_POPULATION.md)
+**[中文 LaTeX 论文 PDF v0.3（14页）](output/pdf/blackhole-population-robustness-latex-zh-v0.3.pdf)** · **[English LaTeX PDF v0.3 (14 pages)](output/pdf/blackhole-population-robustness-latex-en-v0.3.pdf)**
+
+[中文 LaTeX 源码](research/paper/v0.3/latex-zh/main.tex) · [English LaTeX source](research/paper/v0.3/latex-en/main.tex) · [双语构建与审阅](research/paper/README.md) · [English guide](research/paper/README.en.md) · [科学计算复现](research/REPRODUCING_POPULATION.md)
 
 The full Chinese and English editions report the same conditional population diagnostics. Both include the methods, results, limitations, references, and reproduction appendix; neither is peer reviewed.
 
-研究稿 v0.2《公开双黑洞群体推断的条件稳健性》汇总69事件、81个条件设置、注入来源恢复和2048次成对经验重采样，包含公式、图表、文献对照及限制讨论。**未同行评审；本稿报告条件方法诊断，不声称测得形成渠道比例。** 源码、可分发场景、派生结果与论文共同公开；原始科学数据和大型模型按来源单独下载。
+研究稿v0.3《双黑洞群体推断的后验来源、有限银行稳定性与缺失支持》汇总完整来源恢复、两个六模型控制、512次成对人工抽稀及未见贡献的条件边界，含14个公式、5张矢量图、4张表和15条文献。**未同行评审；本稿报告条件诊断，不声称测得形成渠道比例或认证实际遗漏贡献。** 本次快照包含v0.3；原始科学数据和大型模型按来源单独下载。
+
+已公开的历史v0.2仍保留：[中文PDF](output/pdf/blackhole-population-robustness-latex-zh-v0.2.pdf)、[英文PDF](output/pdf/blackhole-population-robustness-latex-en-v0.2.pdf)、[中文Markdown](research/paper/manuscript.zh.md)、[English Markdown](research/paper/manuscript.en.md)。其中81设置、2048次经验重采样属于早期冻结研究，不能代替v0.3的全来源与成对抽稀结果。
 
 ## 快速体验：无需安装科学计算环境
 
@@ -25,7 +29,7 @@ python -m http.server 8765 --bind 127.0.0.1 --directory simulator/public
 - **通用场景**：单 Kerr/Schwarzschild 光学、通用轨迹接口与自旋方向；公开版含4份许可明确的SXS场景快照。
 - **波形比较**：0389与NRSur7dq4复h22对照、145个配置、PSD/频段/窗函数敏感性及JSON导出。
 - **对齐与动力学**：视界轨迹对齐敏感性、代理波形与旋转框架。
-- **群体稳健性**：69事件、81个固定假设组合、先验及选择效应诊断。
+- **群体稳健性**：69事件、12个条件模型、10项成对对比；区分可信区间、人工抽稀与假设边界，附来源哈希、中英PDF和快照导入/导出。旧81设置视图保留供历史对照。
 
 静态模式显示仓库中已保存的科研结果；根路径的交互波形计算需另启动 [Ripple后端](simulator/README.md)。WebGL2不可用时采用坐标视图。无需Git LFS。
 
@@ -60,7 +64,7 @@ npm test
 - [阶段四：先验恢复与条件替换](research/population-stage4/README.md)：重建504,649条教学先验数值，量化两个事件的样本替换效应，定位教学子集遗漏的高权重点。
 - [阶段五：原始先验样本与尾部检查](research/population-stage5/README.md)：恢复GW190805的169,040条原始先验样本；在指定低自旋检验点，使用匹配先验后，权重ESS从完整cosmo表示的30.17提高到998.36，最大单行贡献从15.86%降至1.04%。
 
-这些是v0.2之后的条件数值与来源诊断，**尚未并入中英论文/PDF或工作台的冻结结果**。更高ESS不证明PE采样已收敛；RIFT最终先验支持、跨事件自旋参考定义和注入采样设计仍待核验。原始HDF、NPZ及第三方文献快照单独下载，仓库提供脚本、来源校验值、派生摘要和SVG。
+上述历史阶段的后续全目录结果已纳入v0.3中英论文/PDF及新的工作台快照；v0.2冻结文件保持不变。更高ESS不证明PE采样已收敛；全局先验支持、共同自旋参考定义和注入执行协议仍有未完成核验。原始HDF、NPZ及第三方文献快照单独下载，仓库提供脚本、来源校验值、派生摘要和SVG。
 
 **English update (2026-10-25):** Stages three through five add event provenance,
 reconstruction of stored prior densities, and a single-event comparison of
@@ -68,7 +72,10 @@ original-prior and cosmologically reweighted posterior representations. At the
 specified low-spin test point, correctly matched prior division raises the
 importance-weight ESS from 30.17 to 998.36. This is a numerical representation
 diagnostic, not a posterior-convergence proof or a formation-channel measurement.
-The bilingual v0.2 papers and frozen workbench results remain unchanged. See the
+The bilingual v0.2 papers and historical workbench results remain unchanged.
+This snapshot also includes the separate bilingual v0.3 interim papers, the
+all-69-source follow-ups and an initial population-view adapter. Research is
+paused; physical identification and real-campaign coverage remain unresolved. See the
 [reproduction guide](research/REPRODUCING_POPULATION.md) for the ordered workflow.
 
 2026-10-24 科学研究阶段更新：[阶段一：共同先验与数值精度](research/population-stage1/README.md)及[阶段二：注入来源恢复与成对MC诊断](research/population-stage2/README.md)。现已逐行恢复41972条官方注入及保留规则，完成2048次共享样本的经验重采样，区分在该扰动下保持的模型差异与不稳定的低自旋压力案例。原始条件推断仍保留；这些诊断尚不构成形成渠道占比测量。

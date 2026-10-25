@@ -1,0 +1,128 @@
+{
+  "schema": "blackhole-o3-injection-source/1",
+  "source": {
+    "file": "endo3_bbhpop-LIGO-T2100113-v12.hdf5",
+    "url": "https://zenodo.org/api/records/7890437/files/endo3_bbhpop-LIGO-T2100113-v12.hdf5/content",
+    "bytes": 88842240,
+    "official_md5": "md5:dd6ba479ae01470320a3bdc68dbb3efc",
+    "sha256": "86e7e48116c75da586fd2b7dc4f059dfd135148f20523874ec7d89cdcd8993c5"
+  },
+  "combined_sha256": "81883c571a9fe0b30747c7bc9daca6d358fcd68ef375c7ace0b93aa9ea2e74fe",
+  "attributes": {
+    "N_exp/R(z=0)": 524.1837931943585,
+    "analysis_time_s": 28749576,
+    "end_time_s": 1269561618,
+    "max_mass1": 100.0,
+    "max_mass2": 100.0,
+    "max_redshift": 1.9,
+    "max_spin1": 0.998,
+    "max_spin2": 0.998,
+    "max_z": 1.9,
+    "min_mass1": 2.0,
+    "min_mass2": 2.0,
+    "n_accepted": 284672,
+    "n_rejected": 73672904,
+    "num_redshift_norm_grid_points": 1001,
+    "pow_mass1": -2.35,
+    "pow_mass2": 1.0,
+    "pow_z": 1.0,
+    "ref_mass1": 0.0,
+    "start_time_s": 1238166018,
+    "surveyed_VT_Gpc_yr": 242.25575747243002,
+    "total_generated": 73957576
+  },
+  "combined_attributes": {
+    "analysis_time_s": 63129577.0,
+    "n_accepted": 289620.0,
+    "total_generated": 73280198.73534885
+  },
+  "root_group_attributes_equal": true,
+  "full_accepted_rows": 284672,
+  "combined_o3_unique_matches": 128454,
+  "exact_shared_fields": {
+    "far_cwb": true,
+    "far_gstlal": true,
+    "far_mbta": true,
+    "far_pycbc_bbh": true,
+    "far_pycbc_hyperbank": true,
+    "ifar_cwb": true,
+    "ifar_gstlal": true,
+    "ifar_mbta": true,
+    "ifar_pycbc_bbh": true,
+    "ifar_pycbc_hyperbank": true,
+    "mass1_source": true,
+    "mass2_source": true,
+    "optimal_snr_net": true,
+    "pastro_cwb": true,
+    "pastro_gstlal": true,
+    "pastro_mbta": true,
+    "pastro_pycbc_bbh": true,
+    "pastro_pycbc_hyperbank": true,
+    "redshift": true,
+    "sampling_pdf": true,
+    "spin1x": true,
+    "spin1y": true,
+    "spin1z": true,
+    "spin2x": true,
+    "spin2y": true,
+    "spin2z": true
+  },
+  "mixture_weight_full_range": [
+    1.0,
+    1.0
+  ],
+  "mixture_weight_combined_o3_range": [
+    0.9999992049793384,
+    0.9999992049793384
+  ],
+  "full_detected_rows": 81117,
+  "run_ranges": {
+    "o1": {
+      "rows": 51194,
+      "detected_rows": 1623,
+      "redshift_range": [
+        0.008636879931134234,
+        2.405688302634872
+      ],
+      "detected_redshift_range": [
+        0.008636879931134234,
+        1.787488273778347
+      ],
+      "accepted_above_1p9": 85,
+      "detected_above_1p9": 0
+    },
+    "o2": {
+      "rows": 109972,
+      "detected_rows": 3881,
+      "redshift_range": [
+        0.0038963133442031328,
+        3.2344730014815033
+      ],
+      "detected_redshift_range": [
+        0.0038963133442031328,
+        2.982684110794755
+      ],
+      "accepted_above_1p9": 3642,
+      "detected_above_1p9": 2
+    },
+    "o3": {
+      "rows": 128454,
+      "detected_rows": 36468,
+      "redshift_range": [
+        0.0022750638891011477,
+        1.897531270980835
+      ],
+      "detected_redshift_range": [
+        0.0022750638891011477,
+        1.7621424198150635
+      ],
+      "accepted_above_1p9": 0,
+      "detected_above_1p9": 0
+    }
+  },
+  "retained_fraction": 0.45123510566546765,
+  "nominal_time_trial_fraction": 0.4512347469242354,
+  "candidate_reference_fields": [],
+  "cache_sha256": "2bae57e034428b424a634b5eebaf41f75a2cfd3be1e07ef3afe95cd49de90298",
+  "interpretation": "Exact subset identity, declared proposal bounds and trial/time metadata; not an IID or common-spin-reference certification."
+}

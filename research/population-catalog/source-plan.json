@@ -1,0 +1,1063 @@
+{
+  "schema": "blackhole-full-catalog-source-plan/1",
+  "model_sha256": "6dcf3c9f4fd51b2007977d131c61f69c7d861afb986551ea82b70a7667a51083",
+  "metadata": [
+    {
+      "path": "research/population-stage3/sources/zenodo-6513631.json",
+      "sha256": "78164b4a1e7eb5e2c9d04edeebe03843b5065cdd7da313d1b1174dcbe1de2baf"
+    },
+    {
+      "path": "research/population-stage3/sources/zenodo-5546663.json",
+      "sha256": "a93891c2d1aacee531b882f7c399f078ba79e6a48e67aace395e3158ab41f7cb"
+    }
+  ],
+  "events": [
+    {
+      "index": 0,
+      "event": "GW150914",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW150914_095045_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 286654048,
+        "md5": "md5:f0e0436739c6f667d4331b275de17e94",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW150914_095045_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1126259462.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 1,
+      "event": "GW151012",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW151012_095443_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 193445848,
+        "md5": "md5:a203b8dc36c049c62ae4ddf6a4a397cd",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW151012_095443_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1128678900.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 2,
+      "event": "GW151226",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW151226_033853_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 429949344,
+        "md5": "md5:5b04f5ecad7baeb653f737361a1d8a86",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW151226_033853_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1135136350.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5999999046325684
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 3,
+      "event": "GW170104",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW170104_101158_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 282381128,
+        "md5": "md5:7cb98cdff8c08f33c7b3c90f7880db37",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW170104_101158_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1167559936.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5999999046325684
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 4,
+      "event": "GW170608",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW170608_020116_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 383121794,
+        "md5": "md5:ee94ab244525300b7899f9b158365cd5",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW170608_020116_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1180922494.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 5,
+      "event": "GW170729",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW170729_185629_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 338348008,
+        "md5": "md5:47f525263d23560730ad138be24515d4",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW170729_185629_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1185389807.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 6,
+      "event": "GW170809",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW170809_082821_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 347005608,
+        "md5": "md5:1a3707cc6bc098628e706345b0ea74ed",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW170809_082821_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1186302519.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 7,
+      "event": "GW170814",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW170814_103043_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 508009968,
+        "md5": "md5:75d3fcf027f903f5fe294651436d26bf",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW170814_103043_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1186741861.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 8,
+      "event": "GW170818",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW170818_022509_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 472748744,
+        "md5": "md5:64270ab914aa7016445860647f2f4327",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW170818_022509_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1187058327.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 9,
+      "event": "GW170823",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW170823_131358_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 215129920,
+        "md5": "md5:9780d34748f383bc4bb8abd90e74e191",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW170823_131358_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1187529256.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 10,
+      "event": "GW190408_181802",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190408_181802_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 401689304,
+        "md5": "md5:11b0382c160c230c868c1ba255227dc3",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190408_181802_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1238782700.0,
+        "filename_to_catalog_gps_abs_seconds": 0.20000004768371582
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 11,
+      "event": "GW190412",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190412_053044_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 582255088,
+        "md5": "md5:58c9df829fa82a5936b7f0d81d58b4b6",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190412_053044_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1239082262.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 12,
+      "event": "GW190413_052954",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190413_052954_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 505072696,
+        "md5": "md5:92a9083801aefa4345605865573f901a",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190413_052954_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1239168612.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 13,
+      "event": "GW190413_134308",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190413_134308_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 534181368,
+        "md5": "md5:d8d625ac884e31d2afa67e7185ea60c0",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190413_134308_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1239198206.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7000000476837158
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 14,
+      "event": "GW190421_213856",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190421_213856_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 335148848,
+        "md5": "md5:41a4492e3b7e194c4ab4d24b20f90959",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190421_213856_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1239917954.0,
+        "filename_to_catalog_gps_abs_seconds": 0.20000004768371582
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 16,
+      "event": "GW190503_185404",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190503_185404_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 479157080,
+        "md5": "md5:04c02e20e3cfced6d9e5f4bdc85165c4",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190503_185404_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1240944862.0,
+        "filename_to_catalog_gps_abs_seconds": 0.20000004768371582
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 17,
+      "event": "GW190512_180714",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190512_180714_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 414807752,
+        "md5": "md5:7d0f539ce60ba3d98d3b1b932fbe6c03",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190512_180714_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1241719652.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 18,
+      "event": "GW190513_205428",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190513_205428_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 414416128,
+        "md5": "md5:6906da3e20fdbd390ee8564a554c502a",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190513_205428_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1241816086.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7000000476837158
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 19,
+      "event": "GW190517_055101",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 463354360,
+        "md5": "md5:fa713aa8cdf4467c3c4b9af46fc6a6b7",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1242107479.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 20,
+      "event": "GW190519_153544",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 291538272,
+        "md5": "md5:ce75a83120e850bd145c9a080c4e33c3",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1242315362.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 21,
+      "event": "GW190521",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190521_030229_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 261950056,
+        "md5": "md5:e9400820a6ab597836997f044c543902",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190521_030229_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1242442967.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": [
+        {
+          "record": 6513631,
+          "file": "IGWN-GWTC2p1-v2-GW190521_074359_PEDataRelease_mixed_nocosmo.h5",
+          "bytes": 298772256,
+          "md5": "md5:7e2dbc147e4c8ab211aa1393586e4f9e",
+          "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190521_074359_PEDataRelease_mixed_nocosmo.h5/content",
+          "filename_gps": 1242459857.0,
+          "filename_to_catalog_gps_abs_seconds": 16889.599999904633
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "event": "GW190521_074359",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190521_074359_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 298772256,
+        "md5": "md5:7e2dbc147e4c8ab211aa1393586e4f9e",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190521_074359_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1242459857.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 23,
+      "event": "GW190527_092055",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190527_092055_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 215194984,
+        "md5": "md5:281c151f07e20bfbf61b1e7a7fbb268e",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190527_092055_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1242984073.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7000000476837158
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 24,
+      "event": "GW190602_175927",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190602_175927_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 459003128,
+        "md5": "md5:43ac5177a01862b79e134878e62d3c6e",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190602_175927_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1243533585.0,
+        "filename_to_catalog_gps_abs_seconds": 0.0
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 25,
+      "event": "GW190620_030421",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 203410640,
+        "md5": "md5:33f25110b7086a386e5a3f4238462131",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1245035079.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 26,
+      "event": "GW190630_185205",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190630_185205_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 266085488,
+        "md5": "md5:de53f530f9d6bbcbab7903fc1462c1fd",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190630_185205_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1245955943.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 27,
+      "event": "GW190701_203306",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190701_203306_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 473988264,
+        "md5": "md5:71b64a3796a8853a78fa60e0376fc03a",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190701_203306_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1246048404.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 28,
+      "event": "GW190706_222641",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190706_222641_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 241253536,
+        "md5": "md5:41698cc98b3a7764015b41a893eb908e",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190706_222641_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1246487219.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 29,
+      "event": "GW190707_093326",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190707_093326_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 434447216,
+        "md5": "md5:d9fbb93c21bde485cd26f38190e24ad3",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190707_093326_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1246527224.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 30,
+      "event": "GW190708_232457",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190708_232457_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 136575920,
+        "md5": "md5:2064a34c15ce2a983e3ff2ff64622963",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190708_232457_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1246663515.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 31,
+      "event": "GW190719_215514",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 347669360,
+        "md5": "md5:80fa386bd7ffd29550b90de830056ba5",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190719_215514_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1247608532.0,
+        "filename_to_catalog_gps_abs_seconds": 0.9000000953674316
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 32,
+      "event": "GW190720_000836",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190720_000836_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 396827944,
+        "md5": "md5:344c8870a0bf71f35f69d617117a1765",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190720_000836_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1247616534.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7000000476837158
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 33,
+      "event": "GW190725_174728",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190725_174728_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 443661936,
+        "md5": "md5:05b60e342b3f85372b469d3f7fd4a07e",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190725_174728_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1248112066.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 34,
+      "event": "GW190727_060333",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190727_060333_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 463951368,
+        "md5": "md5:d7dc060eea8c0b86e1ce00983e740057",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190727_060333_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1248242631.0,
+        "filename_to_catalog_gps_abs_seconds": 0.9000000953674316
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 35,
+      "event": "GW190728_064510",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190728_064510_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 250414568,
+        "md5": "md5:388c744e2b1b6b4784756f4b3aaed528",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190728_064510_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1248331528.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 36,
+      "event": "GW190731_140936",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190731_140936_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 175992008,
+        "md5": "md5:7dd8a067bd02a04487060fc639fb7f27",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190731_140936_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1248617394.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5999999046325684
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 37,
+      "event": "GW190803_022701",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190803_022701_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 311057592,
+        "md5": "md5:5d001778a679b1a8f2c608b7abbebe38",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190803_022701_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1248834439.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 38,
+      "event": "GW190805_211137",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190805_211137_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 335235368,
+        "md5": "md5:48f54be02ce96a88289f9b993f6f169b",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190805_211137_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1249074715.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 40,
+      "event": "GW190828_063405",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190828_063405_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 407659576,
+        "md5": "md5:91bca9807b25fd563ea15d4fd29a9131",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190828_063405_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1251009263.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7000000476837158
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 41,
+      "event": "GW190828_065509",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190828_065509_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 531303360,
+        "md5": "md5:8a78deb714c9271d63c9f87d2f62301e",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190828_065509_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1251010527.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 42,
+      "event": "GW190910_112807",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190910_112807_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 217312056,
+        "md5": "md5:b94149ed8b1636385a45f2282c3f9671",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190910_112807_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1252150105.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 43,
+      "event": "GW190915_235702",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190915_235702_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 299057072,
+        "md5": "md5:a1b4d4257abbd9ac861fdc76d349c4c8",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190915_235702_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1252627040.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5999999046325684
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 44,
+      "event": "GW190924_021846",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190924_021846_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 155935416,
+        "md5": "md5:26488231313495909354b1886199c60f",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190924_021846_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1253326744.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 45,
+      "event": "GW190925_232845",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190925_232845_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 278544624,
+        "md5": "md5:9e03629caab8e2f44ebaf61e99724184",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190925_232845_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1253489343.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 46,
+      "event": "GW190929_012149",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190929_012149_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 435633976,
+        "md5": "md5:1b66d842281c4b516faaf23455dbae2b",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190929_012149_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1253755327.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 47,
+      "event": "GW190930_133541",
+      "source": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190930_133541_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 212608488,
+        "md5": "md5:9ee67863c5b60adf1288ede818a1cc01",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190930_133541_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1253885759.0,
+        "filename_to_catalog_gps_abs_seconds": 0.20000004768371582
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 48,
+      "event": "GW191103_012549",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191103_012549_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 248120424,
+        "md5": "md5:90887970aeb4c7bc93d0cd0f1a346057",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191103_012549_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1256779567.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 49,
+      "event": "GW191105_143521",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191105_143521_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 284197984,
+        "md5": "md5:0ebaf82e48973debbea105ab43b78521",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191105_143521_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1256999739.0,
+        "filename_to_catalog_gps_abs_seconds": 0.9000000953674316
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 50,
+      "event": "GW191109_010717",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 374495928,
+        "md5": "md5:343f3af272edbbd922630ecc5b982d00",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1257296855.0,
+        "filename_to_catalog_gps_abs_seconds": 0.20000004768371582
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 51,
+      "event": "GW191127_050227",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191127_050227_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 325785440,
+        "md5": "md5:0b143299cbc7e342e5939c13f95139d6",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191127_050227_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1258866165.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 52,
+      "event": "GW191129_134029",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191129_134029_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 243159584,
+        "md5": "md5:34262e8d33473fb787754814c9f3b2e0",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191129_134029_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1259070047.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 54,
+      "event": "GW191204_171526",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191204_171526_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 313245696,
+        "md5": "md5:0a9c4f67d2c3c2517140867f57e3bd07",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191204_171526_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1259514944.0,
+        "filename_to_catalog_gps_abs_seconds": 0.0
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 55,
+      "event": "GW191215_223052",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191215_223052_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 103076656,
+        "md5": "md5:7c1eabbb7c9f9b1e754d10425cc1e8ba",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191215_223052_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1260484270.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 56,
+      "event": "GW191216_213338",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191216_213338_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 428606792,
+        "md5": "md5:998266ba58a3448338c6b05971430b41",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191216_213338_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1260567236.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 57,
+      "event": "GW191222_033537",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191222_033537_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 216302344,
+        "md5": "md5:95ddf363e33e973b99b7f93b71229884",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191222_033537_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1261020955.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 58,
+      "event": "GW191230_180458",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191230_180458_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 256902680,
+        "md5": "md5:df72de7075b899a06540027d6258675d",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191230_180458_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1261764316.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 59,
+      "event": "GW200112_155838",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200112_155838_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 197197128,
+        "md5": "md5:96924b21ef7ff8e2f9ee7645c88ca637",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200112_155838_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1262879936.0,
+        "filename_to_catalog_gps_abs_seconds": 0.0
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 60,
+      "event": "GW200128_022011",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200128_022011_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 201491656,
+        "md5": "md5:ce68f2dd46592e6654a3b0c861a538b4",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200128_022011_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1264213229.0,
+        "filename_to_catalog_gps_abs_seconds": 0.9000000953674316
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 61,
+      "event": "GW200129_065458",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200129_065458_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 414195464,
+        "md5": "md5:e29920dae6df1d13a3e65c83e66a4feb",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200129_065458_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1264316116.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 62,
+      "event": "GW200202_154313",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200202_154313_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 339197504,
+        "md5": "md5:fc0a605f4803c22fb36fc62f5b448251",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200202_154313_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1264693411.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 63,
+      "event": "GW200208_130117",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200208_130117_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 386074584,
+        "md5": "md5:efae9235908db565c1fb96d6e38c8cab",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200208_130117_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1265202095.0,
+        "filename_to_catalog_gps_abs_seconds": 0.9000000953674316
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 65,
+      "event": "GW200209_085452",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200209_085452_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 313678928,
+        "md5": "md5:7982f3cce5815962c722c27f1dad9b46",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200209_085452_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1265273710.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 66,
+      "event": "GW200216_220804",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200216_220804_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 250590376,
+        "md5": "md5:c547a85c7433efcfc9d515440174400f",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200216_220804_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1265926102.0,
+        "filename_to_catalog_gps_abs_seconds": 0.7999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 67,
+      "event": "GW200219_094415",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200219_094415_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 382591480,
+        "md5": "md5:16e2414d681ebc8debed4673bea7c241",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200219_094415_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1266140673.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 68,
+      "event": "GW200224_222234",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200224_222234_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 524909792,
+        "md5": "md5:01a5a907581d5ea1aeea61135fb7fa87",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200224_222234_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1266618172.0,
+        "filename_to_catalog_gps_abs_seconds": 0.40000009536743164
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 69,
+      "event": "GW200225_060421",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200225_060421_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 298240616,
+        "md5": "md5:b9d4ecff4ffc0b2fc86121a249cb473d",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200225_060421_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1266645879.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 70,
+      "event": "GW200302_015811",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200302_015811_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 164253192,
+        "md5": "md5:27806ca85edb96bad0d1515a82ca3016",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200302_015811_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1267149509.0,
+        "filename_to_catalog_gps_abs_seconds": 0.5
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 71,
+      "event": "GW200311_115853",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200311_115853_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 513526576,
+        "md5": "md5:fcb940c9c6becd7e58fe8cfe4d4a47a0",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200311_115853_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1267963151.0,
+        "filename_to_catalog_gps_abs_seconds": 0.2999999523162842
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    },
+    {
+      "index": 72,
+      "event": "GW200316_215756",
+      "source": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW200316_215756_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 643179072,
+        "md5": "md5:a4cf7b528e33502dd09ba84183912527",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW200316_215756_PEDataRelease_mixed_nocosmo.h5/content",
+        "filename_gps": 1268431094.0,
+        "filename_to_catalog_gps_abs_seconds": 0.09999990463256836
+      },
+      "status": "Filename/time-resolved candidate; tutorial PE label and exact row identity must be checked separately.",
+      "rejected_alternatives": []
+    }
+  ],
+  "total_full_file_bytes": 23554981402,
+  "scope": "Only a fixed source plan. Metadata presence, prior support and tutorial source identity are not established by filenames."
+}

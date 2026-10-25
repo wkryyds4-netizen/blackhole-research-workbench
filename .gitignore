@@ -60,6 +60,21 @@ research/population-stage3/source-data/
 research/population-stage4/sources/*
 !research/population-stage4/sources/manifest.json
 research/population-stage5/source-data/
+research/population-stage7/source-data/
+research/population-catalog/source-data/
+research/population-catalog/.http-cache/
+research/population-catalog/metadata-before-parallel.json
+research/population-catalog/processing.lock
+research/population-catalog/processing-status.json
+research/population-catalog/historical-defaults-checkpoint.json
+research/population-catalog/sources/*
+!research/population-catalog/sources/manifest.json
+research/population-selection-audit/sources/*
+!research/population-selection-audit/sources/manifest.json
+research/population-reference/sources/*
+!research/population-reference/sources/manifest.json
+research/population-reference/vendor/
+research/population-reference/.venv/
 research/population-stage5/sources/*
 !research/population-stage5/sources/manifest.json
 # Local TeX compilation products; distributable PDFs live in output/pdf/.
@@ -70,3 +85,13 @@ research/paper/latex-*/*.fls
 research/paper/latex-*/*.fdb_latexmk
 research/paper/latex-*/*.synctex.gz
 research/paper/latex-*/compile-console.txt
+# Versioned manuscript projects keep sources and figure PDFs, not local logs.
+research/paper/v0.3/latex-*/main.pdf
+research/paper/v0.3/latex-*/*.aux
+research/paper/v0.3/latex-*/*.out
+research/paper/v0.3/latex-*/*.log
+research/paper/v0.3/latex-*/*.fls
+research/paper/v0.3/latex-*/*.fdb_latexmk
+research/paper/v0.3/latex-*/*.synctex.gz
+research/paper/v0.3/latex-*/*.xdv
+research/paper/v0.3/latex-*/compile-console.txt

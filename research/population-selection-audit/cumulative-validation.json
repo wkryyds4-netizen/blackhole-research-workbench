@@ -1,0 +1,14 @@
+{
+  "schema": "blackhole-cumulative-independent-validation/1",
+  "source_sha256": "89f912ba2e207f56455df9628d4b3fab76cd8d7924ea7f1263a16119bce1ab31",
+  "direct_cartesian_selection_relative_errors": {
+    "cumulative_optimal": 4.929390229335695e-14,
+    "cumulative_observed": 4.907185768843192e-14
+  },
+  "direct_product_quantile_errors": {
+    "cumulative_optimal": 9.325873406851315e-15,
+    "cumulative_observed": 8.770761894538737e-15
+  },
+  "shared_inputs": "Fixed event means, common r grid and Planck15 cosmology interpolation table. Density/Jacobian formula and likelihood product independently implemented.",
+  "not_tested": "Astrophysical adequacy, source campaign sampling design, hidden support and common spin reference."
+}

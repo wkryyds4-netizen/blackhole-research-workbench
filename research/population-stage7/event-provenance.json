@@ -1,0 +1,754 @@
+[
+  {
+    "index": 19,
+    "event": "GW190517_055101",
+    "analysis_label": "C01:IMRPhenomXPHM",
+    "labels": [
+      {
+        "label": "C01:IMRPhenomXPHM",
+        "matches": 6913,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 61249,
+        "unique_right_rows": 61249
+      },
+      {
+        "label": "C01:Mixed",
+        "matches": 425,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 15688,
+        "unique_right_rows": 15688
+      },
+      {
+        "label": "C01:SEOBNRv4PHM",
+        "matches": 0,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 7408,
+        "unique_right_rows": 7408
+      }
+    ],
+    "tutorial_rows": 6913,
+    "cosmo_rows": 61249,
+    "nocosmo_rows": 161299,
+    "cosmo_to_nocosmo": {
+      "matches": 61249,
+      "ambiguous": 0,
+      "left_rows": 61249,
+      "right_rows": 161299,
+      "unique_right_rows": 161299
+    },
+    "unique_tutorial_source_rows": 6913,
+    "unique_cosmo_source_rows": 61249,
+    "config_reference_frequency": [
+      "20.0"
+    ],
+    "exact_shared_fields": {
+      "mass_1_source": true,
+      "mass_ratio": true,
+      "redshift": true,
+      "a_1": true,
+      "a_2": true,
+      "cos_tilt_1": true,
+      "cos_tilt_2": true,
+      "luminosity_distance": true,
+      "mass_1": true,
+      "mass_2": true,
+      "chirp_mass": true,
+      "log_likelihood": true
+    },
+    "all_tutorial_rows_exact_in_both": true,
+    "config_equal": true,
+    "prior_strings_equal": true,
+    "metadata": {
+      "approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "meta_data/meta_data/f_ref": [
+        20.0
+      ],
+      "meta_data/meta_data/cosmology": [
+        "Planck15_lal"
+      ]
+    },
+    "prior_audit": {
+      "analytic_strings": {
+        "chirp_mass": [
+          "UniformInComponentsChirpMass(minimum=20.86334391421937, maximum=55.87431108202617, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_{\\\\odot}$', boundary=None)"
+        ],
+        "mass_ratio": [
+          "UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)"
+        ],
+        "mass_1": [
+          "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+        ],
+        "mass_2": [
+          "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+        ],
+        "luminosity_distance": [
+          "PowerLaw(alpha=2, minimum=100, maximum=10000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+        ],
+        "a_1": [
+          "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+        ],
+        "a_2": [
+          "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+        ],
+        "tilt_1": [
+          "Sine(name='tilt_1', latex_label='$\\\\theta_1$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ],
+        "tilt_2": [
+          "Sine(name='tilt_2', latex_label='$\\\\theta_2$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ]
+      },
+      "shape_checks": {
+        "chirp_mass": true,
+        "mass_ratio": true,
+        "luminosity_distance": true,
+        "a_1": true,
+        "a_2": true,
+        "tilt_1": true,
+        "tilt_2": true,
+        "isotropic_full_tilt_support": true
+      },
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 20.86334391421937,
+          "maximum": 55.87431108202617
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "luminosity_distance": {
+          "minimum": 100.0,
+          "maximum": 10000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "retained_row_bound_violations": {
+        "chirp_mass": 0,
+        "mass_ratio": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "support_scope": "Analytic file declarations and retained rows only; not proof of absent likelihood tails or all historic constraints."
+    },
+    "sources": {
+      "cosmo": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_cosmo.h5",
+        "bytes": 75609885,
+        "md5": "md5:129a4483dd30718158494c76fcece549",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_cosmo.h5/content",
+        "event": "GW190517_055101",
+        "index": 19,
+        "sha256": "80b147503eea4db0916eb7f5a60f3258fb3ec14fff30e3e93068dff4024fc1bc"
+      },
+      "nocosmo": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 463354360,
+        "md5": "md5:fa713aa8cdf4467c3c4b9af46fc6a6b7",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_nocosmo.h5/content",
+        "event": "GW190517_055101",
+        "index": 19,
+        "sha256": "e7be975d101dd94ccb520bfa2cac7151fdc659a3c9806b85dfaeee90dc4e659d"
+      }
+    },
+    "cache_sha256": "374bd2893efdd61ba2c1753c0c74564034761f5b9df30ab92ad9f338123b3afa"
+  },
+  {
+    "index": 20,
+    "event": "GW190519_153544",
+    "analysis_label": "C01:IMRPhenomXPHM",
+    "labels": [
+      {
+        "label": "C01:IMRPhenomXPHM",
+        "matches": 6913,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 42168,
+        "unique_right_rows": 42168
+      },
+      {
+        "label": "C01:Mixed",
+        "matches": 296,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 11339,
+        "unique_right_rows": 11339
+      },
+      {
+        "label": "C01:SEOBNRv4PHM",
+        "matches": 0,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 6204,
+        "unique_right_rows": 6204
+      }
+    ],
+    "tutorial_rows": 6913,
+    "cosmo_rows": 42168,
+    "nocosmo_rows": 150207,
+    "cosmo_to_nocosmo": {
+      "matches": 42168,
+      "ambiguous": 0,
+      "left_rows": 42168,
+      "right_rows": 150207,
+      "unique_right_rows": 150207
+    },
+    "unique_tutorial_source_rows": 6913,
+    "unique_cosmo_source_rows": 42168,
+    "config_reference_frequency": [
+      "10"
+    ],
+    "exact_shared_fields": {
+      "mass_1_source": true,
+      "mass_ratio": true,
+      "redshift": true,
+      "a_1": true,
+      "a_2": true,
+      "cos_tilt_1": true,
+      "cos_tilt_2": true,
+      "luminosity_distance": true,
+      "mass_1": true,
+      "mass_2": true,
+      "chirp_mass": true,
+      "log_likelihood": true
+    },
+    "all_tutorial_rows_exact_in_both": true,
+    "config_equal": true,
+    "prior_strings_equal": true,
+    "metadata": {
+      "approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "meta_data/meta_data/f_ref": [
+        10.0
+      ],
+      "meta_data/meta_data/cosmology": [
+        "Planck15_lal"
+      ]
+    },
+    "prior_audit": {
+      "analytic_strings": {
+        "chirp_mass": [
+          "UniformInComponentsChirpMass(minimum=36.008499230478826, maximum=101.1090474503333, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_{\\\\odot}$', boundary=None)"
+        ],
+        "mass_ratio": [
+          "UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)"
+        ],
+        "mass_1": [
+          "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+        ],
+        "mass_2": [
+          "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+        ],
+        "luminosity_distance": [
+          "PowerLaw(alpha=2, minimum=10, maximum=10000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+        ],
+        "a_1": [
+          "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+        ],
+        "a_2": [
+          "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+        ],
+        "tilt_1": [
+          "Sine(name='tilt_1', latex_label='$\\\\theta_1$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ],
+        "tilt_2": [
+          "Sine(name='tilt_2', latex_label='$\\\\theta_2$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ]
+      },
+      "shape_checks": {
+        "chirp_mass": true,
+        "mass_ratio": true,
+        "luminosity_distance": true,
+        "a_1": true,
+        "a_2": true,
+        "tilt_1": true,
+        "tilt_2": true,
+        "isotropic_full_tilt_support": true
+      },
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 36.008499230478826,
+          "maximum": 101.1090474503333
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "luminosity_distance": {
+          "minimum": 10.0,
+          "maximum": 10000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "retained_row_bound_violations": {
+        "chirp_mass": 0,
+        "mass_ratio": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "support_scope": "Analytic file declarations and retained rows only; not proof of absent likelihood tails or all historic constraints."
+    },
+    "sources": {
+      "cosmo": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_cosmo.h5",
+        "bytes": 54066987,
+        "md5": "md5:11bd2027d08efa5f5070327f54451053",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_cosmo.h5/content",
+        "event": "GW190519_153544",
+        "index": 20,
+        "sha256": "f91c002bf821b1614446628bd00b866c7b99f0a848043edf81114f57756e4315"
+      },
+      "nocosmo": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 291538272,
+        "md5": "md5:ce75a83120e850bd145c9a080c4e33c3",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5/content",
+        "event": "GW190519_153544",
+        "index": 20,
+        "sha256": "a5b26ece547cce96f0ed8802c756af0454ed89632cc82c6875f383d714f5f908"
+      }
+    },
+    "cache_sha256": "58dafeb92b4e7372b37c6a66d253ceca62d8d17aa1a9aff361e923b1032ace82"
+  },
+  {
+    "index": 25,
+    "event": "GW190620_030421",
+    "analysis_label": "C01:IMRPhenomXPHM",
+    "labels": [
+      {
+        "label": "C01:IMRPhenomXPHM",
+        "matches": 6913,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 32655,
+        "unique_right_rows": 32655
+      },
+      {
+        "label": "C01:Mixed",
+        "matches": 229,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 8895,
+        "unique_right_rows": 8895
+      },
+      {
+        "label": "C01:SEOBNRv4PHM",
+        "matches": 0,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 4727,
+        "unique_right_rows": 4727
+      }
+    ],
+    "tutorial_rows": 6913,
+    "cosmo_rows": 32655,
+    "nocosmo_rows": 152410,
+    "cosmo_to_nocosmo": {
+      "matches": 32655,
+      "ambiguous": 0,
+      "left_rows": 32655,
+      "right_rows": 152410,
+      "unique_right_rows": 152410
+    },
+    "unique_tutorial_source_rows": 6913,
+    "unique_cosmo_source_rows": 32655,
+    "config_reference_frequency": [
+      "10"
+    ],
+    "exact_shared_fields": {
+      "mass_1_source": true,
+      "mass_ratio": true,
+      "redshift": true,
+      "a_1": true,
+      "a_2": true,
+      "cos_tilt_1": true,
+      "cos_tilt_2": true,
+      "luminosity_distance": true,
+      "mass_1": true,
+      "mass_2": true,
+      "chirp_mass": true,
+      "log_likelihood": true
+    },
+    "all_tutorial_rows_exact_in_both": true,
+    "config_equal": true,
+    "prior_strings_equal": true,
+    "metadata": {
+      "approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "meta_data/meta_data/f_ref": [
+        10.0
+      ],
+      "meta_data/meta_data/cosmology": [
+        "Planck15_lal"
+      ]
+    },
+    "prior_audit": {
+      "analytic_strings": {
+        "chirp_mass": [
+          "UniformInComponentsChirpMass(minimum=28.35822387353086, maximum=96.06738729730228, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_{\\\\odot}$', boundary=None)"
+        ],
+        "mass_ratio": [
+          "UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)"
+        ],
+        "mass_1": [
+          "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+        ],
+        "mass_2": [
+          "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+        ],
+        "luminosity_distance": [
+          "PowerLaw(alpha=2, minimum=10, maximum=10000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+        ],
+        "a_1": [
+          "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+        ],
+        "a_2": [
+          "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+        ],
+        "tilt_1": [
+          "Sine(name='tilt_1', latex_label='$\\\\theta_1$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ],
+        "tilt_2": [
+          "Sine(name='tilt_2', latex_label='$\\\\theta_2$', unit=None, minimum=0, maximum=3.141592653589793, boundary=None)"
+        ]
+      },
+      "shape_checks": {
+        "chirp_mass": true,
+        "mass_ratio": true,
+        "luminosity_distance": true,
+        "a_1": true,
+        "a_2": true,
+        "tilt_1": true,
+        "tilt_2": true,
+        "isotropic_full_tilt_support": true
+      },
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 28.35822387353086,
+          "maximum": 96.06738729730228
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "luminosity_distance": {
+          "minimum": 10.0,
+          "maximum": 10000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "retained_row_bound_violations": {
+        "chirp_mass": 0,
+        "mass_ratio": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "support_scope": "Analytic file declarations and retained rows only; not proof of absent likelihood tails or all historic constraints."
+    },
+    "sources": {
+      "cosmo": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_cosmo.h5",
+        "bytes": 36306568,
+        "md5": "md5:1ecd1dc4bfa7ea19b8c3f77049bb6dc9",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_cosmo.h5/content",
+        "event": "GW190620_030421",
+        "index": 25,
+        "sha256": "0cc954ea3be9a01e40e5f0d78e06f7d0bfad1b4e411046a3005cb30061c18827"
+      },
+      "nocosmo": {
+        "record": 6513631,
+        "file": "IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 203410640,
+        "md5": "md5:33f25110b7086a386e5a3f4238462131",
+        "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_nocosmo.h5/content",
+        "event": "GW190620_030421",
+        "index": 25,
+        "sha256": "61e81232d4eb8010ce58720d1dfa0e1abae3308a8bd61d131c9ad18ce37293f4"
+      }
+    },
+    "cache_sha256": "41212b356724a06f1fedd9d9b501abfcad818c04e8c46125211c5bc1a5b8adc3"
+  },
+  {
+    "index": 50,
+    "event": "GW191109_010717",
+    "analysis_label": "C01:IMRPhenomXPHM",
+    "labels": [
+      {
+        "label": "C01:IMRPhenomXPHM",
+        "matches": 6913,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 109061,
+        "unique_right_rows": 109061
+      },
+      {
+        "label": "C01:Mixed",
+        "matches": 510,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 32415,
+        "unique_right_rows": 32415
+      },
+      {
+        "label": "C01:SEOBNRv4PHM",
+        "matches": 0,
+        "ambiguous": 0,
+        "left_rows": 6913,
+        "right_rows": 15153,
+        "unique_right_rows": 15153
+      }
+    ],
+    "tutorial_rows": 6913,
+    "cosmo_rows": 109061,
+    "nocosmo_rows": 270070,
+    "cosmo_to_nocosmo": {
+      "matches": 109061,
+      "ambiguous": 0,
+      "left_rows": 109061,
+      "right_rows": 270070,
+      "unique_right_rows": 270070
+    },
+    "unique_tutorial_source_rows": 6913,
+    "unique_cosmo_source_rows": 109061,
+    "config_reference_frequency": [
+      "20.0"
+    ],
+    "exact_shared_fields": {
+      "mass_1_source": true,
+      "mass_ratio": true,
+      "redshift": true,
+      "a_1": true,
+      "a_2": true,
+      "cos_tilt_1": true,
+      "cos_tilt_2": true,
+      "luminosity_distance": true,
+      "mass_1": true,
+      "mass_2": true,
+      "chirp_mass": true,
+      "log_likelihood": true
+    },
+    "all_tutorial_rows_exact_in_both": true,
+    "config_equal": true,
+    "prior_strings_equal": true,
+    "metadata": {
+      "approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "meta_data/meta_data/f_ref": [
+        20.0
+      ],
+      "meta_data/meta_data/cosmology": [
+        "Planck15_lal"
+      ]
+    },
+    "prior_audit": {
+      "analytic_strings": {
+        "chirp_mass": [
+          "UniformInComponentsChirpMass(minimum=26.700411297080883, maximum=96.67976382167427, name='chirp_mass', latex_label='$\\\\mathcal{M}$', unit='$M_{\\\\odot}$', boundary=None)"
+        ],
+        "mass_ratio": [
+          "UniformInComponentsMassRatio(minimum=0.05, maximum=1.0, name='mass_ratio', latex_label='$q$', unit=None, boundary=None)"
+        ],
+        "mass_1": [
+          "Constraint(minimum=1, maximum=1000, name='mass_1', latex_label='$m_1$', unit=None)"
+        ],
+        "mass_2": [
+          "Constraint(minimum=1, maximum=1000, name='mass_2', latex_label='$m_2$', unit=None)"
+        ],
+        "luminosity_distance": [
+          "PowerLaw(alpha=2, minimum=100, maximum=10000, name='luminosity_distance', latex_label='$d_L$', unit='Mpc', boundary=None)"
+        ],
+        "a_1": [
+          "Uniform(minimum=0, maximum=0.99, name='a_1', latex_label='$a_1$', unit=None, boundary=None)"
+        ],
+        "a_2": [
+          "Uniform(minimum=0, maximum=0.99, name='a_2', latex_label='$a_2$', unit=None, boundary=None)"
+        ],
+        "tilt_1": [
+          "Sine(minimum=0, maximum=3.141592653589793, name='tilt_1', latex_label='$\\\\theta_1$', unit=None, boundary=None)"
+        ],
+        "tilt_2": [
+          "Sine(minimum=0, maximum=3.141592653589793, name='tilt_2', latex_label='$\\\\theta_2$', unit=None, boundary=None)"
+        ]
+      },
+      "shape_checks": {
+        "chirp_mass": true,
+        "mass_ratio": true,
+        "luminosity_distance": true,
+        "a_1": true,
+        "a_2": true,
+        "tilt_1": true,
+        "tilt_2": true,
+        "isotropic_full_tilt_support": true
+      },
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 26.700411297080883,
+          "maximum": 96.67976382167427
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "luminosity_distance": {
+          "minimum": 100.0,
+          "maximum": 10000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "retained_row_bound_violations": {
+        "chirp_mass": 0,
+        "mass_ratio": 0,
+        "mass_1": 0,
+        "mass_2": 0,
+        "luminosity_distance": 0,
+        "a_1": 0,
+        "a_2": 0,
+        "tilt_1": 0,
+        "tilt_2": 0
+      },
+      "support_scope": "Analytic file declarations and retained rows only; not proof of absent likelihood tails or all historic constraints."
+    },
+    "sources": {
+      "cosmo": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_cosmo.h5",
+        "bytes": 159770320,
+        "md5": "md5:20926725dba7cd85cb9addba2b8c8fd5",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_cosmo.h5/content",
+        "event": "GW191109_010717",
+        "index": 50,
+        "sha256": "4642f71d7d8cf31a726d0bf424f45bfafdc6c615a5b5e79c321d7653df0d4b91"
+      },
+      "nocosmo": {
+        "record": 5546663,
+        "file": "IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_nocosmo.h5",
+        "bytes": 374495928,
+        "md5": "md5:343f3af272edbbd922630ecc5b982d00",
+        "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_nocosmo.h5/content",
+        "event": "GW191109_010717",
+        "index": 50,
+        "sha256": "db4daf7981d317525197c7eadf3842b8fa48c05f0b638fc3182590f223dfdbcf"
+      }
+    },
+    "cache_sha256": "ad00da8555724fb7cdc7b5b3af7d1663ed6902c61262f61bb7e59c92ea93276e"
+  }
+]

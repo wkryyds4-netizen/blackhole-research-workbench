@@ -1,0 +1,27 @@
+{
+  "schema": "blackhole-catalog-comparison-independent-validation/1",
+  "source_checks": [
+    {
+      "index": 0,
+      "tutorial_rows_exact": 6913,
+      "phi12_all_rows_exact": 199766,
+      "source_prior_distance_quadrature_error": 1.096680302126174e-09,
+      "new_mean_relative_error": 1.1393399557135808e-09
+    },
+    {
+      "index": 14,
+      "tutorial_rows_exact": 6913,
+      "phi12_all_rows_exact": 147856,
+      "source_prior_distance_quadrature_error": 2.705596857666137e-10,
+      "new_mean_relative_error": 2.516922226192264e-10
+    }
+  ],
+  "direct_product_quantile_errors": {
+    "five_event_baseline": 1.1102230246251565e-15,
+    "plus_0": 1.829647544582258e-13,
+    "plus_14": 7.066569551739121e-14,
+    "all_new_joint": 2.532418719169982e-13
+  },
+  "shared_inputs": "Fixed five-event baseline means, common r grid, selection integrals and specified population cosmology interpolation. Source-prior distances/Jacobian, density formula, source-row equality and full likelihood products independently checked.",
+  "scope": "Two newly restored native-reference posteriors. Does not validate common-reference physics, prior likelihood tails, full catalog restoration, or selection campaign coverage."
+}

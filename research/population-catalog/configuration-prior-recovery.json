@@ -1,0 +1,435 @@
+{
+  "schema": "blackhole-lalinference-config-prior-recovery/1",
+  "source_commit": "af4bc21a9f9246ef5403052ec3b66ed2b52d90ed",
+  "verified_sources": [
+    {
+      "file": "gitlab-1438-af4bc21a9f92-lalinference--lib--LALInferencePrior.c",
+      "sha256": "a3b88f56db65e0479769cdec340d455962db0a7543b096dd414d935547617a1b",
+      "url": "https://git.ligo.org/api/v4/projects/1438/repository/files/lalinference%2Flib%2FLALInferencePrior.c/raw?ref=af4bc21a9f9246ef5403052ec3b66ed2b52d90ed"
+    },
+    {
+      "file": "gitlab-1438-af4bc21a9f92-lalinference--lib--LALInferenceInitCBC.c",
+      "sha256": "f043b6615320f3f57f89c48b492a067f7214bc7b2802d6e98884c9bd98bb0fc5",
+      "url": "https://git.ligo.org/api/v4/projects/1438/repository/files/lalinference%2Flib%2FLALInferenceInitCBC.c/raw?ref=af4bc21a9f9246ef5403052ec3b66ed2b52d90ed"
+    }
+  ],
+  "events": [
+    {
+      "index": 4,
+      "event": "GW170608",
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 6.707937495408128,
+          "maximum": 10.335323821900465
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "luminosity_distance": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "configured_approximant": [
+        "IMRPhenomXPHMpseudoFourPN"
+      ],
+      "standardized_metadata_approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "waveform_name_scope": "Preserve the configured pseudoFourPN suffix; no assertion that all waveform settings match other events.",
+      "explicit_bounds": [
+        "chirp_mass_min_max",
+        "component_mass_min_max",
+        "mass_ratio_min",
+        "spin_magnitude_max",
+        "luminosity_distance_max"
+      ],
+      "documented_defaults": [
+        "mass_ratio_max=1",
+        "spin_magnitude_min=0",
+        "full_isotropic_tilts",
+        "distance_min=1 Mpc",
+        "flat_detector_component_masses",
+        "distance_squared_density",
+        "uniform_spin_magnitudes"
+      ],
+      "incompatible_prior_flags_present": [],
+      "source_supported_default_family": true,
+      "complete_historical_runtime_verified": false,
+      "scope": "Official released engine configuration plus fixed historical source defaults; not Bilby analytic strings or complete historical command-line provenance. Retained-row checks are performed separately."
+    },
+    {
+      "index": 29,
+      "event": "GW190707_093326",
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 7.749135771186385,
+          "maximum": 12.237756554005374
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "luminosity_distance": {
+          "minimum": 1.0,
+          "maximum": 2000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "configured_approximant": [
+        "IMRPhenomXPHMpseudoFourPN"
+      ],
+      "standardized_metadata_approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "waveform_name_scope": "Preserve the configured pseudoFourPN suffix; no assertion that all waveform settings match other events.",
+      "explicit_bounds": [
+        "chirp_mass_min_max",
+        "component_mass_min_max",
+        "mass_ratio_min",
+        "spin_magnitude_max",
+        "luminosity_distance_max"
+      ],
+      "documented_defaults": [
+        "mass_ratio_max=1",
+        "spin_magnitude_min=0",
+        "full_isotropic_tilts",
+        "distance_min=1 Mpc",
+        "flat_detector_component_masses",
+        "distance_squared_density",
+        "uniform_spin_magnitudes"
+      ],
+      "incompatible_prior_flags_present": [],
+      "source_supported_default_family": true,
+      "complete_historical_runtime_verified": false,
+      "scope": "Official released engine configuration plus fixed historical source defaults; not Bilby analytic strings or complete historical command-line provenance. Retained-row checks are performed separately."
+    },
+    {
+      "index": 32,
+      "event": "GW190720_000836",
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 7.949859412895775,
+          "maximum": 13.115557572755312
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "luminosity_distance": {
+          "minimum": 1.0,
+          "maximum": 3000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "configured_approximant": [
+        "IMRPhenomXPHMpseudoFourPN"
+      ],
+      "standardized_metadata_approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "waveform_name_scope": "Preserve the configured pseudoFourPN suffix; no assertion that all waveform settings match other events.",
+      "explicit_bounds": [
+        "chirp_mass_min_max",
+        "component_mass_min_max",
+        "mass_ratio_min",
+        "spin_magnitude_max",
+        "luminosity_distance_max"
+      ],
+      "documented_defaults": [
+        "mass_ratio_max=1",
+        "spin_magnitude_min=0",
+        "full_isotropic_tilts",
+        "distance_min=1 Mpc",
+        "flat_detector_component_masses",
+        "distance_squared_density",
+        "uniform_spin_magnitudes"
+      ],
+      "incompatible_prior_flags_present": [],
+      "source_supported_default_family": true,
+      "complete_historical_runtime_verified": false,
+      "scope": "Official released engine configuration plus fixed historical source defaults; not Bilby analytic strings or complete historical command-line provenance. Retained-row checks are performed separately."
+    },
+    {
+      "index": 33,
+      "event": "GW190725_174728",
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 6.616123682657234,
+          "maximum": 11.39748177565393
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "luminosity_distance": {
+          "minimum": 1.0,
+          "maximum": 3000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "configured_approximant": [
+        "IMRPhenomXPHMpseudoFourPN"
+      ],
+      "standardized_metadata_approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "waveform_name_scope": "Preserve the configured pseudoFourPN suffix; no assertion that all waveform settings match other events.",
+      "explicit_bounds": [
+        "chirp_mass_min_max",
+        "component_mass_min_max",
+        "mass_ratio_min",
+        "spin_magnitude_max",
+        "luminosity_distance_max"
+      ],
+      "documented_defaults": [
+        "mass_ratio_max=1",
+        "spin_magnitude_min=0",
+        "full_isotropic_tilts",
+        "distance_min=1 Mpc",
+        "flat_detector_component_masses",
+        "distance_squared_density",
+        "uniform_spin_magnitudes"
+      ],
+      "incompatible_prior_flags_present": [],
+      "source_supported_default_family": true,
+      "complete_historical_runtime_verified": false,
+      "scope": "Official released engine configuration plus fixed historical source defaults; not Bilby analytic strings or complete historical command-line provenance. Retained-row checks are performed separately."
+    },
+    {
+      "index": 35,
+      "event": "GW190728_064510",
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 7.83981847070932,
+          "maximum": 12.811796079336329
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "luminosity_distance": {
+          "minimum": 1.0,
+          "maximum": 2000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "configured_approximant": [
+        "IMRPhenomXPHMpseudoFourPN"
+      ],
+      "standardized_metadata_approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "waveform_name_scope": "Preserve the configured pseudoFourPN suffix; no assertion that all waveform settings match other events.",
+      "explicit_bounds": [
+        "chirp_mass_min_max",
+        "component_mass_min_max",
+        "mass_ratio_min",
+        "spin_magnitude_max",
+        "luminosity_distance_max"
+      ],
+      "documented_defaults": [
+        "mass_ratio_max=1",
+        "spin_magnitude_min=0",
+        "full_isotropic_tilts",
+        "distance_min=1 Mpc",
+        "flat_detector_component_masses",
+        "distance_squared_density",
+        "uniform_spin_magnitudes"
+      ],
+      "incompatible_prior_flags_present": [],
+      "source_supported_default_family": true,
+      "complete_historical_runtime_verified": false,
+      "scope": "Official released engine configuration plus fixed historical source defaults; not Bilby analytic strings or complete historical command-line provenance. Retained-row checks are performed separately."
+    },
+    {
+      "index": 44,
+      "event": "GW190924_021846",
+      "bounds": {
+        "chirp_mass": {
+          "minimum": 5.076593989629403,
+          "maximum": 7.942647336817651
+        },
+        "mass_1": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_2": {
+          "minimum": 1.0,
+          "maximum": 1000.0
+        },
+        "mass_ratio": {
+          "minimum": 0.05,
+          "maximum": 1.0
+        },
+        "luminosity_distance": {
+          "minimum": 1.0,
+          "maximum": 2000.0
+        },
+        "a_1": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "a_2": {
+          "minimum": 0.0,
+          "maximum": 0.99
+        },
+        "tilt_1": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        },
+        "tilt_2": {
+          "minimum": 0.0,
+          "maximum": 3.141592653589793
+        }
+      },
+      "configured_approximant": [
+        "IMRPhenomXPHMpseudoFourPN"
+      ],
+      "standardized_metadata_approximant": [
+        "IMRPhenomXPHM"
+      ],
+      "waveform_name_scope": "Preserve the configured pseudoFourPN suffix; no assertion that all waveform settings match other events.",
+      "explicit_bounds": [
+        "chirp_mass_min_max",
+        "component_mass_min_max",
+        "mass_ratio_min",
+        "spin_magnitude_max",
+        "luminosity_distance_max"
+      ],
+      "documented_defaults": [
+        "mass_ratio_max=1",
+        "spin_magnitude_min=0",
+        "full_isotropic_tilts",
+        "distance_min=1 Mpc",
+        "flat_detector_component_masses",
+        "distance_squared_density",
+        "uniform_spin_magnitudes"
+      ],
+      "incompatible_prior_flags_present": [],
+      "source_supported_default_family": true,
+      "complete_historical_runtime_verified": false,
+      "scope": "Official released engine configuration plus fixed historical source defaults; not Bilby analytic strings or complete historical command-line provenance. Retained-row checks are performed separately."
+    }
+  ],
+  "coordinate_density_up_to_event_constant": "D_L(z)^2 * dD_L/dz * m1_source * (1+z)^2 / 4",
+  "mass_jacobian": "Historical prior is m1_detector^2/Mchirp in (Mchirp,q), or m1_detector^2 in (log Mchirp,q); transforming to (m1_source,q,z) gives m1_source*(1+z)^2.",
+  "limitations": "Configuration/default-family recovery does not constrain likelihood outside support, recover unrecorded overrides, establish every historic build, or fix common spin references."
+}

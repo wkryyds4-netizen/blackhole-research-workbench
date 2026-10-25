@@ -1,4 +1,32 @@
-# Conditional Robustness of Binary-Black-Hole Population Inference
+# Binary-black-hole research papers and reproduction
+
+## Interim snapshot v0.3: provenance, finite-bank stability, and missing support
+
+25 October 2026; Chengheng; not peer reviewed. The new draft covers all 69 restored sources and 11,180,578 posterior rows, separate native-tilt and negative-effective-spin six-model controls, 512 paired artificial thinnings, and conditional bounds on unseen contributions. Both editions have 14 pages, 14 equations, 5 vector figures, 4 tables and 15 references. All v0.2 products and integrity records are preserved.
+
+| Edition | PDF | Editable LaTeX |
+|---|---|---|
+| English v0.3 | [14-page PDF](../../output/pdf/blackhole-population-robustness-latex-en-v0.3.pdf) | [Main](v0.3/latex-en/main.tex), [body](v0.3/latex-en/manuscript.tex) |
+| Chinese v0.3 | [14-page PDF](../../output/pdf/blackhole-population-robustness-latex-zh-v0.3.pdf) | [Main](v0.3/latex-zh/main.tex), [body](v0.3/latex-zh/manuscript.tex) |
+
+Bodies, captions and headers are translated; numerical facts/table rows come from shared validated results. Figure internals use shared English labels and mathematical symbols. The paper distinguishes credible intervals, artificial-thinning percentiles and assumed sensitivity envelopes. It retains both original numerical failures and their follow-up diagnoses. It does not certify actual omitted contributions, real-campaign coverage or formation-channel fractions.
+
+The closest literature discussion includes integrated angular summaries, effective-spin/component-spin degeneracies and event-prior effects on MC convergence. This is an interim report: real missing-support evidence, common-reference tilts and physical-channel comparisons remain unfinished. This Git snapshot includes v0.3 and an initial workbench adapter. Research is paused at the user's request; complete interaction verification remains unfinished.
+
+From the repository root, with scientific Python, TeX and Poppler installed:
+
+```text
+python research/paper/v0.3/build_evidence.py
+python research/paper/v0.3/compile_paper.py --render
+python research/paper/v0.3/inspect_paper.py
+python research/paper/v0.3/validate_release.py
+```
+
+The inspection script additionally requires pypdf, pdfplumber and Pillow; this machine used the bundled PDF runtime. Actual pdfLaTeX and XeLaTeX outputs are exported to `output/pdf/`. Source/figure evidence, compilation, text/geometry, visual self-review and translation self-review are recorded separately in [the evidence manifest](v0.3/evidence-manifest.json), [build manifest](v0.3/build-manifest.json), [inspection](v0.3/inspection.json), [visual QA](v0.3/visual-qa.json) and [translation review](v0.3/translation-review.json). Rebuilding requires fresh rendering/review and updated hashes. These records are not independent peer review.
+
+Figure regeneration needs the validated local control/support checkpoint NPZs and frozen tutorial NPZ inputs; rebuild them through the scientific pipeline first. Those caches are not distributed in Git. The supplied LaTeX projects and vector figure PDFs can be compiled directly, twice per `main.tex`, without redownloading the 23.55 GB original HDF sources. The Python wrapper also checks the tracked research JSONs.
+
+## Historical v0.2: Conditional Robustness of Binary-Black-Hole Population Inference
 
 **Research technical paper v0.2, 24 October 2026. Not peer reviewed.**
 

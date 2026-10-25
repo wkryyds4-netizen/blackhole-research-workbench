@@ -1,0 +1,7 @@
+[
+  {
+    "index": 48,
+    "event": "GW191103_012549",
+    "error": "SSLError: None: Max retries exceeded with url: /api/records/5546663/files/IGWN-GWTC3p0-v1-GW191103_012549_PEDataRelease_mixed_nocosmo.h5/content (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "schema": "blackhole-full69-joint-finite-bank-design/1",
+  "date": "2026-10-25",
+  "recorded_before_event_and_joint_results": true,
+  "event_draw": "For each of69 verified original-prior posteriors, SRS without replacement of6913 rows from its complete saved bank.512 replicates; NumPy seed sequence[20261026,source_index].",
+  "pairing": "Each event's selected rows are shared across both metrics, all six models and both search policies. Different event banks use independent specified streams.",
+  "injection_draw": "The previously specified512 shared O3 draws, seed20261025. Independent from the event streams; O1/O2 remains fixed.",
+  "cases": ["Full event banks and full O3 bank", "Event thinning only", "O3 thinning only", "Joint event and O3 thinning"],
+  "scales": "Keep69 observations and each metric's existing prior.6913 rows is a numerical sampling design; it is not a new event count or a reproduction of the historical cosmo-rejection preprocessing.",
+  "checks": ["Restore all full-bank event means", "Finite-population covariance for every event's24-dimensional weight vector", "Independent-sum linear covariance and nonlinear posterior contrasts", "Explicit joint-minus-event-minus-selection interaction", "Independent full-product propagation", "Retain zero-contribution directions rather than inventing missing samples"],
+  "limits": "Conditional artificial design on released finite posterior/injection banks. Does not calibrate PE-chain autocorrelation, the actual historical sampling law, unknown likelihood tails, shared waveform systematics, real-campaign coverage, or astrophysical credible intervals."
+}

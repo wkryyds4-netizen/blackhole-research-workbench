@@ -1,0 +1,27 @@
+{
+  "schema": "blackhole-remote-hdf-validation/1",
+  "checks": [
+    {
+      "index": 0,
+      "all_metadata_equal": true,
+      "ranges_exact": 24,
+      "bytes_exact": 1572448,
+      "whole_local_md5_verified": true
+    },
+    {
+      "index": 14,
+      "all_metadata_equal": true,
+      "ranges_exact": 7,
+      "bytes_exact": 6944560,
+      "whole_local_md5_verified": true
+    },
+    {
+      "index": 19,
+      "all_metadata_equal": true,
+      "ranges_exact": 20,
+      "bytes_exact": 1260024,
+      "whole_local_md5_verified": true
+    }
+  ],
+  "scope": "Exact requested-byte and parsed-metadata agreement on overlapping local verified files only. Other remote files do not gain a full-file checksum certification."
+}

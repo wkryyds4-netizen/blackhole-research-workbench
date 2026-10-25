@@ -1,0 +1,67 @@
+{
+  "status": "pass",
+  "source_sha256": "86e7e48116c75da586fd2b7dc4f059dfd135148f20523874ec7d89cdcd8993c5",
+  "checked_rows": [
+    {
+      "family": "low_spin",
+      "source_row": 264454,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    },
+    {
+      "family": "low_spin",
+      "source_row": 173290,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    },
+    {
+      "family": "low_spin",
+      "source_row": 270060,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    },
+    {
+      "family": "low_spin",
+      "source_row": 260930,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    },
+    {
+      "family": "low_spin",
+      "source_row": 169239,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    },
+    {
+      "family": "baseline_spin",
+      "source_row": 264454,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    },
+    {
+      "family": "baseline_spin",
+      "source_row": 198655,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    },
+    {
+      "family": "baseline_spin",
+      "source_row": 137754,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    },
+    {
+      "family": "baseline_spin",
+      "source_row": 52815,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    },
+    {
+      "family": "baseline_spin",
+      "source_row": 181115,
+      "all_stored_values_exact": true,
+      "cwb_only": true
+    }
+  ],
+  "source_row_convention": "zero based within full O3 injections datasets"
+}

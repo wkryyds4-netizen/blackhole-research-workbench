@@ -1,0 +1,24 @@
+[
+  {
+    "run": "initial four-worker read",
+    "completed": 23,
+    "failed": 46,
+    "outcome": "Rate-limit and transient TLS failures; retained completed metadata and blocks."
+  },
+  {
+    "run": "paced two-worker read",
+    "completed": 68,
+    "failed": 1,
+    "missing_indices": [
+      48
+    ],
+    "outcome": "Only a transient TLS failure remained."
+  },
+  {
+    "run": "paced single-worker cached retry",
+    "completed": 69,
+    "failed": 0,
+    "missing_indices": [],
+    "outcome": "All candidate metadata complete."
+  }
+]

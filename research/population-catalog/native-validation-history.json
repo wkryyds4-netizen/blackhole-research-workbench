@@ -1,0 +1,32 @@
+[
+  {
+    "phase": "initial_independent_validation_failed",
+    "source_count": 35,
+    "result_sha256": "02bdcfcb09c5e92f1d8ab87319fb0a051cabc7a273065ae88563ba03c8afade5",
+    "event_index": 31,
+    "event": "GW190719_215514",
+    "rows": 153538,
+    "rows_above_target_redshift_2p3": 142,
+    "maximum_source_redshift": 2.410195574744465,
+    "cause": "Validator incorrectly assumed all PE posterior rows lie within the target redshift support. Producer already assigns zero target density outside it.",
+    "repair": "Extend independent PE-prior distance quadrature to all source rows, apply explicit target-support mask, retain all rows in the event mean denominator. Numerical agreement thresholds unchanged."
+  },
+  {
+    "phase": "repaired_independent_validation_passed",
+    "source_count": 35,
+    "result_sha256": "02bdcfcb09c5e92f1d8ab87319fb0a051cabc7a273065ae88563ba03c8afade5",
+    "maximum_mean_relative_error": 1.576629937716234e-09,
+    "full_product_quantile_error": 2.1774249070460883e-12,
+    "outside_target_rows": [
+      {
+        "index": 31,
+        "rows_outside_target_redshift_support": 142,
+        "source_redshift_range": [
+          0.10462006390436882,
+          2.410195574744465
+        ]
+      }
+    ],
+    "numerical_tolerances_unchanged": true
+  }
+]

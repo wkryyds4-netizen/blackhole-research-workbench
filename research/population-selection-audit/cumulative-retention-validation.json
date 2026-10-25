@@ -1,0 +1,10 @@
+{
+  "schema": "blackhole-retention-numerical-validation/1",
+  "noncentral_survival_poisson_mixture_max_relative_error": 1.1313172620930345e-13,
+  "exact_bernoulli_covariance_max_abs_error": 5.551115123125783e-17,
+  "empirical_variance_ratio_range": [
+    0.9230365519792272,
+    1.331197730800017
+  ],
+  "scope": "Distribution arithmetic and Bernoulli-sum covariance only. The empirically inferred 8.5 cutoff and historical noise-generator identity are NOT established by these checks. 256 empirical variances have finite simulation scatter."
+}

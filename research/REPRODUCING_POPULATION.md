@@ -1,5 +1,14 @@
 # Reproducing the population research
 
+Current snapshot (2026-10-25; research paused at the user's request): this guide also documents the completed 69-source
+restoration, invariant effective-spin control, paired O3/event/joint finite-bank
+diagnostics and conditional missing-support follow-up. The v0.2 paper/PDF and
+historical workbench view retain earlier frozen results; the separate v0.3
+LaTeX/PDF revision and initial population-view adapter incorporate the all-69 follow-ups. Earlier source-recovery counts
+below are historical snapshots; the current catalog note and final commands in
+this guide take precedence for the all69 follow-up. The adapter displays saved results only; its complete interaction and responsive
+layout verification remains unfinished. This is an interim research snapshot.
+
 This guide covers the two scientific stages in paper v0.2 and the separately
 published stage-three through stage-five follow-up studies. The result is a
 conditional, phenomenological spin-tilt analysis of a tutorial dataset, not an
@@ -23,6 +32,13 @@ cosmologically reweighted release back to 169,040 original-prior draws. It
 checks prior-measure conversion and shows reduced single-draw influence when
 the original draws are retained with their weights. This is a dependent-data
 representation test, not an independent astrophysical observation.
+
+The [stage-six follow-up](population-stage6/README.md) adds a weighted-event
+interface, verifies it against the stage-five source rows, and screens all 69
+stored events under six fixed settings. It separates representation-weight ESS,
+population-integral contribution ESS, single-row influence and leave-event-out
+influence. It identifies four follow-up candidates; their original-prior files
+have only been located in source metadata, not yet downloaded or verified.
 
 Run commands from the repository root. Use a fresh clone or copy if you want to
 preserve the published outputs: the numerical scripts write their result files
@@ -211,16 +227,164 @@ JSON summaries and scientific SVGs are public. The validators need the restored
 local inputs, not only the tracked JSON summaries. A clean-machine end-to-end
 download and installation has not been certified by this publication.
 
+## 6. Weighted-event interface and catalog screening
+
+After restoring the stage-three and stage-five local inputs, run the six
+commands in the [stage-six report](population-stage6/README.md). They are
+offline; only `validate_source_rows.py` needs h5py, while the numerical interface
+and screen use NumPy, SciPy and Astropy. Intermediate NPZ files are local caches.
+The source-row validator must run after `validate_interface.py` creates its
+weighted-event cache. This stage does not execute a new posterior sampler or
+download the four candidates listed in its follow-up source plan.
+
 ## Scope of reproducibility
+
+### Follow-up stages seven and eight
+
+The [stage-seven report](population-stage7/README.md) lists the ordered commands
+for four additional event releases (eight HDF files, 1,658,552,960 bytes), their
+exact row matches, joint replacements, independent verification and figure.
+It requires the stage-five and stage-six caches. The
+[selection study](population-selection-audit/README.md) additionally restores
+the fixed full-O3 BBH injection file (88,842,240 bytes), verifies its exact link
+to the combined-file subset, and propagates a run-weighted replacement and a
+joint event/selection redshift-support restriction. A separate 512-replicate
+benchmark calibrates only an explicitly specified artificial thinning design
+conditional on that saved injection bank. Neither study overwrites the frozen
+paper/results. Follow each report's commands; raw sources and NPZ caches are
+local prerequisites, not tracked release files.
+
+The [spin-reference audit](population-reference/README.md) restores azimuths and
+released infinity tilts from five original-prior event files. Its precession
+calculations require an isolated Python 3.12 runtime with the pinned NumPy,
+SciPy and precession versions. Follow the extraction, diagnosis, held-out
+validation and near-equal-mass refinement commands in order; retain both the
+initial and refined diagnostics. The study verifies a numerical convention on
+430 distinct rows, not a common-reference full-catalog population analysis.
+The [search-policy control](population-selection-audit/pipeline-policy.md) then
+uses the existing O3 bank and checkpoints to compare the tutorial search union
+with the matched-filter-only rule described in LVK Appendix A. Both studies
+preserve the frozen paper and original three input/result hashes.
 
 The calculation, frozen summary input, original scripts, exact input hashes and
 public download routes are supplied. Stage one is reproducible from tracked
 inputs alone; stage two additionally needs the public tutorial arrays. The
 injection-side source rows, finite-file mask and measure conversion have been
 recovered. The follow-ups exactly identify two single-waveform PE pilot arrays,
-recover the tutorial prior formula on all stored rows, and compare two dependent
-representations of one event using their matching prior densities. The remaining
+recover the tutorial prior formula on all stored rows, and compare dependent
+representations of five events using their matching prior densities. The remaining
 event identities, full PE support, RIFT prior provenance, spin-reference
 consistency and selection-consistency checks remain unfinished. Neither these
 instructions nor the paper claim that those remaining scientific uncertainties
 have been resolved.
+
+The latest local [catalog expansion](population-catalog/README.md) inventories
+reference frequencies, spin fields and analytic prior declarations in all 69
+fixed candidate files. Its saved 20-source snapshot replaces 15 additional
+full original-prior event posteriors beyond the five-source baseline, retaining
+49 tutorial representations in the fixed 69-event likelihood. Six missing
+analytic-prior strings are investigated using released LALInference
+configurations and pinned historical defaults; full-row checks are incremental.
+It also records a label-dependent infinity-tilt discrepancy, the matching
+historical PESummary source, and a retained failed 1e-6 release-agreement gate.
+Historical Python-default replay on the same 70 rows explains the small
+numerical remainder, without reclassifying the original gate or claiming a
+reconstructed historical runtime.
+Run its source, extraction, evolution, comparison and independent-validation
+commands in the documented environments. Metadata availability is complete;
+the remaining source connections and common-reference selection
+protocol are not. Raw files, range caches and third-party source snapshots
+remain local; public retrieval URLs and checksums are recorded.
+
+The completed69-source expansion contains11,180,578 original-prior posterior
+rows. Follow both label-resolution commands before extraction: index48 needs
+the previously checksum-verified cosmo pilot file and a three-way connection;
+index72 needs an exact decomposition of its Mixed file. Containing labels need
+not be unique, and Mixed is not silently treated as Phenom. All six recovered
+configuration-prior families now have full-row range checks. The full native
+source replacement remains distinct from a common-reference tilt analysis.
+
+The supplementary control in `population-invariant/` requires this completed,
+independently validated69-source gate. In order, run `validate_angular.py`,
+`calibrate_sign_experiment.py`, `run_control.py`, `validate_control.py`, and
+`plot_control.py` in the main NumPy/SciPy/Astropy environment. Its pre-recorded
+design is `design.json`; it measures the binary negative-effective-spin
+fraction with an explicit2PN/isotropic-measure approximation. The known
+selected/noisy-sign experiment is implementation calibration, not a real-GW
+coverage study. Do not reuse the older five-event thinning intervals as
+uncertainty for either new69-event result.
+
+The all69 paired finite-bank follow-up is now complete. After the validated
+full-source invariant control, run the following in order in the main
+NumPy/SciPy/Astropy environment (Matplotlib is needed for plots):
+
+```text
+python research/population-invariant/paired_o3.py
+python research/population-invariant/validate_paired_o3.py
+python research/population-invariant/paired_pe.py
+python research/population-invariant/diagnose_pe_derivative.py
+python research/population-invariant/validate_paired_pe.py
+python research/population-invariant/plot_finite_banks.py
+python research/population-invariant/support_sensitivity.py
+python research/population-invariant/validate_support.py
+python research/population-invariant/plot_support.py
+python research/population-invariant/plan_tail_validation.py
+python research/population-invariant/summarize_followup.py
+```
+
+These scripts do not execute root `model.py`; only established functions are
+imported. Do not run root `model.py`, which would replace frozen early inputs
+and results. Do not modify `run_control.py` casually: its bytes are part of
+the saved event-integral protocol. No source download or all-event refit is
+necessary to reproduce support sensitivity from the already validated control
+checkpoints.
+
+The paired event experiment retains6913 rows per source and512 replicates;
+it keeps69 observations. Shared O3 draws retain128454 of284672 accepted rows,
+with O1/O2 fixed. The retained original derivative-step failure is documented
+in `pe-derivative-diagnosis.json`: an unchanged relative gate passes at a
+larger real step and independent complex derivatives validate the weak score.
+Do not relabel the original step as passing or treat this as a modification
+of production posteriors. Both paired validators use independent products,
+source calculations and finite-population covariance formulas.
+
+The support follow-up was designed after observing a zero event component.
+It derives conditional CDF/quantile envelopes for an *assumed* log-correction
+budget, and evaluates nine declared completions of one event integral.
+It cannot estimate missed likelihood from a finite-bank zero. Its omitted-O3
+domain bound uses only detection probability<=1; it is intentionally too broad
+to certify negligible missing selection. `tail-validation-plan.json` is an
+unexecuted direct-draw experiment/resource plan, not an injection dataset.
+Its binomial bounds require independent direct target draws and a validated
+historical detection law; weighted bank samples do not automatically qualify.
+
+All three full-source frozen hashes remain unchanged. Older manuscript/PDF
+v0.2 versions describe earlier snapshots and must not be cited as the report of
+these all69 follow-ups. The new v0.3 manuscripts are separately versioned.
+Current scientific results and their limits are
+recorded in [the catalog research note](population-catalog/README.md).
+The final summary command verifies all result/validation digest links, the
+unchanged event-integral protocol, the three frozen hashes and preservation
+of the original derivative-step failure; it writes `finite-bank-milestone.json`.
+
+The interim bilingual paper revision is in `paper/v0.3/latex-en` and
+`paper/v0.3/latex-zh`, each with its own complete source tree and five vector
+figure PDFs. Both 14-page exports are in `output/pdf/`. From the repository root,
+`python research/paper/v0.3/build_evidence.py` regenerates shared facts/tables
+and publication figures from validated results, while
+`python research/paper/v0.3/compile_paper.py --render` compiles both projects
+and renders all pages with Poppler. The PDF environment additionally needs
+pypdf, pdfplumber and Pillow for `inspect_paper.py`. After actual visual and
+bilingual self-review, `validate_release.py` checks the new artifact chain;
+it does not recompile or independently review the science. Rebuilds invalidate
+old PDF/review hashes and require inspection again. The earlier finite-bank
+milestone retains the status at its creation; the v0.3 build/review manifests
+record this later manuscript step. No current-cycle Git push is implied.
+
+Regenerating publication figures also requires the validated local
+`population-invariant/control-checkpoints.npz` and `support-checkpoints.npz`,
+plus the frozen tutorial NPZ inputs checked by the evidence builder. These
+derived caches are rebuilt by the documented research pipeline and are not
+distributed in Git. Compiling the already generated self-contained LaTeX
+projects with their supplied figure PDFs does not require those raw/cache
+files; the Python build wrapper additionally checks tracked research JSONs.

@@ -1,0 +1,270 @@
+{
+  "schema": "blackhole-full69-paired-o3-independent-validation/1",
+  "all_draw_hashes_checked": 512,
+  "selection_sum_replicates_checked": [
+    0,
+    4,
+    35,
+    42,
+    63,
+    119,
+    120,
+    127,
+    130,
+    142,
+    158,
+    196,
+    232,
+    255,
+    270,
+    325,
+    336,
+    348,
+    358,
+    380,
+    383,
+    389,
+    425,
+    426,
+    495,
+    498,
+    504,
+    511
+  ],
+  "maximum_spotcheck_selection_relative_error": 2.220446049250313e-16,
+  "compact_bank_analytic_covariance_relative_error": 1.7515066520850666e-15,
+  "empirical_covariance_relative_error": 9.005316080389462e-17,
+  "all_full_product_replicates_checked": 512,
+  "full_product_quantile_error": 1.6153745008296028e-14,
+  "full_bank_quantile_error": 4.274358644806853e-15,
+  "contrast_value_error_pp": 6.021849685566849e-13,
+  "contrast_covariance_relative_error": 6.8750803897660085e-15,
+  "nonlinear_diagnostics": [
+    {
+      "name": "union:native_width:low_spin",
+      "linear_empirical_over_analytic_variance": 1.1051148646111566,
+      "nonlinear_over_linear_empirical_variance": 1.1806549490773286,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.03277411995337667,
+        0.01719598986192733,
+        0.25860680314093387
+      ]
+    },
+    {
+      "name": "union:native_width:baseline_spin",
+      "linear_empirical_over_analytic_variance": 1.0341131727496282,
+      "nonlinear_over_linear_empirical_variance": 0.9706682141155871,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.12919017094523105,
+        -0.02150754066931035,
+        -0.0008899352791045739
+      ]
+    },
+    {
+      "name": "union:effective_amplitude:lambda0",
+      "linear_empirical_over_analytic_variance": 1.0751102916046826,
+      "nonlinear_over_linear_empirical_variance": 0.9924483012336515,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.4045588292667838,
+        -0.03155137272521577,
+        0.012975305076785393
+      ]
+    },
+    {
+      "name": "union:effective_amplitude:lambda4",
+      "linear_empirical_over_analytic_variance": 1.0818554941002485,
+      "nonlinear_over_linear_empirical_variance": 0.990969845376251,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.4081226035172299,
+        -0.03200546481110991,
+        0.012318698836595487
+      ]
+    },
+    {
+      "name": "union:effective_amplitude:lambda16",
+      "linear_empirical_over_analytic_variance": 1.093014950906323,
+      "nonlinear_over_linear_empirical_variance": 0.9900014321307474,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.41577544927155036,
+        -0.030885651776722756,
+        0.01005022570487124
+      ]
+    },
+    {
+      "name": "union:effective_shape:low_spin",
+      "linear_empirical_over_analytic_variance": 1.0672798650464903,
+      "nonlinear_over_linear_empirical_variance": 0.9944736288719783,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.037913957042193594,
+        -0.0019089874918647009,
+        0.01019157940507454
+      ]
+    },
+    {
+      "name": "union:effective_shape:baseline_spin",
+      "linear_empirical_over_analytic_variance": 1.06076736220883,
+      "nonlinear_over_linear_empirical_variance": 1.0019458992126151,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.013565602702904,
+        -0.0012926668664542118,
+        0.003268953231004403
+      ]
+    },
+    {
+      "name": "matched:native_width:low_spin",
+      "linear_empirical_over_analytic_variance": 1.1263550016163935,
+      "nonlinear_over_linear_empirical_variance": 1.1681853022116904,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.03487602898929112,
+        0.016462788599867093,
+        0.2319719388646095
+      ]
+    },
+    {
+      "name": "matched:native_width:baseline_spin",
+      "linear_empirical_over_analytic_variance": 1.0270166936457505,
+      "nonlinear_over_linear_empirical_variance": 0.977349159125167,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.12811909536482669,
+        -0.021656140172274293,
+        -0.0010465435806116883
+      ]
+    },
+    {
+      "name": "matched:effective_amplitude:lambda0",
+      "linear_empirical_over_analytic_variance": 1.022713368297027,
+      "nonlinear_over_linear_empirical_variance": 0.9870602965750641,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.38966845008568796,
+        -0.037788068731657784,
+        0.014770188569850169
+      ]
+    },
+    {
+      "name": "matched:effective_amplitude:lambda4",
+      "linear_empirical_over_analytic_variance": 1.0282514136264356,
+      "nonlinear_over_linear_empirical_variance": 0.9873287065907093,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.3809988467838236,
+        -0.03609108079148146,
+        0.0127819950331371
+      ]
+    },
+    {
+      "name": "matched:effective_amplitude:lambda16",
+      "linear_empirical_over_analytic_variance": 1.0374428190109117,
+      "nonlinear_over_linear_empirical_variance": 0.9863504390886196,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.3590828753468672,
+        -0.03394226192963522,
+        0.011375612686824287
+      ]
+    },
+    {
+      "name": "matched:effective_shape:low_spin",
+      "linear_empirical_over_analytic_variance": 1.0358871565073255,
+      "nonlinear_over_linear_empirical_variance": 1.0061035344250193,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.041802439828456654,
+        -0.002015463454536324,
+        0.009266682024955251
+      ]
+    },
+    {
+      "name": "matched:effective_shape:baseline_spin",
+      "linear_empirical_over_analytic_variance": 1.0532623157185306,
+      "nonlinear_over_linear_empirical_variance": 1.002224372912183,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.013685474135484335,
+        -0.0012003073561810788,
+        0.0032951688348740386
+      ]
+    },
+    {
+      "name": "effective_cwb_minus_matched:model0",
+      "linear_empirical_over_analytic_variance": 0.9473816037141556,
+      "nonlinear_over_linear_empirical_variance": 1.0249686001939518,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.04727673818634193,
+        0.0002050416789594377,
+        0.045034579843933054
+      ]
+    },
+    {
+      "name": "effective_cwb_minus_matched:model1",
+      "linear_empirical_over_analytic_variance": 0.9482104928570102,
+      "nonlinear_over_linear_empirical_variance": 1.0232826789355445,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.046860760471997484,
+        0.00022713337776523491,
+        0.0432019077625629
+      ]
+    },
+    {
+      "name": "effective_cwb_minus_matched:model2",
+      "linear_empirical_over_analytic_variance": 0.9470809139548001,
+      "nonlinear_over_linear_empirical_variance": 1.0211298384157588,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.04256851656638605,
+        0.0004131503636022396,
+        0.04219024269473791
+      ]
+    },
+    {
+      "name": "effective_cwb_minus_matched:model3",
+      "linear_empirical_over_analytic_variance": 0.9551538982531905,
+      "nonlinear_over_linear_empirical_variance": 1.007373676888185,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.006026379116703694,
+        6.217132778006673e-07,
+        0.006737119211692545
+      ]
+    },
+    {
+      "name": "effective_cwb_minus_matched:model4",
+      "linear_empirical_over_analytic_variance": 0.9522171226662308,
+      "nonlinear_over_linear_empirical_variance": 1.007156659462631,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.00573069400512839,
+        -7.011377924040496e-06,
+        0.006297568613817739
+      ]
+    },
+    {
+      "name": "effective_cwb_minus_matched:model5",
+      "linear_empirical_over_analytic_variance": 0.9509534718914177,
+      "nonlinear_over_linear_empirical_variance": 1.0066345090556588,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.00491953441308628,
+        6.362015878303567e-05,
+        0.00590134984103899
+      ]
+    },
+    {
+      "name": "native_matched_minus_union_width:low_spin",
+      "linear_empirical_over_analytic_variance": 1.0762867077042926,
+      "nonlinear_over_linear_empirical_variance": 1.19771275503166,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.05844049633603232,
+        -0.0017196985930911781,
+        0.05134723044360313
+      ]
+    },
+    {
+      "name": "native_matched_minus_union_width:baseline_spin",
+      "linear_empirical_over_analytic_variance": 1.0978799519025497,
+      "nonlinear_over_linear_empirical_variance": 1.0052421034457812,
+      "nonlinear_minus_linear_5_50_95_pp": [
+        -0.016823505303402084,
+        -0.00041152839398338886,
+        0.015393831406224037
+      ]
+    }
+  ],
+  "runtime": {
+    "python": "3.14.5",
+    "numpy": "2.4.6"
+  },
+  "result_sha256": "6cfd4a5ac37ce0d88e9c33a9507d4b916000861d12737e7f2bcc5da5662cc8f8",
+  "scope": "All512 draw fingerprints and posterior products; selection-sum spotchecks include every contrast extremum. Compact covariance includes the failed-search zero rows. Shares previously validated model weights and fixed event moments. No real-campaign or PE-chain coverage claim."
+}

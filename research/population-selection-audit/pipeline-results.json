@@ -1,0 +1,242 @@
+{
+  "schema": "blackhole-o3-pipeline-policy/1",
+  "keys": [
+    "0-0-0-1",
+    "1-0-0-1",
+    "2-0-0-1",
+    "0-1-0-1",
+    "1-1-0-1",
+    "2-1-0-1"
+  ],
+  "policy_source": "https://arxiv.org/html/2111.03634v3#A1",
+  "policy_description": "Appendix A omits cWB from BBH sensitivity because observed binary detections were corroborated by other pipelines. IFAR>1 year union of GstLAL, MBTA, PyCBC-BBH and PyCBC-hyperbank.",
+  "event_support": "All 69 proposed identifiers match the paper BBH set; policy compatibility relies on the paper statement, not a new independent audit of each search FAR.",
+  "counts": {
+    "full_union": 81117,
+    "full_matched_filter": 78864,
+    "full_cwb": 35130,
+    "full_cwb_only": 2253,
+    "combined_o3_union": 36468,
+    "combined_o3_matched_filter": 35465,
+    "combined_o3_cwb_only": 1003
+  },
+  "diagnostics": [
+    {
+      "key": "0-0-0-1",
+      "removed_fraction_of_total_selection_range": [
+        0.02117874175838129,
+        0.023317070154319445
+      ],
+      "removed_fraction_at_union_median": 0.022879665363338426,
+      "median_shift_pp": -0.09173365752838114
+    },
+    {
+      "key": "1-0-0-1",
+      "removed_fraction_of_total_selection_range": [
+        0.02117874175838129,
+        0.02243221478749408
+      ],
+      "removed_fraction_at_union_median": 0.022200280663075944,
+      "median_shift_pp": -0.05090766569844085
+    },
+    {
+      "key": "2-0-0-1",
+      "removed_fraction_of_total_selection_range": [
+        0.02117874175838129,
+        0.021390375481502466
+      ],
+      "removed_fraction_at_union_median": 0.02135081480239669,
+      "median_shift_pp": -0.009124655546888238
+    },
+    {
+      "key": "0-1-0-1",
+      "removed_fraction_of_total_selection_range": [
+        0.02275848667618052,
+        0.025266256552438474
+      ],
+      "removed_fraction_at_union_median": 0.024460793663049908,
+      "median_shift_pp": 0.15172344855510778
+    },
+    {
+      "key": "1-1-0-1",
+      "removed_fraction_of_total_selection_range": [
+        0.023830124007288254,
+        0.025266256552438474
+      ],
+      "removed_fraction_at_union_median": 0.024460715421130205,
+      "median_shift_pp": 0.13817263522126755
+    },
+    {
+      "key": "2-1-0-1",
+      "removed_fraction_of_total_selection_range": [
+        0.02402653715534492,
+        0.025266256552438474
+      ],
+      "removed_fraction_at_union_median": 0.024377025702588335,
+      "median_shift_pp": 0.0916182595981474
+    }
+  ],
+  "union_quantiles": [
+    [
+      0.3445925499286423,
+      0.37474170177870814,
+      0.4421895679171683
+    ],
+    [
+      0.3441811506559146,
+      0.3716646230361168,
+      0.44167726938273116
+    ],
+    [
+      0.3441894075138564,
+      0.3720576723983315,
+      0.4448248289003325
+    ],
+    [
+      0.3804027210689322,
+      0.4516486057861942,
+      0.4941273514813982
+    ],
+    [
+      0.35119822484017865,
+      0.41339446193920304,
+      0.48432356770974644
+    ],
+    [
+      0.3460635832465615,
+      0.3882188511891995,
+      0.4679942153576273
+    ]
+  ],
+  "matched_filter_quantiles": [
+    [
+      0.3444913306997086,
+      0.3738243652034243,
+      0.44059316958059874
+    ],
+    [
+      0.34413213451172897,
+      0.3711555463791324,
+      0.4406105160156607
+    ],
+    [
+      0.3441808226363723,
+      0.3719664258428626,
+      0.4446305982376017
+    ],
+    [
+      0.3823065372299597,
+      0.4531658402717453,
+      0.4944417440915996
+    ],
+    [
+      0.35159026509738006,
+      0.4147761882914157,
+      0.48496954019073346
+    ],
+    [
+      0.3461856094607043,
+      0.389135033785181,
+      0.4690048856952972
+    ]
+  ],
+  "union_width_gaps_pp": [
+    0.26840293803766513,
+    6.342975459699468
+  ],
+  "matched_filter_width_gaps_pp": [
+    0.18579393605617223,
+    6.403080648656428
+  ],
+  "selection_components": {
+    "union": [
+      [
+        0.0011255396177412705,
+        0.0010446476496848212
+      ],
+      [
+        0.0011168955532597845,
+        0.0010446476496848212
+      ],
+      [
+        0.0010767220702816698,
+        0.0010446476496848212
+      ],
+      [
+        0.0013038118195349134,
+        0.001052917891095878
+      ],
+      [
+        0.0012063395458669969,
+        0.001052917891095878
+      ],
+      [
+        0.0011107697031948471,
+        0.001052917891095878
+      ]
+    ],
+    "matched_filter": [
+      [
+        0.001094483879785144,
+        0.0010225233268836475
+      ],
+      [
+        0.0010897979765579647,
+        0.0010225233268836475
+      ],
+      [
+        0.0010536905809091267,
+        0.0010225233268836475
+      ],
+      [
+        0.0012798264396861505,
+        0.0010263145975307948
+      ],
+      [
+        0.0011799517240973067,
+        0.0010263145975307948
+      ],
+      [
+        0.0010840817536500046,
+        0.0010263145975307948
+      ]
+    ],
+    "removed": [
+      [
+        3.105573795613091e-05,
+        2.212432280117479e-05
+      ],
+      [
+        2.709757670182203e-05,
+        2.212432280117479e-05
+      ],
+      [
+        2.3031489372545607e-05,
+        2.212432280117479e-05
+      ],
+      [
+        2.3985379848770383e-05,
+        2.6603293565080928e-05
+      ],
+      [
+        2.6387821769687434e-05,
+        2.6603293565080928e-05
+      ],
+      [
+        2.6687949544842447e-05,
+        2.6603293565080928e-05
+      ]
+    ]
+  },
+  "validation": {
+    "original_selection_relative_error": 0.0,
+    "partition_relative_error": 6.661338147750939e-15,
+    "max_grid_quantile_error": 1.31588491103507e-07
+  },
+  "inputs": {
+    "o3_bank": "2bae57e034428b424a634b5eebaf41f75a2cfd3be1e07ef3afe95cd49de90298",
+    "selection_results": "b95d87592b1514e2d56d2e3f0f8b68d4a393beb7a7eb20b70d250650fe72b463",
+    "membership": "f49662cba416d1d5cfaf1656c309dd5c6ce343f7b953316a7d0b76531c5c789e"
+  },
+  "limits": "Conditional fixed-69-event six-model comparison. Retains unresolved native spin references, prior support, O1/O2 semianalytic sensitivity, O3 proposal/tail and finite-MC limitations. Not a full LVK reproduction or formation-channel inference."
+}

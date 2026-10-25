@@ -1,0 +1,82 @@
+[
+  {
+    "record": 6513631,
+    "file": "IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_cosmo.h5",
+    "bytes": 75609885,
+    "md5": "md5:129a4483dd30718158494c76fcece549",
+    "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_cosmo.h5/content",
+    "event": "GW190517_055101",
+    "index": 19,
+    "sha256": "80b147503eea4db0916eb7f5a60f3258fb3ec14fff30e3e93068dff4024fc1bc"
+  },
+  {
+    "record": 6513631,
+    "file": "IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_nocosmo.h5",
+    "bytes": 463354360,
+    "md5": "md5:fa713aa8cdf4467c3c4b9af46fc6a6b7",
+    "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190517_055101_PEDataRelease_mixed_nocosmo.h5/content",
+    "event": "GW190517_055101",
+    "index": 19,
+    "sha256": "e7be975d101dd94ccb520bfa2cac7151fdc659a3c9806b85dfaeee90dc4e659d"
+  },
+  {
+    "record": 6513631,
+    "file": "IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_cosmo.h5",
+    "bytes": 54066987,
+    "md5": "md5:11bd2027d08efa5f5070327f54451053",
+    "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_cosmo.h5/content",
+    "event": "GW190519_153544",
+    "index": 20,
+    "sha256": "f91c002bf821b1614446628bd00b866c7b99f0a848043edf81114f57756e4315"
+  },
+  {
+    "record": 6513631,
+    "file": "IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5",
+    "bytes": 291538272,
+    "md5": "md5:ce75a83120e850bd145c9a080c4e33c3",
+    "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190519_153544_PEDataRelease_mixed_nocosmo.h5/content",
+    "event": "GW190519_153544",
+    "index": 20,
+    "sha256": "a5b26ece547cce96f0ed8802c756af0454ed89632cc82c6875f383d714f5f908"
+  },
+  {
+    "record": 6513631,
+    "file": "IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_cosmo.h5",
+    "bytes": 36306568,
+    "md5": "md5:1ecd1dc4bfa7ea19b8c3f77049bb6dc9",
+    "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_cosmo.h5/content",
+    "event": "GW190620_030421",
+    "index": 25,
+    "sha256": "0cc954ea3be9a01e40e5f0d78e06f7d0bfad1b4e411046a3005cb30061c18827"
+  },
+  {
+    "record": 6513631,
+    "file": "IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_nocosmo.h5",
+    "bytes": 203410640,
+    "md5": "md5:33f25110b7086a386e5a3f4238462131",
+    "url": "https://zenodo.org/api/records/6513631/files/IGWN-GWTC2p1-v2-GW190620_030421_PEDataRelease_mixed_nocosmo.h5/content",
+    "event": "GW190620_030421",
+    "index": 25,
+    "sha256": "61e81232d4eb8010ce58720d1dfa0e1abae3308a8bd61d131c9ad18ce37293f4"
+  },
+  {
+    "record": 5546663,
+    "file": "IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_cosmo.h5",
+    "bytes": 159770320,
+    "md5": "md5:20926725dba7cd85cb9addba2b8c8fd5",
+    "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_cosmo.h5/content",
+    "event": "GW191109_010717",
+    "index": 50,
+    "sha256": "4642f71d7d8cf31a726d0bf424f45bfafdc6c615a5b5e79c321d7653df0d4b91"
+  },
+  {
+    "record": 5546663,
+    "file": "IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_nocosmo.h5",
+    "bytes": 374495928,
+    "md5": "md5:343f3af272edbbd922630ecc5b982d00",
+    "url": "https://zenodo.org/api/records/5546663/files/IGWN-GWTC3p0-v1-GW191109_010717_PEDataRelease_mixed_nocosmo.h5/content",
+    "event": "GW191109_010717",
+    "index": 50,
+    "sha256": "db4daf7981d317525197c7eadf3842b8fa48c05f0b638fc3182590f223dfdbcf"
+  }
+]

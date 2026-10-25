@@ -1,0 +1,141 @@
+{
+  "schema": "blackhole-bilingual-v03-visual-self-review/1",
+  "status": "pass",
+  "reviewed_at": "2026-10-25T10:47:33.396378+00:00",
+  "reviewer": "Chengheng, AI-assisted visual self-review",
+  "independent_peer_review": false,
+  "build_manifest_sha256": "3e370c5313db39d6488c633c72f11f4642786e630581c3301041b8fccbf85a2a",
+  "inspection_sha256": "4792c359379719028577db469c728f9602663d2b3fb826b9bc12081d5f224924",
+  "review_tool_sha256": {
+    "build_evidence.py": "55cc429b5b34166424481f1b00f38c4aa535d91ab0fa31d493f9d93c28ba9fd0",
+    "compile_paper.py": "9322d99fdd50a0d9645c6006e3b67b8982cbfd9af75445db65e232f9be683230",
+    "inspect_paper.py": "2eacdfb65fba50eae6a76ab303938bc62b122ea3b26dd24e50d34301e86e7a55",
+    "validate_release.py": "0ff202e2b066a40593f645143280e80f2170db6cceaa61bcc20117b31588a21e"
+  },
+  "editions": [
+    {
+      "language": "en",
+      "pages": 14,
+      "pdf_sha256": "0849e63d34a87ae3d8627227961b1044255188428adad430bae7e58f75be09ce",
+      "all_pages_checked_in_overviews": true,
+      "native_resolution_pages": [
+        4,
+        8,
+        9,
+        11
+      ],
+      "contact_sheets": [
+        {
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "path": "research/paper/tmp/v0.3/en/contact-01.png",
+          "sha256": "88a0781cdbfef2880b9c5b3b0c572ddb439300b82b6032f4d3a6a8bfedb4877d"
+        },
+        {
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "path": "research/paper/tmp/v0.3/en/contact-05.png",
+          "sha256": "2aaf41b57013e4b637f7ce8b134fd124b297dabc0f462fb96a7a7727834eb4a5"
+        },
+        {
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "path": "research/paper/tmp/v0.3/en/contact-09.png",
+          "sha256": "fe71714b15a04e4eb8e37f7cf7e7b4531e7bb750bc86954c335e993e625c30b0"
+        },
+        {
+          "pages": [
+            13,
+            14
+          ],
+          "path": "research/paper/tmp/v0.3/en/contact-13.png",
+          "sha256": "5a032ca7f6a4e1cb09434ec48c215401ce98c8c3ba8a3c5803d824cbc8fd82cd"
+        }
+      ],
+      "checked": [
+        "page and section flow",
+        "equation glyphs and numbering",
+        "table columns and uncertainty captions",
+        "vector-figure labels and legends",
+        "references and page numbering"
+      ]
+    },
+    {
+      "language": "zh",
+      "pages": 14,
+      "pdf_sha256": "483fde7e6bda3ff485a8cfea8a722ea30ce325cf0ff7d8cedabd1354d376a681",
+      "all_pages_checked_in_overviews": true,
+      "native_resolution_pages": [
+        3,
+        7,
+        9,
+        11
+      ],
+      "contact_sheets": [
+        {
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "path": "research/paper/tmp/v0.3/zh/contact-01.png",
+          "sha256": "00c90d6bc5988146971cc9d7c68c89d49d645505063997bcf7536ace49789d3e"
+        },
+        {
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "path": "research/paper/tmp/v0.3/zh/contact-05.png",
+          "sha256": "6d6b8c9f5083cf1a60112acbee6be076fb51621d76c876952b1db9271682975a"
+        },
+        {
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "path": "research/paper/tmp/v0.3/zh/contact-09.png",
+          "sha256": "07f4648e55516d05caeac6c306d97f87e273bff2df84ef980bfa133c4581e056"
+        },
+        {
+          "pages": [
+            13,
+            14
+          ],
+          "path": "research/paper/tmp/v0.3/zh/contact-13.png",
+          "sha256": "1ae63a31333afabecd48571f29d78418fde1891b315952f773427a6112a0e660"
+        }
+      ],
+      "checked": [
+        "page and section flow",
+        "equation glyphs and numbering",
+        "table columns and uncertainty captions",
+        "vector-figure labels and legends",
+        "references and page numbering"
+      ]
+    }
+  ],
+  "repairs": [
+    "Moved native-restoration legend below all six plotted rows to remove overlap.",
+    "Replaced an overlong raw repository URL with a descriptive link and split a long Chinese reproduction-path paragraph.",
+    "Used a common plain page style and explicit support-plot ticks; all final compile diagnostics are clean."
+  ],
+  "scope": "All28 final pages checked in contact-sheet overviews; listed formula/table pages inspected at original rendered resolution. Five publication figure designs checked. No observed clipping, missing glyphs or overlapping legend/data remains. Ordinary TeX float pages retain white space. This is formatting self-review, not independent scientific review."
+}

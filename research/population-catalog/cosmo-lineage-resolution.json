@@ -1,0 +1,109 @@
+{
+  "schema": "blackhole-cosmo-native-lineage-resolution/1",
+  "index": 48,
+  "event": "GW191103_012549",
+  "canonical": "C01:IMRPhenomXPHM",
+  "cosmo_source": {
+    "file": "IGWN-GWTC3p0-v1-GW191103_012549_PEDataRelease_mixed_cosmo.h5",
+    "sha256": "15b027b579970634300b21ec59d81cf7bf2bdf7a6b6ebe1b1b2ec2f45c5128a3"
+  },
+  "nocosmo_source": {
+    "file": "IGWN-GWTC3p0-v1-GW191103_012549_PEDataRelease_mixed_nocosmo.h5",
+    "sha256": "bc2c4108f2b1a1ce917a4484a51c670d63b41c3d4f6bd8c6099b0ea100ba1516"
+  },
+  "cosmo_label_matches": [
+    {
+      "label": "C01:IMRPhenomXPHM",
+      "matches": 6913,
+      "ambiguous": 0,
+      "left_rows": 6913,
+      "right_rows": 9914,
+      "unique_right_rows": 9914
+    },
+    {
+      "label": "C01:Mixed",
+      "matches": 1242,
+      "ambiguous": 0,
+      "left_rows": 6913,
+      "right_rows": 9859,
+      "unique_right_rows": 9859
+    },
+    {
+      "label": "C01:SEOBNRv4PHM",
+      "matches": 0,
+      "ambiguous": 0,
+      "left_rows": 6913,
+      "right_rows": 10306,
+      "unique_right_rows": 10306
+    }
+  ],
+  "unique_cosmo_tutorial_label": "C01:IMRPhenomXPHM",
+  "cosmo_to_original": {
+    "matches": 9914,
+    "ambiguous": 0,
+    "left_rows": 9914,
+    "right_rows": 167837,
+    "unique_right_rows": 167837
+  },
+  "native_columns_exact": {
+    "mass_1_source": true,
+    "mass_ratio": true,
+    "redshift": true,
+    "a_1": true,
+    "a_2": true,
+    "cos_tilt_1": true,
+    "cos_tilt_2": true,
+    "mass_1": true,
+    "mass_2": true,
+    "mass_2_source": true,
+    "luminosity_distance": true,
+    "chirp_mass": true,
+    "phi_12": true,
+    "phi_jl": true,
+    "theta_jn": true,
+    "psi": true,
+    "phase": true,
+    "ra": true,
+    "dec": true,
+    "log_likelihood": true,
+    "chi_eff": true,
+    "spin_1x": true,
+    "spin_1y": true,
+    "spin_1z": true,
+    "spin_2x": true,
+    "spin_2y": true,
+    "spin_2z": true
+  },
+  "tutorial_to_cosmo": {
+    "matches": 6913,
+    "ambiguous": 0,
+    "left_rows": 6913,
+    "right_rows": 9914,
+    "unique_right_rows": 9914
+  },
+  "tutorial_to_original": {
+    "matches": 6913,
+    "ambiguous": 0,
+    "left_rows": 6913,
+    "right_rows": 167837,
+    "unique_right_rows": 167837
+  },
+  "three_way_tutorial_rows_exact": true,
+  "config_equal": true,
+  "original_analytic_prior_declarations_equal": true,
+  "metadata": {
+    "meta_data/meta_data/f_ref": [
+      20.0
+    ],
+    "meta_data/meta_data/cosmology": [
+      "Planck15_lal"
+    ],
+    "approximant": [
+      "IMRPhenomXPHM"
+    ]
+  },
+  "nocosmo_container_label_unique": false,
+  "mixed_full_posterior_equivalent": false,
+  "resolution": "Unique matched cosmo Phenom analysis, injective all-native-column/config/prior identity into full original-prior Phenom analysis. Multiple nocosmo containing labels remain.",
+  "limits": "Recovers the single-waveform analysis lineage. Does not assert that the nocosmo Mixed posterior is equivalent or uniquely identify every intermediate preprocessing command."
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "blackhole-native-catalog-independent-validation/1",
+  "new_source_events_checked": 15,
+  "checks": [
+    {
+      "index": 0,
+      "rows": 199766,
+      "mean_relative_error": 1.1393397336689759e-09,
+      "azimuth_cosine_error": 2.3869795029440866e-15,
+      "chi_eff_error": 1.6653345369377348e-16
+    },
+    {
+      "index": 1,
+      "rows": 137933,
+      "mean_relative_error": 6.34057029103019e-10,
+      "azimuth_cosine_error": 2.3869795029440866e-15,
+      "chi_eff_error": 2.220446049250313e-16
+    },
+    {
+      "index": 2,
+      "rows": 188541,
+      "mean_relative_error": 1.2247254321806622e-09,
+      "azimuth_cosine_error": 6.494804694057166e-15,
+      "chi_eff_error": 3.3306690738754696e-16
+    },
+    {
+      "index": 3,
+      "rows": 169007,
+      "mean_relative_error": 5.804361435934879e-10,
+      "azimuth_cosine_error": 3.247402347028583e-15,
+      "chi_eff_error": 2.1337098754514727e-16
+    },
+    {
+      "index": 4,
+      "rows": 285112,
+      "mean_relative_error": 1.576629937716234e-09,
+      "azimuth_cosine_error": 1.1879386363489175e-14,
+      "chi_eff_error": 2.7755575615628914e-16
+    },
+    {
+      "index": 5,
+      "rows": 173308,
+      "mean_relative_error": 3.443303420169741e-10,
+      "azimuth_cosine_error": 2.1649348980190553e-15,
+      "chi_eff_error": 2.7755575615628914e-16
+    },
+    {
+      "index": 6,
+      "rows": 177783,
+      "mean_relative_error": 5.806672920272149e-10,
+      "azimuth_cosine_error": 6.5503158452884236e-15,
+      "chi_eff_error": 1.942890293094024e-16
+    },
+    {
+      "index": 7,
+      "rows": 197034,
+      "mean_relative_error": 9.867209271874344e-10,
+      "azimuth_cosine_error": 2.1094237467877974e-15,
+      "chi_eff_error": 1.8735013540549517e-16
+    },
+    {
+      "index": 8,
+      "rows": 160046,
+      "mean_relative_error": 5.278881776149547e-10,
+      "azimuth_cosine_error": 1.887379141862766e-15,
+      "chi_eff_error": 2.220446049250313e-16
+    },
+    {
+      "index": 9,
+      "rows": 136399,
+      "mean_relative_error": 3.551399174739345e-10,
+      "azimuth_cosine_error": 2.220446049250313e-15,
+      "chi_eff_error": 2.220446049250313e-16
+    },
+    {
+      "index": 10,
+      "rows": 127008,
+      "mean_relative_error": 4.403659659146797e-10,
+      "azimuth_cosine_error": 1.2434497875801753e-14,
+      "chi_eff_error": 2.220446049250313e-16
+    },
+    {
+      "index": 11,
+      "rows": 264789,
+      "mean_relative_error": 8.135743190251787e-10,
+      "azimuth_cosine_error": 3.4416913763379853e-15,
+      "chi_eff_error": 1.6653345369377348e-16
+    },
+    {
+      "index": 12,
+      "rows": 144722,
+      "mean_relative_error": 2.180224889514193e-10,
+      "azimuth_cosine_error": 2.6367796834847468e-15,
+      "chi_eff_error": 2.220446049250313e-16
+    },
+    {
+      "index": 13,
+      "rows": 155335,
+      "mean_relative_error": 1.5143464260347628e-10,
+      "azimuth_cosine_error": 2.864375403532904e-14,
+      "chi_eff_error": 2.7755575615628914e-16
+    },
+    {
+      "index": 14,
+      "rows": 147856,
+      "mean_relative_error": 2.516922226192264e-10,
+      "azimuth_cosine_error": 3.0808688933348094e-15,
+      "chi_eff_error": 3.3306690738754696e-16
+    }
+  ],
+  "full_product_quantile_error": 1.0404455075274655e-12,
+  "result_sha256": "ee229804e11410ca31276a9eb60498e819adc847bcdb6db94aeb94b0c8c94232",
+  "scope": "Independent source-coordinate density and flat-LambdaCDM prior quadrature, mass/azimuth/effective-spin identities, and full69-event products. Shares specified target cosmology grid, fixed selection and previous five-event baseline. Does not establish common-reference physics or likelihood beyond prior support."
+}

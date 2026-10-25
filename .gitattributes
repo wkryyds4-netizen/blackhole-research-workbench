@@ -12,3 +12,13 @@
 *.png binary
 # Matplotlib SVG paths intentionally contain line-ending spaces.
 *.svg text eol=lf whitespace=-blank-at-eol
+# These frozen evidence trees contain byte-level hashes of mixed LF/CRLF files.
+# Preserve the recorded bytes across platforms instead of normalizing them.
+research/paper/v0.3/** -text whitespace=cr-at-eol
+research/population-catalog/** -text whitespace=cr-at-eol
+research/population-invariant/** -text whitespace=cr-at-eol
+research/population-reference/** -text whitespace=cr-at-eol
+research/population-selection-audit/** -text whitespace=cr-at-eol
+research/population-stage6/** -text whitespace=cr-at-eol
+research/population-stage7/** -text whitespace=cr-at-eol
+research/**/*.svg whitespace=cr-at-eol,-blank-at-eol

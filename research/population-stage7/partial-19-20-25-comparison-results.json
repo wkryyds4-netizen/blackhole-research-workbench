@@ -1,0 +1,1951 @@
+{
+  "schema": "blackhole-multiple-event-representation/1",
+  "indices": [
+    19,
+    20,
+    25
+  ],
+  "keys": [
+    "0-0-0-1",
+    "1-0-0-1",
+    "2-0-0-1",
+    "0-1-0-1",
+    "1-1-0-1",
+    "2-1-0-1"
+  ],
+  "n_events_fixed": 69,
+  "reference_quantiles": [
+    [
+      0.3455430291836622,
+      0.3825535284488834,
+      0.4539308829215566
+    ],
+    [
+      0.3443490829975379,
+      0.3734138026360124,
+      0.44540085076773006
+    ],
+    [
+      0.3441293816799483,
+      0.37140465228607894,
+      0.4434625068445454
+    ],
+    [
+      0.3866680390126355,
+      0.45650724863232545,
+      0.4951048188673872
+    ],
+    [
+      0.35278045859342794,
+      0.41872907704649215,
+      0.4867101632726747
+    ],
+    [
+      0.34618721828076837,
+      0.3891692449728603,
+      0.46908345977726496
+    ]
+  ],
+  "diagnostics": [
+    {
+      "index": 19,
+      "event": "GW190517_055101",
+      "reference_frequency_hz": 20.0,
+      "representations": {
+        "original": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3825535284488834,
+            "ess": 6.997541005438094,
+            "minimum_ess_in_original_90pct": 6.509742533257217,
+            "maximum_contribution": 0.35156559188806336,
+            "largest_source_row": 4274,
+            "tracked_tutorial_source_row": 4274,
+            "tracked_tutorial_contribution": 0.35156559188806336,
+            "n_for_half_integral": 3,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3734138026360124,
+            "ess": 10.054603531104298,
+            "minimum_ess_in_original_90pct": 9.541530225694617,
+            "maximum_contribution": 0.29203448751711036,
+            "largest_source_row": 4274,
+            "tracked_tutorial_source_row": 4274,
+            "tracked_tutorial_contribution": 0.29203448751711036,
+            "n_for_half_integral": 7,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 6913,
+            "r": 0.37140465228607894,
+            "ess": 12.525323115551739,
+            "minimum_ess_in_original_90pct": 12.139587274119162,
+            "maximum_contribution": 0.2547156609335646,
+            "largest_source_row": 4274,
+            "tracked_tutorial_source_row": 4274,
+            "tracked_tutorial_contribution": 0.2547156609335646,
+            "n_for_half_integral": 8,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 6913,
+            "r": 0.45650724863232545,
+            "ess": 122.63273076001006,
+            "minimum_ess_in_original_90pct": 91.24606916617725,
+            "maximum_contribution": 0.04564075473700637,
+            "largest_source_row": 2970,
+            "tracked_tutorial_source_row": 2970,
+            "tracked_tutorial_contribution": 0.04564075473700637,
+            "n_for_half_integral": 64,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 6913,
+            "r": 0.41872907704649215,
+            "ess": 152.40270997834241,
+            "minimum_ess_in_original_90pct": 138.54037222801446,
+            "maximum_contribution": 0.03345739720154589,
+            "largest_source_row": 2970,
+            "tracked_tutorial_source_row": 2970,
+            "tracked_tutorial_contribution": 0.03345739720154589,
+            "n_for_half_integral": 73,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 6913,
+            "r": 0.3891692449728603,
+            "ess": 168.48364501503048,
+            "minimum_ess_in_original_90pct": 163.64459557309712,
+            "maximum_contribution": 0.029245489309573797,
+            "largest_source_row": 2970,
+            "tracked_tutorial_source_row": 2970,
+            "tracked_tutorial_contribution": 0.029245489309573797,
+            "n_for_half_integral": 77,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          }
+        ],
+        "original_lal": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3825535284488834,
+            "ess": 6.996186192916026,
+            "minimum_ess_in_original_90pct": 6.50832351099117,
+            "maximum_contribution": 0.351613370562687,
+            "largest_source_row": 4274,
+            "tracked_tutorial_source_row": 4274,
+            "tracked_tutorial_contribution": 0.351613370562687,
+            "n_for_half_integral": 3,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3734138026360124,
+            "ess": 10.053118789393663,
+            "minimum_ess_in_original_90pct": 9.539989657914283,
+            "maximum_contribution": 0.29206066207266435,
+            "largest_source_row": 4274,
+            "tracked_tutorial_source_row": 4274,
+            "tracked_tutorial_contribution": 0.29206066207266435,
+            "n_for_half_integral": 7,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 6913,
+            "r": 0.37140465228607894,
+            "ess": 12.523652395545895,
+            "minimum_ess_in_original_90pct": 12.137971369405314,
+            "maximum_contribution": 0.2547293224390023,
+            "largest_source_row": 4274,
+            "tracked_tutorial_source_row": 4274,
+            "tracked_tutorial_contribution": 0.2547293224390023,
+            "n_for_half_integral": 8,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 6913,
+            "r": 0.45650724863232545,
+            "ess": 122.6230951934453,
+            "minimum_ess_in_original_90pct": 91.23696986691448,
+            "maximum_contribution": 0.04563544073068598,
+            "largest_source_row": 2970,
+            "tracked_tutorial_source_row": 2970,
+            "tracked_tutorial_contribution": 0.04563544073068598,
+            "n_for_half_integral": 64,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 6913,
+            "r": 0.41872907704649215,
+            "ess": 152.38484376386947,
+            "minimum_ess_in_original_90pct": 138.5224547188345,
+            "maximum_contribution": 0.03345225570836635,
+            "largest_source_row": 2970,
+            "tracked_tutorial_source_row": 2970,
+            "tracked_tutorial_contribution": 0.03345225570836635,
+            "n_for_half_integral": 73,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 6913,
+            "r": 0.3891692449728603,
+            "ess": 168.46424462496304,
+            "minimum_ess_in_original_90pct": 163.62534138142956,
+            "maximum_contribution": 0.029240493020053916,
+            "largest_source_row": 2970,
+            "tracked_tutorial_source_row": 2970,
+            "tracked_tutorial_contribution": 0.029240493020053916,
+            "n_for_half_integral": 77,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          }
+        ],
+        "cosmo": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 61249,
+            "r": 0.3825535284488834,
+            "ess": 94.38777797272712,
+            "minimum_ess_in_original_90pct": 87.50009842805858,
+            "maximum_contribution": 0.05114096661718878,
+            "largest_source_row": 4533,
+            "tracked_tutorial_source_row": 4533,
+            "tracked_tutorial_contribution": 0.05114096661718878,
+            "n_for_half_integral": 45,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 61249,
+            "r": 0.3734138026360124,
+            "ess": 111.60868270476662,
+            "minimum_ess_in_original_90pct": 108.38366615181003,
+            "maximum_contribution": 0.03715989509085054,
+            "largest_source_row": 4533,
+            "tracked_tutorial_source_row": 4533,
+            "tracked_tutorial_contribution": 0.03715989509085054,
+            "n_for_half_integral": 49,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 61249,
+            "r": 0.37140465228607894,
+            "ess": 118.37413128341841,
+            "minimum_ess_in_original_90pct": 117.64858381407775,
+            "maximum_contribution": 0.03484449224021584,
+            "largest_source_row": 32969,
+            "tracked_tutorial_source_row": 4533,
+            "tracked_tutorial_contribution": 0.030343543869890178,
+            "n_for_half_integral": 46,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 61249,
+            "r": 0.45650724863232545,
+            "ess": 1241.6071215163436,
+            "minimum_ess_in_original_90pct": 969.3030367564008,
+            "maximum_contribution": 0.0059432987337325474,
+            "largest_source_row": 4710,
+            "tracked_tutorial_source_row": 17553,
+            "tracked_tutorial_contribution": 0.005384539267725535,
+            "n_for_half_integral": 545,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 61249,
+            "r": 0.41872907704649215,
+            "ess": 1425.6970932440474,
+            "minimum_ess_in_original_90pct": 1324.0972606671974,
+            "maximum_contribution": 0.005370114981394825,
+            "largest_source_row": 22156,
+            "tracked_tutorial_source_row": 17553,
+            "tracked_tutorial_contribution": 0.004008179308394862,
+            "n_for_half_integral": 625,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 61249,
+            "r": 0.3891692449728603,
+            "ess": 1504.5867356404774,
+            "minimum_ess_in_original_90pct": 1474.7260152694128,
+            "maximum_contribution": 0.005086541659948559,
+            "largest_source_row": 22156,
+            "tracked_tutorial_source_row": 17553,
+            "tracked_tutorial_contribution": 0.0035046421613258616,
+            "n_for_half_integral": 660,
+            "low_spin_rows": 0,
+            "low_spin_integral_fraction": 0.0
+          }
+        ],
+        "nocosmo": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 161299,
+            "r": 0.3825535284488834,
+            "ess": 164.0557811610112,
+            "minimum_ess_in_original_90pct": 150.97178658255683,
+            "maximum_contribution": 0.03272126115921854,
+            "largest_source_row": 21180,
+            "tracked_tutorial_source_row": 12122,
+            "tracked_tutorial_contribution": 0.021092488511141375,
+            "n_for_half_integral": 77,
+            "low_spin_rows": 1,
+            "low_spin_integral_fraction": 0.0052004962384568434
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 161299,
+            "r": 0.3734138026360124,
+            "ess": 204.3851832202976,
+            "minimum_ess_in_original_90pct": 200.6704249229309,
+            "maximum_contribution": 0.020399161575659474,
+            "largest_source_row": 133220,
+            "tracked_tutorial_source_row": 12122,
+            "tracked_tutorial_contribution": 0.015569986182002178,
+            "n_for_half_integral": 83,
+            "low_spin_rows": 1,
+            "low_spin_integral_fraction": 0.007671455788940533
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 161299,
+            "r": 0.37140465228607894,
+            "ess": 202.95218615055492,
+            "minimum_ess_in_original_90pct": 202.18136229010244,
+            "maximum_contribution": 0.02140536037681448,
+            "largest_source_row": 46367,
+            "tracked_tutorial_source_row": 12122,
+            "tracked_tutorial_contribution": 0.012792271641438601,
+            "n_for_half_integral": 81,
+            "low_spin_rows": 1,
+            "low_spin_integral_fraction": 0.011386193615269206
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 161299,
+            "r": 0.45650724863232545,
+            "ess": 2976.9407047211953,
+            "minimum_ess_in_original_90pct": 2368.0932241068285,
+            "maximum_contribution": 0.0030070045370131776,
+            "largest_source_row": 12600,
+            "tracked_tutorial_source_row": 46121,
+            "tracked_tutorial_contribution": 0.0019829873346892467,
+            "n_for_half_integral": 1402,
+            "low_spin_rows": 1,
+            "low_spin_integral_fraction": 2.601390274194809e-05
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 161299,
+            "r": 0.41872907704649215,
+            "ess": 3328.5110446746576,
+            "minimum_ess_in_original_90pct": 3138.3858765691903,
+            "maximum_contribution": 0.002892273865792004,
+            "largest_source_row": 89286,
+            "tracked_tutorial_source_row": 46121,
+            "tracked_tutorial_contribution": 0.0014733269154974008,
+            "n_for_half_integral": 1568,
+            "low_spin_rows": 1,
+            "low_spin_integral_fraction": 2.6830463959850054e-05
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 161299,
+            "r": 0.3891692449728603,
+            "ess": 3421.0704807602106,
+            "minimum_ess_in_original_90pct": 3373.646232798715,
+            "maximum_contribution": 0.0026694440655861615,
+            "largest_source_row": 89286,
+            "tracked_tutorial_source_row": 46121,
+            "tracked_tutorial_contribution": 0.001286410308068599,
+            "n_for_half_integral": 1635,
+            "low_spin_rows": 1,
+            "low_spin_integral_fraction": 3.400915714973507e-05
+          }
+        ]
+      }
+    },
+    {
+      "index": 20,
+      "event": "GW190519_153544",
+      "reference_frequency_hz": 10.0,
+      "representations": {
+        "original": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3825535284488834,
+            "ess": 52.98531401210762,
+            "minimum_ess_in_original_90pct": 45.149210374922426,
+            "maximum_contribution": 0.1097864893965741,
+            "largest_source_row": 950,
+            "tracked_tutorial_source_row": 950,
+            "tracked_tutorial_contribution": 0.1097864893965741,
+            "n_for_half_integral": 40,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.25435382688937236
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3734138026360124,
+            "ess": 93.48748699772004,
+            "minimum_ess_in_original_90pct": 90.00807402102272,
+            "maximum_contribution": 0.05489711607842995,
+            "largest_source_row": 2208,
+            "tracked_tutorial_source_row": 2208,
+            "tracked_tutorial_contribution": 0.05489711607842995,
+            "n_for_half_integral": 61,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.23601840002046778
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 6913,
+            "r": 0.37140465228607894,
+            "ess": 97.95247368630477,
+            "minimum_ess_in_original_90pct": 95.95507579928176,
+            "maximum_contribution": 0.06515584411775176,
+            "largest_source_row": 2208,
+            "tracked_tutorial_source_row": 2208,
+            "tracked_tutorial_contribution": 0.06515584411775176,
+            "n_for_half_integral": 64,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.22489000821591762
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 6913,
+            "r": 0.45650724863232545,
+            "ess": 939.9037804172759,
+            "minimum_ess_in_original_90pct": 644.0278342803978,
+            "maximum_contribution": 0.007718919654147056,
+            "largest_source_row": 1285,
+            "tracked_tutorial_source_row": 1285,
+            "tracked_tutorial_contribution": 0.007718919654147056,
+            "n_for_half_integral": 382,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.01548643155027551
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 6913,
+            "r": 0.41872907704649215,
+            "ess": 1133.703169245819,
+            "minimum_ess_in_original_90pct": 1040.3116685753314,
+            "maximum_contribution": 0.0055002131779542905,
+            "largest_source_row": 1285,
+            "tracked_tutorial_source_row": 1285,
+            "tracked_tutorial_contribution": 0.0055002131779542905,
+            "n_for_half_integral": 427,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.01431512793361885
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 6913,
+            "r": 0.3891692449728603,
+            "ess": 1196.6440765113493,
+            "minimum_ess_in_original_90pct": 1171.6231183866844,
+            "maximum_contribution": 0.005979222216539173,
+            "largest_source_row": 2208,
+            "tracked_tutorial_source_row": 2208,
+            "tracked_tutorial_contribution": 0.005979222216539173,
+            "n_for_half_integral": 447,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.014441041172927388
+          }
+        ],
+        "original_lal": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3825535284488834,
+            "ess": 53.00532419778281,
+            "minimum_ess_in_original_90pct": 45.16487803419022,
+            "maximum_contribution": 0.10976211639909031,
+            "largest_source_row": 950,
+            "tracked_tutorial_source_row": 950,
+            "tracked_tutorial_contribution": 0.10976211639909031,
+            "n_for_half_integral": 40,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.2543322672851687
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3734138026360124,
+            "ess": 93.56024637969392,
+            "minimum_ess_in_original_90pct": 90.07614039448,
+            "maximum_contribution": 0.054825417361541985,
+            "largest_source_row": 2208,
+            "tracked_tutorial_source_row": 2208,
+            "tracked_tutorial_contribution": 0.054825417361541985,
+            "n_for_half_integral": 61,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.2359765012311258
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 6913,
+            "r": 0.37140465228607894,
+            "ess": 98.05778422240974,
+            "minimum_ess_in_original_90pct": 96.05987685729649,
+            "maximum_contribution": 0.06507087905106058,
+            "largest_source_row": 2208,
+            "tracked_tutorial_source_row": 2208,
+            "tracked_tutorial_contribution": 0.06507087905106058,
+            "n_for_half_integral": 64,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.2248332044965235
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 6913,
+            "r": 0.45650724863232545,
+            "ess": 940.0680994285524,
+            "minimum_ess_in_original_90pct": 644.1304106449479,
+            "maximum_contribution": 0.007715315272018656,
+            "largest_source_row": 1285,
+            "tracked_tutorial_source_row": 1285,
+            "tracked_tutorial_contribution": 0.007715315272018656,
+            "n_for_half_integral": 382,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.015484422374457308
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 6913,
+            "r": 0.41872907704649215,
+            "ess": 1133.906206608922,
+            "minimum_ess_in_original_90pct": 1040.4917757536348,
+            "maximum_contribution": 0.005497606116049905,
+            "largest_source_row": 1285,
+            "tracked_tutorial_source_row": 1285,
+            "tracked_tutorial_contribution": 0.005497606116049905,
+            "n_for_half_integral": 427,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.014312006470180851
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 6913,
+            "r": 0.3891692449728603,
+            "ess": 1196.8695338950756,
+            "minimum_ess_in_original_90pct": 1171.8441027908716,
+            "maximum_contribution": 0.005972116239580397,
+            "largest_source_row": 2208,
+            "tracked_tutorial_source_row": 2208,
+            "tracked_tutorial_contribution": 0.005972116239580397,
+            "n_for_half_integral": 447,
+            "low_spin_rows": 13,
+            "low_spin_integral_fraction": 0.014436759434960585
+          }
+        ],
+        "cosmo": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 42168,
+            "r": 0.3825535284488834,
+            "ess": 539.9806083654875,
+            "minimum_ess_in_original_90pct": 475.3115172956725,
+            "maximum_contribution": 0.01962032630035085,
+            "largest_source_row": 13749,
+            "tracked_tutorial_source_row": 13749,
+            "tracked_tutorial_contribution": 0.01962032630035085,
+            "n_for_half_integral": 302,
+            "low_spin_rows": 71,
+            "low_spin_integral_fraction": 0.13738435728124668
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 42168,
+            "r": 0.3734138026360124,
+            "ess": 762.947371305775,
+            "minimum_ess_in_original_90pct": 741.4836986304036,
+            "maximum_contribution": 0.009241502501420383,
+            "largest_source_row": 182,
+            "tracked_tutorial_source_row": 182,
+            "tracked_tutorial_contribution": 0.009241502501420383,
+            "n_for_half_integral": 368,
+            "low_spin_rows": 71,
+            "low_spin_integral_fraction": 0.15173831094562518
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 42168,
+            "r": 0.37140465228607894,
+            "ess": 788.8194476234748,
+            "minimum_ess_in_original_90pct": 779.5571215503816,
+            "maximum_contribution": 0.01096136362914127,
+            "largest_source_row": 182,
+            "tracked_tutorial_source_row": 182,
+            "tracked_tutorial_contribution": 0.01096136362914127,
+            "n_for_half_integral": 370,
+            "low_spin_rows": 71,
+            "low_spin_integral_fraction": 0.1607768524525991
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 42168,
+            "r": 0.45650724863232545,
+            "ess": 5459.057860254705,
+            "minimum_ess_in_original_90pct": 3809.265794741234,
+            "maximum_contribution": 0.0026647262111573426,
+            "largest_source_row": 40333,
+            "tracked_tutorial_source_row": 35144,
+            "tracked_tutorial_contribution": 0.001243310965922618,
+            "n_for_half_integral": 2272,
+            "low_spin_rows": 71,
+            "low_spin_integral_fraction": 0.00875616170857438
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 42168,
+            "r": 0.41872907704649215,
+            "ess": 6483.033290128039,
+            "minimum_ess_in_original_90pct": 5915.650653435837,
+            "maximum_contribution": 0.002290188553981467,
+            "largest_source_row": 40333,
+            "tracked_tutorial_source_row": 35144,
+            "tracked_tutorial_contribution": 0.000886873015495227,
+            "n_for_half_integral": 2553,
+            "low_spin_rows": 71,
+            "low_spin_integral_fraction": 0.00859135195690896
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 42168,
+            "r": 0.3891692449728603,
+            "ess": 6946.053177572684,
+            "minimum_ess_in_original_90pct": 6781.968172949743,
+            "maximum_contribution": 0.0020239387201248385,
+            "largest_source_row": 40333,
+            "tracked_tutorial_source_row": 182,
+            "tracked_tutorial_contribution": 0.0009670031899413046,
+            "n_for_half_integral": 2703,
+            "low_spin_rows": 71,
+            "low_spin_integral_fraction": 0.00889523030752905
+          }
+        ],
+        "nocosmo": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 150207,
+            "r": 0.3825535284488834,
+            "ess": 1255.387571498459,
+            "minimum_ess_in_original_90pct": 1110.4810806652174,
+            "maximum_contribution": 0.009200889883201337,
+            "largest_source_row": 100379,
+            "tracked_tutorial_source_row": 49133,
+            "tracked_tutorial_contribution": 0.005443679338395269,
+            "n_for_half_integral": 691,
+            "low_spin_rows": 183,
+            "low_spin_integral_fraction": 0.16375800936244211
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 150207,
+            "r": 0.3734138026360124,
+            "ess": 1842.6476996576016,
+            "minimum_ess_in_original_90pct": 1774.2843264200221,
+            "maximum_contribution": 0.006356426791742656,
+            "largest_source_row": 100379,
+            "tracked_tutorial_source_row": 670,
+            "tracked_tutorial_contribution": 0.0014929937126631247,
+            "n_for_half_integral": 867,
+            "low_spin_rows": 183,
+            "low_spin_integral_fraction": 0.17353123852882602
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 150207,
+            "r": 0.37140465228607894,
+            "ess": 2002.6429961444067,
+            "minimum_ess_in_original_90pct": 1975.2068553766512,
+            "maximum_contribution": 0.0050820880899925935,
+            "largest_source_row": 100379,
+            "tracked_tutorial_source_row": 670,
+            "tracked_tutorial_contribution": 0.0017873381862980313,
+            "n_for_half_integral": 890,
+            "low_spin_rows": 183,
+            "low_spin_integral_fraction": 0.18172158662885124
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 150207,
+            "r": 0.45650724863232545,
+            "ess": 15821.072754528997,
+            "minimum_ess_in_original_90pct": 11055.256499890367,
+            "maximum_contribution": 0.0013774258771546673,
+            "largest_source_row": 101376,
+            "tracked_tutorial_source_row": 125224,
+            "tracked_tutorial_contribution": 0.00031480528754405446,
+            "n_for_half_integral": 6704,
+            "low_spin_rows": 183,
+            "low_spin_integral_fraction": 0.009753332001512557
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 150207,
+            "r": 0.41872907704649215,
+            "ess": 18853.9685732436,
+            "minimum_ess_in_original_90pct": 17268.341959130154,
+            "maximum_contribution": 0.000878871759987746,
+            "largest_source_row": 101376,
+            "tracked_tutorial_source_row": 125224,
+            "tracked_tutorial_contribution": 0.00022560058648849206,
+            "n_for_half_integral": 7433,
+            "low_spin_rows": 183,
+            "low_spin_integral_fraction": 0.009508140439323295
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 150207,
+            "r": 0.3891692449728603,
+            "ess": 20087.83916509063,
+            "minimum_ess_in_original_90pct": 19647.369691838354,
+            "maximum_contribution": 0.0007306369194609756,
+            "largest_source_row": 101376,
+            "tracked_tutorial_source_row": 670,
+            "tracked_tutorial_contribution": 0.0001682214881477983,
+            "n_for_half_integral": 7778,
+            "low_spin_rows": 183,
+            "low_spin_integral_fraction": 0.009785183758163833
+          }
+        ]
+      }
+    },
+    {
+      "index": 25,
+      "event": "GW190620_030421",
+      "reference_frequency_hz": 10.0,
+      "representations": {
+        "original": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3825535284488834,
+            "ess": 50.45192451134404,
+            "minimum_ess_in_original_90pct": 44.950525441495344,
+            "maximum_contribution": 0.07184176602468259,
+            "largest_source_row": 2880,
+            "tracked_tutorial_source_row": 2880,
+            "tracked_tutorial_contribution": 0.07184176602468259,
+            "n_for_half_integral": 21,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.16453192447344583
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3734138026360124,
+            "ess": 69.34995242716744,
+            "minimum_ess_in_original_90pct": 60.373126327219545,
+            "maximum_contribution": 0.0451779646883627,
+            "largest_source_row": 2585,
+            "tracked_tutorial_source_row": 2585,
+            "tracked_tutorial_contribution": 0.0451779646883627,
+            "n_for_half_integral": 26,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.19711312241459122
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 6913,
+            "r": 0.37140465228607894,
+            "ess": 60.42165602484729,
+            "minimum_ess_in_original_90pct": 54.5463865975183,
+            "maximum_contribution": 0.059277366588923075,
+            "largest_source_row": 2585,
+            "tracked_tutorial_source_row": 2585,
+            "tracked_tutorial_contribution": 0.059277366588923075,
+            "n_for_half_integral": 25,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.21512545390192006
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 6913,
+            "r": 0.45650724863232545,
+            "ess": 154.24775023573036,
+            "minimum_ess_in_original_90pct": 111.94306083326059,
+            "maximum_contribution": 0.040087334163853565,
+            "largest_source_row": 987,
+            "tracked_tutorial_source_row": 987,
+            "tracked_tutorial_contribution": 0.040087334163853565,
+            "n_for_half_integral": 103,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.019406902164433366
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 6913,
+            "r": 0.41872907704649215,
+            "ess": 190.3091857781065,
+            "minimum_ess_in_original_90pct": 180.52234783730452,
+            "maximum_contribution": 0.03181261222472924,
+            "largest_source_row": 987,
+            "tracked_tutorial_source_row": 987,
+            "tracked_tutorial_contribution": 0.03181261222472924,
+            "n_for_half_integral": 114,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.020158052931025874
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 6913,
+            "r": 0.3891692449728603,
+            "ess": 194.9831828057043,
+            "minimum_ess_in_original_90pct": 183.01439923047315,
+            "maximum_contribution": 0.027484100024157746,
+            "largest_source_row": 2585,
+            "tracked_tutorial_source_row": 2585,
+            "tracked_tutorial_contribution": 0.027484100024157746,
+            "n_for_half_integral": 114,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.02196321730568107
+          }
+        ],
+        "original_lal": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3825535284488834,
+            "ess": 50.488624787725286,
+            "minimum_ess_in_original_90pct": 44.984941766396766,
+            "maximum_contribution": 0.07179510224096207,
+            "largest_source_row": 2880,
+            "tracked_tutorial_source_row": 2880,
+            "tracked_tutorial_contribution": 0.07179510224096207,
+            "n_for_half_integral": 21,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.16464003711077274
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 6913,
+            "r": 0.3734138026360124,
+            "ess": 69.38386913508197,
+            "minimum_ess_in_original_90pct": 60.40044628587378,
+            "maximum_contribution": 0.04515576327384292,
+            "largest_source_row": 2585,
+            "tracked_tutorial_source_row": 2585,
+            "tracked_tutorial_contribution": 0.04515576327384292,
+            "n_for_half_integral": 26,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.19722289725668232
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 6913,
+            "r": 0.37140465228607894,
+            "ess": 60.44791487281758,
+            "minimum_ess_in_original_90pct": 54.5706343219516,
+            "maximum_contribution": 0.05924720183624669,
+            "largest_source_row": 2585,
+            "tracked_tutorial_source_row": 2585,
+            "tracked_tutorial_contribution": 0.05924720183624669,
+            "n_for_half_integral": 25,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.21523337371943688
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 6913,
+            "r": 0.45650724863232545,
+            "ess": 154.34237073079345,
+            "minimum_ess_in_original_90pct": 112.01557817715138,
+            "maximum_contribution": 0.04006505350481667,
+            "largest_source_row": 987,
+            "tracked_tutorial_source_row": 987,
+            "tracked_tutorial_contribution": 0.04006505350481667,
+            "n_for_half_integral": 103,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.01941980756902094
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 6913,
+            "r": 0.41872907704649215,
+            "ess": 190.4164851249096,
+            "minimum_ess_in_original_90pct": 180.63075153567698,
+            "maximum_contribution": 0.031794265516217814,
+            "largest_source_row": 987,
+            "tracked_tutorial_source_row": 987,
+            "tracked_tutorial_contribution": 0.031794265516217814,
+            "n_for_half_integral": 114,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.0201712485430118
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 6913,
+            "r": 0.3891692449728603,
+            "ess": 195.0836316013362,
+            "minimum_ess_in_original_90pct": 183.10315494024948,
+            "maximum_contribution": 0.02747598571235513,
+            "largest_source_row": 2585,
+            "tracked_tutorial_source_row": 2585,
+            "tracked_tutorial_contribution": 0.02747598571235513,
+            "n_for_half_integral": 114,
+            "low_spin_rows": 35,
+            "low_spin_integral_fraction": 0.021976859287115468
+          }
+        ],
+        "cosmo": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 32655,
+            "r": 0.3825535284488834,
+            "ess": 139.0261408488735,
+            "minimum_ess_in_original_90pct": 122.80150133559587,
+            "maximum_contribution": 0.046010855570492275,
+            "largest_source_row": 31827,
+            "tracked_tutorial_source_row": 30426,
+            "tracked_tutorial_contribution": 0.01649136625694017,
+            "n_for_half_integral": 77,
+            "low_spin_rows": 110,
+            "low_spin_integral_fraction": 0.1625809492350192
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 32655,
+            "r": 0.3734138026360124,
+            "ess": 207.77606776912162,
+            "minimum_ess_in_original_90pct": 195.84077803313738,
+            "maximum_contribution": 0.03102914670283374,
+            "largest_source_row": 31827,
+            "tracked_tutorial_source_row": 9674,
+            "tracked_tutorial_contribution": 0.010726188403415899,
+            "n_for_half_integral": 102,
+            "low_spin_rows": 110,
+            "low_spin_integral_fraction": 0.18265144393855376
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 32655,
+            "r": 0.37140465228607894,
+            "ess": 205.46742400303287,
+            "minimum_ess_in_original_90pct": 186.4935037127829,
+            "maximum_contribution": 0.02555497813727798,
+            "largest_source_row": 19532,
+            "tracked_tutorial_source_row": 9674,
+            "tracked_tutorial_contribution": 0.014627582713331064,
+            "n_for_half_integral": 101,
+            "low_spin_rows": 110,
+            "low_spin_integral_fraction": 0.19593285129814267
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 32655,
+            "r": 0.45650724863232545,
+            "ess": 918.2768102660592,
+            "minimum_ess_in_original_90pct": 674.3547885382402,
+            "maximum_contribution": 0.009023890378534148,
+            "largest_source_row": 30410,
+            "tracked_tutorial_source_row": 30410,
+            "tracked_tutorial_contribution": 0.009023890378534148,
+            "n_for_half_integral": 523,
+            "low_spin_rows": 110,
+            "low_spin_integral_fraction": 0.015121424878712854
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 32655,
+            "r": 0.41872907704649215,
+            "ess": 1041.4078139609474,
+            "minimum_ess_in_original_90pct": 969.5644425973749,
+            "maximum_contribution": 0.007861500893874347,
+            "largest_source_row": 7677,
+            "tracked_tutorial_source_row": 30410,
+            "tracked_tutorial_contribution": 0.007007737185999993,
+            "n_for_half_integral": 561,
+            "low_spin_rows": 110,
+            "low_spin_integral_fraction": 0.015246395445250199
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 32655,
+            "r": 0.3891692449728603,
+            "ess": 1072.8790231233852,
+            "minimum_ess_in_original_90pct": 1058.8798689717557,
+            "maximum_contribution": 0.007062865030953965,
+            "largest_source_row": 7677,
+            "tracked_tutorial_source_row": 9674,
+            "tracked_tutorial_contribution": 0.006092455478713344,
+            "n_for_half_integral": 572,
+            "low_spin_rows": 110,
+            "low_spin_integral_fraction": 0.01600601622682605
+          }
+        ],
+        "nocosmo": [
+          {
+            "key": "0-0-0-1",
+            "n_rows": 152410,
+            "r": 0.3825535284488834,
+            "ess": 854.6236864630306,
+            "minimum_ess_in_original_90pct": 768.7690006210572,
+            "maximum_contribution": 0.012459158247944779,
+            "largest_source_row": 148498,
+            "tracked_tutorial_source_row": 142140,
+            "tracked_tutorial_contribution": 0.0026698021415089207,
+            "n_for_half_integral": 423,
+            "low_spin_rows": 394,
+            "low_spin_integral_fraction": 0.18254895091797435
+          },
+          {
+            "key": "1-0-0-1",
+            "n_rows": 152410,
+            "r": 0.3734138026360124,
+            "ess": 1040.344095603672,
+            "minimum_ess_in_original_90pct": 1020.9911797167468,
+            "maximum_contribution": 0.008120009929341018,
+            "largest_source_row": 148498,
+            "tracked_tutorial_source_row": 45260,
+            "tracked_tutorial_contribution": 0.0018965786662915583,
+            "n_for_half_integral": 474,
+            "low_spin_rows": 394,
+            "low_spin_integral_fraction": 0.21722775865704094
+          },
+          {
+            "key": "2-0-0-1",
+            "n_rows": 152410,
+            "r": 0.37140465228607894,
+            "ess": 1026.1150651385256,
+            "minimum_ess_in_original_90pct": 998.3023303129961,
+            "maximum_contribution": 0.006311065387757396,
+            "largest_source_row": 98672,
+            "tracked_tutorial_source_row": 45260,
+            "tracked_tutorial_contribution": 0.002599812642729067,
+            "n_for_half_integral": 472,
+            "low_spin_rows": 394,
+            "low_spin_integral_fraction": 0.23238126459453265
+          },
+          {
+            "key": "0-1-0-1",
+            "n_rows": 152410,
+            "r": 0.45650724863232545,
+            "ess": 6162.225368810823,
+            "minimum_ess_in_original_90pct": 4754.081732647381,
+            "maximum_contribution": 0.0014393251975642121,
+            "largest_source_row": 14988,
+            "tracked_tutorial_source_row": 142089,
+            "tracked_tutorial_contribution": 0.001381006390925212,
+            "n_for_half_integral": 3073,
+            "low_spin_rows": 394,
+            "low_spin_integral_fraction": 0.01881053129905162
+          },
+          {
+            "key": "1-1-0-1",
+            "n_rows": 152410,
+            "r": 0.41872907704649215,
+            "ess": 6600.606465455598,
+            "minimum_ess_in_original_90pct": 6250.478587652463,
+            "maximum_contribution": 0.001686726208026591,
+            "largest_source_row": 129705,
+            "tracked_tutorial_source_row": 142089,
+            "tracked_tutorial_contribution": 0.0010667873995136956,
+            "n_for_half_integral": 3264,
+            "low_spin_rows": 394,
+            "low_spin_integral_fraction": 0.01992943623307646
+          },
+          {
+            "key": "2-1-0-1",
+            "n_rows": 152410,
+            "r": 0.3891692449728603,
+            "ess": 6644.990051543182,
+            "minimum_ess_in_original_90pct": 6572.929743993206,
+            "maximum_contribution": 0.0017717083891635082,
+            "largest_source_row": 129705,
+            "tracked_tutorial_source_row": 45260,
+            "tracked_tutorial_contribution": 0.0010889536591492503,
+            "n_for_half_integral": 3314,
+            "low_spin_rows": 394,
+            "low_spin_integral_fraction": 0.021280408181402734
+          }
+        ]
+      }
+    }
+  ],
+  "scenarios": {
+    "original": {
+      "replaced_indices": [],
+      "quantiles": [
+        [
+          0.3455430291836622,
+          0.3825535284488834,
+          0.4539308829215566
+        ],
+        [
+          0.3443490829975379,
+          0.3734138026360124,
+          0.44540085076773006
+        ],
+        [
+          0.3441293816799483,
+          0.37140465228607894,
+          0.4434625068445454
+        ],
+        [
+          0.3866680390126355,
+          0.45650724863232545,
+          0.4951048188673872
+        ],
+        [
+          0.35278045859342794,
+          0.41872907704649215,
+          0.4867101632726747
+        ],
+        [
+          0.34618721828076837,
+          0.3891692449728603,
+          0.46908345977726496
+        ]
+      ],
+      "median_shift_pp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.1148876162804466,
+        6.733800365946513
+      ]
+    },
+    "single_19_original_lal": {
+      "replaced_indices": [
+        19
+      ],
+      "quantiles": [
+        [
+          0.3455431288987013,
+          0.3825544053180314,
+          0.45393268295218436
+        ],
+        [
+          0.34434914303971415,
+          0.3734144648130859,
+          0.44540252939696795
+        ],
+        [
+          0.3441294271679849,
+          0.3714051693648028,
+          0.4434638565115724
+        ],
+        [
+          0.3866692320100236,
+          0.4565085093318197,
+          0.49510514026988356
+        ],
+        [
+          0.3527806571269082,
+          0.418729814589919,
+          0.48671055253457146
+        ],
+        [
+          0.3461872512308477,
+          0.38916951470593114,
+          0.469083820696564
+        ]
+      ],
+      "median_shift_pp": [
+        8.768691480143254e-05,
+        6.621770734516197e-05,
+        5.170787238384378e-05,
+        0.00012606994942432337,
+        7.375434268319658e-05,
+        2.6973307082345244e-05
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.1149235953228642,
+        6.733899462588855
+      ]
+    },
+    "single_19_cosmo": {
+      "replaced_indices": [
+        19
+      ],
+      "quantiles": [
+        [
+          0.345687950887681,
+          0.3838057489773511,
+          0.45637031815897194
+        ],
+        [
+          0.3443935397767904,
+          0.3739003452343266,
+          0.4466023820576937
+        ],
+        [
+          0.3441423521509338,
+          0.37155175497231413,
+          0.4438440335619219
+        ],
+        [
+          0.38657705302251505,
+          0.456410663144605,
+          0.4950801249447548
+        ],
+        [
+          0.3528246637170884,
+          0.4188927846633066,
+          0.4867959635788025
+        ],
+        [
+          0.34620003858481246,
+          0.389274052782697,
+          0.46922309882195
+        ]
+      ],
+      "median_shift_pp": [
+        0.12522205284676846,
+        0.04865425983141547,
+        0.014710268623518985,
+        -0.00965854877204575,
+        0.01637076168144458,
+        0.010480780983668225
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.2253994005036961,
+        6.713661036190799
+      ]
+    },
+    "single_19_nocosmo": {
+      "replaced_indices": [
+        19
+      ],
+      "quantiles": [
+        [
+          0.345661256989346,
+          0.38357857628299374,
+          0.45594726218200765
+        ],
+        [
+          0.3443827847782196,
+          0.3737832650518302,
+          0.4463186173222358
+        ],
+        [
+          0.34413495919633696,
+          0.3714679581393186,
+          0.44362750065127304
+        ],
+        [
+          0.3866563474650989,
+          0.45649488752507034,
+          0.49510166530411603
+        ],
+        [
+          0.35284111168391147,
+          0.4189535230811427,
+          0.48682749282598076
+        ],
+        [
+          0.3462027363157784,
+          0.38929606545876766,
+          0.46925224413158023
+        ]
+      ],
+      "median_shift_pp": [
+        0.10250478341103375,
+        0.03694624158177562,
+        0.006330585323965909,
+        -0.001236110725510997,
+        0.022444603465054946,
+        0.012682048590734185
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.2110618143675145,
+        6.719882206630268
+      ]
+    },
+    "single_20_original_lal": {
+      "replaced_indices": [
+        20
+      ],
+      "quantiles": [
+        [
+          0.3455430939679865,
+          0.38255406930467906,
+          0.4539318195108835
+        ],
+        [
+          0.3443491187643682,
+          0.3734141850978119,
+          0.4454017264567627
+        ],
+        [
+          0.3441294166675328,
+          0.37140504226542836,
+          0.4434634627958511
+        ],
+        [
+          0.38666856549856504,
+          0.45650775569035124,
+          0.4951049357645776
+        ],
+        [
+          0.3527805655295984,
+          0.41872946279301015,
+          0.48671035669141793
+        ],
+        [
+          0.34618723864691314,
+          0.3891694100783889,
+          0.4690836752354432
+        ]
+      ],
+      "median_shift_pp": [
+        5.4085579564988606e-05,
+        3.824617994530044e-05,
+        3.899793494244186e-05,
+        5.070580257893198e-05,
+        3.85746518005714e-05,
+        1.6510552858228777e-05
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.1149027039250692,
+        6.733834561196233
+      ]
+    },
+    "single_20_cosmo": {
+      "replaced_indices": [
+        20
+      ],
+      "quantiles": [
+        [
+          0.3455359449593056,
+          0.3824943029339713,
+          0.45382790960900005
+        ],
+        [
+          0.3443127448293631,
+          0.3730232823362463,
+          0.44449009021674196
+        ],
+        [
+          0.3440946763589234,
+          0.37101496563053576,
+          0.4424858853031523
+        ],
+        [
+          0.38644823558650315,
+          0.45629381594606105,
+          0.4950552811955749
+        ],
+        [
+          0.3527257240520928,
+          0.41853075591255523,
+          0.4866101999166399
+        ],
+        [
+          0.34617770585017715,
+          0.389092007345128,
+          0.4689822274091476
+        ]
+      ],
+      "median_shift_pp": [
+        -0.005922551491210903,
+        -0.039052029976610614,
+        -0.03896866555431755,
+        -0.021343268626439205,
+        -0.01983211339369184,
+        -0.007723762773231835
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.1479337303435533,
+        6.720180860093306
+      ]
+    },
+    "single_20_nocosmo": {
+      "replaced_indices": [
+        20
+      ],
+      "quantiles": [
+        [
+          0.3454918926139213,
+          0.3821231150093103,
+          0.45317034648657817
+        ],
+        [
+          0.3442990518648733,
+          0.37287489724445233,
+          0.44413431749036036
+        ],
+        [
+          0.34408614345820615,
+          0.3709183992364269,
+          0.44223724686440113
+        ],
+        [
+          0.3863583987172927,
+          0.4562057436051577,
+          0.495034593407572
+        ],
+        [
+          0.3527247956251067,
+          0.41852737672576545,
+          0.48660848268363893
+        ],
+        [
+          0.34617845242023404,
+          0.38909807802750673,
+          0.46899021589744416
+        ]
+      ],
+      "median_shift_pp": [
+        -0.04304134395731185,
+        -0.05389053915600961,
+        -0.04862530496520523,
+        -0.030150502716774774,
+        -0.02017003207266943,
+        -0.007116694535358459
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.12047157728834,
+        6.710766557765097
+      ]
+    },
+    "single_25_original_lal": {
+      "replaced_indices": [
+        25
+      ],
+      "quantiles": [
+        [
+          0.3455431450107041,
+          0.3825544720576972,
+          0.45393240780058147
+        ],
+        [
+          0.34434911522146555,
+          0.3734141434815684,
+          0.445401605818656
+        ],
+        [
+          0.34412940106436846,
+          0.37140486795014926,
+          0.4434630325150821
+        ],
+        [
+          0.3866691850431913,
+          0.45650835443723775,
+          0.49510507426554895
+        ],
+        [
+          0.35278067424451853,
+          0.41872984293835447,
+          0.486710537662674
+        ],
+        [
+          0.34618725752634166,
+          0.3891695605000145,
+          0.46908386309446276
+        ]
+      ],
+      "median_shift_pp": [
+        9.436088138081722e-05,
+        3.408455559461565e-05,
+        2.1566407032436175e-05,
+        0.00011058049123047198,
+        7.658918623199007e-05,
+        3.1552715418214916e-05
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.114960410754795,
+        6.733879393722325
+      ]
+    },
+    "single_25_cosmo": {
+      "replaced_indices": [
+        25
+      ],
+      "quantiles": [
+        [
+          0.3454545743083232,
+          0.3818225837724021,
+          0.45271030826980707
+        ],
+        [
+          0.34431122964763855,
+          0.37301121510506696,
+          0.4444919869704392
+        ],
+        [
+          0.3441151567524325,
+          0.3712460237999112,
+          0.4430720128603525
+        ],
+        [
+          0.38654682183045874,
+          0.45638959182611943,
+          0.49507756056216795
+        ],
+        [
+          0.3526297913063824,
+          0.4181875405502612,
+          0.4864407281462277
+        ],
+        [
+          0.34615572552586965,
+          0.388914895106596,
+          0.4687546306328991
+        ]
+      ],
+      "median_shift_pp": [
+        -0.07309446764813265,
+        -0.04025875309454641,
+        -0.01586284861677667,
+        -0.011765680620601238,
+        -0.054153649623095435,
+        -0.02543498662643251
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.0576559972490907,
+        6.747469671952344
+      ]
+    },
+    "single_25_nocosmo": {
+      "replaced_indices": [
+        25
+      ],
+      "quantiles": [
+        [
+          0.34545930245440115,
+          0.3818621553091803,
+          0.45277838083446864
+        ],
+        [
+          0.3442956935926677,
+          0.37284446403982424,
+          0.44410446678440546
+        ],
+        [
+          0.34410317283482306,
+          0.37111148325748244,
+          0.4427355763472162
+        ],
+        [
+          0.38663213370644295,
+          0.45647254439286317,
+          0.49509679227183173
+        ],
+        [
+          0.35262569774681196,
+          0.4181726662490482,
+          0.4864331737373172
+        ],
+        [
+          0.34615527907138105,
+          0.3889112719555384,
+          0.4687498971611617
+        ]
+      ],
+      "median_shift_pp": [
+        -0.06913731397031331,
+        -0.05693385961881847,
+        -0.029316902859649607,
+        -0.003470423946227985,
+        -0.05564107974439514,
+        -0.02579730173219441
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.075067205169783,
+        6.756127243732479
+      ]
+    },
+    "all_new_original_lal": {
+      "replaced_indices": [
+        19,
+        20,
+        25
+      ],
+      "quantiles": [
+        [
+          0.34554330952230883,
+          0.38255588984470795,
+          0.4539351442946159
+        ],
+        [
+          0.34434921103419075,
+          0.37341518814526126,
+          0.44540416006918576
+        ],
+        [
+          0.344129481542402,
+          0.37140577502479843,
+          0.44346533808278304
+        ],
+        [
+          0.3866709046582476,
+          0.4565101222096295,
+          0.4951055125305567
+        ],
+        [
+          0.3527809797262578,
+          0.41873096624170114,
+          0.4867111203197767
+        ],
+        [
+          0.34618731084360443,
+          0.3891699953428388,
+          0.46908443946141437
+        ]
+      ],
+      "median_shift_pp": [
+        0.00023613958245460864,
+        0.00013855092488301857,
+        0.00011227387194945315,
+        0.0002873577304052244,
+        0.00018891952089927777,
+        7.503699784860984e-05
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.1150114819909518,
+        6.734012686679069
+      ]
+    },
+    "all_new_cosmo": {
+      "replaced_indices": [
+        19,
+        20,
+        25
+      ],
+      "quantiles": [
+        [
+          0.3455859791521297,
+          0.382972976790556,
+          0.4550088693320759
+        ],
+        [
+          0.34431796958422084,
+          0.3730934695045111,
+          0.44476371724908853
+        ],
+        [
+          0.3440933125252343,
+          0.37100220794851596,
+          0.44247483973197377
+        ],
+        [
+          0.38623707985360106,
+          0.4560793715765694,
+          0.49500262079703156
+        ],
+        [
+          0.3526191232275551,
+          0.41815265373353677,
+          0.4864267010091722
+        ],
+        [
+          0.3461589473432874,
+          0.3889419859111639,
+          0.468793277469236
+        ]
+      ],
+      "median_shift_pp": [
+        0.041944834167256806,
+        -0.03203331315013158,
+        -0.04024443375629794,
+        -0.042787705575603185,
+        -0.05764233129553764,
+        -0.022725906169640542
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.1970768842040014,
+        6.713738566540551
+      ]
+    },
+    "all_new_nocosmo": {
+      "replaced_indices": [
+        19,
+        20,
+        25
+      ],
+      "quantiles": [
+        [
+          0.34552066515466984,
+          0.38241711390014016,
+          0.4539924600465823
+        ],
+        [
+          0.344278760144234,
+          0.3726683812152519,
+          0.4437436100299507
+        ],
+        [
+          0.3440660968982975,
+          0.37069406651990244,
+          0.4416816402436609
+        ],
+        [
+          0.3863110442869384,
+          0.45615861163445004,
+          0.4950232472302066
+        ],
+        [
+          0.3526301597412838,
+          0.41819459974311435,
+          0.4864496871216752
+        ],
+        [
+          0.3461618976556436,
+          0.38896618471345656,
+          0.4688257536446697
+        ]
+      ],
+      "median_shift_pp": [
+        -0.013641454874324666,
+        -0.07454214207605059,
+        -0.0710585766176497,
+        -0.03486369978754067,
+        -0.05344773033778005,
+        -0.02030602594037534
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.1723047380237717,
+        6.719242692099348
+      ]
+    },
+    "all_new_weighted_cosmo": {
+      "replaced_indices": [
+        19,
+        20,
+        25
+      ],
+      "quantiles": [
+        [
+          0.34552066515466984,
+          0.3824171139001402,
+          0.4539924600465822
+        ],
+        [
+          0.344278760144234,
+          0.3726683812152518,
+          0.44374361002995066
+        ],
+        [
+          0.3440660968982975,
+          0.37069406651990244,
+          0.44168164024366097
+        ],
+        [
+          0.3863110442869384,
+          0.45615861163445004,
+          0.49502324723020663
+        ],
+        [
+          0.35263015974128376,
+          0.4181945997431144,
+          0.4864496871216752
+        ],
+        [
+          0.3461618976556436,
+          0.38896618471345645,
+          0.4688257536446695
+        ]
+      ],
+      "median_shift_pp": [
+        -0.013641454874319114,
+        -0.07454214207606169,
+        -0.0710585766176497,
+        -0.03486369978754067,
+        -0.0534477303377745,
+        -0.02030602594038644
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.1723047380237772,
+        6.719242692099359
+      ]
+    },
+    "new_plus_38_cosmo": {
+      "replaced_indices": [
+        19,
+        20,
+        25,
+        38
+      ],
+      "quantiles": [
+        [
+          0.3453497088597574,
+          0.3810797455597631,
+          0.45212839648206227
+        ],
+        [
+          0.3442544660633252,
+          0.3724270024693767,
+          0.44331961555392363
+        ],
+        [
+          0.344056025668643,
+          0.3705910726562048,
+          0.4414987433776274
+        ],
+        [
+          0.38610497682748,
+          0.4559586822865075,
+          0.4949758419670279
+        ],
+        [
+          0.3525873469653548,
+          0.41804081077002403,
+          0.4863727526806826
+        ],
+        [
+          0.3461550008968857,
+          0.38891050766037066,
+          0.46875386328546764
+        ]
+      ],
+      "median_shift_pp": [
+        -0.1473782889120312,
+        -0.09868001666357151,
+        -0.08135796298741615,
+        -0.05485663458179579,
+        -0.06882662764681191,
+        -0.025873731248965415
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.0488672903558316,
+        6.704817462613683
+      ]
+    },
+    "new_plus_38_nocosmo": {
+      "replaced_indices": [
+        19,
+        20,
+        25,
+        38
+      ],
+      "quantiles": [
+        [
+          0.34538070577568797,
+          0.3813043130359404,
+          0.45232970703283015
+        ],
+        [
+          0.3442435334154054,
+          0.37229878930926297,
+          0.442944379223821
+        ],
+        [
+          0.3440370619157948,
+          0.3703736446532238,
+          0.4409169315237715
+        ],
+        [
+          0.38637953739836145,
+          0.45622068044352654,
+          0.49503686895151183
+        ],
+        [
+          0.3526675322268306,
+          0.4183252970567873,
+          0.48651205939658937
+        ],
+        [
+          0.3461710974537964,
+          0.389039359015781,
+          0.4689170746783264
+        ]
+      ],
+      "median_shift_pp": [
+        -0.12492154129429833,
+        -0.11150133267494589,
+        -0.10310076328551299,
+        -0.0286568188798908,
+        -0.04037799897048666,
+        -0.012988595707930095
+      ],
+      "sigma03_minus12_gap_pp": [
+        1.0930668382716613,
+        6.718132142774552
+      ]
+    }
+  },
+  "checks": [
+    {
+      "index": 19,
+      "label": "cosmo",
+      "distance_max_relative_error": 3.781798274538062e-08,
+      "interface_integral_max_relative_error": 1.887379141862766e-14
+    },
+    {
+      "index": 19,
+      "label": "nocosmo",
+      "distance_max_relative_error": 3.8706575500313534e-08,
+      "interface_integral_max_relative_error": 3.275157922644212e-14,
+      "reexpression_log_constant_range": 7.105427357601002e-15
+    },
+    {
+      "index": 20,
+      "label": "cosmo",
+      "distance_max_relative_error": 3.672034587509643e-08,
+      "interface_integral_max_relative_error": 9.992007221626409e-15
+    },
+    {
+      "index": 20,
+      "label": "nocosmo",
+      "distance_max_relative_error": 3.672034587509643e-08,
+      "interface_integral_max_relative_error": 2.1760371282653068e-14,
+      "reexpression_log_constant_range": 7.105427357601002e-15
+    },
+    {
+      "index": 25,
+      "label": "cosmo",
+      "distance_max_relative_error": 3.44971535781724e-08,
+      "interface_integral_max_relative_error": 7.66053886991358e-15
+    },
+    {
+      "index": 25,
+      "label": "nocosmo",
+      "distance_max_relative_error": 3.44971535781724e-08,
+      "interface_integral_max_relative_error": 2.1316282072803006e-14,
+      "reexpression_log_constant_range": 7.105427357601002e-15
+    }
+  ],
+  "max_grid_quantile_error": 1.5393904967409e-07,
+  "weighted_representation_max_quantile_difference": 2.220446049250313e-16,
+  "frozen_hashes": {
+    "results/model.json": "6dcf3c9f4fd51b2007977d131c61f69c7d861afb986551ea82b70a7667a51083",
+    "data/posteriors.npz": "3aec709780ac373e485682323c20cbe6ed0c14028c66b030bb73d848739489c4",
+    "data/injections.npz": "00ce46283aaf5c1e3df1a8b479a2f3c5bf904e4aef6aa0cf641f93df54bf7a13"
+  },
+  "limits": "Targeted event subset; dependent released samples; native spin references retained. No calibrated PE uncertainty or formation-channel measurement."
+}

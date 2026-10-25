@@ -1,0 +1,289 @@
+{
+  "schema": "blackhole-alias-residual-refinement/1",
+  "initial_release_agreement_gate_passed": false,
+  "summaries": [
+    {
+      "source_row": 3831,
+      "frequency": 16.0,
+      "two_solver_two_tolerance_spread": 1.978303232341716e-08,
+      "max_release_residual": 4.0107810661549337e-07
+    },
+    {
+      "source_row": 3831,
+      "frequency": 20.0,
+      "two_solver_two_tolerance_spread": 2.052120540163571e-08,
+      "max_release_residual": 4.113340109634933e-07
+    },
+    {
+      "source_row": 134864,
+      "frequency": 16.0,
+      "two_solver_two_tolerance_spread": 7.434053372890048e-13,
+      "max_release_residual": 8.141619668444733e-07
+    },
+    {
+      "source_row": 134864,
+      "frequency": 20.0,
+      "two_solver_two_tolerance_spread": 7.397416013077418e-13,
+      "max_release_residual": 1.232307390242049e-06
+    }
+  ],
+  "rows": [
+    {
+      "source_row": 3831,
+      "frequency": 16.0,
+      "method": "DOP853",
+      "rtol": 1e-13,
+      "cosines": [
+        0.5171933591870217,
+        -0.5867462806562553
+      ],
+      "target_difference": [
+        -3.812950742920762e-07,
+        5.888617904403759e-08
+      ],
+      "rhs_evaluations": 674,
+      "warnings": []
+    },
+    {
+      "source_row": 3831,
+      "frequency": 16.0,
+      "method": "DOP853",
+      "rtol": 3e-14,
+      "cosines": [
+        0.5171933394039894,
+        -0.5867462776010174
+      ],
+      "target_difference": [
+        -4.0107810661549337e-07,
+        6.1941416995559e-08
+      ],
+      "rhs_evaluations": 698,
+      "warnings": []
+    },
+    {
+      "source_row": 3831,
+      "frequency": 16.0,
+      "method": "RK45",
+      "rtol": 1e-13,
+      "cosines": [
+        0.5171933467857179,
+        -0.5867462787410315
+      ],
+      "target_difference": [
+        -3.936963780537539e-07,
+        6.080140291242486e-08
+      ],
+      "rhs_evaluations": 584,
+      "warnings": []
+    },
+    {
+      "source_row": 3831,
+      "frequency": 16.0,
+      "method": "RK45",
+      "rtol": 3e-14,
+      "cosines": [
+        0.517193345949122,
+        -0.5867462786118299
+      ],
+      "target_difference": [
+        -3.945329739574177e-07,
+        6.09306044507818e-08
+      ],
+      "rhs_evaluations": 680,
+      "warnings": []
+    },
+    {
+      "source_row": 3831,
+      "frequency": 20.0,
+      "method": "DOP853",
+      "rtol": 1e-13,
+      "cosines": [
+        0.5171923466599272,
+        -0.5867461242843117
+      ],
+      "target_difference": [
+        -3.908128055618576e-07,
+        6.035607147403255e-08
+      ],
+      "rhs_evaluations": 686,
+      "warnings": []
+    },
+    {
+      "source_row": 3831,
+      "frequency": 20.0,
+      "method": "DOP853",
+      "rtol": 3e-14,
+      "cosines": [
+        0.5171923261387218,
+        -0.5867461211150723
+      ],
+      "target_difference": [
+        -4.113340109634933e-07,
+        6.352531090048075e-08
+      ],
+      "rhs_evaluations": 710,
+      "warnings": []
+    },
+    {
+      "source_row": 3831,
+      "frequency": 20.0,
+      "method": "RK45",
+      "rtol": 1e-13,
+      "cosines": [
+        0.5171923403608519,
+        -0.5867461233114996
+      ],
+      "target_difference": [
+        -3.971118808232532e-07,
+        6.132888363818978e-08
+      ],
+      "rhs_evaluations": 584,
+      "warnings": []
+    },
+    {
+      "source_row": 3831,
+      "frequency": 20.0,
+      "method": "RK45",
+      "rtol": 3e-14,
+      "cosines": [
+        0.5171923301740666,
+        -0.58674612173828
+      ],
+      "target_difference": [
+        -4.072986661274314e-07,
+        6.290210319281897e-08
+      ],
+      "rhs_evaluations": 674,
+      "warnings": []
+    },
+    {
+      "source_row": 134864,
+      "frequency": 16.0,
+      "method": "DOP853",
+      "rtol": 1e-13,
+      "cosines": [
+        0.5899532325685569,
+        -0.5770210351382428
+      ],
+      "target_difference": [
+        -7.799166256150514e-07,
+        8.141619668444733e-07
+      ],
+      "rhs_evaluations": 1310,
+      "warnings": []
+    },
+    {
+      "source_row": 134864,
+      "frequency": 16.0,
+      "method": "DOP853",
+      "rtol": 3e-14,
+      "cosines": [
+        0.5899532325691536,
+        -0.5770210351388656
+      ],
+      "target_difference": [
+        -7.799160289811979e-07,
+        8.141613440093565e-07
+      ],
+      "rhs_evaluations": 1310,
+      "warnings": []
+    },
+    {
+      "source_row": 134864,
+      "frequency": 16.0,
+      "method": "RK45",
+      "rtol": 1e-13,
+      "cosines": [
+        0.589953232569269,
+        -0.5770210351389862
+      ],
+      "target_difference": [
+        -7.799159135180034e-07,
+        8.14161223439136e-07
+      ],
+      "rhs_evaluations": 2060,
+      "warnings": []
+    },
+    {
+      "source_row": 134864,
+      "frequency": 16.0,
+      "method": "RK45",
+      "rtol": 3e-14,
+      "cosines": [
+        0.589953232569005,
+        -0.5770210351387105
+      ],
+      "target_difference": [
+        -7.799161775290386e-07,
+        8.14161499107513e-07
+      ],
+      "rhs_evaluations": 2600,
+      "warnings": []
+    },
+    {
+      "source_row": 134864,
+      "frequency": 20.0,
+      "method": "DOP853",
+      "rtol": 1e-13,
+      "cosines": [
+        0.5930324227389374,
+        -0.5802354293982889
+      ],
+      "target_difference": [
+        -1.1804734648679371e-06,
+        1.2323068472319676e-06
+      ],
+      "rhs_evaluations": 1334,
+      "warnings": []
+    },
+    {
+      "source_row": 134864,
+      "frequency": 20.0,
+      "method": "DOP853",
+      "rtol": 3e-14,
+      "cosines": [
+        0.5930324227387626,
+        -0.5802354293981064
+      ],
+      "target_difference": [
+        -1.1804736397280635e-06,
+        1.2323070297526328e-06
+      ],
+      "rhs_evaluations": 1298,
+      "warnings": []
+    },
+    {
+      "source_row": 134864,
+      "frequency": 20.0,
+      "method": "RK45",
+      "rtol": 1e-13,
+      "cosines": [
+        0.5930324227391258,
+        -0.5802354293984856
+      ],
+      "target_difference": [
+        -1.1804732764630899e-06,
+        1.2323066505004476e-06
+      ],
+      "rhs_evaluations": 2066,
+      "warnings": []
+    },
+    {
+      "source_row": 134864,
+      "frequency": 20.0,
+      "method": "RK45",
+      "rtol": 3e-14,
+      "cosines": [
+        0.5930324227384173,
+        -0.5802354293977459
+      ],
+      "target_difference": [
+        -1.1804739850074242e-06,
+        1.232307390242049e-06
+      ],
+      "rhs_evaluations": 2618,
+      "warnings": []
+    }
+  ],
+  "interpretation": "Two ODE solvers test whether the small retained release discrepancy is integration instability. A converged residual still exceeding 1e-6 does not pass the original gate; do not overwrite that failure or call it exact release reproduction."
+}

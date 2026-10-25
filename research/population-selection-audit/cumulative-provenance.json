@@ -1,0 +1,124 @@
+{
+  "schema": "blackhole-cumulative-source-audit/1",
+  "source_sha256": "89f912ba2e207f56455df9628d4b3fab76cd8d7924ea7f1263a16119bce1ab31",
+  "source_file": "mixture-semi_o1_o2-real_o3-cartesian_spins_20250503134659UTC.hdf",
+  "attributes": {
+    "num_accepted": 919033,
+    "searches": [
+      "o3_cwb",
+      "o3_gstlal",
+      "o3_mbta",
+      "o3_pycbc_bbh",
+      "o3_pycbc_hyperbank"
+    ],
+    "total_analysis_time": 43151200.0,
+    "total_generated": 697580768.0
+  },
+  "counts": {
+    "all": 919033,
+    "semianalytic_o1_o2": 593005,
+    "real_o3": 326028,
+    "historical_full_bbh_o3": 284672,
+    "exact_join": 117259
+  },
+  "time_ranges": {
+    "early": [
+      1126627425.232046,
+      1187733518.480838
+    ],
+    "o3": [
+      1238166026.2507293,
+      1269363521.92042
+    ]
+  },
+  "physical_join": {
+    "mass1_source": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "mass2_source": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "redshift": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "spin1x": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "spin1y": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "spin1z": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "spin2x": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "spin2y": {
+      "exact": true,
+      "max_abs": 0.0
+    },
+    "spin2z": {
+      "exact": true,
+      "max_abs": 0.0
+    }
+  },
+  "search_join": {
+    "ifar_cwb": {
+      "new_field": "o3_cwb_far",
+      "threshold_disagreements": 0,
+      "max_positive_ifar_times_far_error": 1.1102230246251565e-16,
+      "old_zero_new_infinite_agree": true
+    },
+    "ifar_gstlal": {
+      "new_field": "o3_gstlal_far",
+      "threshold_disagreements": 0,
+      "max_positive_ifar_times_far_error": 1.1102230246251565e-16,
+      "old_zero_new_infinite_agree": true
+    },
+    "ifar_mbta": {
+      "new_field": "o3_mbta_far",
+      "threshold_disagreements": 0,
+      "max_positive_ifar_times_far_error": 1.1102230246251565e-16,
+      "old_zero_new_infinite_agree": true
+    },
+    "ifar_pycbc_bbh": {
+      "new_field": "o3_pycbc_bbh_far",
+      "threshold_disagreements": 0,
+      "max_positive_ifar_times_far_error": 1.1102230246251565e-16,
+      "old_zero_new_infinite_agree": true
+    },
+    "ifar_pycbc_hyperbank": {
+      "new_field": "o3_pycbc_hyperbank_far",
+      "threshold_disagreements": 0,
+      "max_positive_ifar_times_far_error": 1.1102230246251565e-16,
+      "old_zero_new_infinite_agree": true
+    }
+  },
+  "ranges": {
+    "redshift": [
+      0.0004038381448481232,
+      1.896476149559021
+    ],
+    "mass1_source": [
+      1.0002666785283578,
+      998.6708273843694
+    ],
+    "mass2_source": [
+      1.0000430345535278,
+      715.3284873348763
+    ],
+    "weights": [
+      0.3562938486384702,
+      5.384311866522967
+    ]
+  },
+  "cache_sha256": "2221208c2dae12678a8f8110d8665558f44cf0a3eb10dd0f989a8aeb620d6de3",
+  "limits": "Exact identity of intersecting rows only. Mixture draw densities, time weights and source population coverage may differ. No assigned spin reference frequency."
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "blackhole-bilingual-v03-build/1",
+  "date": "2026-10-25",
+  "status": "compiled",
+  "evidence_manifest_sha256": "7ff5c92a64595f29c271d2a8dbb2a0f3e5e7ddcf235fe627c1f165f9cc2a5ff3",
+  "editions": [
+    {
+      "language": "en",
+      "engine": "pdflatex",
+      "engine_version": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5 Portable)",
+      "passes": 2,
+      "exit_code": 0,
+      "pages": 14,
+      "clean_diagnostics": true,
+      "diagnostics": [],
+      "source_sha256": {
+        "latex-en/bibliography.tex": "24d6b1d33b521c46f9875f8e74c940691c2961c21eb0c220434785ad948ce561",
+        "latex-en/completion-table.tex": "94dc5c235f523b6d51e6bf47a53f7100ac1e0a0537e89aac86ddd3acaa689f94",
+        "latex-en/facts.tex": "28069016adb4460a3f50c7b867ad11870ea56baa6f752509ea1f143de4f1643c",
+        "latex-en/finite-table.tex": "47cc3a70623b76d353457f1d0ece9a615bf85bccec3b86474daa297b596905a6",
+        "latex-en/g-table.tex": "faf4da0f6df906808e514d20b8fd88066ed93d9a544debdbf53fc06ba8294653",
+        "latex-en/main.tex": "b9b49d177c276718749aa1345b373da1dbfe0bc584c8a4c08ef55853f94fe389",
+        "latex-en/manuscript.tex": "38ac50b11d076d81b07b4a2dad5937d5250862cd3cdc6b17b618d6cf915b8b01",
+        "latex-en/preamble.tex": "3b69f559c74602989a83b916bb0903342173ecf1a969d711c94ba80e2c3ca247",
+        "latex-en/support-table.tex": "9eac7e139559498d3208ca4817eb092959c1f6483722db898baf337d4105fb25"
+      },
+      "figures_sha256": {
+        "effective-spin.pdf": "d16cc3966207b6ecef12a961f8d28b4975f3ca842caed85797845b6c839f554c",
+        "finite-banks.pdf": "8f052d9244d1ac5064f8cdd7fb079ef281beebbb04d6b5cafea494e4960c3ed3",
+        "native-restoration.pdf": "c2aca279dad16c2df15f429231cda2bcdafbc49eca784361d7a33a863bb1e835",
+        "reference-residual.pdf": "d1f41800b880288db6d2ebcd2c2b0b049bd6bf0c9b06bf9a959a85009257423b",
+        "support-envelope.pdf": "ce309bff10143e4da5c208fed2d4907b3f1328663fc49f06bbff9c37f5213291"
+      },
+      "log_sha256": "638508b471a75eb8684a5ff1f5e778ead99d67e887cbeecb0d8b78dc7cbc8972",
+      "output": "output/pdf/blackhole-population-robustness-latex-en-v0.3.pdf",
+      "pdf_sha256": "0849e63d34a87ae3d8627227961b1044255188428adad430bae7e58f75be09ce",
+      "render_prefix": "research/paper/tmp/v0.3/en/page"
+    },
+    {
+      "language": "zh",
+      "engine": "xelatex",
+      "engine_version": "MiKTeX-XeTeX 4.18 (MiKTeX 26.5 Portable)",
+      "passes": 2,
+      "exit_code": 0,
+      "pages": 14,
+      "clean_diagnostics": true,
+      "diagnostics": [],
+      "source_sha256": {
+        "latex-zh/bibliography.tex": "24d6b1d33b521c46f9875f8e74c940691c2961c21eb0c220434785ad948ce561",
+        "latex-zh/completion-table.tex": "5442ca3314f77cb32006629717307bf154a834895ef171fe617d1f27d8d79dbe",
+        "latex-zh/facts.tex": "28069016adb4460a3f50c7b867ad11870ea56baa6f752509ea1f143de4f1643c",
+        "latex-zh/finite-table.tex": "47dcd2c3a0ed3d4671fb4a407c0c305a7b13df8b9ea0f5e53a8b9f5e4811dab2",
+        "latex-zh/g-table.tex": "b5d4f434eecfbc6d2fed4821094feff7c043c09388a284139799eb9c2a3212d6",
+        "latex-zh/main.tex": "43dcf7f1495c7be4d0f333fd3622637abd2f77eb45b424c91c2d0131f8c41b36",
+        "latex-zh/manuscript.tex": "3b44726512f8482f1cee81144cad297ce13eb0282157e27151577ff87b55b833",
+        "latex-zh/preamble.tex": "3b69f559c74602989a83b916bb0903342173ecf1a969d711c94ba80e2c3ca247",
+        "latex-zh/support-table.tex": "56a314c30ca360cf7ddc7c0634c3e21e3f316ee05e8a2beed7f87714a631a8d0"
+      },
+      "figures_sha256": {
+        "effective-spin.pdf": "d16cc3966207b6ecef12a961f8d28b4975f3ca842caed85797845b6c839f554c",
+        "finite-banks.pdf": "8f052d9244d1ac5064f8cdd7fb079ef281beebbb04d6b5cafea494e4960c3ed3",
+        "native-restoration.pdf": "c2aca279dad16c2df15f429231cda2bcdafbc49eca784361d7a33a863bb1e835",
+        "reference-residual.pdf": "d1f41800b880288db6d2ebcd2c2b0b049bd6bf0c9b06bf9a959a85009257423b",
+        "support-envelope.pdf": "ce309bff10143e4da5c208fed2d4907b3f1328663fc49f06bbff9c37f5213291"
+      },
+      "log_sha256": "802b6685c7e5034c036b1d2eeba7ba29c68225d902eb1472752f7ed2847fb16a",
+      "output": "output/pdf/blackhole-population-robustness-latex-zh-v0.3.pdf",
+      "pdf_sha256": "483fde7e6bda3ff485a8cfea8a722ea30ce325cf0ff7d8cedabd1354d376a681",
+      "render_prefix": "research/paper/tmp/v0.3/zh/page"
+    }
+  ],
+  "note": "Actual installed TeX engine outputs. The desktop editor compiled English but its Chinese fallback lacked a font; direct XeLaTeX avoids that fallback. No visual/semantic review is asserted by this build record."
+}

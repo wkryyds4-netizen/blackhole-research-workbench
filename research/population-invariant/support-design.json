@@ -1,0 +1,17 @@
+{
+  "schema": "blackhole-support-sensitivity-design/1",
+  "date": "2026-10-25",
+  "timing": "Recorded before these sensitivity outputs, after inspecting the full-bank and paired-thinning results. This is a post-diagnostic follow-up, not a prospective discovery test.",
+  "baseline": "Keep all69 complete source banks, the six invariant-g models, uniform g prior, and both frozen search policies. Do not change run_control.py or overwrite earlier outputs.",
+  "questions": [
+    "What can a bounded oscillation B of an unknown log-likelihood correction guarantee about a posterior CDF or median?",
+    "How large must B become before a conservative outer envelope no longer certifies the observed amplitude-model median ordering?",
+    "How does one explicit missing negative-component integral in the observed zero-component event alter the inference?",
+    "Does the elementary detection-probability bound on the known unsupported O3 redshift/spin domain constrain the selection correction usefully?"
+  ],
+  "bounded_correction": "For any positive correction h(g) with ess sup log h - ess inf log h <= B, derive CDF and quantile envelopes; do not claim B has been measured. Evaluate B=0,.05,.1,.2,.5,1,2 and find the ordering certificate threshold for each same-lambda amplitude contrast.",
+  "event_completion": "At index54 GW191204_171526 only, replace its cached component pair (0,mu_positive) by (eta*mu_positive,mu_positive), eta=0,.0001,.001,.01,.1,1,10,100 and the normalized eta-to-infinity limit. Apply the same eta to all six models as a declared stress family. This integral completion is not asserted to be realizable by one physical waveform likelihood or inferred from samples.",
+  "selection_domain": "Compute normalized target mass in the known O3 omitted union z>1.9 or either magnitude>0.998. Use time fraction times domain mass as an upper bound for only this domain's missed selection contribution, conditional on exact represented integrals; do not equate this with the total selection bias.",
+  "validation": "Independent posterior products, split-domain adversarial CDF quadrature, direct quantile root finding, survival-beta integral and independent cosmological quadrature. Preserve source hashes. Show zero-component invariance under finite-bank resampling without treating it as a physical zero.",
+  "limits": "No actual missing-likelihood budget is recovered. No PE-chain calibration, shared waveform-systematic calibration, historical injection reference recovery or channel-fraction identification. Outer sensitivity envelopes are not credible intervals or confidence statements."
+}

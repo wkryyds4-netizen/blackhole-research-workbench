@@ -1,4 +1,34 @@
-# 公开双黑洞群体推断的条件稳健性
+# 双黑洞群体研究论文与复现
+
+## 阶段快照v0.3：后验来源、有限银行稳定性与缺失支持
+
+2026-10-25，署名澄衡（Chengheng），未同行评审。新稿已覆盖全69原始来源、11180578后验行、原生倾角与负有效自旋两个六模型控制、512次成对人工抽稀，以及未见贡献的条件边界。两版各14页，均含14个公式、5张矢量图、4张表和15条参考文献。原v0.2文件与校验记录保留。
+
+| 版本 | 阅读PDF | 可编辑LaTeX |
+|---|---|---|
+| 中文v0.3 | [14页PDF](../../output/pdf/blackhole-population-robustness-latex-zh-v0.3.pdf) | [主文件](v0.3/latex-zh/main.tex)、[正文](v0.3/latex-zh/manuscript.tex) |
+| English v0.3 | [14-page PDF](../../output/pdf/blackhole-population-robustness-latex-en-v0.3.pdf) | [Main file](v0.3/latex-en/main.tex), [body](v0.3/latex-en/manuscript.tex) |
+
+正文、图注和表头分别翻译，数值事实与数据行从同一已验证结果生成。图内使用共享的英文短标签与数学符号。文章明确区分模型内可信区间、人工抽稀分位范围与假设性敏感性包络；保留两项原始失败及其后续诊断，不将数值通过写成实际遗漏贡献、活动覆盖率或形成渠道的识别。
+
+新增的较近文献对照包含Vitale与Mould的积分角度指标、Wolfe等的有效自旋/分量自旋退化，以及Kobayashi等的事件先验与MC收敛研究。不把这些既有问题重新包装为方法创新。v0.3仍是阶段研究稿，实际支持外证据、共同参考倾角与物理渠道对照仍未完成，本次Git快照包含v0.3及初步工作台适配；研究已按用户要求暂停，完整交互验证仍待完成。
+
+在具备NumPy/SciPy/Astropy/Matplotlib、TeX及Poppler的环境中，从仓库根执行：
+
+```text
+python research/paper/v0.3/build_evidence.py
+python research/paper/v0.3/compile_paper.py --render
+python research/paper/v0.3/inspect_paper.py
+python research/paper/v0.3/validate_release.py
+```
+
+`inspect_paper.py`还需pypdf、pdfplumber与Pillow，本机使用应用自带PDF环境。英文由pdfLaTeX、中文由XeLaTeX实际编译；编辑器的中文备用编译器曾缺少字体，本机直接XeLaTeX成功。无需为此安装新字体或改变系统配置。
+
+重新生成图表需要已验证的本地`control-checkpoints.npz`、`support-checkpoints.npz`和冻结教程NPZ，先按科研复现步骤恢复；这些缓存不随Git分发。仅编译已经提供的LaTeX源码和矢量PDF图，不需要重新下载23.55 GB原始HDF。每个语言项目目录可直接编译`main.tex`两次。
+
+[证据清单](v0.3/evidence-manifest.json)、[编译清单](v0.3/build-manifest.json)、[文本与页面检查](v0.3/inspection.json)、[版面自查](v0.3/visual-qa.json)与[双语内容自查](v0.3/translation-review.json)各自记录范围。两语言宏、表格数据、公式/图表/引用结构一致；该检查不替代独立同行评审。重新构图/编译可能改变PDF哈希，必须重新渲染与检查后更新自查记录，不能把旧记录套到新PDF。
+
+## 历史v0.2：公开双黑洞群体推断的条件稳健性
 
 **研究技术稿 v0.2，2026-10-24，未同行评审。**
 
