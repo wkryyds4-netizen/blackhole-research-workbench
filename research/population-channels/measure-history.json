@@ -1,0 +1,23 @@
+[
+  {
+    "family": "uniform_magnitude",
+    "q": 0.1,
+    "nodes": 512,
+    "rule": "one Gauss-Legendre interval across[-A,A]",
+    "normalization": 0.9999534864073889,
+    "normalization_gate": 2e-05,
+    "status": "failed"
+  },
+  {
+    "rule": "split at zero,512 nodes per half",
+    "status": "pass",
+    "maximum_normalization_error": 6.423987453096913e-09,
+    "tool_sha256": "c75d3dd84c1b5b48d2fe6416313bf2bbddf51bf1b8aebd5735076c7efa2987cd"
+  },
+  {
+    "rule": "split at zero,512 nodes per half",
+    "status": "pass",
+    "maximum_normalization_error": 6.423987453096913e-09,
+    "tool_sha256": "409dae99f549e91b30ca45940e010473163c76f640622e6fe1e185c173b07e22"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "schema": "blackhole-channel-flow-runtime-design/1",
+  "date": "2026-10-27",
+  "timing": "Recorded after archive/schema/source inspection, before evaluating or sampling the restored networks. No GW channel fit is performed in this phase.",
+  "source_record": 14967688,
+  "channels": ["CE", "CHE", "GC", "NSC", "SMT"],
+  "coordinates": ["chirp_mass_source_Msun", "mass_ratio", "chi_eff", "redshift"],
+  "architecture": "Published CouplingNSF state tensors,6 transforms,128 neurons,2 residual blocks, between-transform batch normalization; bin counts from archive config. Glasflow0.4.1, CPUfloat64 evaluation of original float32 parameters.",
+  "serialization": "Load only the checksum-verified tensor state with torch.load(weights_only=True). Require strict state-dictionary matching. No upstream AMAZE Python is imported or executed.",
+  "conditions": "Treat context vectors as raw trained-network inputs. Birth-spin/CE labels require source/config evidence. Start with published example CE raw[0,2], others raw[0], and a separate CE raw[0,ln(2)] mapping candidate; this is a source diagnostic, not inference of astrophysics.",
+  "gates": {
+    "coordinate_roundtrip_relative": 1e-10,
+    "coordinate_log_jacobian_absolute": 2e-6,
+    "network_latent_roundtrip_absolute": 1e-7,
+    "network_logdet_cancellation_absolute": 1e-6,
+    "density_change_of_variables_absolute": 1e-8,
+    "autodiff_composite_logdet_absolute": 1e-6
+  },
+  "sampling": {"seed": 20261027, "samples_per_channel": 16384, "latent_test_points": 512, "autodiff_points": 8},
+  "reference_check": "Compare CE example marginals with published emulation_samps/flow_samps only after verifying columns. Evaluate both named raw-context candidates; a maximum marginal KS distance<=0.03 is a declared implementation diagnostic. File/context association and original training invocation are not proved by an empirical match.",
+  "scope": "Recover a usable density/sampling interface and mathematically verify maps and network behavior. This does not independently validate population synthesis, learned tails, historical sensitivity, or channel fractions. Published plotting samples are posterior-predictive products, not automatically fixed-hyperparameter training populations."
+}

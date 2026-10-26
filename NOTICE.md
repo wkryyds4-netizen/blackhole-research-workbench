@@ -4,6 +4,25 @@ The root MIT license covers this project's original code and documentation.
 It does not relicense third-party code, scientific datasets, model weights, or
 figures. Original notices remain authoritative.
 
+## Physical-channel checkpoint (2026-10-27)
+
+The original tools and aggregate diagnostics in `research/population-channels/`
+use Colloms et al.'s formation-channel emulator products, released under CC BY
+4.0 at https://zenodo.org/records/14967688 and described in
+https://arxiv.org/abs/2503.03819v1 . The source record supplies creator metadata;
+`sources/manifest.json` and `product-inspection.json` retain URLs and checksums.
+This project transforms coordinates, evaluates numeric model weights and
+summarizes diagnostic samples. The model weights, original HDF products and
+archive contents are not redistributed. Glasflow is a separately installed
+MIT-licensed dependency, not vendored here.
+
+The comparison also consults Zevin et al., https://arxiv.org/abs/2011.10057v2 ,
+https://zenodo.org/records/4448170 , and AMAZE at revision
+`4b3a0c78eec8ca4780f6e78fd50f0146ced33878`. No explicit license was identified
+in that inspected source snapshot. Downloaded AMAZE source remains excluded
+and is not imported or executed by the original adapter. This checkpoint does
+not claim a new observed channel-fraction measurement or author endorsement.
+
 ## Rendering and scientific software
 
 - The renderer adapts **algometrix/blackhole-sim**, MIT, and uses **Three.js**, MIT.

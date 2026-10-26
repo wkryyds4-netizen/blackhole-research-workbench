@@ -4,6 +4,12 @@
 
 ## 研究论文与复现材料
 
+2026-10-27 检查点：研究按用户要求暂停，现有成果随本次 Git 保存。新增[物理形成渠道接口与诊断](research/population-channels/README.md)（[English](research/population-channels/README.en.md)），尚未拟合观测渠道比例；已完成内容与恢复位置见[暂停记录](research/CHECKPOINT_2026-10-27.md)。本轮新增结果尚未并入 v0.3 论文或静态工作台。
+
+2026-10-27追加成果：[质量—红移54模型研究](research/population-mass-redshift/README.md)（[English](research/population-mass-redshift/README.en.md)）。全69来源、216组条件后验经独立复算；幅度族模型差在所测网格中保持10.36–17.14个百分点，质量/红移选择自身可使中位数跨约3.95个百分点。可分离模型、缺失支持及实际选择协议的限制仍保留，尚未并入v0.3或静态工作台。
+
+2026-10-27新增研究：[完整O3混合注入对照](research/population-mixture/README.md)（[English](research/population-mixture/README.en.md)）。固定69事件和12个模型，更换官方注入表示后，g中位数最大移动0.13703个百分点；混合提议仍未覆盖33.305257%的目标概率质量。本轮结果尚未并入下列v0.3论文或静态工作台，详见研究路线。
+
 阶段快照（2026-10-25，研究按用户要求暂停）：[全69来源及后续诊断](research/population-catalog/README.md)已扩展到11180578原始先验后验行，完成O3/事件/联合成对抽稀及未见贡献的条件边界。下列v0.3论文/PDF已纳入这些结果；静态工作台已初步接入同一研究快照，旧81设置视图保留在历史折叠入口。界面尚未完成全部交互与响应式验证。续研所需证据与未完成事项见[研究路线](research/RESEARCH_ROADMAP.md)。
 
 **[中文 LaTeX 论文 PDF v0.3（14页）](output/pdf/blackhole-population-robustness-latex-zh-v0.3.pdf)** · **[English LaTeX PDF v0.3 (14 pages)](output/pdf/blackhole-population-robustness-latex-en-v0.3.pdf)**

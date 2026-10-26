@@ -61,6 +61,9 @@ research/population-stage4/sources/*
 !research/population-stage4/sources/manifest.json
 research/population-stage5/source-data/
 research/population-stage7/source-data/
+research/population-mixture/sources/
+research/population-channels/sources/*
+!research/population-channels/sources/manifest.json
 research/population-catalog/source-data/
 research/population-catalog/.http-cache/
 research/population-catalog/metadata-before-parallel.json

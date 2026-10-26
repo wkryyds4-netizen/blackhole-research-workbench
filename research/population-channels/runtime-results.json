@@ -1,0 +1,285 @@
+{
+  "schema": "blackhole-physical-channel-flow-runtime/1",
+  "status": "qualified_represented_point_checks_pass_original_draw_gate_failed",
+  "checks": {
+    "CE": {
+      "state_keys": 132,
+      "raw_network_context": [
+        0.0,
+        2.0
+      ],
+      "coordinate_roundtrip_relative": 2.220446049250313e-16,
+      "coordinate_log_jacobian_absolute": 6.330403756749092e-09,
+      "latent_roundtrip_absolute": 1.9384494009955233e-13,
+      "logdet_cancellation_absolute": 1.7763568394002505e-13,
+      "density_change_of_variables_absolute": 0.0,
+      "autodiff_composite_logdet_absolute": 2.220446049250313e-15,
+      "original_sampled_latent_density_difference": 2.3803181647963356e-13,
+      "original_sampled_latent_density_gate_passed": true,
+      "sample_rows": 16384,
+      "rows_outside_true_physical_domain": 0,
+      "learned_coordinate_support": {
+        "chirp_mass_upper": 100.0,
+        "mass_ratio_upper": 1.0,
+        "redshift_upper": 10.0
+      }
+    },
+    "CHE": {
+      "state_keys": 132,
+      "raw_network_context": [
+        0.0
+      ],
+      "coordinate_roundtrip_relative": 4.440892098500626e-16,
+      "coordinate_log_jacobian_absolute": 6.32735863703715e-09,
+      "latent_roundtrip_absolute": 4.2063019733973306e-12,
+      "logdet_cancellation_absolute": 8.038014698286133e-13,
+      "density_change_of_variables_absolute": 0.0,
+      "autodiff_composite_logdet_absolute": 6.661338147750939e-15,
+      "original_sampled_latent_density_difference": 2.4700241851860483e-12,
+      "original_sampled_latent_density_gate_passed": true,
+      "sample_rows": 16384,
+      "rows_outside_true_physical_domain": 0,
+      "learned_coordinate_support": {
+        "chirp_mass_upper": 100.0,
+        "mass_ratio_upper": 1.0,
+        "redshift_upper": 10.0
+      }
+    },
+    "GC": {
+      "state_keys": 132,
+      "raw_network_context": [
+        0.0
+      ],
+      "coordinate_roundtrip_relative": 2.220446049250313e-16,
+      "coordinate_log_jacobian_absolute": 6.332045110468698e-09,
+      "latent_roundtrip_absolute": 3.304023721284466e-13,
+      "logdet_cancellation_absolute": 1.730171561575844e-12,
+      "density_change_of_variables_absolute": 0.0,
+      "autodiff_composite_logdet_absolute": 2.1316282072803006e-14,
+      "original_sampled_latent_density_difference": 1.0341949518988258e-11,
+      "original_sampled_latent_density_gate_passed": true,
+      "sample_rows": 16384,
+      "rows_outside_true_physical_domain": 58,
+      "learned_coordinate_support": {
+        "chirp_mass_upper": 100.0,
+        "mass_ratio_upper": 1.001,
+        "redshift_upper": 10.0
+      }
+    },
+    "NSC": {
+      "state_keys": 132,
+      "raw_network_context": [
+        0.0
+      ],
+      "coordinate_roundtrip_relative": 2.220446049250313e-16,
+      "coordinate_log_jacobian_absolute": 6.330181268054957e-09,
+      "latent_roundtrip_absolute": 1.5047962875769372e-12,
+      "logdet_cancellation_absolute": 7.993605777301127e-13,
+      "density_change_of_variables_absolute": 0.0,
+      "autodiff_composite_logdet_absolute": 2.362554596402333e-13,
+      "original_sampled_latent_density_difference": 3.580376706224797e-08,
+      "original_sampled_latent_density_gate_passed": false,
+      "sample_rows": 16384,
+      "rows_outside_true_physical_domain": 0,
+      "learned_coordinate_support": {
+        "chirp_mass_upper": 100.0,
+        "mass_ratio_upper": 1.0,
+        "redshift_upper": 10.0
+      }
+    },
+    "SMT": {
+      "state_keys": 132,
+      "raw_network_context": [
+        0.0
+      ],
+      "coordinate_roundtrip_relative": 2.220446049250313e-16,
+      "coordinate_log_jacobian_absolute": 6.329024415663298e-09,
+      "latent_roundtrip_absolute": 1.9095836023552692e-13,
+      "logdet_cancellation_absolute": 1.1013412404281553e-13,
+      "density_change_of_variables_absolute": 0.0,
+      "autodiff_composite_logdet_absolute": 3.552713678800501e-15,
+      "original_sampled_latent_density_difference": 3.694822225952521e-13,
+      "original_sampled_latent_density_gate_passed": true,
+      "sample_rows": 16384,
+      "rows_outside_true_physical_domain": 0,
+      "learned_coordinate_support": {
+        "chirp_mass_upper": 100.0,
+        "mass_ratio_upper": 1.0,
+        "redshift_upper": 10.0
+      }
+    }
+  },
+  "samples": {
+    "CE": {
+      "quantiles_01_50_99": [
+        [
+          2.6473352638730687,
+          0.31194877440473456,
+          -0.0037969058676624434,
+          0.3475999028941601
+        ],
+        [
+          5.393054032857531,
+          0.6453948023601661,
+          0.12456038852114382,
+          2.1932257351061724
+        ],
+        [
+          22.353592997732154,
+          0.9860458820299407,
+          0.6003894629989619,
+          8.95459502281971
+        ]
+      ],
+      "negative_effective_spin_sample_fraction": 0.02154541015625,
+      "scope": "Conditional unregularized emulator draws at raw context; not a fitted channel fraction or true synthesis probability certification."
+    },
+    "CHE": {
+      "quantiles_01_50_99": [
+        [
+          18.531894714091894,
+          0.8033514116152434,
+          0.25297095357268523,
+          0.2120138339574365
+        ],
+        [
+          29.58342777977135,
+          0.9018578831108133,
+          0.5807884817129336,
+          1.5813777219167007
+        ],
+        [
+          38.07448587249186,
+          0.9977289089687548,
+          0.9018795651064466,
+          7.018544166062187
+        ]
+      ],
+      "negative_effective_spin_sample_fraction": 0.0,
+      "scope": "Conditional unregularized emulator draws at raw context; not a fitted channel fraction or true synthesis probability certification."
+    },
+    "GC": {
+      "quantiles_01_50_99": [
+        [
+          6.566772801320133,
+          0.37691685022515004,
+          -0.3930849092495125,
+          0.19748525757134677
+        ],
+        [
+          22.693947847578627,
+          0.8429279626179536,
+          4.7574618154778174e-05,
+          1.460873862974569
+        ],
+        [
+          48.59895571537541,
+          0.999982973029284,
+          0.3850284741364858,
+          5.347885230296008
+        ]
+      ],
+      "negative_effective_spin_sample_fraction": 0.49066162109375,
+      "scope": "Conditional unregularized emulator draws at raw context; not a fitted channel fraction or true synthesis probability certification."
+    },
+    "NSC": {
+      "quantiles_01_50_99": [
+        [
+          12.172638594575108,
+          0.33172808987741575,
+          -0.44744413097025926,
+          0.17643405929819284
+        ],
+        [
+          29.89079921521118,
+          0.9570661672430656,
+          -0.00030400986316636927,
+          1.1917762004253114
+        ],
+        [
+          52.088014037457384,
+          0.9987970856345294,
+          0.44295425065305705,
+          4.283485658622096
+        ]
+      ],
+      "negative_effective_spin_sample_fraction": 0.5355224609375,
+      "scope": "Conditional unregularized emulator draws at raw context; not a fitted channel fraction or true synthesis probability certification."
+    },
+    "SMT": {
+      "quantiles_01_50_99": [
+        [
+          4.110985445593392,
+          0.34699209192357744,
+          -0.0018930778436282677,
+          0.22879178092032218
+        ],
+        [
+          15.641194455161914,
+          0.7153396820564597,
+          0.004521809262354372,
+          1.3938741665146224
+        ],
+        [
+          32.44313021680836,
+          0.9796132075652196,
+          0.2467159695427067,
+          5.697156492920202
+        ]
+      ],
+      "negative_effective_spin_sample_fraction": 0.03277587890625,
+      "scope": "Conditional unregularized emulator draws at raw context; not a fitted channel fraction or true synthesis probability certification."
+    }
+  },
+  "runtime": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "torch": "2.13.0",
+    "glasflow": "0.4.1"
+  },
+  "input_sha256": {
+    "runtime-design.json": "c1ab779717a2adab1a12a05c23cf25a05a3dfb9ae50876345bc1540f9c04500f",
+    "channel_flow.py": "aaa3eb42d7ab5d937aa7f9a0ef3dd0b99262f5d2737dccc614437860f25fe394",
+    "check_runtime.py": "0bff560303c1312c37312542d3fb17189c715d203129702457d4eb8e6636806c",
+    "product-inspection.json": "8ff00abb3470e6365f964c6e1f3241757d5a9b34a94151d48afc5ac23c5a9993"
+  },
+  "meaning": "Numerical restoration of authors physical-channel emulators, without fitting any observed events or claiming calibrated learned tails.",
+  "published_example_check": {
+    "reference_rows": 112393,
+    "candidates": {
+      "raw_alpha": {
+        "raw_context": [
+          0.0,
+          2.0
+        ],
+        "marginal_ks_distances": [
+          0.24807658098807034,
+          0.2195529088378085,
+          0.18508425889391045,
+          0.05325392079508398
+        ],
+        "maximum_marginal_ks": 0.24807658098807034,
+        "declared_diagnostic_within_003": false
+      },
+      "log_alpha": {
+        "raw_context": [
+          0.0,
+          0.6931471805599453
+        ],
+        "marginal_ks_distances": [
+          0.006482715261682204,
+          0.005886191412505903,
+          0.012806654292513209,
+          0.010200018190912707
+        ],
+        "maximum_marginal_ks": 0.012806654292513209,
+        "declared_diagnostic_within_003": true
+      }
+    },
+    "scope": "Exploratory association of the published emulation plotting file with the paper Fig1 CE example. An empirical match is not recovery of training execution or an independent unseen-simulation test."
+  },
+  "sample_cache_sha256": "8143b0a8734d14ef47ee9606831639ac351db0a5481de63e618795b312c248ad",
+  "all_original_gates_passed": false,
+  "numerical_diagnosis": "The original sampled-latent density identity fails its fixed1e-8 gate for NSC near q=0.9999999959553232. Float64 inverse-logistic rounding moves the remapped coordinate by4.93e-10 and latent values by5.83e-8. The represented-point change-of-variables check passes at the same gate. Original failure preserved; no gate was widened and no sample removed.",
+  "limits": "Coordinate/flow consistency only, with the explicit original-draw boundary failure above. GW event prior reduction, spin-conditionals for selection, historical thresholds, density regularization and population-tail validation must precede channel-fraction claims. No observed-event fit here."
+}

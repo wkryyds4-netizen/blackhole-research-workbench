@@ -21,4 +21,7 @@ research/population-reference/** -text whitespace=cr-at-eol
 research/population-selection-audit/** -text whitespace=cr-at-eol
 research/population-stage6/** -text whitespace=cr-at-eol
 research/population-stage7/** -text whitespace=cr-at-eol
+research/population-mixture/** -text whitespace=cr-at-eol
+research/population-mass-redshift/** -text whitespace=cr-at-eol
+research/population-channels/** -text whitespace=cr-at-eol
 research/**/*.svg whitespace=cr-at-eol,-blank-at-eol

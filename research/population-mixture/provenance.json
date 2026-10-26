@@ -1,0 +1,493 @@
+{
+  "schema": "blackhole-o3-mixture-source-audit/1",
+  "source": {
+    "file": "endo3_mixture-LIGO-T2100113-v12.hdf5",
+    "url": "https://zenodo.org/api/records/7890437/files/endo3_mixture-LIGO-T2100113-v12.hdf5/content",
+    "bytes": 410957336,
+    "official_md5": "ebbae2546c847a8656022f4c067fb266",
+    "sha256": "65a03b97e6a6f6d56509e5671f8c0dced745d15052746c4b835f09126f102437",
+    "fixed_record_metadata_sha256": "a81db9e638a42c0a0e644d3846a1a535ac90ebf8b27ef738ec60db15bc699981"
+  },
+  "attributes": {
+    "analysis_time_s": 28749576,
+    "n_accepted": 1141491,
+    "n_rejected": 85176805.0,
+    "total_generated": 86318296.0
+  },
+  "group_attributes": {
+    "analysis_time_s": 28749576,
+    "n_accepted": 1141491,
+    "n_rejected": 85176805.0,
+    "total_generated": 86318296.0
+  },
+  "root_group_attributes_equal": true,
+  "fields": {
+    "declination": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "declination_sampling_pdf": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "detection_statistic_cwb": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "detection_statistic_mbta": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "detection_statistic_pycbc_bbh": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "detection_statistic_pycbc_hyperbank": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "distance": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "far_cwb": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "far_gstlal": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "far_mbta": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "far_pycbc_bbh": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "far_pycbc_hyperbank": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "gps_time": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "gps_time_int": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "ifar_cwb": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "ifar_gstlal": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "ifar_mbta": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "ifar_pycbc_bbh": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "ifar_pycbc_hyperbank": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "inclination": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "inclination_sampling_pdf": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "mass1": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "mass1_source": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "mass2": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "mass2_source": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "mixture_weight": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "optimal_snr_h": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "optimal_snr_l": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "optimal_snr_net": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "pastro_cwb": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "pastro_gstlal": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "pastro_mbta": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "pastro_pycbc_bbh": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "pastro_pycbc_hyperbank": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "polarization": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "redshift": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "right_ascension": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "right_ascension_sampling_pdf": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "sampling_pdf": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "spin1x": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "spin1y": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "spin1z": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "spin2x": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "spin2y": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    },
+    "spin2z": {
+      "shape": [
+        1141491
+      ],
+      "dtype": "float64"
+    }
+  },
+  "pure_bbh_exact_matches": 284672,
+  "exact_shared_fields": {
+    "declination": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "detection_statistic_cwb": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "detection_statistic_mbta": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "detection_statistic_pycbc_bbh": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "detection_statistic_pycbc_hyperbank": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "distance": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "far_cwb": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "far_gstlal": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "far_mbta": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "far_pycbc_bbh": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "far_pycbc_hyperbank": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "gps_time": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "gps_time_int": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "ifar_cwb": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "ifar_gstlal": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "ifar_mbta": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "ifar_pycbc_bbh": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "ifar_pycbc_hyperbank": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "inclination": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "mass1": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "mass1_source": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "mass2": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "mass2_source": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "optimal_snr_h": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "optimal_snr_l": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "optimal_snr_net": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "pastro_cwb": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "pastro_gstlal": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "pastro_mbta": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "pastro_pycbc_bbh": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "pastro_pycbc_hyperbank": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "polarization": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "redshift": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "right_ascension": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "spin1x": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "spin1y": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "spin1z": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "spin2x": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "spin2y": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "spin2z": {
+      "exact": true,
+      "maximum_absolute_difference": 0.0
+    }
+  },
+  "regions": {
+    "all": {
+      "rows": 1141491,
+      "matched_filter": 219071,
+      "with_cwb": 221324
+    },
+    "target_mass": {
+      "rows": 295409,
+      "matched_filter": 78389,
+      "with_cwb": 80642
+    },
+    "target_new_union": {
+      "rows": 178,
+      "matched_filter": 0,
+      "with_cwb": 0
+    },
+    "target_redshift_tail": {
+      "rows": 178,
+      "matched_filter": 0,
+      "with_cwb": 0
+    }
+  },
+  "mixture_weight_range": [
+    1.0,
+    1.0
+  ],
+  "redshift_range": [
+    0.0004038381448481232,
+    2.4977309583720406
+  ],
+  "candidate_reference_fields": [],
+  "source_identity_scope": "Exact membership/metadata only; no recovered waveform, reference or hidden-trial detection law.",
+  "mapping_sha256": "115657d3c243be2bdc5cd929e5964c028d4b340c06d65a5ff6439c77fe0ca746",
+  "producer_sha256": "d739cf07037b597747b093187dde9da660383012b9b14e38a7106cbe9ae0f4a6"
+}

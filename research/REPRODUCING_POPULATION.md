@@ -1,5 +1,28 @@
 # Reproducing the population research
 
+Checkpoint 2026-10-27: research is paused at the user's request. See [the saved state](CHECKPOINT_2026-10-27.md) and [the unfinished physical-channel interface](population-channels/README.en.md). The new diagnostics are saved separately; the v0.3 papers and static workbench retain their earlier snapshot.
+
+Additional local follow-up (2026-10-27): [54 mass/redshift models](population-mass-redshift/README.en.md)
+extend the invariant g controls using all 69 restored event sources, both O3
+banks and both search policies (216 conditional fits). Its design, producer,
+independent raw-source validator, bilingual result-derived tables and vector
+figure are in `population-mass-redshift/`. This reuses prior source downloads;
+it does not require another injection download. Follow the four commands in
+that README after restoring the preceding event and injection caches. The
+new event-integral protocol is separate from the frozen six-model cache.
+The grid retains mass/redshift-independent g and is not Bayesian model
+averaging, actual-campaign calibration or physical-channel identification.
+
+New local follow-up (2026-10-27): the [official O3 mixture comparison](population-mixture/README.en.md)
+replaces only the O3 sensitivity bank while preserving all 69 event integrals,
+12 models and early O1/O2 terms. Its [before-comparison design](population-mixture/design.md),
+fixed-file downloader, exact source join, independent validator and scientific
+figure live in `population-mixture/`. Execute the six commands in that README
+after restoring the prior all-69 caches. The 410,957,336-byte raw HDF and direct
+row/checkpoint caches stay excluded. The published v0.3 paper/workbench do not
+yet incorporate this follow-up. A small bank-replacement difference is not
+certification of missing support or the historical injection protocol.
+
 Current snapshot (2026-10-25; research paused at the user's request): this guide also documents the completed 69-source
 restoration, invariant effective-spin control, paired O3/event/joint finite-bank
 diagnostics and conditional missing-support follow-up. The v0.2 paper/PDF and

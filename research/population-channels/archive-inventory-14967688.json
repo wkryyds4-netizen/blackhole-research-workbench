@@ -1,0 +1,142 @@
+[
+  {
+    "source": {
+      "file": "14967688-flow_models.tar.gz",
+      "url": "https://zenodo.org/api/records/14967688/files/flow_models.tar.gz/content",
+      "record": 14967688,
+      "bytes": 9314491,
+      "official_md5": "md5:6c31068e9a0cc2c02154024116b40102",
+      "sha256": "8fe23f522dc60a626149a09588c0396f02e9dc896038c33a3d36decd3f91a601",
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    "members": [
+      {
+        "name": "flow_models",
+        "bytes": 0,
+        "regular_file": false
+      },
+      {
+        "name": "flow_models/NSC.pt",
+        "bytes": 1749433,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/CHE.pt",
+        "bytes": 1731001,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/flow_mappings.json",
+        "bytes": 659,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/NSC_loss_history.csv",
+        "bytes": 672554,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/CE_mappings.npy",
+        "bytes": 176,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/CE_loss_history.csv",
+        "bytes": 1015127,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/SMT_loss_history.csv",
+        "bytes": 665968,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/CE.pt",
+        "bytes": 1758649,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/SMT_mappings.npy",
+        "bytes": 176,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/NSC_mappings.npy",
+        "bytes": 176,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/SMT.pt",
+        "bytes": 1731001,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/CHE_loss_history.csv",
+        "bytes": 674813,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/CHE_mappings.npy",
+        "bytes": 176,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/flowconfig.json",
+        "bytes": 263,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/GC_mappings.npy",
+        "bytes": 176,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/GC.pt",
+        "bytes": 1731001,
+        "regular_file": true
+      },
+      {
+        "name": "flow_models/GC_loss_history.csv",
+        "bytes": 669187,
+        "regular_file": true
+      }
+    ]
+  },
+  {
+    "source": {
+      "file": "14967688-plot_data.tar.gz",
+      "url": "https://zenodo.org/api/records/14967688/files/plot_data.tar.gz/content",
+      "record": 14967688,
+      "bytes": 45897418,
+      "official_md5": "md5:de139c2237813109f92d09a25122b042",
+      "sha256": "4a42acb1dcb2203dc3c60f7d76b90a46e8feba29596ab0d11b029650b5f2bbac",
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    "members": [
+      {
+        "name": "plot_data/dataspace_samps.hdf5",
+        "bytes": 66879072,
+        "regular_file": true
+      },
+      {
+        "name": "plot_data/emulation_samps.hdf5",
+        "bytes": 9002344,
+        "regular_file": true
+      },
+      {
+        "name": "plot_data/test_flow_samps.hdf5",
+        "bytes": 1832,
+        "regular_file": true
+      },
+      {
+        "name": "plot_data/KLs.json",
+        "bytes": 2321,
+        "regular_file": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "schema": "blackhole-physical-channel-measure-bridge/1",
+  "status": "pass",
+  "tool_sha256": "409dae99f549e91b30ca45940e010473163c76f640622e6fe1e185c173b07e22",
+  "module_sha256": "aeb1090188d93c6b057057feed90f341efa73f2743edc7d077e3b7ea60a85f5e",
+  "checks": [
+    {
+      "family": "uniform_magnitude",
+      "q": 0.1,
+      "normalization": 0.9999999967412584,
+      "mean": -1.6006874748116496e-18,
+      "second_moment": 0.09089999973998972,
+      "analytic_second_moment": 0.09089999999999998
+    },
+    {
+      "family": "uniform_magnitude",
+      "q": 0.5,
+      "normalization": 0.9999999935760125,
+      "mean": -1.307431490016083e-18,
+      "second_moment": 0.06049999861317804,
+      "analytic_second_moment": 0.0605
+    },
+    {
+      "family": "uniform_magnitude",
+      "q": 1.0,
+      "normalization": 1.0000000052601483,
+      "mean": 4.614508627989101e-19,
+      "second_moment": 0.054450001288860496,
+      "analytic_second_moment": 0.05445
+    },
+    {
+      "family": "beta2_5_magnitude",
+      "q": 0.1,
+      "normalization": 1.0000000000000075,
+      "mean": -6.38528984217473e-21,
+      "second_moment": 0.029217857142857025,
+      "analytic_second_moment": 0.029217857142857143
+    },
+    {
+      "family": "beta2_5_magnitude",
+      "q": 0.5,
+      "normalization": 1.000000000000008,
+      "mean": -1.4151014297487386e-19,
+      "second_moment": 0.019446428571428493,
+      "analytic_second_moment": 0.019446428571428573
+    },
+    {
+      "family": "beta2_5_magnitude",
+      "q": 1.0,
+      "normalization": 1.000000000000008,
+      "mean": 1.5849061556475152e-19,
+      "second_moment": 0.01750178571428564,
+      "analytic_second_moment": 0.017501785714285713
+    }
+  ],
+  "algebraic_checks": [
+    {
+      "q": 0.1,
+      "full_to_reduced_weight_identity_relative_error": 2.220446049250313e-16,
+      "naive_density4_over_prior7_ratio_to_correct_weight": 29.94238175102007
+    },
+    {
+      "q": 0.5,
+      "full_to_reduced_weight_identity_relative_error": 1.1102230246251565e-16,
+      "naive_density4_over_prior7_ratio_to_correct_weight": 12.190345233184862
+    },
+    {
+      "q": 1.0,
+      "full_to_reduced_weight_identity_relative_error": 0.0,
+      "naive_density4_over_prior7_ratio_to_correct_weight": 7.5570930398184215
+    }
+  ],
+  "quadrature": "512-point Gaussian rules separately on[-A,0] and[0,A]; original unsplit512-node failure retained in measure-history.json. Original tolerances unchanged.",
+  "formula_reduced": "pi4(Mc,q,x,z)=pi7(m1,q,a1,a2,c1,c2,z)*4*A^2*(dm1/dMc)*f_U(x|q), when pi7=pi_mass,z*Q_U on its support.",
+  "formula_lift": "p7=p4(Mc,q,x,z)*(dMc/dm1)*Q_spin(a1,a2,c1,c2|q)/f_Q(x|q).",
+  "limits": "Exact declared independent-magnitude/isotropic-angle conditionals, not proof that they are physical formation-channel spin conditionals or match every historical PE/injection prior. No GW data fit or selection calibration."
+}

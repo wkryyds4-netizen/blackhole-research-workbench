@@ -1,0 +1,13 @@
+{
+  "seed": 20261028,
+  "samples_per_case": 32768,
+  "birth_spins": [
+    0.0,
+    0.1,
+    0.5
+  ],
+  "ce_efficiency": 2.0,
+  "ce_context": "[chi_birth,ln(alpha_CE)]",
+  "other_context": "[chi_birth]",
+  "scope": "Interpolation-grid preview, not GW inference or a new synthesis training-validation set."
+}

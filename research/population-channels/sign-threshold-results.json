@@ -1,0 +1,654 @@
+{
+  "schema": "blackhole-channel-emulator-sign-threshold/1",
+  "timing": "Post-preview exploratory source diagnostic; fixed existing draws, no GW fit.",
+  "input_sha256": "faa8bd8e7a69767d7369be9bef5fa02e8a56fa456730d6c9ccb617bbe2431a7b",
+  "tool_sha256": "efc3c7cb3257101db31196bd20acf090ea4d882a8889e91cd8e18aef6c82dcc0",
+  "cases": [
+    {
+      "channel": "CE",
+      "birth_spin": 0.0,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.0045166015625,
+          "neutral": 0.0,
+          "positive": 0.9954833984375
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.0045166015625,
+          "neutral": 0.0,
+          "positive": 0.9954833984375
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.0042724609375,
+          "neutral": 0.00067138671875,
+          "positive": 0.99505615234375
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.00311279296875,
+          "neutral": 0.00518798828125,
+          "positive": 0.99169921875
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.000885009765625,
+          "neutral": 0.113067626953125,
+          "positive": 0.88604736328125
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.000244140625,
+          "neutral": 0.203643798828125,
+          "positive": 0.796112060546875
+        }
+      ]
+    },
+    {
+      "channel": "CE",
+      "birth_spin": 0.1,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.001007080078125,
+          "neutral": 0.0,
+          "positive": 0.998992919921875
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.001007080078125,
+          "neutral": 0.0,
+          "positive": 0.998992919921875
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.001007080078125,
+          "neutral": 0.0,
+          "positive": 0.998992919921875
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.0009765625,
+          "neutral": 6.103515625e-05,
+          "positive": 0.99896240234375
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.000732421875,
+          "neutral": 0.000457763671875,
+          "positive": 0.998809814453125
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.00042724609375,
+          "neutral": 0.0013427734375,
+          "positive": 0.99822998046875
+        }
+      ]
+    },
+    {
+      "channel": "CE",
+      "birth_spin": 0.5,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.001617431640625,
+          "neutral": 0.0,
+          "positive": 0.998382568359375
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.001617431640625,
+          "neutral": 0.0,
+          "positive": 0.998382568359375
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.001617431640625,
+          "neutral": 0.0,
+          "positive": 0.998382568359375
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.001617431640625,
+          "neutral": 0.0,
+          "positive": 0.998382568359375
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.001617431640625,
+          "neutral": 6.103515625e-05,
+          "positive": 0.998321533203125
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.001617431640625,
+          "neutral": 0.000152587890625,
+          "positive": 0.99822998046875
+        }
+      ]
+    },
+    {
+      "channel": "CHE",
+      "birth_spin": 0.0,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 3.0517578125e-05,
+          "neutral": 0.0,
+          "positive": 0.999969482421875
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 3.0517578125e-05,
+          "neutral": 0.0,
+          "positive": 0.999969482421875
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 3.0517578125e-05,
+          "neutral": 0.0,
+          "positive": 0.999969482421875
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 3.0517578125e-05,
+          "neutral": 0.0,
+          "positive": 0.999969482421875
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 3.0517578125e-05,
+          "neutral": 0.0,
+          "positive": 0.999969482421875
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 3.0517578125e-05,
+          "neutral": 6.103515625e-05,
+          "positive": 0.999908447265625
+        }
+      ]
+    },
+    {
+      "channel": "CHE",
+      "birth_spin": 0.1,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.0,
+          "neutral": 3.0517578125e-05,
+          "positive": 0.999969482421875
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.0,
+          "neutral": 6.103515625e-05,
+          "positive": 0.99993896484375
+        }
+      ]
+    },
+    {
+      "channel": "CHE",
+      "birth_spin": 0.5,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.0,
+          "neutral": 0.0,
+          "positive": 1.0
+        }
+      ]
+    },
+    {
+      "channel": "GC",
+      "birth_spin": 0.0,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.495147705078125,
+          "neutral": 0.0,
+          "positive": 0.504852294921875
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.49493408203125,
+          "neutral": 0.00042724609375,
+          "positive": 0.504638671875
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.47576904296875,
+          "neutral": 0.03790283203125,
+          "positive": 0.486328125
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.3187255859375,
+          "neutral": 0.35528564453125,
+          "positive": 0.32598876953125
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.069244384765625,
+          "neutral": 0.866119384765625,
+          "positive": 0.06463623046875
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.061431884765625,
+          "neutral": 0.882537841796875,
+          "positive": 0.0560302734375
+        }
+      ]
+    },
+    {
+      "channel": "GC",
+      "birth_spin": 0.1,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.503631591796875,
+          "neutral": 0.0,
+          "positive": 0.496368408203125
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.50360107421875,
+          "neutral": 3.0517578125e-05,
+          "positive": 0.496368408203125
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.503021240234375,
+          "neutral": 0.0013427734375,
+          "positive": 0.495635986328125
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.496124267578125,
+          "neutral": 0.015472412109375,
+          "positive": 0.4884033203125
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.4215087890625,
+          "neutral": 0.1634521484375,
+          "positive": 0.4150390625
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.158447265625,
+          "neutral": 0.683502197265625,
+          "positive": 0.158050537109375
+        }
+      ]
+    },
+    {
+      "channel": "GC",
+      "birth_spin": 0.5,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.503814697265625,
+          "neutral": 0.0,
+          "positive": 0.496185302734375
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.503814697265625,
+          "neutral": 0.0,
+          "positive": 0.496185302734375
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.503753662109375,
+          "neutral": 0.000274658203125,
+          "positive": 0.4959716796875
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.50238037109375,
+          "neutral": 0.00347900390625,
+          "positive": 0.494140625
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.485198974609375,
+          "neutral": 0.037445068359375,
+          "positive": 0.47735595703125
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.415374755859375,
+          "neutral": 0.181182861328125,
+          "positive": 0.4034423828125
+        }
+      ]
+    },
+    {
+      "channel": "NSC",
+      "birth_spin": 0.0,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.53387451171875,
+          "neutral": 0.0,
+          "positive": 0.46612548828125
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.533843994140625,
+          "neutral": 3.0517578125e-05,
+          "positive": 0.46612548828125
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.522186279296875,
+          "neutral": 0.02276611328125,
+          "positive": 0.455047607421875
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.41900634765625,
+          "neutral": 0.220733642578125,
+          "positive": 0.360260009765625
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.251190185546875,
+          "neutral": 0.53253173828125,
+          "positive": 0.216278076171875
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.228851318359375,
+          "neutral": 0.573822021484375,
+          "positive": 0.19732666015625
+        }
+      ]
+    },
+    {
+      "channel": "NSC",
+      "birth_spin": 0.1,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.501983642578125,
+          "neutral": 0.0,
+          "positive": 0.498016357421875
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.501953125,
+          "neutral": 3.0517578125e-05,
+          "positive": 0.498016357421875
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.501495361328125,
+          "neutral": 0.001220703125,
+          "positive": 0.497283935546875
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.49603271484375,
+          "neutral": 0.01300048828125,
+          "positive": 0.490966796875
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.441650390625,
+          "neutral": 0.125030517578125,
+          "positive": 0.433319091796875
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.2587890625,
+          "neutral": 0.505584716796875,
+          "positive": 0.235626220703125
+        }
+      ]
+    },
+    {
+      "channel": "NSC",
+      "birth_spin": 0.5,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.49566650390625,
+          "neutral": 0.0,
+          "positive": 0.50433349609375
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.49566650390625,
+          "neutral": 0.0,
+          "positive": 0.50433349609375
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.495574951171875,
+          "neutral": 0.00030517578125,
+          "positive": 0.504119873046875
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.49407958984375,
+          "neutral": 0.00311279296875,
+          "positive": 0.5028076171875
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.477447509765625,
+          "neutral": 0.03741455078125,
+          "positive": 0.485137939453125
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.40618896484375,
+          "neutral": 0.178863525390625,
+          "positive": 0.414947509765625
+        }
+      ]
+    },
+    {
+      "channel": "SMT",
+      "birth_spin": 0.0,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.034088134765625,
+          "neutral": 0.0,
+          "positive": 0.965911865234375
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.034088134765625,
+          "neutral": 0.0,
+          "positive": 0.965911865234375
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.03179931640625,
+          "neutral": 0.004730224609375,
+          "positive": 0.963470458984375
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.016510009765625,
+          "neutral": 0.06884765625,
+          "positive": 0.914642333984375
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.000213623046875,
+          "neutral": 0.811431884765625,
+          "positive": 0.1883544921875
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.0,
+          "neutral": 0.924896240234375,
+          "positive": 0.075103759765625
+        }
+      ]
+    },
+    {
+      "channel": "SMT",
+      "birth_spin": 0.1,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.014862060546875,
+          "neutral": 0.0,
+          "positive": 0.985137939453125
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.014862060546875,
+          "neutral": 0.0,
+          "positive": 0.985137939453125
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.01483154296875,
+          "neutral": 3.0517578125e-05,
+          "positive": 0.985137939453125
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.0146484375,
+          "neutral": 0.000244140625,
+          "positive": 0.985107421875
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.01287841796875,
+          "neutral": 0.0032958984375,
+          "positive": 0.98382568359375
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.007476806640625,
+          "neutral": 0.01824951171875,
+          "positive": 0.974273681640625
+        }
+      ]
+    },
+    {
+      "channel": "SMT",
+      "birth_spin": 0.5,
+      "rows": 32768,
+      "thresholds": [
+        {
+          "epsilon": 0.0,
+          "negative": 0.0137939453125,
+          "neutral": 0.0,
+          "positive": 0.9862060546875
+        },
+        {
+          "epsilon": 1e-06,
+          "negative": 0.0137939453125,
+          "neutral": 0.0,
+          "positive": 0.9862060546875
+        },
+        {
+          "epsilon": 0.0001,
+          "negative": 0.0137939453125,
+          "neutral": 3.0517578125e-05,
+          "positive": 0.986175537109375
+        },
+        {
+          "epsilon": 0.001,
+          "negative": 0.013763427734375,
+          "neutral": 6.103515625e-05,
+          "positive": 0.986175537109375
+        },
+        {
+          "epsilon": 0.01,
+          "negative": 0.013397216796875,
+          "neutral": 0.000885009765625,
+          "positive": 0.9857177734375
+        },
+        {
+          "epsilon": 0.05,
+          "negative": 0.011810302734375,
+          "neutral": 0.004608154296875,
+          "positive": 0.98358154296875
+        }
+      ]
+    }
+  ],
+  "scope": "Dead-zone sensitivity of learned continuous densities only. A neutral band does not identify a true zero-spin atom; strict negative fractions from a smoothed fixed-birth-spin model cannot be assumed to equal exact population-synthesis probabilities."
+}

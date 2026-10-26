@@ -1,0 +1,523 @@
+{
+  "schema": "blackhole-physical-channel-context-preview/1",
+  "design": {
+    "seed": 20261028,
+    "samples_per_case": 32768,
+    "birth_spins": [
+      0.0,
+      0.1,
+      0.5
+    ],
+    "ce_efficiency": 2.0,
+    "ce_context": "[chi_birth,ln(alpha_CE)]",
+    "other_context": "[chi_birth]",
+    "scope": "Interpolation-grid preview, not GW inference or a new synthesis training-validation set."
+  },
+  "cases": [
+    {
+      "channel": "CE",
+      "birth_spin": 0.0,
+      "raw_context": [
+        0.0,
+        0.6931471805599453
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.0045166015625,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 11875,
+      "restricted_example_domain_fraction": 0.362396240234375,
+      "quantiles_01_50_99": [
+        [
+          2.878879834355261,
+          0.3709250294919986,
+          0.001313688891390199,
+          0.4305878078682337
+        ],
+        [
+          7.582640951270159,
+          0.7627859388126939,
+          0.20790763667526668,
+          2.311020993807013
+        ],
+        [
+          24.104390318018304,
+          0.9898901353214494,
+          0.5884189159843638,
+          9.214056375289758
+        ]
+      ]
+    },
+    {
+      "channel": "CE",
+      "birth_spin": 0.1,
+      "raw_context": [
+        0.1,
+        0.6931471805599453
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.001007080078125,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 11810,
+      "restricted_example_domain_fraction": 0.36041259765625,
+      "quantiles_01_50_99": [
+        [
+          2.8907289673287684,
+          0.371520364447296,
+          0.09566049134807993,
+          0.43621642844628394
+        ],
+        [
+          7.577088372241941,
+          0.763415580339055,
+          0.2571716124779069,
+          2.313053036556717
+        ],
+        [
+          23.775562572350584,
+          0.9900292971274929,
+          0.6209038169378022,
+          9.181345534772994
+        ]
+      ]
+    },
+    {
+      "channel": "CE",
+      "birth_spin": 0.5,
+      "raw_context": [
+        0.5,
+        0.6931471805599453
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.001617431640625,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 11712,
+      "restricted_example_domain_fraction": 0.357421875,
+      "quantiles_01_50_99": [
+        [
+          2.902121650378981,
+          0.3746542735374142,
+          0.4198329501367819,
+          0.4412916587878238
+        ],
+        [
+          7.597081992989624,
+          0.7641676762394636,
+          0.504899366327402,
+          2.33611165103214
+        ],
+        [
+          23.66958750230966,
+          0.9913440159313399,
+          0.7553778435572248,
+          9.214639680291999
+        ]
+      ]
+    },
+    {
+      "channel": "CHE",
+      "birth_spin": 0.0,
+      "raw_context": [
+        0.0
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 3.0517578125e-05,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 20292,
+      "restricted_example_domain_fraction": 0.6192626953125,
+      "quantiles_01_50_99": [
+        [
+          18.584736528853572,
+          0.8031963080007068,
+          0.2502658227447215,
+          0.19593999782417126
+        ],
+        [
+          29.52899555184821,
+          0.9007177541652882,
+          0.5800319875740978,
+          1.5714070811708614
+        ],
+        [
+          38.07290742555489,
+          0.9979607288203043,
+          0.8999733962484705,
+          7.271435865645474
+        ]
+      ]
+    },
+    {
+      "channel": "CHE",
+      "birth_spin": 0.1,
+      "raw_context": [
+        0.1
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.0,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 20237,
+      "restricted_example_domain_fraction": 0.617584228515625,
+      "quantiles_01_50_99": [
+        [
+          18.56633958012749,
+          0.8032104156393202,
+          0.2553838857714581,
+          0.19734667154669375
+        ],
+        [
+          29.577821333721964,
+          0.9001949068431614,
+          0.579128138354092,
+          1.569822317065493
+        ],
+        [
+          38.074051469757066,
+          0.9978546568737262,
+          0.9002164921557605,
+          7.376237391021079
+        ]
+      ]
+    },
+    {
+      "channel": "CHE",
+      "birth_spin": 0.5,
+      "raw_context": [
+        0.5
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.0,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 20442,
+      "restricted_example_domain_fraction": 0.62384033203125,
+      "quantiles_01_50_99": [
+        [
+          18.56991296026783,
+          0.8033419269524704,
+          0.49994198479609747,
+          0.20958737120067714
+        ],
+        [
+          29.472348200722603,
+          0.9005505037127787,
+          0.5785685761248511,
+          1.5657114341189224
+        ],
+        [
+          38.086104348252086,
+          0.9978598977584466,
+          0.9005767803932908,
+          7.522217105050512
+        ]
+      ]
+    },
+    {
+      "channel": "GC",
+      "birth_spin": 0.0,
+      "raw_context": [
+        0.0
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.495147705078125,
+      "physical_domain_valid_rows": 32689,
+      "physical_domain_invalid_fraction": 0.002410888671875,
+      "restricted_example_domain_rows": 21642,
+      "restricted_example_domain_fraction": 0.66046142578125,
+      "quantiles_01_50_99": [
+        [
+          6.538410973655023,
+          0.3710955061025244,
+          -0.39282763558280076,
+          0.21512835851155396
+        ],
+        [
+          22.62388114093849,
+          0.8444136777515249,
+          2.6275566703911515e-05,
+          1.4393297583950022
+        ],
+        [
+          49.05051123631052,
+          0.9999836709148883,
+          0.389356552234187,
+          5.315853483680153
+        ]
+      ]
+    },
+    {
+      "channel": "GC",
+      "birth_spin": 0.1,
+      "raw_context": [
+        0.1
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.503631591796875,
+      "physical_domain_valid_rows": 32595,
+      "physical_domain_invalid_fraction": 0.005279541015625,
+      "restricted_example_domain_rows": 21793,
+      "restricted_example_domain_fraction": 0.665069580078125,
+      "quantiles_01_50_99": [
+        [
+          6.588436087010966,
+          0.3753937370559334,
+          -0.3031573114209728,
+          0.20950668049826218
+        ],
+        [
+          22.0646216998963,
+          0.8614387392590037,
+          -0.0004712376969072898,
+          1.4287453584373435
+        ],
+        [
+          46.07109411350821,
+          0.9999860438586872,
+          0.28927295045981744,
+          5.241446720119804
+        ]
+      ]
+    },
+    {
+      "channel": "GC",
+      "birth_spin": 0.5,
+      "raw_context": [
+        0.5
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.503814697265625,
+      "physical_domain_valid_rows": 32461,
+      "physical_domain_invalid_fraction": 0.009368896484375,
+      "restricted_example_domain_rows": 22024,
+      "restricted_example_domain_fraction": 0.672119140625,
+      "quantiles_01_50_99": [
+        [
+          6.630783887719031,
+          0.4607188465610659,
+          -0.43818730686052176,
+          0.199714980563455
+        ],
+        [
+          21.28814349579899,
+          0.8772498651485894,
+          -0.002338017525123308,
+          1.4103173893030299
+        ],
+        [
+          39.10320808725161,
+          0.9999983907852257,
+          0.4356903508212453,
+          5.2204746431117535
+        ]
+      ]
+    },
+    {
+      "channel": "NSC",
+      "birth_spin": 0.0,
+      "raw_context": [
+        0.0
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.53387451171875,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 25355,
+      "restricted_example_domain_fraction": 0.773773193359375,
+      "quantiles_01_50_99": [
+        [
+          12.279081762183905,
+          0.3315650720217535,
+          -0.44612286306148385,
+          0.17305714538323777
+        ],
+        [
+          29.987210776424895,
+          0.9557550829792484,
+          -0.0002854175863863287,
+          1.1881132273945787
+        ],
+        [
+          52.10373667286488,
+          0.9988105698744285,
+          0.4431618865172154,
+          4.142272172565891
+        ]
+      ]
+    },
+    {
+      "channel": "NSC",
+      "birth_spin": 0.1,
+      "raw_context": [
+        0.1
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.501983642578125,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 25405,
+      "restricted_example_domain_fraction": 0.775299072265625,
+      "quantiles_01_50_99": [
+        [
+          11.852017230598621,
+          0.3320939635665089,
+          -0.4463774469230349,
+          0.18434598525915635
+        ],
+        [
+          28.817450772275777,
+          0.9859281580157566,
+          -0.000339884613273418,
+          1.1855867111871539
+        ],
+        [
+          51.681904195772795,
+          0.9989759083092791,
+          0.4369568115207484,
+          4.19420558472642
+        ]
+      ]
+    },
+    {
+      "channel": "NSC",
+      "birth_spin": 0.5,
+      "raw_context": [
+        0.5
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.49566650390625,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 25925,
+      "restricted_example_domain_fraction": 0.791168212890625,
+      "quantiles_01_50_99": [
+        [
+          11.153335464935456,
+          0.4932633359310451,
+          -0.4595922681004842,
+          0.1790942316037127
+        ],
+        [
+          27.013837636525352,
+          0.9953040193489163,
+          0.002528022745935902,
+          1.167687191421333
+        ],
+        [
+          47.6311088882882,
+          0.9994407608812566,
+          0.45569749014273486,
+          4.119243092502885
+        ]
+      ]
+    },
+    {
+      "channel": "SMT",
+      "birth_spin": 0.0,
+      "raw_context": [
+        0.0
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.034088134765625,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 22298,
+      "restricted_example_domain_fraction": 0.68048095703125,
+      "quantiles_01_50_99": [
+        [
+          4.103610976255696,
+          0.34551576506036863,
+          -0.0018747821689182272,
+          0.21687659477504379
+        ],
+        [
+          15.456482411266013,
+          0.7164830911816675,
+          0.004532436141130169,
+          1.391253576949683
+        ],
+        [
+          32.43500407867507,
+          0.979547274885092,
+          0.24918965086399777,
+          5.989775891221989
+        ]
+      ]
+    },
+    {
+      "channel": "SMT",
+      "birth_spin": 0.1,
+      "raw_context": [
+        0.1
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.014862060546875,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 22327,
+      "restricted_example_domain_fraction": 0.681365966796875,
+      "quantiles_01_50_99": [
+        [
+          4.126408191495833,
+          0.3482040379162412,
+          -0.029332003399593933,
+          0.224345409995367
+        ],
+        [
+          15.419614196361625,
+          0.7161321029162715,
+          0.10291468876780299,
+          1.3949301207835187
+        ],
+        [
+          32.40555535422395,
+          0.9810965222592679,
+          0.27762271988168646,
+          5.948732566944555
+        ]
+      ]
+    },
+    {
+      "channel": "SMT",
+      "birth_spin": 0.5,
+      "raw_context": [
+        0.5
+      ],
+      "rows": 32768,
+      "raw_negative_effective_spin_fraction": 0.0137939453125,
+      "physical_domain_valid_rows": 32768,
+      "physical_domain_invalid_fraction": 0.0,
+      "restricted_example_domain_rows": 22158,
+      "restricted_example_domain_fraction": 0.67620849609375,
+      "quantiles_01_50_99": [
+        [
+          4.174927651761769,
+          0.3520930198698697,
+          -0.09199844156212932,
+          0.2159604253197243
+        ],
+        [
+          15.281670675057175,
+          0.7170719882643757,
+          0.5027629226762678,
+          1.3968185279790084
+        ],
+        [
+          32.3477005705417,
+          0.9800523393896767,
+          0.5115542148961691,
+          6.002865725520811
+        ]
+      ]
+    }
+  ],
+  "input_sha256": {
+    "runtime-results.json": "ff779a5a121f853ed0822c9283740974d863bb69ab9f6ed92b491e9d6c9a1867",
+    "channel_flow.py": "aaa3eb42d7ab5d937aa7f9a0ef3dd0b99262f5d2737dccc614437860f25fe394",
+    "sample_contexts.py": "0ca78cd1321f8f3ac29e4fe56d4714a4e7da9626ba2e2a535ee9b776bb68fbb0"
+  },
+  "sampling_cache_sha256": "4da03b238868e76be416dd8e9980301364ed760ef71f619a72bbae3d9217e3b8",
+  "limits": "Raw emulator draws. Intrinsic prediction only with the stated context interpretation; no new channel branching inference, selection-corrected estimate, or trusted missing-tail bound. Invalid q is retained and counted. Domain fractions are emulator MC summaries, not certified physical support probabilities."
+}

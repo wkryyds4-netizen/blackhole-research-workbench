@@ -1,0 +1,49 @@
+{
+  "schema": "blackhole-invariant-mass-redshift-design/1",
+  "date": "2026-10-27",
+  "timing": "Recorded before new event/selection integrals or posteriors. Source-driven exploratory extension of already observed six-model and mixture results; not preregistration.",
+  "question": "Does the observed g magnitude-model contrast survive the mass and redshift assumptions already used in the original tutorial robustness grid, after restoring all69 original-prior event sources and testing both official O3 banks?",
+  "functional": "g=P(chi_eff<0), binary-level; no physical formation-channel label",
+  "event_count": 69,
+  "prior": {"family": "Uniform", "minimum": 0, "maximum": 1},
+  "mass_models": [
+    {"id": "alpha2_peak10", "alpha": 2, "peak_fraction": 0.1},
+    {"id": "alpha3_peak10", "alpha": 3, "peak_fraction": 0.1},
+    {"id": "alpha2_nopeak", "alpha": 2, "peak_fraction": 0}
+  ],
+  "mass_support": {"primary_min": 3, "primary_max": 100, "secondary_min": 3, "mass_ratio_power": 1, "peak_mean": 35, "peak_sd": 5},
+  "redshift_exponents": [0, 2, 4],
+  "redshift_model": "p(z) proportional to Planck15 differential comoving volume times (1+z)^(kappa-1), 0<=z<=2.3; same saved quadrature/coordinates as the existing control",
+  "magnitude_families": [[1.5, 8.5], [2, 5]],
+  "even_spin_shapes": [0, 4, 16],
+  "models": 54,
+  "policies": ["matched_filter", "with_cwb"],
+  "banks": ["pure_bbh", "official_mixture"],
+  "fixed": [
+    "All69 original-prior source analyses, their recorded event set, prior-density reconstruction and row counts; no event or row rejection based on ESS.",
+    "Early O1/O2 semianalytic selection prescription, time/trial weights, mass-ratio power and cosmologies.",
+    "Normalized sign/even-shape spin model and its explicit2PN invariance/angle-measure approximation; g remains independent of mass and redshift in every model.",
+    "No source HDF, existing scientific result or published v0.3 artifact may be overwritten. New caches have their own protocol."
+  ],
+  "numerical_gates": {
+    "baseline_event_integral_relative": 1e-10,
+    "baseline_selection_relative": 1e-10,
+    "baseline_quantile_absolute": 0.000002,
+    "grid_doubling_quantile_absolute": 0.000002,
+    "independent_event_integral_relative": 0.0000002,
+    "independent_selection_relative": 0.000000001,
+    "independent_peak_scaled_density": 0.000000001,
+    "independent_quantile_absolute": 0.000002,
+    "independent_support_absolute": 0.00000002
+  },
+  "comparisons": [
+    "At each fixed mass/redshift/even-shape setting, compare the two magnitude-family posterior medians; report all27 contrasts for each bank/policy, not only the largest.",
+    "For each magnitude/even-shape setting, report the full3x3 mass/redshift range of posterior quantiles. This is a declared model envelope, not a credible interval or model-averaged posterior.",
+    "At identical54-model settings compare the two related O3 banks and two policies: quantile shifts, posterior total variation and exact differences of model contrasts, without assigning significance.",
+    "Quantify target probability outside each O3 proposal support for every mass/redshift/magnitude variant, separately from any observed detected contribution or likelihood correction budget.",
+    "Report event and selection weight concentration and zero components without interpreting them as full Monte Carlo error or excluding problematic models."
+  ],
+  "independent_validation": "No imports of the producer weights/posterior. Reconstruct PE prior by an independent flat-LambdaCDM integral, target densities in Cartesian source-spin coordinates, direct HDF selection sums, all69 multiplicative event factors, and support quadrature. Reuse the frozen target cosmology grid explicitly and verify all sources against hashes.",
+  "literature_position": "Sensitivity to mass-spin/redshift modeling is known in the literature; the increment is this source-verified54-model conditional comparison. A factorized nuisance grid does not test general mass-spin-redshift correlations.",
+  "limits": "Not hierarchical fitting of alpha/kappa, Bayesian model averaging, physical channel inference, waveform-systematic calibration, recovery of historical detection/reference protocols, or certification of prior/injection missing support. A small bank difference does not prove actual omitted sensitivity is small."
+}

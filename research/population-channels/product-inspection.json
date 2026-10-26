@@ -1,0 +1,651 @@
+{
+  "schema": "blackhole-physical-channel-product-inspection/1",
+  "archives": [
+    {
+      "file": "14967688-flow_models.tar.gz",
+      "url": "https://zenodo.org/api/records/14967688/files/flow_models.tar.gz/content",
+      "record": 14967688,
+      "bytes": 9314491,
+      "official_md5": "md5:6c31068e9a0cc2c02154024116b40102",
+      "sha256": "8fe23f522dc60a626149a09588c0396f02e9dc896038c33a3d36decd3f91a601",
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "file": "14967688-plot_data.tar.gz",
+      "url": "https://zenodo.org/api/records/14967688/files/plot_data.tar.gz/content",
+      "record": 14967688,
+      "bytes": 45897418,
+      "official_md5": "md5:de139c2237813109f92d09a25122b042",
+      "sha256": "4a42acb1dcb2203dc3c60f7d76b90a46e8feba29596ab0d11b029650b5f2bbac",
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    }
+  ],
+  "json_metadata": {
+    "flow_mappings.json": {
+      "CE": {
+        "Mmax": -0.5054364941584185,
+        "Mup": 100.0,
+        "qmax": 13.347090269689224,
+        "qup": 1.0,
+        "zmax": 14.035571191869641,
+        "zup": 10.0
+      },
+      "CHE": {
+        "Mmax": -0.48140259020109855,
+        "Mup": 100.0,
+        "qmax": 14.019699977622743,
+        "qup": 1.0,
+        "zmax": 8.619446200396384,
+        "zup": 10.0
+      },
+      "GC": {
+        "Mmax": 0.8314774169305883,
+        "Mup": 100.0,
+        "qmax": 6.9077552789822825,
+        "qup": 1.001,
+        "zmax": 4.227079814815771,
+        "zup": 10.0
+      },
+      "NSC": {
+        "Mmax": 2.372499132896851,
+        "Mup": 100.0,
+        "qmax": 9.049909624455028,
+        "qup": 1.0,
+        "zmax": 0.6363311719899155,
+        "zup": 10.0
+      },
+      "SMT": {
+        "Mmax": -0.5066373598114975,
+        "Mup": 100.0,
+        "qmax": 11.735077792414073,
+        "qup": 1.0,
+        "zmax": 7.097031924467128,
+        "zup": 10.0
+      }
+    },
+    "flowconfig.json": {
+      "CE": {
+        "transforms": 6,
+        "neurons": 128,
+        "bins": 5
+      },
+      "CHE": {
+        "transforms": 6,
+        "neurons": 128,
+        "bins": 4
+      },
+      "GC": {
+        "transforms": 6,
+        "neurons": 128,
+        "bins": 4
+      },
+      "NSC": {
+        "transforms": 6,
+        "neurons": 128,
+        "bins": 5
+      },
+      "SMT": {
+        "transforms": 6,
+        "neurons": 128,
+        "bins": 4
+      }
+    },
+    "KLs.json": {
+      "CE": {
+        "flow KL": {
+          "(0.0,0.2)": 2.3903311567379437,
+          "(0.1,0.2)": 2.240684389117855,
+          "(0.2,0.2)": 2.2542668145283575,
+          "(0.5,0.2)": 2.027187254443036,
+          "(0.0,0.5)": 4.892808449269042,
+          "(0.1,0.5)": 4.614097094541905,
+          "(0.2,0.5)": 4.415737894409576,
+          "(0.5,0.5)": 3.655377545750881,
+          "(0.0,1.0)": 4.61825875717675,
+          "(0.1,1.0)": 4.308960302794837,
+          "(0.2,1.0)": 4.1305698277455445,
+          "(0.5,1.0)": 3.5110381224425846,
+          "(0.0,2.0)": 4.780248595704146,
+          "(0.1,2.0)": 4.483781330303358,
+          "(0.2,2.0)": 4.353882460914076,
+          "(0.5,2.0)": 3.632078553872148,
+          "(0.0,5.0)": 4.373935431816702,
+          "(0.1,5.0)": 3.792592569714658,
+          "(0.2,5.0)": 3.4316623092371206,
+          "(0.5,5.0)": 2.3566940030746717
+        },
+        "KDE KL": {
+          "(0.0,0.2)": 2.837704836169545,
+          "(0.1,0.2)": 2.8079038123348297,
+          "(0.2,0.2)": 2.797691660737109,
+          "(0.5,0.2)": 2.573569517252282,
+          "(0.0,0.5)": 4.884592685276921,
+          "(0.1,0.5)": 4.774990572142783,
+          "(0.2,0.5)": 4.654763604805838,
+          "(0.5,0.5)": 4.141825531622226,
+          "(0.0,1.0)": 4.800315227698632,
+          "(0.1,1.0)": 4.6729504825972334,
+          "(0.2,1.0)": 4.551269634804491,
+          "(0.5,1.0)": 4.035549081053244,
+          "(0.0,2.0)": 4.966721110615122,
+          "(0.1,2.0)": 4.8076596897046215,
+          "(0.2,2.0)": 4.704485502289377,
+          "(0.5,2.0)": 4.061020613292307,
+          "(0.0,5.0)": 4.474504517748226,
+          "(0.1,5.0)": 4.188757638022567,
+          "(0.2,5.0)": 3.9193467415411387,
+          "(0.5,5.0)": 3.06983706622174
+        }
+      },
+      "CHE": {
+        "flow KL": {
+          "0.0": 3.724276913461715,
+          "0.1": 3.9358198748033697,
+          "0.2": 3.7157066103649425,
+          "0.5": 0.6936845547780739
+        },
+        "KDE KL": {
+          "0.0": 4.305895096844982,
+          "0.1": 4.313923451835632,
+          "0.2": 3.683210267948248,
+          "0.5": 1.7331464279158533
+        }
+      },
+      "GC": {
+        "flow KL": {
+          "0.0": -0.552696879571082,
+          "0.1": 1.5281307501517292,
+          "0.2": 1.9810696389952682,
+          "0.5": 2.6937040432481707
+        },
+        "KDE KL": {
+          "0.0": 1.041789862622808,
+          "0.1": 1.8627805122488381,
+          "0.2": 2.312420955167406,
+          "0.5": 3.095852898209623
+        }
+      },
+      "NSC": {
+        "flow KL": {
+          "0.0": -1.3340751493179257,
+          "0.1": -0.07169596654438186,
+          "0.2": 0.14031930589610453,
+          "0.5": 0.6728999356333595
+        },
+        "KDE KL": {
+          "0.0": 0.10215887885770736,
+          "0.1": 0.5207869539280698,
+          "0.2": 0.6440926396304659,
+          "0.5": 1.0247399996590807
+        }
+      },
+      "SMT": {
+        "flow KL": {
+          "0.0": 0.08902402657396032,
+          "0.1": -0.3306551412954876,
+          "0.2": -0.33845895533349407,
+          "0.5": -0.5231677629125511
+        },
+        "KDE KL": {
+          "0.0": 0.7832737612323813,
+          "0.1": 0.6683451545927293,
+          "0.2": 0.702597140002292,
+          "0.5": 0.6373823849865561
+        }
+      }
+    }
+  },
+  "numeric_mappings": {
+    "CE_mappings.npy": [
+      -0.5054364941584185,
+      100.0,
+      13.347090269689224,
+      1.0,
+      14.035571191869641,
+      10.0
+    ],
+    "SMT_mappings.npy": [
+      -0.5066373598114975,
+      100.0,
+      11.735077792414073,
+      1.0,
+      7.097031924467128,
+      10.0
+    ],
+    "NSC_mappings.npy": [
+      2.372499132896851,
+      100.0,
+      9.049909624455028,
+      1.0,
+      0.6363311719899155,
+      10.0
+    ],
+    "CHE_mappings.npy": [
+      -0.48140259020109855,
+      100.0,
+      14.019699977622743,
+      1.0,
+      8.619446200396384,
+      10.0
+    ],
+    "GC_mappings.npy": [
+      0.8314774169305883,
+      100.0,
+      6.9077552789822825,
+      1.001,
+      4.227079814815771,
+      10.0
+    ]
+  },
+  "hdf": {
+    "dataspace_samps.hdf5": {
+      "sha256": "9f809e1f1a9f859c6b331238162a64ac477568e344bb9af4fe63cced73473021",
+      "fields": [
+        {
+          "path": "flow_samps/CE/axis0",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/CE/axis1",
+          "shape": [
+            896620
+          ],
+          "dtype": "int64"
+        },
+        {
+          "path": "flow_samps/CE/block0_items",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/CE/block0_values",
+          "shape": [
+            896620,
+            4
+          ],
+          "dtype": "float64"
+        },
+        {
+          "path": "flow_samps/CHE/axis0",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/CHE/axis1",
+          "shape": [
+            5890
+          ],
+          "dtype": "int64"
+        },
+        {
+          "path": "flow_samps/CHE/block0_items",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/CHE/block0_values",
+          "shape": [
+            5890,
+            4
+          ],
+          "dtype": "float64"
+        },
+        {
+          "path": "flow_samps/GC/axis0",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/GC/axis1",
+          "shape": [
+            20420
+          ],
+          "dtype": "int64"
+        },
+        {
+          "path": "flow_samps/GC/block0_items",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/GC/block0_values",
+          "shape": [
+            20420,
+            4
+          ],
+          "dtype": "float64"
+        },
+        {
+          "path": "flow_samps/NSC/axis0",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/NSC/axis1",
+          "shape": [
+            14580
+          ],
+          "dtype": "int64"
+        },
+        {
+          "path": "flow_samps/NSC/block0_items",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/NSC/block0_values",
+          "shape": [
+            14580,
+            4
+          ],
+          "dtype": "float64"
+        },
+        {
+          "path": "flow_samps/SMT/axis0",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/SMT/axis1",
+          "shape": [
+            62490
+          ],
+          "dtype": "int64"
+        },
+        {
+          "path": "flow_samps/SMT/block0_items",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/SMT/block0_values",
+          "shape": [
+            62490,
+            4
+          ],
+          "dtype": "float64"
+        },
+        {
+          "path": "parametric_samps/axis0",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "parametric_samps/axis1",
+          "shape": [
+            671040
+          ],
+          "dtype": "int64"
+        },
+        {
+          "path": "parametric_samps/block0_items",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "parametric_samps/block0_values",
+          "shape": [
+            671040,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    "emulation_samps.hdf5": {
+      "sha256": "bc8c3d34592819cdca7518043c0a8c7dabea366967d6704c7fab682da2aaf2d1",
+      "fields": [
+        {
+          "path": "KDE_samps/axis0",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "KDE_samps/axis1",
+          "shape": [
+            112393
+          ],
+          "dtype": "int64"
+        },
+        {
+          "path": "KDE_samps/block0_items",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "KDE_samps/block0_values",
+          "shape": [
+            112393,
+            4
+          ],
+          "dtype": "float64"
+        },
+        {
+          "path": "flow_samps/axis0",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/axis1",
+          "shape": [
+            112393
+          ],
+          "dtype": "int64"
+        },
+        {
+          "path": "flow_samps/block0_items",
+          "shape": [
+            4
+          ],
+          "dtype": "|S6"
+        },
+        {
+          "path": "flow_samps/block0_values",
+          "shape": [
+            112393,
+            4
+          ],
+          "dtype": "float64"
+        }
+      ]
+    },
+    "test_flow_samps.hdf5": {
+      "sha256": "a10ded17e32f78c080cde37421beb11a8b8aecb4c7c5abed850974907cd456a4",
+      "fields": []
+    }
+  },
+  "torch_archives": {
+    "NSC.pt": {
+      "sha256": "11b3cae78226b850e4fea2a1c67404e60b40df7ff652673537514c1f7da765b6",
+      "globals": [
+        "collections OrderedDict",
+        "torch FloatStorage",
+        "torch LongStorage",
+        "torch._utils _rebuild_tensor_v2"
+      ],
+      "state_key_examples": [
+        "_transform._transforms.0.transform_net.initial_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.final_layer.weight",
+        "_transform._transforms.1.unconstrained_weight",
+        "_transform._transforms.2.transform_net.initial_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.final_layer.weight",
+        "_transform._transforms.3.unconstrained_weight"
+      ],
+      "zip_entries": 134,
+      "executed": false
+    },
+    "CHE.pt": {
+      "sha256": "6598a45eac45475569b3894818e5d3657790b8c5a58cef8abe8b3f976de85a52",
+      "globals": [
+        "collections OrderedDict",
+        "torch FloatStorage",
+        "torch LongStorage",
+        "torch._utils _rebuild_tensor_v2"
+      ],
+      "state_key_examples": [
+        "_transform._transforms.0.transform_net.initial_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.final_layer.weight",
+        "_transform._transforms.1.unconstrained_weight",
+        "_transform._transforms.2.transform_net.initial_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.final_layer.weight",
+        "_transform._transforms.3.unconstrained_weight"
+      ],
+      "zip_entries": 134,
+      "executed": false
+    },
+    "CE.pt": {
+      "sha256": "520e33d85e4f7dbba5ec70054970307d6033f6188b0090e00bc6a79fc6ee7f4f",
+      "globals": [
+        "collections OrderedDict",
+        "torch FloatStorage",
+        "torch LongStorage",
+        "torch._utils _rebuild_tensor_v2"
+      ],
+      "state_key_examples": [
+        "_transform._transforms.0.transform_net.initial_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.final_layer.weight",
+        "_transform._transforms.1.unconstrained_weight",
+        "_transform._transforms.2.transform_net.initial_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.final_layer.weight",
+        "_transform._transforms.3.unconstrained_weight"
+      ],
+      "zip_entries": 134,
+      "executed": false
+    },
+    "SMT.pt": {
+      "sha256": "84b400edfe7bf0c934df4ee3c80cc5a7a8a401aa6c05fa2d258321f4a775a0e7",
+      "globals": [
+        "collections OrderedDict",
+        "torch FloatStorage",
+        "torch LongStorage",
+        "torch._utils _rebuild_tensor_v2"
+      ],
+      "state_key_examples": [
+        "_transform._transforms.0.transform_net.initial_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.final_layer.weight",
+        "_transform._transforms.1.unconstrained_weight",
+        "_transform._transforms.2.transform_net.initial_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.final_layer.weight",
+        "_transform._transforms.3.unconstrained_weight"
+      ],
+      "zip_entries": 134,
+      "executed": false
+    },
+    "GC.pt": {
+      "sha256": "427160d92228c1ed2ee863984fb39b1d8300fed41289b5467abc7b00d5935501",
+      "globals": [
+        "collections OrderedDict",
+        "torch FloatStorage",
+        "torch LongStorage",
+        "torch._utils _rebuild_tensor_v2"
+      ],
+      "state_key_examples": [
+        "_transform._transforms.0.transform_net.initial_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.0.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.0.transform_net.final_layer.weight",
+        "_transform._transforms.1.unconstrained_weight",
+        "_transform._transforms.2.transform_net.initial_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.0.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.blocks.1.context_layer.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.0.weight",
+        "_transform._transforms.2.transform_net.blocks.1.linear_layers.1.weight",
+        "_transform._transforms.2.transform_net.final_layer.weight",
+        "_transform._transforms.3.unconstrained_weight"
+      ],
+      "zip_entries": 134,
+      "executed": false
+    }
+  },
+  "inspection_tool_sha256": "2628cb73c5dd2ff6576da52b4d0ae7f88fa5390c7f8ddc65e591919af26ac6f8",
+  "limits": "Numeric arrays and metadata inspected; model pickle bytecode examined without execution. No channel fractions or validated model evaluations yet."
+}

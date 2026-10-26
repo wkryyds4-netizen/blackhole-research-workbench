@@ -1,0 +1,152 @@
+[
+  {
+    "file": "zenodo-4448170.json",
+    "url": "https://zenodo.org/api/records/4448170",
+    "final_url": "https://zenodo.org/api/records/4448170",
+    "http_status": 200,
+    "bytes": 6866,
+    "sha256": "9e9ff25b37c11be012995f93c92901ad44a00638548ddc9db9422594aeb46c43"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-README.md",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/README.md",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/README.md",
+    "http_status": 200,
+    "bytes": 1793,
+    "sha256": "1aaa615abf20693d61d03702e605dcd69c84fe1bd66fb174c0287851200da4ea"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-examples--AMAZE-example.ini",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/examples/AMAZE-example.ini",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/examples/AMAZE-example.ini",
+    "http_status": 200,
+    "bytes": 9701,
+    "sha256": "7ad8ed848a154b9aed1aa59f2d175a990cc90ec7dbcc2051cd0bff8ab243f97e"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-populations--models.py",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/models.py",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/models.py",
+    "http_status": 200,
+    "bytes": 9954,
+    "sha256": "ad52ca6a52da611bec1e7da9c78731394cd97c6475f0e9a1aa9c0893d4de808e"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-populations--observations.py",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/observations.py",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/observations.py",
+    "http_status": 200,
+    "bytes": 5356,
+    "sha256": "a9ef109996a39e24f52d20e3113fbeed9cd18f20ae4232114fb21e73e9053ca1"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-populations--population_utils--bounded_Nd_kde.py",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/population_utils/bounded_Nd_kde.py",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/population_utils/bounded_Nd_kde.py",
+    "http_status": 200,
+    "bytes": 6981,
+    "sha256": "a8f5c5f9b010a2ea1192c3309fce593af69ddd426765ff0b0d188c444192d84f"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-populations--population_utils--selection_effects.py",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/population_utils/selection_effects.py",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/population_utils/selection_effects.py",
+    "http_status": 200,
+    "bytes": 1180,
+    "sha256": "260d6ceb26e62f9aaaf7ed79356623a479eaf6f53dc1817ffb29f786b0e69d86"
+  },
+  {
+    "file": "zenodo-14967688.json",
+    "url": "https://zenodo.org/api/records/14967688",
+    "final_url": "https://zenodo.org/api/records/14967688",
+    "http_status": 200,
+    "bytes": 11203,
+    "sha256": "985c0c500446ff7955a9fb94f1a8e663de622c3c5ba4130245c775809050b3b1"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-populations--population_utils--flow.py",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/population_utils/flow.py",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/population_utils/flow.py",
+    "http_status": 200,
+    "bytes": 18976,
+    "sha256": "7a708b97c988f14502f6a07144e23dfa162b0195f2c99b202082bbdf5653722d"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-sample--sample.py",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/sample/sample.py",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/sample/sample.py",
+    "http_status": 200,
+    "bytes": 16387,
+    "sha256": "c31f19fec24cbd8943530b527df15d71ef85a87a7171463c4fb493eb7ea86b75"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-repo.json",
+    "url": "https://api.github.com/repos/michaelzevin/AMAZE",
+    "final_url": "https://api.github.com/repos/michaelzevin/AMAZE",
+    "http_status": 200,
+    "bytes": 5158,
+    "sha256": "3814d687a1902fedb70b813ecf676b930b58b87da35cd42216b0574b94311447"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-commit.json",
+    "url": "https://api.github.com/repos/michaelzevin/AMAZE/commits/develop",
+    "final_url": "https://api.github.com/repos/michaelzevin/AMAZE/commits/develop",
+    "http_status": 200,
+    "bytes": 17746,
+    "sha256": "3f5a110c3ccc4822d53de562db3a10f2ec4f9d8edcfb392bb3e253a6a8f7f3dc"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-tree.json",
+    "url": "https://api.github.com/repos/michaelzevin/AMAZE/git/trees/4b3a0c78eec8ca4780f6e78fd50f0146ced33878?recursive=1",
+    "final_url": "https://api.github.com/repos/michaelzevin/AMAZE/git/trees/4b3a0c78eec8ca4780f6e78fd50f0146ced33878?recursive=1",
+    "http_status": 200,
+    "bytes": 5189,
+    "sha256": "8579e2719e230ac2c72d545f62b86fed806e55d768e8a99c72cbd10bdccceee8"
+  },
+  {
+    "file": "14967688-flow_models.tar.gz",
+    "url": "https://zenodo.org/api/records/14967688/files/flow_models.tar.gz/content",
+    "record": 14967688,
+    "bytes": 9314491,
+    "official_md5": "md5:6c31068e9a0cc2c02154024116b40102",
+    "sha256": "8fe23f522dc60a626149a09588c0396f02e9dc896038c33a3d36decd3f91a601",
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "file": "14967688-plot_data.tar.gz",
+    "url": "https://zenodo.org/api/records/14967688/files/plot_data.tar.gz/content",
+    "record": 14967688,
+    "bytes": 45897418,
+    "official_md5": "md5:de139c2237813109f92d09a25122b042",
+    "sha256": "4a42acb1dcb2203dc3c60f7d76b90a46e8feba29596ab0d11b029650b5f2bbac",
+    "license": {
+      "id": "cc-by-4.0"
+    }
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-populations--__init__.py",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/__init__.py",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/__init__.py",
+    "http_status": 200,
+    "bytes": 53986,
+    "sha256": "d274655cf23b079091a1937f038668b28dd21242e4353c68cb75c28b3cf92a51"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-populations--population_utils--transform.py",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/population_utils/transform.py",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/populations/population_utils/transform.py",
+    "http_status": 200,
+    "bytes": 2215,
+    "sha256": "2ef56cf80ccc16edb88932ebdc8c1c0c23a25f16c90e46b5fa21f4da4655a908"
+  },
+  {
+    "file": "github-michaelzevin--AMAZE-4b3a0c78eec8-environment.yml",
+    "url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/environment.yml",
+    "final_url": "https://raw.githubusercontent.com/michaelzevin/AMAZE/4b3a0c78eec8ca4780f6e78fd50f0146ced33878/environment.yml",
+    "http_status": 200,
+    "bytes": 432,
+    "sha256": "26e1f04e77032beb3e93a5a5c6321766d4b1c3956e80a36b263eff2271c93d9c"
+  }
+]
