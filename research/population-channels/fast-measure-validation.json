@@ -1,0 +1,85 @@
+{
+  "schema": "blackhole-channel-fast-bridge-validation/1",
+  "status": "pass",
+  "checks": [
+    {
+      "family": "uniform_magnitude",
+      "points": 714,
+      "max_scalar_relative_error": 2.2511505548550304e-08,
+      "max_scalar_absolute_error": 4.46395365116814e-10,
+      "max_order_doubling_relative_error": 2.1501911362520332e-10,
+      "scalar_integration_warning_count": 0,
+      "moments": [
+        {
+          "q": 0.03,
+          "normalization": 0.9999999975354145,
+          "second_moment": 0.10274107826445918,
+          "analytic": 0.10274107832972004
+        },
+        {
+          "q": 0.1,
+          "normalization": 0.9999999967417106,
+          "second_moment": 0.09089999974003593,
+          "analytic": 0.0909
+        },
+        {
+          "q": 0.5,
+          "normalization": 0.9999999936866258,
+          "second_moment": 0.06049999862518461,
+          "analytic": 0.0605
+        },
+        {
+          "q": 1.0,
+          "normalization": 1.0000000052606028,
+          "second_moment": 0.054450001288872375,
+          "analytic": 0.05445
+        }
+      ],
+      "lift_identity_error": 4.440892098500626e-16,
+      "vector_seconds": 0.010399899969343096
+    },
+    {
+      "family": "beta2_5_magnitude",
+      "points": 714,
+      "max_scalar_relative_error": 3.297362383136715e-14,
+      "max_scalar_absolute_error": 3.9968028886505635e-15,
+      "max_order_doubling_relative_error": 0.0,
+      "scalar_integration_warning_count": 0,
+      "moments": [
+        {
+          "q": 0.03,
+          "normalization": 1.0000000000000073,
+          "second_moment": 0.03302391803455274,
+          "analytic": 0.033023918034552874
+        },
+        {
+          "q": 0.1,
+          "normalization": 1.0000000000000073,
+          "second_moment": 0.029217857142857028,
+          "analytic": 0.02921785714285714
+        },
+        {
+          "q": 0.5,
+          "normalization": 1.0000000000000078,
+          "second_moment": 0.019446428571428493,
+          "analytic": 0.019446428571428573
+        },
+        {
+          "q": 1.0,
+          "normalization": 1.0000000000000078,
+          "second_moment": 0.01750178571428564,
+          "analytic": 0.017501785714285713
+        }
+      ],
+      "lift_identity_error": 4.440892098500626e-16,
+      "vector_seconds": 0.0013159000081941485
+    }
+  ],
+  "input_sha256": {
+    "bridge-design.json": "c032ce3cfee491597c1ef67dacaa11496c91bf3e24f3c459890ac6c348418c39",
+    "fast_measure.py": "650334761c8c6298fe1a246d5e3124eac46786ecb3e281c102e5ec511e32f632",
+    "projected_measure.py": "aeb1090188d93c6b057057feed90f341efa73f2743edc7d077e3b7ea60a85f5e",
+    "validate_fast_measure.py": "d65b71dcb1ca7c51970ba9e6c82fac085099b46b9951d6eb584f0b475041ff65"
+  },
+  "scope": "Implementation verification of declared hidden-spin conditionals; does not establish their physical validity or historical PE/injection protocol. No channel fit until this gate passes."
+}

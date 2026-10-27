@@ -1,0 +1,1818 @@
+{
+  "schema": "blackhole-conditional-channel-synthesis/1",
+  "status": "conditional_results_with_explicit_remaining_gaps",
+  "events": 69,
+  "posterior_rows": 11180578,
+  "cases": 24,
+  "channels": [
+    "CE",
+    "CHE",
+    "GC",
+    "NSC",
+    "SMT"
+  ],
+  "context": {
+    "birth_spin": 0.1,
+    "ce_efficiency": 2.0,
+    "ce_raw_context": [
+      0.1,
+      0.6931471805599453
+    ]
+  },
+  "scientific_statement": "Within the fixed-context restricted-domain emulator experiment, intrinsic branch medians depend more strongly on regularization and declared hidden-spin completion than on the tested bank/search replacements. This is not a measurement of cosmic formation fractions or general robustness.",
+  "contrast_maxima": {
+    "regularization": {
+      "channel": "CE",
+      "value_pp": 8.6544419549212,
+      "family": "uniform_magnitude",
+      "bank": "pure_bbh",
+      "policy": "with_cwb"
+    },
+    "hidden_spin": {
+      "channel": "CE",
+      "value_pp": 3.414631008911184,
+      "signed_value_pp": -3.414631008911184,
+      "bank": "pure_bbh",
+      "policy": "matched_filter",
+      "epsilon": 0
+    },
+    "bank": {
+      "channel": "CE",
+      "value_pp": 0.6140354514376001,
+      "signed_value_pp": 0.6140354514376001,
+      "family": "beta2_5_magnitude",
+      "policy": "with_cwb",
+      "epsilon": 0.01
+    },
+    "search_policy": {
+      "channel": "NSC",
+      "value_pp": 0.4265887902035741,
+      "signed_value_pp": -0.4265887902035741,
+      "family": "uniform_magnitude",
+      "bank": "official_mixture",
+      "epsilon": 0.01
+    }
+  },
+  "contrasts": {
+    "regularization": [
+      {
+        "channel": "CE",
+        "value_pp": 8.530735354920193,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.13604242405441375,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "GC",
+        "value_pp": 3.6946627018210942,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.6158317087581766,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 2.8999820230707116,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "CE",
+        "value_pp": 8.6544419549212,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.13825786786423028,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "GC",
+        "value_pp": 3.813579052007053,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.48446174020347,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 3.043423002411555,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "CE",
+        "value_pp": 8.400227724430632,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.13347224599857535,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "GC",
+        "value_pp": 3.6385590544366075,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.588373356658948,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 2.855359243909889,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "CE",
+        "value_pp": 8.501700883158737,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.1350858748314585,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "GC",
+        "value_pp": 3.746732308144518,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.4550688402988878,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 2.989885002685456,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "CE",
+        "value_pp": 7.577284508082349,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.12043615591781268,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "GC",
+        "value_pp": 2.4742301338103108,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.8832613550554544,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 2.9474705320303634,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "CE",
+        "value_pp": 7.638722513068141,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.12368562775122838,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "GC",
+        "value_pp": 2.5356963384029054,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.8389104825700442,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 2.9968800408913534,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "CE",
+        "value_pp": 7.0481822549933515,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.10854606142911881,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "GC",
+        "value_pp": 2.28240279981438,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.7539462911082826,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 2.748013222125805,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "matched_filter"
+      },
+      {
+        "channel": "CE",
+        "value_pp": 7.100663573425258,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.11112785287093327,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "GC",
+        "value_pp": 2.337717909982541,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.7100481087731711,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 2.7940159889439773,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "policy": "with_cwb"
+      }
+    ],
+    "hidden_spin": [
+      {
+        "channel": "CE",
+        "value_pp": 3.414631008911184,
+        "signed_value_pp": -3.414631008911184,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.1407891531617827,
+        "signed_value_pp": 0.1407891531617827,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.38984110244030395,
+        "signed_value_pp": 0.38984110244030395,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.9838205872563437,
+        "signed_value_pp": 1.9838205872563437,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.7604681780510671,
+        "signed_value_pp": 0.7604681780510671,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 3.0306666477692756,
+        "signed_value_pp": -3.0306666477692756,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.12653033880595044,
+        "signed_value_pp": 0.12653033880595044,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.08666831293760308,
+        "signed_value_pp": 0.08666831293760308,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.9361549382080554,
+        "signed_value_pp": 1.9361549382080554,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.7475718630828341,
+        "signed_value_pp": 0.7475718630828341,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 2.077215800931431,
+        "signed_value_pp": -2.077215800931431,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.11092407066934937,
+        "signed_value_pp": 0.11092407066934937,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 1.1337642550731801,
+        "signed_value_pp": -1.1337642550731801,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 2.2035845845053332,
+        "signed_value_pp": 2.2035845845053332,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.8079566870107191,
+        "signed_value_pp": 0.8079566870107191,
+        "bank": "pure_bbh",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CE",
+        "value_pp": 3.322464826912175,
+        "signed_value_pp": -3.322464826912175,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.13976933757516566,
+        "signed_value_pp": 0.13976933757516566,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.25831373540552427,
+        "signed_value_pp": 0.25831373540552427,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 2.09312253616024,
+        "signed_value_pp": 2.09312253616024,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.688199785446987,
+        "signed_value_pp": 0.688199785446987,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 2.9549227588418714,
+        "signed_value_pp": -2.9549227588418714,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.12690087189470498,
+        "signed_value_pp": 0.12690087189470498,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.03148016198541298,
+        "signed_value_pp": -0.03148016198541298,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 2.0493882006511424,
+        "signed_value_pp": 2.0493882006511424,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.671099990704227,
+        "signed_value_pp": 0.671099990704227,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 1.9392033169888134,
+        "signed_value_pp": -1.9392033169888134,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.11232863178170308,
+        "signed_value_pp": 0.11232863178170308,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 1.3093628755895605,
+        "signed_value_pp": -1.3093628755895605,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 2.403836943017716,
+        "signed_value_pp": 2.403836943017716,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.6416568239267852,
+        "signed_value_pp": 0.6416568239267852,
+        "bank": "pure_bbh",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CE",
+        "value_pp": 3.4101798876317257,
+        "signed_value_pp": -3.4101798876317257,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.14023638221946055,
+        "signed_value_pp": 0.14023638221946055,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.3652162852477908,
+        "signed_value_pp": 0.3652162852477908,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 2.0152668546784733,
+        "signed_value_pp": 2.0152668546784733,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.7466372636951422,
+        "signed_value_pp": 0.7466372636951422,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 2.9713633478250845,
+        "signed_value_pp": -2.9713633478250845,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.12445051014311681,
+        "signed_value_pp": 0.12445051014311681,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.04308689314208303,
+        "signed_value_pp": 0.04308689314208303,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 1.9503733538794963,
+        "signed_value_pp": 1.9503733538794963,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.7196795607591656,
+        "signed_value_pp": 0.7196795607591656,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 1.6193178783878048,
+        "signed_value_pp": -1.6193178783878048,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.09952432557366027,
+        "signed_value_pp": 0.09952432557366027,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 1.3130693614801445,
+        "signed_value_pp": -1.3130693614801445,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 2.1159462883288307,
+        "signed_value_pp": 2.1159462883288307,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.639291241911058,
+        "signed_value_pp": 0.639291241911058,
+        "bank": "official_mixture",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CE",
+        "value_pp": 3.3147802234767987,
+        "signed_value_pp": -3.3147802234767987,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.13917243049527228,
+        "signed_value_pp": 0.13917243049527228,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.2356462379848323,
+        "signed_value_pp": 0.2356462379848323,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 2.1241382518968024,
+        "signed_value_pp": 2.1241382518968024,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.6741798384153286,
+        "signed_value_pp": 0.6741798384153286,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 2.9010332717212206,
+        "signed_value_pp": -2.9010332717212206,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.12485101423851393,
+        "signed_value_pp": 0.12485101423851393,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.07323982917192412,
+        "signed_value_pp": -0.07323982917192412,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 2.0639653002264087,
+        "signed_value_pp": 2.0639653002264087,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.643812101579002,
+        "signed_value_pp": 0.643812101579002,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 1.4999959619877434,
+        "signed_value_pp": -1.4999959619877434,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.10089299227798867,
+        "signed_value_pp": 0.10089299227798867,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 1.4822542273339012,
+        "signed_value_pp": -1.4822542273339012,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 2.318944568700692,
+        "signed_value_pp": 2.318944568700692,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.4783108246738499,
+        "signed_value_pp": 0.4783108246738499,
+        "bank": "official_mixture",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      }
+    ],
+    "bank": [
+      {
+        "channel": "CE",
+        "value_pp": 0.0023672815798403413,
+        "signed_value_pp": 0.0023672815798403413,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.00024729986685670044,
+        "signed_value_pp": -0.00024729986685670044,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.005398233667892882,
+        "signed_value_pp": -0.005398233667892882,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.006986269440809739,
+        "signed_value_pp": 0.006986269440809739,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.002478603379413996,
+        "signed_value_pp": -0.002478603379413996,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.017764244805773544,
+        "signed_value_pp": 0.017764244805773544,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.0005438401813876413,
+        "signed_value_pp": -0.0005438401813876413,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.013770731467296904,
+        "signed_value_pp": -0.013770731467296904,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.0024800626792040315,
+        "signed_value_pp": 0.0024800626792040315,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.005390824033175978,
+        "signed_value_pp": -0.005390824033175978,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.14827187529533603,
+        "signed_value_pp": 0.14827187529533603,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.0031140182372260336,
+        "signed_value_pp": -0.0031140182372260336,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.0698743788517836,
+        "signed_value_pp": -0.0698743788517836,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.024978289420024558,
+        "signed_value_pp": -0.024978289420024558,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.04710138254023638,
+        "signed_value_pp": -0.04710138254023638,
+        "family": "uniform_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.0017815502556750573,
+        "signed_value_pp": 0.0017815502556750573,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.00011372133013778755,
+        "signed_value_pp": -0.00011372133013778755,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.005680593514148513,
+        "signed_value_pp": -0.005680593514148513,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.006162461748436543,
+        "signed_value_pp": 0.006162461748436543,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.002054822127185024,
+        "signed_value_pp": -0.002054822127185024,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.022087024674066758,
+        "signed_value_pp": 0.022087024674066758,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.00045975985339921817,
+        "signed_value_pp": -0.00045975985339921817,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.014833751030265963,
+        "signed_value_pp": -0.014833751030265963,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.0011237277386735856,
+        "signed_value_pp": 0.0011237277386735856,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.0063808590987875224,
+        "signed_value_pp": -0.0063808590987875224,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.17482809643653008,
+        "signed_value_pp": 0.17482809643653008,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.0036317528861709754,
+        "signed_value_pp": -0.0036317528861709754,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.08168049489280099,
+        "signed_value_pp": -0.08168049489280099,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.028269172165908824,
+        "signed_value_pp": -0.028269172165908824,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.05559282185328418,
+        "signed_value_pp": -0.05559282185328418,
+        "family": "uniform_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.0068184028592988,
+        "signed_value_pp": 0.0068184028592988,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.0008000708091788523,
+        "signed_value_pp": -0.0008000708091788523,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.03002305086040602,
+        "signed_value_pp": -0.03002305086040602,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.03843253686293957,
+        "signed_value_pp": 0.03843253686293957,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.01630951773533909,
+        "signed_value_pp": -0.01630951773533909,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.07706754474996469,
+        "signed_value_pp": 0.07706754474996469,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.0026236688442212754,
+        "signed_value_pp": -0.0026236688442212754,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.05735215126281695,
+        "signed_value_pp": -0.05735215126281695,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.01669847835064492,
+        "signed_value_pp": 0.01669847835064492,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.033283126356844356,
+        "signed_value_pp": -0.033283126356844356,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.6061697978389624,
+        "signed_value_pp": 0.6061697978389624,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.014513763332915132,
+        "signed_value_pp": -0.014513763332915132,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.24917948525874783,
+        "signed_value_pp": -0.24917948525874783,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.11261658559652693,
+        "signed_value_pp": -0.11261658559652693,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.21576682763989746,
+        "signed_value_pp": -0.21576682763989746,
+        "family": "beta2_5_magnitude",
+        "policy": "matched_filter",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.009466153691051193,
+        "signed_value_pp": 0.009466153691051193,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.0007106284100311631,
+        "signed_value_pp": -0.0007106284100311631,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.028348090934840475,
+        "signed_value_pp": -0.028348090934840475,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.03717817748499913,
+        "signed_value_pp": 0.03717817748499913,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.01607476915884351,
+        "signed_value_pp": -0.01607476915884351,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.07597651179471754,
+        "signed_value_pp": 0.07597651179471754,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.002509617509590268,
+        "signed_value_pp": -0.002509617509590268,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.0565934182167771,
+        "signed_value_pp": -0.0565934182167771,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.015700827313940013,
+        "signed_value_pp": 0.015700827313940013,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.0336687482240125,
+        "signed_value_pp": -0.0336687482240125,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.6140354514376001,
+        "signed_value_pp": 0.6140354514376001,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.015067392389885373,
+        "signed_value_pp": -0.015067392389885373,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.2545718466371416,
+        "signed_value_pp": -0.2545718466371416,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.11316154648293303,
+        "signed_value_pp": -0.11316154648293303,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.2189388211062196,
+        "signed_value_pp": -0.2189388211062196,
+        "family": "beta2_5_magnitude",
+        "policy": "with_cwb",
+        "epsilon": 0.01
+      }
+    ],
+    "search_policy": [
+      {
+        "channel": "CE",
+        "value_pp": 0.009262492827621926,
+        "signed_value_pp": -0.009262492827621926,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.005164620981387398,
+        "signed_value_pp": 0.005164620981387398,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.21250950051481254,
+        "signed_value_pp": 0.21250950051481254,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.29154788277115096,
+        "signed_value_pp": -0.29154788277115096,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.08983128123698086,
+        "signed_value_pp": 0.08983128123698086,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.003029172245849754,
+        "signed_value_pp": 0.003029172245849754,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.00386720969540455,
+        "signed_value_pp": 0.00386720969540455,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.2035333464311631,
+        "signed_value_pp": 0.2035333464311631,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.2919279389029833,
+        "signed_value_pp": -0.2919279389029833,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.09782509478209953,
+        "signed_value_pp": 0.09782509478209953,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.12067742775515589,
+        "signed_value_pp": -0.12067742775515589,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.006082653505221081,
+        "signed_value_pp": 0.006082653505221081,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.322449696617122,
+        "signed_value_pp": 0.322449696617122,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.4232979074576898,
+        "signed_value_pp": -0.4232979074576898,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.23327226057782424,
+        "signed_value_pp": 0.23327226057782424,
+        "family": "uniform_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.00984822415178721,
+        "signed_value_pp": -0.00984822415178721,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.005298199518106311,
+        "signed_value_pp": 0.005298199518106311,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.2122271406685569,
+        "signed_value_pp": 0.2122271406685569,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.2923716904635242,
+        "signed_value_pp": -0.2923716904635242,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.09025506248920984,
+        "signed_value_pp": 0.09025506248920984,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.007351952114142968,
+        "signed_value_pp": 0.007351952114142968,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.003951290023392973,
+        "signed_value_pp": 0.003951290023392973,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.20247032686819405,
+        "signed_value_pp": 0.20247032686819405,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.29328427384351374,
+        "signed_value_pp": -0.29328427384351374,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.09683505971648798,
+        "signed_value_pp": 0.09683505971648798,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.09412120661396184,
+        "signed_value_pp": -0.09412120661396184,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.005564918856276139,
+        "signed_value_pp": 0.005564918856276139,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.3106435805761046,
+        "signed_value_pp": 0.3106435805761046,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.4265887902035741,
+        "signed_value_pp": -0.4265887902035741,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.22478082126477644,
+        "signed_value_pp": 0.22478082126477644,
+        "family": "uniform_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.08290368917138746,
+        "signed_value_pp": 0.08290368917138746,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.004144805394770343,
+        "signed_value_pp": 0.004144805394770343,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.08098213348003286,
+        "signed_value_pp": 0.08098213348003286,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.18224593386725468,
+        "signed_value_pp": -0.18224593386725468,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.01756288863290073,
+        "signed_value_pp": 0.01756288863290073,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.078773061173254,
+        "signed_value_pp": 0.078773061173254,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.004237742784159084,
+        "signed_value_pp": 0.004237742784159084,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.08538487150814705,
+        "signed_value_pp": 0.08538487150814705,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.1786946764598965,
+        "signed_value_pp": -0.1786946764598965,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.021353222403492494,
+        "signed_value_pp": 0.021353222403492494,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.017335056187461895,
+        "signed_value_pp": 0.017335056187461895,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.007487214617574785,
+        "signed_value_pp": 0.007487214617574785,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.1468510761007416,
+        "signed_value_pp": 0.1468510761007416,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.22304554894530676,
+        "signed_value_pp": -0.22304554894530676,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.06697239749389045,
+        "signed_value_pp": 0.06697239749389045,
+        "family": "beta2_5_magnitude",
+        "bank": "pure_bbh",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.08555144000313986,
+        "signed_value_pp": 0.08555144000313986,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.004234247793918032,
+        "signed_value_pp": 0.004234247793918032,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.0826570934055984,
+        "signed_value_pp": 0.0826570934055984,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.18350029324519512,
+        "signed_value_pp": -0.18350029324519512,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.01779763720939631,
+        "signed_value_pp": 0.01779763720939631,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.07768202821800685,
+        "signed_value_pp": 0.07768202821800685,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.0043517941187900915,
+        "signed_value_pp": 0.0043517941187900915,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.0861436045541869,
+        "signed_value_pp": 0.0861436045541869,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.1796923274966014,
+        "signed_value_pp": -0.1796923274966014,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.02096760053632435,
+        "signed_value_pp": 0.02096760053632435,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.001
+      },
+      {
+        "channel": "CE",
+        "value_pp": 0.025200709786099562,
+        "signed_value_pp": 0.025200709786099562,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "CHE",
+        "value_pp": 0.0069335855606045445,
+        "signed_value_pp": 0.0069335855606045445,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "GC",
+        "value_pp": 0.14145871472234783,
+        "signed_value_pp": 0.14145871472234783,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "NSC",
+        "value_pp": 0.22359050983171286,
+        "signed_value_pp": -0.22359050983171286,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      },
+      {
+        "channel": "SMT",
+        "value_pp": 0.06380040402756831,
+        "signed_value_pp": 0.06380040402756831,
+        "family": "beta2_5_magnitude",
+        "bank": "official_mixture",
+        "epsilon": 0.01
+      }
+    ]
+  },
+  "ce_median_range": [
+    0.7394136628112982,
+    0.8457443363390136
+  ],
+  "maximum_qmc_replicate_quantile_span_pp": 0.4546836961838441,
+  "maximum_independent_mcmc_quantile_difference_pp": 0.16943284437961337,
+  "maximum_mcmc_rhat": 1.000154825177182,
+  "minimum_mcmc_bulk_ess": 142590.13079708265,
+  "minimum_mcmc_tail_ess": 125402.66228480429,
+  "maximum_normalizer_half_quantile_shift_pp": 0.05095083985305893,
+  "minimum_event_concentration": 5.243320681250636,
+  "minimum_selection_concentration": 218.21401486841424,
+  "maximum_decimal_log_product_error": 1.3642420526593924e-12,
+  "limits": [
+    "Fixed birth spin and CE efficiency; no hyperparameter inference or physical-model uncertainty marginalization.",
+    "Conditional spin laws are additional assumptions absent from the four-dimensional channel products.",
+    "Historical injection reference, hopeless screening and PE prior-excluded likelihood remain unverified.",
+    "Normalizers are finite emulator MC estimates, not known exact numbers.",
+    "Continuous flow behavior near zero spin and CE context interpretation remain diagnosed limitations.",
+    "No ESS-based deletion of rows or events; concentration diagnostics are not campaign coverage calibration.",
+    "Low weight concentration is retained: fixed-bank channel posteriors are not calibrated campaign or PE-chain estimates.",
+    "Regularized detected labels include a shared artificial density term; the decomposition must not be reported as observed astrophysical membership."
+  ],
+  "input_sha256": {
+    "summarize_branching.py": "258c1fc267facc899149aca86d82c003bb85d680c5fc528f3bff2c9818ff0955",
+    "branching-results.json": "486af22493dd4b8385d364385e860b23317773dbcb64db32e31938cc7d317ccb",
+    "observed-mcmc-validation.json": "91baee4ad43059c7c2d0204eb56ddf4371470b67408269a2d755e538b63018fd",
+    "channel-product-validation.json": "a822291cae53dbc8cb4dbf1e7e20049c590a893938cc991da340736c5ae0c9b0",
+    "detected-component-results.json": "172c2d4ba18aede8918f781e25cff5a08b31babe68691284de20c562ccd9ca5d",
+    "channel-log-normalization.json": "0642a0010b44975ef82c02a9a8fd5b837372c479235debca64abd2d86794deb3",
+    "likelihood-design.json": "42d05f5f931f8ce2348a9560017bdaf173eca1236b4793a3d59a03b20611e8c7"
+  }
+}

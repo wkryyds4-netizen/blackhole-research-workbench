@@ -1,0 +1,33 @@
+{
+  "schema": "blackhole-channel-paper-evidence/1",
+  "synthesis_sha256": "aeab3893739cf3849a88b1699303d00332879b140ff51d879370335586d51b9e",
+  "facts": {
+    "MaxReg": 8.6544419549212,
+    "MaxHidden": 3.414631008911184,
+    "MaxBank": 0.6140354514376001,
+    "MaxPolicy": 0.4265887902035741,
+    "MaxIndependent": 0.16943284437961337,
+    "MaxReplicate": 0.4546836961838441,
+    "MaxNormHalf": 0.05095083985305893,
+    "MinEvent": 5.243320681250636,
+    "MinSelection": 218.21401486841424,
+    "CEMin": 73.94136628112982,
+    "CEMax": 84.57443363390136
+  },
+  "source_sha256": {
+    "summarize_branching.py": "258c1fc267facc899149aca86d82c003bb85d680c5fc528f3bff2c9818ff0955",
+    "branching-results.json": "486af22493dd4b8385d364385e860b23317773dbcb64db32e31938cc7d317ccb",
+    "observed-mcmc-validation.json": "91baee4ad43059c7c2d0204eb56ddf4371470b67408269a2d755e538b63018fd",
+    "channel-product-validation.json": "a822291cae53dbc8cb4dbf1e7e20049c590a893938cc991da340736c5ae0c9b0",
+    "detected-component-results.json": "172c2d4ba18aede8918f781e25cff5a08b31babe68691284de20c562ccd9ca5d",
+    "channel-log-normalization.json": "0642a0010b44975ef82c02a9a8fd5b837372c479235debca64abd2d86794deb3",
+    "likelihood-design.json": "42d05f5f931f8ce2348a9560017bdaf173eca1236b4793a3d59a03b20611e8c7"
+  },
+  "generated_sha256": {
+    "facts.tex": "1f6d064dbe8fa38621ea5bc66b517be6584ab7ed7d2d15251bfab8ac8c9696bf",
+    "table-main-en.tex": "a78eb431c99f90995b7814efd52e0a518c6848545bb12966d9db3a5d491a6354",
+    "table-main-zh.tex": "d0e9761298c2a44e993c633e343512925f9faa32b4567f556299e030565daa71",
+    "figures/channel-posteriors.pdf": "4cfdfa59d560d935db0fc1c8b0e77307d039c82e2fa294f0768d1e3932155377",
+    "figures/channel-sensitivity.pdf": "5801bddb526c3398bbbc4f43b828eacfb40af4884ebf649fa148bf50bcf95ac0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.14.5",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "astropy": "8.0.1",
+    "h5py": "3.16.0",
+    "torch": "2.13.0",
+    "glasflow": "0.4.1",
+    "matplotlib": "3.11.0",
+    "requests": "2.34.2"
+  },
+  "scope": "Observed local analysis environment, not a portable lockfile or clean-install verification."
+}

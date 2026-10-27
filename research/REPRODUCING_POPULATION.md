@@ -1,5 +1,7 @@
 # Reproducing the population research
 
+New complete conditional-channel milestone (2026-10-27): [24 fitted cases](population-channels/RESULTS.en.md) retain all69 restored sources and use explicit4D/7D spin lifts, matched event/selection regularization, both O3 banks and two search policies. Follow its ordered commands after restoring verified sources. Independent posterior checks do not calibrate finite PE/injection banks. The new7-page bilingual note is in `paper/channels-2026-10-27/`; v0.3 remains unchanged. The workbench reads a generic mixture-study dataset with explicit quantity definitions.
+
 Checkpoint 2026-10-27: research is paused at the user's request. See [the saved state](CHECKPOINT_2026-10-27.md) and [the unfinished physical-channel interface](population-channels/README.en.md). The new diagnostics are saved separately; the v0.3 papers and static workbench retain their earlier snapshot.
 
 Additional local follow-up (2026-10-27): [54 mass/redshift models](population-mass-redshift/README.en.md)

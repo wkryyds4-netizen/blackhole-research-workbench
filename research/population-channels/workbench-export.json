@@ -1,0 +1,41 @@
+{
+  "schema": "blackhole-mixture-workbench-export/1",
+  "sha256": "bb6deaf284da2c974aa978b65c3b36e6029fa9e383f4d2e4bed7cfb9858342bc",
+  "exporter_sha256": "318ef471b7905b8d2ca4f4cf2d561f4143d1f7c92a9cc96a3fcd5b47a803a37a",
+  "source_reports": [
+    {
+      "repo_path": "research/population-channels/branching-synthesis.json",
+      "sha256": "aeab3893739cf3849a88b1699303d00332879b140ff51d879370335586d51b9e"
+    },
+    {
+      "repo_path": "research/population-channels/branching-results.json",
+      "sha256": "486af22493dd4b8385d364385e860b23317773dbcb64db32e31938cc7d317ccb"
+    },
+    {
+      "repo_path": "research/population-channels/detected-component-results.json",
+      "sha256": "172c2d4ba18aede8918f781e25cff5a08b31babe68691284de20c562ccd9ca5d"
+    },
+    {
+      "repo_path": "research/population-channels/observed-mcmc-validation.json",
+      "sha256": "91baee4ad43059c7c2d0204eb56ddf4371470b67408269a2d755e538b63018fd"
+    },
+    {
+      "repo_path": "research/population-channels/likelihood-design.json",
+      "sha256": "42d05f5f931f8ce2348a9560017bdaf173eca1236b4793a3d59a03b20611e8c7"
+    }
+  ],
+  "papers": [
+    {
+      "language": "zh",
+      "label": "\u4e2d\u6587\u7814\u7a76\u7a3f PDF",
+      "url": "research-docs/blackhole-channel-completion-latex-zh-2026-10-27.pdf",
+      "sha256": "e62c3dbf55398405c377742727ba5b428d8c30583b736fbac2912ddd884d25b5"
+    },
+    {
+      "language": "en",
+      "label": "English research note PDF",
+      "url": "research-docs/blackhole-channel-completion-latex-en-2026-10-27.pdf",
+      "sha256": "fa647b1e0098f5f6706362de07cd32de94ca985273c12dffc149405cae8f20ea"
+    }
+  ]
+}

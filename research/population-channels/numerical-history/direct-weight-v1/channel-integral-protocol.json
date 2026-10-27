@@ -1,0 +1,16 @@
+{
+  "protocol": "03d76155138260b17052d7d63613e5ad22fbbeeba471ad3d180cc9cfa045aa62",
+  "input_sha256": {
+    "research/population-channels/run_channel_integrals.py": "167040a9b34a78b128b7c7b5fc1648934f375de360a83f687a6086c69a7ed545",
+    "research/population-channels/conditional_channel_model.py": "717e30aa6b4fd3eb7d767aaae9cc8f52bd5c82d7b8e65917125b0960396a08a0",
+    "research/population-channels/fast_measure.py": "650334761c8c6298fe1a246d5e3124eac46786ecb3e281c102e5ec511e32f632",
+    "research/population-channels/channel_flow.py": "aaa3eb42d7ab5d937aa7f9a0ef3dd0b99262f5d2737dccc614437860f25fe394",
+    "research/population-channels/likelihood-design.json": "42d05f5f931f8ce2348a9560017bdaf173eca1236b4793a3d59a03b20611e8c7",
+    "research/population-channels/fast-measure-validation.json": "78ce445ad5866bd0d86da756ffe74672cbf9a8c60851e8b9cdc4c02b063bb672",
+    "research/population-channels/product-inspection.json": "8ff00abb3470e6365f964c6e1f3241757d5a9b34a94151d48afc5ac23c5a9993",
+    "research/population-stage5/run_tail_study.py": "8b828978fadade1950f20fb4a8d9649744d41605eb68b17458a53f6aee933894",
+    "research/population-stage4/recover_prior.py": "a9b9919d2c9603beae67abeb016b5ff5be37392abcd4ee1b31f7d88c94dfd247",
+    "research/population-selection-audit/run_selection_study.py": "b53b881b8d4a422f6d5acc4c47ec8adcfafb22ea74ff7e76d273065d324ac4c5",
+    "research/population-catalog/event-provenance.json": "a69f9e7b50a6b071118022de3d68fa8a9c54effd96fde3644cb6fe0e74a77681"
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "case": "no_information",
+    "design": {
+      "schema": "blackhole-channel-independent-mcmc-design/1",
+      "timing": "Before the independent sampler is run; complete observed channel integrals and branching fits are still pending.",
+      "algorithm": "Independent random-walk Metropolis in four log-ratios, with the exact simplex Jacobian. Finite-difference Hessian at a numerically optimized transformed mode sets proposal covariance. Adapt only a common proposal scale during warmup, then freeze. All samples retained for convergence checks; no chain selection.",
+      "chains": 16,
+      "warmup_steps": 6000,
+      "production_steps": 200000,
+      "save_every": 4,
+      "seed": 20261106,
+      "gates": {
+        "maximum_rank_folded_split_rhat": 1.01,
+        "minimum_bulk_ess": 2000,
+        "minimum_tail_ess": 1000,
+        "maximum_exact_calibration_quantile_error": 0.005,
+        "maximum_observed_qmc_quantile_difference": 0.005
+      },
+      "calibration": [
+        "No-information69-event likelihood gives Dirichlet(1,1,1,1,1).",
+        "Known69 assignments35CE/34SMT at equal efficiencies give Dirichlet(36,1,1,1,35)."
+      ],
+      "failure_policy": "Save every failed gate with hashes. Do not select chains or relax thresholds to declare agreement.",
+      "limits": "Independent posterior computation under saved event/selection integrals. These diagnostics do not certify PE-chain, injection-campaign or astrophysical validity."
+    },
+    "result": {
+      "intrinsic_quantiles": [
+        [
+          0.012824395884834897,
+          0.15964794259389525,
+          0.5270720434986149
+        ],
+        [
+          0.012822481620549973,
+          0.15858883440184077,
+          0.527724426742347
+        ],
+        [
+          0.012770239513316939,
+          0.1587926700974577,
+          0.5270925875480459
+        ],
+        [
+          0.012695386151648908,
+          0.1592399481854833,
+          0.5254458370432534
+        ],
+        [
+          0.012826555350926949,
+          0.1592516132190196,
+          0.5277654712721362
+        ]
+      ],
+      "intrinsic_mean": [
+        0.20028751883059512,
+        0.1997732600379896,
+        0.19993145251852898,
+        0.19969645174784426,
+        0.20031131686503115
+      ],
+      "chains": 16,
+      "saved_per_chain": 50000,
+      "acceptance_fraction": [
+        0.25163,
+        0.25217,
+        0.252925,
+        0.25375,
+        0.249585,
+        0.25026,
+        0.252685,
+        0.252625,
+        0.25274,
+        0.253625,
+        0.25239,
+        0.25258,
+        0.252545,
+        0.25067,
+        0.25218,
+        0.25179
+      ],
+      "proposal_scale": 1.5165731865044654,
+      "minimum_hessian_eigenvalue": 0.20000000211517513,
+      "diagnostics": [
+        {
+          "component": 0,
+          "rank_folded_split_rhat": 1.0000547505500499,
+          "bulk_ess": 200273.67143663895,
+          "tail_ess": 205459.79642970115
+        },
+        {
+          "component": 1,
+          "rank_folded_split_rhat": 1.0000535812197089,
+          "bulk_ess": 190302.83939447615,
+          "tail_ess": 192666.6068985855
+        },
+        {
+          "component": 2,
+          "rank_folded_split_rhat": 1.0000908240408746,
+          "bulk_ess": 193719.58892368578,
+          "tail_ess": 201339.21740043696
+        },
+        {
+          "component": 3,
+          "rank_folded_split_rhat": 1.0000580763218436,
+          "bulk_ess": 196986.15581177178,
+          "tail_ess": 204999.22864129918
+        },
+        {
+          "component": 4,
+          "rank_folded_split_rhat": 1.000055522475402,
+          "bulk_ess": 195778.66046009108,
+          "tail_ess": 202405.19927147304
+        }
+      ],
+      "maximum_rhat": 1.0000908240408746,
+      "minimum_bulk_ess": 190302.83939447615,
+      "minimum_tail_ess": 192666.6068985855
+    },
+    "maximum_exact_quantile_error": 0.0016833584551585457
+  },
+  {
+    "case": "known_69_assignments",
+    "design": {
+      "schema": "blackhole-channel-independent-mcmc-design/1",
+      "timing": "Before the independent sampler is run; complete observed channel integrals and branching fits are still pending.",
+      "algorithm": "Independent random-walk Metropolis in four log-ratios, with the exact simplex Jacobian. Finite-difference Hessian at a numerically optimized transformed mode sets proposal covariance. Adapt only a common proposal scale during warmup, then freeze. All samples retained for convergence checks; no chain selection.",
+      "chains": 16,
+      "warmup_steps": 6000,
+      "production_steps": 200000,
+      "save_every": 4,
+      "seed": 20261106,
+      "gates": {
+        "maximum_rank_folded_split_rhat": 1.01,
+        "minimum_bulk_ess": 2000,
+        "minimum_tail_ess": 1000,
+        "maximum_exact_calibration_quantile_error": 0.005,
+        "maximum_observed_qmc_quantile_difference": 0.005
+      },
+      "calibration": [
+        "No-information69-event likelihood gives Dirichlet(1,1,1,1,1).",
+        "Known69 assignments35CE/34SMT at equal efficiencies give Dirichlet(36,1,1,1,35)."
+      ],
+      "failure_policy": "Save every failed gate with hashes. Do not select chains or relax thresholds to declare agreement.",
+      "limits": "Independent posterior computation under saved event/selection integrals. These diagnostics do not certify PE-chain, injection-campaign or astrophysical validity."
+    },
+    "result": {
+      "intrinsic_quantiles": [
+        [
+          0.3918637973982789,
+          0.4861630422562594,
+          0.5816651117864686
+        ],
+        [
+          0.0007043646333683412,
+          0.009500163413001474,
+          0.0402550108451958
+        ],
+        [
+          0.0006988585671932571,
+          0.009453490676880363,
+          0.04026513532176079
+        ],
+        [
+          0.0007109412578600374,
+          0.009503069841887677,
+          0.04023469471155418
+        ],
+        [
+          0.3783898812094714,
+          0.4727814138579237,
+          0.5678111558989328
+        ]
+      ],
+      "intrinsic_mean": [
+        0.48640524780632105,
+        0.013566426031780675,
+        0.013524255175923277,
+        0.01354629939184408,
+        0.47295777159418756
+      ],
+      "chains": 16,
+      "saved_per_chain": 50000,
+      "acceptance_fraction": [
+        0.250585,
+        0.252075,
+        0.25023,
+        0.25269,
+        0.25133,
+        0.25313,
+        0.253035,
+        0.251205,
+        0.25281,
+        0.252585,
+        0.25214,
+        0.253135,
+        0.250675,
+        0.25126,
+        0.250635,
+        0.25065
+      ],
+      "proposal_scale": 1.4435109518797782,
+      "minimum_hessian_eigenvalue": 0.9190435538860393,
+      "diagnostics": [
+        {
+          "component": 0,
+          "rank_folded_split_rhat": 1.0000137139466505,
+          "bulk_ess": 242537.3358693811,
+          "tail_ess": 319027.19794560684
+        },
+        {
+          "component": 1,
+          "rank_folded_split_rhat": 1.0000743642547292,
+          "bulk_ess": 172680.62476998198,
+          "tail_ess": 177430.06090567223
+        },
+        {
+          "component": 2,
+          "rank_folded_split_rhat": 1.0000498371805766,
+          "bulk_ess": 171309.3459202232,
+          "tail_ess": 173929.344768219
+        },
+        {
+          "component": 3,
+          "rank_folded_split_rhat": 1.0000503747011635,
+          "bulk_ess": 178475.81256635374,
+          "tail_ess": 181877.07200904688
+        },
+        {
+          "component": 4,
+          "rank_folded_split_rhat": 1.0000232181421091,
+          "bulk_ess": 243409.11021000426,
+          "tail_ess": 323268.835858775
+        }
+      ],
+      "maximum_rhat": 1.0000743642547292,
+      "minimum_bulk_ess": 171309.3459202232,
+      "minimum_tail_ess": 173929.344768219
+    },
+    "maximum_exact_quantile_error": 0.000491030980487972
+  }
+]

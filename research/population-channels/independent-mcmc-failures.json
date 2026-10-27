@@ -1,0 +1,7 @@
+[
+  {
+    "tool_sha256": "83754c5b7fc105112db092f003f04930723124e7f7b1a5bb3718e796aec71d80",
+    "module_sha256": "bd4eda2f366af4231fb58b14edc7fe5982cf766c484dbd1254353acd719ba4e2",
+    "error": "AssertionError(('quantiles', 0.0056103703700957075))"
+  }
+]

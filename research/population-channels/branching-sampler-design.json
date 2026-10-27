@@ -1,0 +1,12 @@
+{
+  "schema": "blackhole-channel-branching-sampler-design/1",
+  "timing": "Before posterior sampling or its analytic calibration experiments; full-source channel integrals are still being computed.",
+  "prior": "Uniform Dirichlet(1,1,1,1,1) on restricted-domain intrinsic fractions.",
+  "algorithm": "Scrambled Sobol draws mapped through normalized inverse-gamma CDFs to a mixture of20% prior Dirichlet and80% pilot moment-fitted Dirichlet. Evaluate the exact proposal mixture density; importance-correct every draw. Pilot draws are excluded from final summaries.",
+  "pilot_power": 16,
+  "final_power": 18,
+  "replicate_seeds": [20261101, 20261102, 20261103, 20261104],
+  "gates": {"minimum_concentration_ess_per_replicate": 2000, "replicate_maximum_quantile_span": 0.005, "analytic_calibration_maximum_quantile_error": 0.002, "analytic_calibration_log_evidence_error": 0.03},
+  "calibration": ["No-information likelihood: all component event integrals and efficiencies equal; posterior is exactly Dirichlet(1,1,1,1,1).", "Known channel assignments with69 observations split35/34 between CE and SMT and equal efficiencies; posterior is exactly Dirichlet(36,1,1,1,35)."],
+  "failure_policy": "Save failures and do not describe a posterior as validated if any gate fails. These computational tests do not calibrate PE chains, injection campaigns or astrophysical model validity."
+}

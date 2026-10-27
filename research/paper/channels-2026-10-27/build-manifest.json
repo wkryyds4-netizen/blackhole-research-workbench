@@ -1,0 +1,56 @@
+{
+  "schema": "blackhole-bilingual-channel-note-build/1",
+  "status": "compiled",
+  "editions": [
+    {
+      "language": "en",
+      "engine": "pdflatex",
+      "exit_code": 0,
+      "passes": 2,
+      "clean_diagnostics": true,
+      "diagnostics": [],
+      "source_sha256": {
+        "facts.tex": "1f6d064dbe8fa38621ea5bc66b517be6584ab7ed7d2d15251bfab8ac8c9696bf",
+        "main.tex": "4ff78cf8123db3c1b60aa7707f0b7221920851f6c2765ca2e1e7c91bcc362a0d",
+        "manuscript.tex": "106572b5f4018f86caad0d92d601415e31f7026e1562562bf5c12f954b1e8887",
+        "preamble.tex": "f01a52fb5d9c854333d66e7b3da1d5af3c314e8b43ce562aadac4ba1c95f7f67",
+        "references.tex": "2662f23e7c3d2351f4dff5c291e9401018136deeb17d3aaaa549ef5a4223151d",
+        "table-main.tex": "a78eb431c99f90995b7814efd52e0a518c6848545bb12966d9db3a5d491a6354"
+      },
+      "figure_sha256": {
+        "channel-posteriors.pdf": "4cfdfa59d560d935db0fc1c8b0e77307d039c82e2fa294f0768d1e3932155377",
+        "channel-sensitivity.pdf": "5801bddb526c3398bbbc4f43b828eacfb40af4884ebf649fa148bf50bcf95ac0"
+      },
+      "output": "output/pdf/blackhole-channel-completion-latex-en-2026-10-27.pdf",
+      "pdf_sha256": "fa647b1e0098f5f6706362de07cd32de94ca985273c12dffc149405cae8f20ea",
+      "pages": 7,
+      "render_prefix": "tmp/pdfs/channel-note/en/page"
+    },
+    {
+      "language": "zh",
+      "engine": "xelatex",
+      "exit_code": 0,
+      "passes": 2,
+      "clean_diagnostics": true,
+      "diagnostics": [],
+      "source_sha256": {
+        "facts.tex": "1f6d064dbe8fa38621ea5bc66b517be6584ab7ed7d2d15251bfab8ac8c9696bf",
+        "main.tex": "d2e275b130e61cd1c9c907892d3c4c86ab359d2298d2bd806aa90803c7b9eda3",
+        "manuscript.tex": "ddcfd82ec06d39b109614cbbf9d74cd42d3b1439232f55b4ea95a222053353ec",
+        "preamble.tex": "f01a52fb5d9c854333d66e7b3da1d5af3c314e8b43ce562aadac4ba1c95f7f67",
+        "references.tex": "2662f23e7c3d2351f4dff5c291e9401018136deeb17d3aaaa549ef5a4223151d",
+        "table-main.tex": "d0e9761298c2a44e993c633e343512925f9faa32b4567f556299e030565daa71"
+      },
+      "figure_sha256": {
+        "channel-posteriors.pdf": "4cfdfa59d560d935db0fc1c8b0e77307d039c82e2fa294f0768d1e3932155377",
+        "channel-sensitivity.pdf": "5801bddb526c3398bbbc4f43b828eacfb40af4884ebf649fa148bf50bcf95ac0"
+      },
+      "output": "output/pdf/blackhole-channel-completion-latex-zh-2026-10-27.pdf",
+      "pdf_sha256": "e62c3dbf55398405c377742727ba5b428d8c30583b736fbac2912ddd884d25b5",
+      "pages": 7,
+      "render_prefix": "tmp/pdfs/channel-note/zh/page"
+    }
+  ],
+  "evidence_sha256": "2a7e79bb06f67db24447610183374f342ae9938334e045582e41e10246d7bc9f",
+  "scope": "Actual installed TeX outputs; this record does not assert visual or scientific review."
+}

@@ -1,0 +1,67 @@
+{
+  "protocol": "b907ef02c7444b93b9beeddcfa8c6083c5ee9312c69c25020ce0da9b38e417dd",
+  "channels": [
+    {
+      "channel": "CE",
+      "rows": 262144,
+      "in_domain": 87921,
+      "fraction": 0.3353919982910156,
+      "half_fractions": [
+        0.335235595703125,
+        0.33554840087890625
+      ],
+      "raw_q_above_one": 0,
+      "bernoulli_mc_standard_error": 0.0009221236708056062
+    },
+    {
+      "channel": "CHE",
+      "rows": 262144,
+      "in_domain": 161169,
+      "fraction": 0.6148109436035156,
+      "half_fractions": [
+        0.6142959594726562,
+        0.615325927734375
+      ],
+      "raw_q_above_one": 0,
+      "bernoulli_mc_standard_error": 0.0009504686649719337
+    },
+    {
+      "channel": "GC",
+      "rows": 262144,
+      "in_domain": 173532,
+      "fraction": 0.6619720458984375,
+      "half_fractions": [
+        0.6630706787109375,
+        0.6608734130859375
+      ],
+      "raw_q_above_one": 1528,
+      "bernoulli_mc_standard_error": 0.0009239025644466709
+    },
+    {
+      "channel": "NSC",
+      "rows": 262144,
+      "in_domain": 203843,
+      "fraction": 0.7775993347167969,
+      "half_fractions": [
+        0.7775115966796875,
+        0.7776870727539062
+      ],
+      "raw_q_above_one": 0,
+      "bernoulli_mc_standard_error": 0.0008122243780291633
+    },
+    {
+      "channel": "SMT",
+      "rows": 262144,
+      "in_domain": 179209,
+      "fraction": 0.6836280822753906,
+      "half_fractions": [
+        0.685089111328125,
+        0.6821670532226562
+      ],
+      "raw_q_above_one": 0,
+      "bernoulli_mc_standard_error": 0.0009083201524901014
+    }
+  ],
+  "reused_from_sha256": "396ad7db64ba10cdf18ebf95cf26bf5ef2e4c6737b3789a443cfce6d20e3627e",
+  "reuse_proof": "Unchanged flow, model products, context, draw design and domain AST; only weight arithmetic changed."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "stopped_after_independent_row_gate_failure",
+  "reason": "GW191230_180458, CHE Beta conditional: direct density multiplication gave 1.5e-323 versus 1e-323 (relative error0.5). Subnormal rounding; original relative1e-5 gate retained as failed. Recompute with combined log weights and preserve all raw rows.",
+  "completed_events": 9,
+  "files": [
+    {
+      "file": "conditional_channel_model.py",
+      "sha256": "717e30aa6b4fd3eb7d767aaae9cc8f52bd5c82d7b8e65917125b0960396a08a0"
+    },
+    {
+      "file": "run_channel_integrals.py",
+      "sha256": "167040a9b34a78b128b7c7b5fc1648934f375de360a83f687a6086c69a7ed545"
+    },
+    {
+      "file": "validate_channel_weights.py",
+      "sha256": "c65c52eb723ed82ba7d0d0fcb0ab2bbe69a46350541ad02cc8d01882814f3e63"
+    },
+    {
+      "file": "channel-normalization.json",
+      "sha256": "396ad7db64ba10cdf18ebf95cf26bf5ef2e4c6737b3789a443cfce6d20e3627e"
+    },
+    {
+      "file": "channel-event-integrals.json",
+      "sha256": "049ec230a1f795a4cb8db392eb3567598283be19f8752a1124b5925eb9853cf5"
+    },
+    {
+      "file": "channel-integral-protocol.json",
+      "sha256": "42fc7ea6579c865a35f189ebcfc48be8e9439f282edcf649dc142bd9a7e4f96e"
+    },
+    {
+      "file": "channel-weight-failures.json",
+      "sha256": "910821d596a7da2b1c08be95469688fb97f43e88d24d78fed4e57574ed3750ba"
+    }
+  ]
+}

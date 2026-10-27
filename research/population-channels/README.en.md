@@ -1,4 +1,10 @@
-# Physical formation-channel interface: paused checkpoint
+# Physical formation-channel study
+
+The current [24-case conditional milestone](RESULTS.en.md) ([中文](RESULTS.md)) is complete: all69 event and selection integrals, two posterior algorithms, bilingual LaTeX/PDF and a selectable workbench panel. These remain fixed-context, restricted-domain, saved-bank results; physical rates and campaign coverage are not certified.
+
+## Historical public pause checkpoint
+
+The following preserves the state at the earlier pause; its incomplete status does not describe the milestone above.
 
 Saved on 2026-10-27 at the user's request. [中文](README.md).
 This checkpoint records model integration and numerical diagnostics.

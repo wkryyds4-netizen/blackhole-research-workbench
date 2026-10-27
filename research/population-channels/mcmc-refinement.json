@@ -1,0 +1,8 @@
+{
+  "schema": "blackhole-independent-mcmc-length-refinement/1",
+  "timing": "After the original no-information control failed the unchanged0.005 quantile gate at0.0056103703700957075; before the longer calibration or any observed-posterior comparison.",
+  "production_steps": 200000,
+  "save_every": 4,
+  "reason": "Increase Monte Carlo precision with longer stationary sampling. Preserve original design, failure and gates. No chain selection or new prior.",
+  "scope": "Same known analytic control, not an unseen validation experiment."
+}

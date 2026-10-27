@@ -1,0 +1,63 @@
+{
+  "schema": "blackhole-log-weight-repair-check/1",
+  "status": "same_original_row_gate_passes_after_repair",
+  "original_failure_preserved": true,
+  "row_validation_sha256": "f636e8290abb3e124229b3cb48e50868a23c339d8df8a83919cb24d986b0859d",
+  "overlap_events": [
+    {
+      "index": 0,
+      "rows": 199766,
+      "relative_mean_difference": 2.7755575615628914e-15,
+      "new_record_sha256": "6954787510dca0ca0d4dd0070e94bed88dc1e0e113f8917c73e49e642191461a"
+    },
+    {
+      "index": 1,
+      "rows": 137933,
+      "relative_mean_difference": 7.771561172376096e-16,
+      "new_record_sha256": "574ca4cf6c3cb24572704c96b2aa42b90c385d6c80bf98f0f46954b400d03f31"
+    },
+    {
+      "index": 2,
+      "rows": 188541,
+      "relative_mean_difference": 4.8183679268731794e-14,
+      "new_record_sha256": "3768b2c8dfe85f8e946bbf39327a89615caf58af104d424ccd9dc3e16e06a822"
+    },
+    {
+      "index": 3,
+      "rows": 169007,
+      "relative_mean_difference": 6.661338147750939e-16,
+      "new_record_sha256": "2f0e3abd383d443d3cb99defa88b8592714361090196b0557d05a762897fa9d2"
+    },
+    {
+      "index": 4,
+      "rows": 285112,
+      "relative_mean_difference": 1.1102230246251565e-14,
+      "new_record_sha256": "131be63fa8b065142020f2aefdd3e6eb3946164d3211d13f54e27da189f6824c"
+    },
+    {
+      "index": 5,
+      "rows": 173308,
+      "relative_mean_difference": 1.1102230246251565e-15,
+      "new_record_sha256": "1735d1dc3a4e9f7297c893c7543c43aabb8dfe5c8c81208d40707e7516aa57a4"
+    },
+    {
+      "index": 6,
+      "rows": 177783,
+      "relative_mean_difference": 6.661338147750939e-16,
+      "new_record_sha256": "013aa794d955bfe0dd80c516d61bc172c7c260eabf44e73f361eeb0b5bce0233"
+    },
+    {
+      "index": 7,
+      "rows": 197034,
+      "relative_mean_difference": 1.6653345369377348e-15,
+      "new_record_sha256": "7735bb519ab06e142c8ae0cf2d948a0bf54a23fd8835d118a68bb272ea1efb21"
+    },
+    {
+      "index": 8,
+      "rows": 160046,
+      "relative_mean_difference": 8.881784197001252e-16,
+      "new_record_sha256": "222146c7ebc2b3f75b7d523b526b3ad627dce811f3d07c45ad1e3b27bb211a01"
+    }
+  ],
+  "scope": "Same-row post-repair checks, not a new held-out source set. Nine complete event sums agree between direct and log weight implementations; full69 log sums are still being computed. Original direct relative gate remains failed in numerical history."
+}

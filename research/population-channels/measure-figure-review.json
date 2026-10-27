@@ -1,0 +1,13 @@
+{
+  "status": "visually_inspected",
+  "reviewed_at_utc": "2026-10-27T10:47:00.277053+00:00",
+  "figure": "measure-bridge-diagnostics.svg",
+  "render": "measure-bridge-diagnostics.png",
+  "notes": "Both panels and labels inspected. Auxiliary prior curves are explicitly distinguished from channel spin predictions; normalization MC bars are not physical uncertainty or detection efficiency. No observed branching fit plotted.",
+  "input_sha256": {
+    "plot_measure_bridge.py": "db7780046e701323581884e9dc6d27ca53a7fd333f44942bc4785d03dd0f50b0",
+    "measure-bridge-diagnostics.svg": "454df13ab7fa11274ba8a89c381eda8d8783ce12ee520af6f852c81cc844e143",
+    "measure-bridge-diagnostics.png": "042d6e19dcac634acea610478b7aea13866737988134481c966cdfbda1ea0835",
+    "channel-log-normalization.json": "0642a0010b44975ef82c02a9a8fd5b837372c479235debca64abd2d86794deb3"
+  }
+}

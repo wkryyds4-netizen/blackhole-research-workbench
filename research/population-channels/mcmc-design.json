@@ -1,0 +1,14 @@
+{
+  "schema": "blackhole-channel-independent-mcmc-design/1",
+  "timing": "Before the independent sampler is run; complete observed channel integrals and branching fits are still pending.",
+  "algorithm": "Independent random-walk Metropolis in four log-ratios, with the exact simplex Jacobian. Finite-difference Hessian at a numerically optimized transformed mode sets proposal covariance. Adapt only a common proposal scale during warmup, then freeze. All samples retained for convergence checks; no chain selection.",
+  "chains": 16,
+  "warmup_steps": 6000,
+  "production_steps": 20000,
+  "save_every": 2,
+  "seed": 20261106,
+  "gates": {"maximum_rank_folded_split_rhat": 1.01, "minimum_bulk_ess": 2000, "minimum_tail_ess": 1000, "maximum_exact_calibration_quantile_error": 0.005, "maximum_observed_qmc_quantile_difference": 0.005},
+  "calibration": ["No-information69-event likelihood gives Dirichlet(1,1,1,1,1).", "Known69 assignments35CE/34SMT at equal efficiencies give Dirichlet(36,1,1,1,35)."],
+  "failure_policy": "Save every failed gate with hashes. Do not select chains or relax thresholds to declare agreement.",
+  "limits": "Independent posterior computation under saved event/selection integrals. These diagnostics do not certify PE-chain, injection-campaign or astrophysical validity."
+}

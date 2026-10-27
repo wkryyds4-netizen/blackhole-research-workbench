@@ -4,6 +4,10 @@
 
 ## 研究论文与复现材料
 
+当前状态：按用户要求暂停研究，保存五渠道阶段的代码、结果、可视化与中英论文。恢复位置及未完成项见[本次暂停记录](research/CHECKPOINT_CHANNELS_2026-10-27.md)。
+
+2026-10-27 渠道阶段完成：[五渠道的24组条件对照](research/population-channels/RESULTS.md)（[English](research/population-channels/RESULTS.en.md)）保留69事件与11,180,578行。最大分支中位数移动：正则化8.65、隐藏自旋补全3.41、O3银行0.61、搜索口径0.43个百分点；两套后验算法核对通过。新中英LaTeX研究稿各7页，工作台新增可切换面板。结论仍限于固定模型与保存银行，未认证真实形成比例或活动覆盖率。下列暂停检查点和v0.3作为历史保留。
+
 2026-10-27 检查点：研究按用户要求暂停，现有成果随本次 Git 保存。新增[物理形成渠道接口与诊断](research/population-channels/README.md)（[English](research/population-channels/README.en.md)），尚未拟合观测渠道比例；已完成内容与恢复位置见[暂停记录](research/CHECKPOINT_2026-10-27.md)。本轮新增结果尚未并入 v0.3 论文或静态工作台。
 
 2026-10-27追加成果：[质量—红移54模型研究](research/population-mass-redshift/README.md)（[English](research/population-mass-redshift/README.en.md)）。全69来源、216组条件后验经独立复算；幅度族模型差在所测网格中保持10.36–17.14个百分点，质量/红移选择自身可使中位数跨约3.95个百分点。可分离模型、缺失支持及实际选择协议的限制仍保留，尚未并入v0.3或静态工作台。

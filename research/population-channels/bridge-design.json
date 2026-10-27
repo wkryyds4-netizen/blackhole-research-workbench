@@ -1,0 +1,17 @@
+{
+  "schema": "blackhole-channel-fast-bridge-design/1",
+  "timing": "Recorded before running the vectorized spin-density validation or new channel-event integration.",
+  "domain": {"q_minimum": 0.03, "q_maximum": 1.0, "amax": 0.99},
+  "families": ["uniform_magnitude", "beta2_5_magnitude"],
+  "method": "Positive one-dimensional convolution, split at both absolute-value/log singularities. Uniform family: 48-point Gauss-Legendre after symmetric fourth-power endpoint smoothing; Beta(2,5): 6-point Gauss-Legendre on piecewise degree-ten polynomials.",
+  "gates": {
+    "density_relative_where_reference_above_1e_minus_12": 0.00001,
+    "density_absolute_everywhere": 0.00000005,
+    "uniform_order_doubling_relative": 0.00001,
+    "normalization_absolute": 0.00002,
+    "moment_absolute": 0.000005,
+    "lift_weight_identity_relative": 0.000000000001
+  },
+  "failure_policy": "Preserve terminal failures with implementation hashes; do not relax gates or delete difficult points.",
+  "limits": "Implementation verification of declared hidden-spin conditionals; does not establish their physical validity or historical PE/injection protocol. No channel fit until this gate passes."
+}

@@ -23,6 +23,7 @@ node_modules/
 *.zip
 *.png
 *.map
+tmp/pdfs/
 /data/
 simulator/data/H1.txt.gz
 simulator/data/L1.txt.gz
@@ -98,3 +99,8 @@ research/paper/v0.3/latex-*/*.fdb_latexmk
 research/paper/v0.3/latex-*/*.synctex.gz
 research/paper/v0.3/latex-*/*.xdv
 research/paper/v0.3/latex-*/compile-console.txt
+research/paper/channels-2026-10-27/latex-*/main.pdf
+research/paper/channels-2026-10-27/latex-*/*.aux
+research/paper/channels-2026-10-27/latex-*/*.out
+research/paper/channels-2026-10-27/latex-*/*.log
+research/paper/channels-2026-10-27/latex-*/compile-console.txt

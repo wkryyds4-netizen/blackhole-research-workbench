@@ -1,0 +1,17 @@
+{
+  "schema": "blackhole-conditional-channel-likelihood-design/1",
+  "timing": "Exploratory fixed-context analysis designed after the published-emulator preview and fast-bridge validation, before any new GW channel integral or branching fit.",
+  "channels": ["CE", "CHE", "GC", "NSC", "SMT"],
+  "context": {"birth_spin": 0.1, "ce_efficiency": 2.0, "ce_raw_context": [0.1, 0.6931471805599453]},
+  "domain": {"mass_1_source_minimum": 5.0, "mass_1_source_maximum": 100.0, "mass_2_source_minimum": 3.0, "q_maximum": 1.0, "z_minimum": 0.0, "z_maximum": 1.9, "spin_magnitude_maximum": 0.99, "absolute_chi_eff_maximum": 0.99},
+  "normalization": {"draws_per_channel": 262144, "seed": 20261030, "method": "Independent latent-normal draws, rejection indicator for the explicit four-dimensional domain. Save full and half estimates, retain all invalid q counts. This is emulator-domain normalization MC, not detection simulation or physical support calibration."},
+  "hidden_spin_conditionals": ["uniform_magnitude", "beta2_5_magnitude"],
+  "regularization_epsilon": [0.0, 0.001, 0.01],
+  "regularizer": "Normalized constant density in (m1,q,z,chi_eff) over the declared domain; joint mass area 95-3*ln(20), z length 1.9, chi_eff length 1.98. Convert to Mc with dm1/dMc, and lift using the same hidden-spin conditional as every channel. Mix after channel-domain normalization and include in both event and selection terms.",
+  "events": {"count": 69, "rows": 11180578, "sources": "Same fixed original-prior caches and source identity checks as validated full69 studies. Keep every event and every row; weights outside the declared target domain are zero. Average over all saved rows."},
+  "selection": {"banks": ["pure_bbh", "official_mixture"], "policies": ["matched_filter", "with_cwb"], "early": "Retain the existing explicitly conditional O1/O2 calculation; matched-filter O3 excludes cWB. Use exact released joint injection sampling_pdf, coordinate Jacobians, mixture weights, generated totals and time factors."},
+  "branching_parameter": "Intrinsic channel fractions within the declared restricted domain, not all cosmic BBH mergers. Condition on catalog count and share one composition across observing runs as in the preceding conditional analysis.",
+  "prior": "Dirichlet(1,1,1,1,1) on the restricted-domain intrinsic fractions, independently for each declared context/conditional/regularization/bank/policy case. No cross-context evidence comparison from omitted event constants.",
+  "independent_validation": "Validate sampled event and injection weights against scalar convolution and Cartesian Jacobians, normalization by independent draw halves, and mixture posterior with a distinct numerical implementation. Do not issue a completed-inference claim before these checks.",
+  "limits": ["Fixed birth spin and CE efficiency; no hyperparameter inference or physical-model uncertainty marginalization.", "Conditional spin laws are additional assumptions absent from the four-dimensional channel products.", "Historical injection reference, hopeless screening and PE prior-excluded likelihood remain unverified.", "Normalizers are finite emulator MC estimates, not known exact numbers.", "Continuous flow behavior near zero spin and CE context interpretation remain diagnosed limitations.", "No ESS-based deletion of rows or events; concentration diagnostics are not campaign coverage calibration."]
+}

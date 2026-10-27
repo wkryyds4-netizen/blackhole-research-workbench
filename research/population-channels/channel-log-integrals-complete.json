@@ -1,0 +1,23 @@
+{
+  "status": "integrals_computed_not_yet_independently_validated",
+  "protocol": "b907ef02c7444b93b9beeddcfa8c6083c5ee9312c69c25020ce0da9b38e417dd",
+  "events": 69,
+  "rows": 11180578,
+  "channels": [
+    "CE",
+    "CHE",
+    "GC",
+    "NSC",
+    "SMT"
+  ],
+  "hidden_spin_conditionals": [
+    "uniform_magnitude",
+    "beta2_5_magnitude"
+  ],
+  "input_sha256": {
+    "channel-log-normalization.json": "0642a0010b44975ef82c02a9a8fd5b837372c479235debca64abd2d86794deb3",
+    "channel-log-event-integrals.json": "8ed9b3d3200a3587f6d351cae93a9ac88dbb9bd498ab792c0a86e7629d188caa",
+    "channel-log-selection-integrals.json": "997b254e18b87fde3b767cbeed8889617795fabcb8ae53f113dabfb2f36cae65"
+  },
+  "scope": "Fixed-context restricted-domain conditional calculation. No completed branching-fraction claim."
+}
